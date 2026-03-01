@@ -95,7 +95,7 @@ def write_markdown_log(new_items):
     if not new_items:
         return None
 
-    today = datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     log_path = LOG_DIR / f"{today}.md"
 
     formulae = []
