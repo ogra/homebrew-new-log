@@ -63,6 +63,9 @@ def load_all_items():
 
 
 def save_all_items(items):
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    if not DATA_FILE.exists():
+        DATA_FILE.touch()
     DATA_FILE.write_text(json.dumps(items, indent=2))
 
 
