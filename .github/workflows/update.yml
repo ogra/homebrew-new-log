@@ -1,0 +1,35 @@
+name: Update Homebrew New Formulae/Casks
+
+on:
+    schedule:
+        - cron: "0 0 * * *" # Everyday 00:00 UTC
+    workflow_dispatch:
+
+permissions:
+    contents: write # grant push permission to GITHUB_TOKEN
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v6
+
+            - name: Set up Python
+              uses: actions/setup-python@v6
+              with:
+                  python-version: "3.12"
+
+            - name: Install dependencies
+              run: pip install requests
+
+            - name: Run script
+              run: python scripts/fetch_homebrew_updates.py
+
+            - name: Commit and push
+              run: |
+                  git config user.name "github-actions"
+                  git config user.email "github-actions@github.com"
+                  git add data/all_items.json logs/*.md
+                  git commit -m "Update Homebrew new formulae $(date -u +"%Y-%m-%d")" || echo "No changes"
+                  git push
