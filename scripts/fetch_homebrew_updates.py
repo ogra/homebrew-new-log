@@ -2,7 +2,7 @@
 
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPOS = [("Homebrew/homebrew-core", "Formula/"), ("Homebrew/homebrew-cask", "Casks/")]
@@ -12,21 +12,43 @@ LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
 
 
-def fetch_new_items(repo, path_prefix):
+def parse_github_date(s):
+    try:
+        return datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    except Exception:
+        # fallback to fromisoformat (may include offset)
+        return datetime.fromisoformat(s)
+
+
+def fetch_new_items(repo, path_prefix, since=None, limit_latest=False):
     url = f"https://api.github.com/repos/{repo}/commits"
     params = {"path": path_prefix}
-    commits = requests.get(url, params=params).json()
+    if limit_latest:
+        params["per_page"] = 1
+    if since:
+        # GitHub expects ISO 8601 with Z for UTC
+        params["since"] = since.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    resp = requests.get(url, params=params)
+    if resp.status_code != 200:
+        return []
+
+    commits = resp.json()
     results = []
 
     for commit in commits:
-        sha = commit["sha"]
-        detail = requests.get(
-            f"https://api.github.com/repos/{repo}/commits/{sha}"
-        ).json()
+        sha = commit.get("sha")
+        if not sha:
+            continue
+        detail = requests.get(f"https://api.github.com/repos/{repo}/commits/{sha}")
+        if detail.status_code != 200:
+            continue
+        detail = detail.json()
 
         for file in detail.get("files", []):
-            if file["status"] == "added" and file["filename"].startswith(path_prefix):
+            if file.get("status") == "added" and file.get("filename", "").startswith(
+                path_prefix
+            ):
                 name = file["filename"].split("/")[-1].replace(".rb", "")
                 results.append(
                     {
@@ -121,12 +143,33 @@ def write_markdown_log(new_items):
 
 def main():
     all_items = load_all_items()
+    initial_run = len(all_items) == 0
+
     existing_keys = {(i["repo"], i["name"], i["commit"]) for i in all_items}
+
+    # build last-seen per repo (by date) for subsequent runs
+    last_seen_by_repo = {}
+    if not initial_run:
+        for i in all_items:
+            repo = i.get("repo")
+            try:
+                d = parse_github_date(i.get("date"))
+            except Exception:
+                continue
+            prev = last_seen_by_repo.get(repo)
+            if not prev or d > prev:
+                last_seen_by_repo[repo] = d
 
     new_items = []
 
     for repo, prefix in REPOS:
-        for item in fetch_new_items(repo, prefix):
+        if initial_run:
+            items = fetch_new_items(repo, prefix, limit_latest=True)
+        else:
+            since = last_seen_by_repo.get(repo)
+            items = fetch_new_items(repo, prefix, since=since)
+
+        for item in items:
             key = (item["repo"], item["name"], item["commit"])
             if key not in existing_keys:
                 new_items.append(item)
