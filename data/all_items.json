@@ -5,5 +5,12 @@
     "path": "Casks/b/bettercapture.rb",
     "commit": "8befb1d9fc93321c7a882ace5375c6db5167f806",
     "date": "2026-03-01T07:56:32Z"
+  },
+  {
+    "repo": "Homebrew/homebrew-cask",
+    "name": "fabric-app",
+    "path": "Casks/f/fabric-app.rb",
+    "commit": "a19ab3329ebe90d35dbd3c47abcc05170dfa8be7",
+    "date": "2026-03-01T23:13:49Z"
   }
 ]
