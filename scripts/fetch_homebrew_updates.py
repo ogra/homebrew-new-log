@@ -5,78 +5,39 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPOS = [("Homebrew/homebrew-core", "Formula/"), ("Homebrew/homebrew-cask", "Casks/")]
+BREW_API_FORMULAE = "https://formulae.brew.sh/api/formula.json"
+BREW_API_CASKS = "https://formulae.brew.sh/api/cask.json"
 
 DATA_FILE = Path("data/all_items.json")
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
 
 
-def parse_github_date(s):
-    try:
-        return datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-    except Exception:
-        # fallback to fromisoformat (may include offset)
-        return datetime.fromisoformat(s)
+# ---------------------------------------------------------------------------
+# Homebrew JSON API helpers
+# ---------------------------------------------------------------------------
 
-
-def fetch_new_items(repo, path_prefix, since=None, limit_latest=False):
-    url = f"https://api.github.com/repos/{repo}/commits"
-    params = {"path": path_prefix}
-    if limit_latest:
-        params["per_page"] = 1
-    if since:
-        # GitHub expects ISO 8601 with Z for UTC
-        params["since"] = since.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    resp = requests.get(url, params=params)
+def fetch_all_formulae():
+    """Fetch the full list of formulae from the Homebrew JSON API."""
+    resp = requests.get(BREW_API_FORMULAE)
     if resp.status_code != 200:
+        print(f"Failed to fetch formulae list: {resp.status_code}")
         return []
-
-    commits = resp.json()
-    results = []
-
-    for commit in commits:
-        sha = commit.get("sha")
-        if not sha:
-            continue
-        detail = requests.get(f"https://api.github.com/repos/{repo}/commits/{sha}")
-        if detail.status_code != 200:
-            continue
-        detail = detail.json()
-
-        for file in detail.get("files", []):
-            if file.get("status") == "added" and file.get("filename", "").startswith(
-                path_prefix
-            ):
-                name = file["filename"].split("/")[-1].replace(".rb", "")
-                results.append(
-                    {
-                        "repo": repo,
-                        "name": name,
-                        "path": file["filename"],
-                        "commit": sha,
-                        "date": commit["commit"]["author"]["date"],
-                    }
-                )
-
-    return results
+    return resp.json()
 
 
-def fetch_formula_metadata(name, is_cask=False):
-    base = "cask" if is_cask else "formula"
-    url = f"https://formulae.brew.sh/api/{base}/{name}.json"
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    data = r.json()
+def fetch_all_casks():
+    """Fetch the full list of casks from the Homebrew JSON API."""
+    resp = requests.get(BREW_API_CASKS)
+    if resp.status_code != 200:
+        print(f"Failed to fetch casks list: {resp.status_code}")
+        return []
+    return resp.json()
 
-    return {
-        "version": data.get("version") or "",
-        "desc": data.get("desc") or "",
-        "homepage": data.get("homepage") or "",
-    }
 
+# ---------------------------------------------------------------------------
+# Persistence
+# ---------------------------------------------------------------------------
 
 def load_all_items():
     if DATA_FILE.exists():
@@ -86,10 +47,12 @@ def load_all_items():
 
 def save_all_items(items):
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
-    if not DATA_FILE.exists():
-        DATA_FILE.touch()
     DATA_FILE.write_text(json.dumps(items, indent=2))
 
+
+# ---------------------------------------------------------------------------
+# Markdown log
+# ---------------------------------------------------------------------------
 
 def write_markdown_log(new_items):
     if not new_items:
@@ -98,24 +61,8 @@ def write_markdown_log(new_items):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     log_path = LOG_DIR / f"{today}.md"
 
-    formulae = []
-    casks = []
-
-    for item in new_items:
-        is_cask = "cask" in item["repo"]
-        meta = fetch_formula_metadata(item["name"], is_cask=is_cask)
-
-        entry = {
-            "name": item["name"],
-            "version": meta["version"] if meta else "",
-            "desc": meta["desc"] if meta else "",
-            "homepage": meta["homepage"] if meta else "",
-        }
-
-        if is_cask:
-            casks.append(entry)
-        else:
-            formulae.append(entry)
+    formulae = [i for i in new_items if i["type"] == "formula"]
+    casks = [i for i in new_items if i["type"] == "cask"]
 
     lines = [f"# Homebrew updates {today}\n"]
 
@@ -141,40 +88,120 @@ def write_markdown_log(new_items):
     return log_path
 
 
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
 def main():
     all_items = load_all_items()
     initial_run = len(all_items) == 0
 
-    existing_keys = {(i["repo"], i["name"], i["commit"]) for i in all_items}
+    # Build a set of known names per type for fast lookup
+    existing_formulae = {i["name"] for i in all_items if i.get("type") == "formula"}
+    existing_casks = {i["name"] for i in all_items if i.get("type") == "cask"}
 
-    # build last-seen per repo (by date) for subsequent runs
-    last_seen_by_repo = {}
-    if not initial_run:
-        for i in all_items:
-            repo = i.get("repo")
-            try:
-                d = parse_github_date(i.get("date"))
-            except Exception:
-                continue
-            prev = last_seen_by_repo.get(repo)
-            if not prev or d > prev:
-                last_seen_by_repo[repo] = d
+    # --- Migrate legacy entries that lack a "type" field -----------------------
+    # Older data used "repo" instead of "type". Normalise on first encounter so
+    # that the existing_* sets are populated correctly.
+    migrated = False
+    for item in all_items:
+        if "type" not in item:
+            migrated = True
+            if "cask" in item.get("repo", ""):
+                item["type"] = "cask"
+            else:
+                item["type"] = "formula"
+            # Ensure the new required fields exist (best-effort from old data)
+            item.setdefault("version", "")
+            item.setdefault("desc", "")
+            item.setdefault("homepage", "")
 
+    if migrated:
+        # Rebuild lookup sets after migration
+        existing_formulae = {i["name"] for i in all_items if i.get("type") == "formula"}
+        existing_casks = {i["name"] for i in all_items if i.get("type") == "cask"}
+    # ---------------------------------------------------------------------------
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     new_items = []
 
-    for repo, prefix in REPOS:
-        if initial_run:
-            items = fetch_new_items(repo, prefix, limit_latest=True)
-        else:
-            since = last_seen_by_repo.get(repo)
-            items = fetch_new_items(repo, prefix, since=since)
+    # --- Formulae --------------------------------------------------------------
+    all_formulae = fetch_all_formulae()
 
-        for item in items:
-            key = (item["repo"], item["name"], item["commit"])
-            if key not in existing_keys:
-                new_items.append(item)
-                all_items.append(item)
+    if initial_run and all_formulae:
+        # On the very first run, just record current names without treating
+        # everything as "new".  This avoids a massive initial log.
+        for f in all_formulae:
+            name = f.get("name") or f.get("full_name", "")
+            if not name:
+                continue
+            versions = f.get("versions") or {}
+            entry = {
+                "type": "formula",
+                "name": name,
+                "version": versions.get("stable", ""),
+                "desc": f.get("desc") or "",
+                "homepage": f.get("homepage") or "",
+                "date": today,
+            }
+            all_items.append(entry)
+        existing_formulae = {i["name"] for i in all_items if i["type"] == "formula"}
+    else:
+        for f in all_formulae:
+            name = f.get("name") or f.get("full_name", "")
+            if not name:
+                continue
+            if name in existing_formulae:
+                continue
+            versions = f.get("versions") or {}
+            entry = {
+                "type": "formula",
+                "name": name,
+                "version": versions.get("stable", ""),
+                "desc": f.get("desc") or "",
+                "homepage": f.get("homepage") or "",
+                "date": today,
+            }
+            new_items.append(entry)
+            all_items.append(entry)
 
+    # --- Casks -----------------------------------------------------------------
+    all_casks = fetch_all_casks()
+
+    if initial_run and all_casks:
+        for c in all_casks:
+            name = c.get("token", "")
+            if not name:
+                continue
+            entry = {
+                "type": "cask",
+                "name": name,
+                "version": c.get("version") or "",
+                "desc": c.get("desc") or "",
+                "homepage": c.get("homepage") or "",
+                "date": today,
+            }
+            all_items.append(entry)
+        existing_casks = {i["name"] for i in all_items if i["type"] == "cask"}
+    else:
+        for c in all_casks:
+            name = c.get("token", "")
+            if not name:
+                continue
+            if name in existing_casks:
+                continue
+            entry = {
+                "type": "cask",
+                "name": name,
+                "version": c.get("version") or "",
+                "desc": c.get("desc") or "",
+                "homepage": c.get("homepage") or "",
+                "date": today,
+            }
+            new_items.append(entry)
+            all_items.append(entry)
+
+    # --- Save & Log ------------------------------------------------------------
     save_all_items(all_items)
     log_path = write_markdown_log(new_items)
 
