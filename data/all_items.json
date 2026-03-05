@@ -126566,5 +126566,13 @@
     "desc": "Video resource player",
     "homepage": "https://github.com/Hunlongyu/ZY-Player",
     "date": "2026-03-04T10:16:09Z"
+  },
+  {
+    "type": "cask",
+    "name": "spokenly",
+    "version": "2.17.6",
+    "desc": "Dictation and transcription app with AI-powered editing",
+    "homepage": "https://spokenly.app/",
+    "date": "2026-03-05T00:16:33Z"
   }
 ]
