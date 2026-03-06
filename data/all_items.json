@@ -126574,5 +126574,21 @@
     "desc": "Dictation and transcription app with AI-powered editing",
     "homepage": "https://spokenly.app/",
     "date": "2026-03-05T00:16:33Z"
+  },
+  {
+    "type": "formula",
+    "name": "atuin-server",
+    "version": "18.12.1",
+    "desc": "Sync server for atuin - Improved shell history for zsh, bash, fish and nushell",
+    "homepage": "https://atuin.sh",
+    "date": "2026-03-06T00:20:42Z"
+  },
+  {
+    "type": "formula",
+    "name": "googleworkspace-cli",
+    "version": "0.5.0",
+    "desc": "CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more",
+    "homepage": "https://developers.google.com/workspace",
+    "date": "2026-03-06T00:20:42Z"
   }
 ]
