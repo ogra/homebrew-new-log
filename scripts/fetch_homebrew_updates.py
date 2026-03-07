@@ -116,7 +116,8 @@ def fetch_default_branch(repo_config):
     default_branch = repo_data.get("default_branch")
     if not default_branch:
         raise RuntimeError(
-            f"Missing default branch for {repo_config['owner']}/{repo_config['repo']}"
+            "GitHub API returned no default branch for "
+            f"{repo_config['owner']}/{repo_config['repo']}"
         )
     return default_branch
 
@@ -128,7 +129,8 @@ def fetch_latest_sha(repo_config):
     latest_sha = (branch_data.get("commit") or {}).get("sha")
     if not latest_sha:
         raise RuntimeError(
-            f"Missing latest SHA for {repo_config['owner']}/{repo_config['repo']}"
+            "GitHub API returned no commit SHA for branch "
+            f"{default_branch} in {repo_config['owner']}/{repo_config['repo']}"
         )
     return latest_sha, default_branch
 
@@ -156,7 +158,9 @@ def list_commits_since(repo_config, previous_sha, default_branch):
 
     raise RuntimeError(
         "Could not find previous SHA "
-        f"{previous_sha} in {repo_config['owner']}/{repo_config['repo']} history"
+        f"{previous_sha} in {repo_config['owner']}/{repo_config['repo']} history; "
+        "the upstream history may have been rewritten and the baseline may need "
+        "to be reinitialized."
     )
 
 
