@@ -126590,5 +126590,21 @@
     "desc": "CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more",
     "homepage": "https://developers.google.com/workspace",
     "date": "2026-03-06T00:20:42Z"
+  },
+  {
+    "type": "formula",
+    "name": "torf-cli",
+    "version": "5.2.1",
+    "desc": "CLI tool for creating, reading and editing torrent files",
+    "homepage": "https://github.com/rndusr/torf-cli",
+    "date": "2026-03-07T00:15:34Z"
+  },
+  {
+    "type": "cask",
+    "name": "font-ghanachocolate",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://www.lottewellfood.com/prcenter/gana",
+    "date": "2026-03-07T00:15:34Z"
   }
 ]
