@@ -1,1 +1,8 @@
-{}
+{
+  "homebrew-core": {
+    "last_seen_sha": "3a298a8b895edd926430df7ad94e35e32e40f374"
+  },
+  "homebrew-cask": {
+    "last_seen_sha": "659a0119406fe6941e21bd16a128d85f1071cb1e"
+  }
+}
