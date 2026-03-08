@@ -126606,5 +126606,49 @@
     "desc": "",
     "homepage": "https://www.lottewellfood.com/prcenter/gana",
     "date": "2026-03-07T00:15:34Z"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-bestsource",
+    "version": "16",
+    "desc": "Audio/video source and FFmpeg wrapper",
+    "homepage": "https://github.com/vapoursynth/bestsource",
+    "date": "2026-03-08T00:48:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-bestsource.rb",
+    "commit_sha": "5b48d9adc4ec741071772a5ef8b5e15fcca7a5c0"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-bestsource",
+    "version": "16",
+    "desc": "Audio/video source and FFmpeg wrapper",
+    "homepage": "https://github.com/vapoursynth/bestsource",
+    "date": "2026-03-08T01:20:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-bestsource.rb",
+    "commit_sha": "11e4b4228b143b846ac23f3f5d46a4fa161a349d"
+  },
+  {
+    "type": "cask",
+    "name": "font-miranda-sans",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/maxthunberg/miranda-sans",
+    "date": "2026-03-08T00:20:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-m/font-miranda-sans.rb",
+    "commit_sha": "8fbf65c15a59213b79ae24270ed5e85c50c1bf57"
+  },
+  {
+    "type": "cask",
+    "name": "font-miranda-sans",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/maxthunberg/miranda-sans",
+    "date": "2026-03-08T01:00:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-m/font-miranda-sans.rb",
+    "commit_sha": "8c7bd22c8e032bc791ac2d8e0093d075ccdc00ba"
   }
 ]
