@@ -126619,17 +126619,6 @@
     "commit_sha": "5b48d9adc4ec741071772a5ef8b5e15fcca7a5c0"
   },
   {
-    "type": "formula",
-    "name": "vapoursynth-bestsource",
-    "version": "16",
-    "desc": "Audio/video source and FFmpeg wrapper",
-    "homepage": "https://github.com/vapoursynth/bestsource",
-    "date": "2026-03-08T01:20:08Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/v/vapoursynth-bestsource.rb",
-    "commit_sha": "11e4b4228b143b846ac23f3f5d46a4fa161a349d"
-  },
-  {
     "type": "cask",
     "name": "font-miranda-sans",
     "version": "latest",
@@ -126639,17 +126628,6 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-m/font-miranda-sans.rb",
     "commit_sha": "8fbf65c15a59213b79ae24270ed5e85c50c1bf57"
-  },
-  {
-    "type": "cask",
-    "name": "font-miranda-sans",
-    "version": "latest",
-    "desc": "",
-    "homepage": "https://github.com/maxthunberg/miranda-sans",
-    "date": "2026-03-08T01:00:52Z",
-    "source_repo": "homebrew-cask",
-    "path": "Casks/font/font-m/font-miranda-sans.rb",
-    "commit_sha": "8c7bd22c8e032bc791ac2d8e0093d075ccdc00ba"
   },
   {
     "type": "formula",
@@ -126719,72 +126697,6 @@
   },
   {
     "type": "formula",
-    "name": "spicedb",
-    "version": "1.49.2",
-    "desc": "Open Source, Google Zanzibar-inspired database",
-    "homepage": "https://authzed.com/docs/spicedb/getting-started/discovering-spicedb",
-    "date": "2026-03-08T03:52:34Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/s/spicedb.rb",
-    "commit_sha": "bf59a911b693cd33ed04e38e189ee39aa502b789"
-  },
-  {
-    "type": "formula",
-    "name": "vuls",
-    "version": "0.38.5",
-    "desc": "Agentless Vulnerability Scanner for Linux/FreeBSD",
-    "homepage": "https://vuls.io/",
-    "date": "2026-03-08T03:53:25Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/v/vuls.rb",
-    "commit_sha": "94b4d68faab407881b9268611df2f699d5bc4406"
-  },
-  {
-    "type": "formula",
-    "name": "apkeep",
-    "version": "0.18.0",
-    "desc": "Command-line tool for downloading APK files from various sources",
-    "homepage": "https://github.com/EFForg/apkeep",
-    "date": "2026-03-08T03:54:59Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/a/apkeep.rb",
-    "commit_sha": "8c50320758c25076c0a029e2e7a6d790f86821b8"
-  },
-  {
-    "type": "formula",
-    "name": "kubectl-tree",
-    "version": "0.4.6",
-    "desc": "Kubectl plugin to browse Kubernetes object hierarchies as a tree",
-    "homepage": "https://github.com/ahmetb/kubectl-tree",
-    "date": "2026-03-08T03:59:59Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/k/kubectl-tree.rb",
-    "commit_sha": "4dbdd7434b2b12a06fe362dc2aeb33dce5060e9b"
-  },
-  {
-    "type": "formula",
-    "name": "mkbrr",
-    "version": "1.20.0",
-    "desc": "Is a tool to create, modify and inspect torrent files. Fast",
-    "homepage": "https://mkbrr.com/introduction",
-    "date": "2026-03-08T04:03:12Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/m/mkbrr.rb",
-    "commit_sha": "fdd1cdc0d73024d68abca04544680104a9d7b5d4"
-  },
-  {
-    "type": "formula",
-    "name": "pet",
-    "version": "1.0.1",
-    "desc": "Simple command-line snippet manager",
-    "homepage": "https://github.com/knqyf263/pet",
-    "date": "2026-03-08T04:03:41Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/p/pet.rb",
-    "commit_sha": "50435d0bcb2c1ec2434ad84bc41574355bbe9964"
-  },
-  {
-    "type": "formula",
     "name": "openspec",
     "version": "1.2.0",
     "desc": "Spec-driven development (SDD) for AI coding assistants",
@@ -126796,17 +126708,6 @@
   },
   {
     "type": "formula",
-    "name": "openspec",
-    "version": "1.2.0",
-    "desc": "Spec-driven development (SDD) for AI coding assistants",
-    "homepage": "https://openspec.dev/",
-    "date": "2026-03-08T12:12:59Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/o/openspec.rb",
-    "commit_sha": "82e4bfc5e0bb2679110d5af2e58aa9847415b594"
-  },
-  {
-    "type": "formula",
     "name": "dlpack",
     "version": "1.3",
     "desc": "Common in-memory tensor structure",
@@ -126815,17 +126716,6 @@
     "source_repo": "homebrew-core",
     "path": "Formula/d/dlpack.rb",
     "commit_sha": "a6cb3d6916d0cdd3f8b2ea4e056f821487d324cd"
-  },
-  {
-    "type": "formula",
-    "name": "dlpack",
-    "version": "1.3",
-    "desc": "Common in-memory tensor structure",
-    "homepage": "https://dmlc.github.io/dlpack/latest",
-    "date": "2026-03-08T15:26:17Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/d/dlpack.rb",
-    "commit_sha": "4983ae79dd89923aa8e4d676a07f3dfd579013e9"
   },
   {
     "type": "formula",
@@ -126848,28 +126738,6 @@
     "source_repo": "homebrew-core",
     "path": "Formula/c/cloudflare-speed-cli.rb",
     "commit_sha": "63a5f99535c9515f51e9632e7e0fd2ea17b4a6d4"
-  },
-  {
-    "type": "formula",
-    "name": "cloudflare-speed-cli",
-    "version": "0.6.5",
-    "desc": "Cloudflare-based speed test with optional TUI",
-    "homepage": "https://github.com/kavehtehrani/cloudflare-speed-cli",
-    "date": "2026-03-08T21:22:58Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/c/cloudflare-speed-cli.rb",
-    "commit_sha": "847529b1f81a05446c0c42f45395f6512ad6ecff"
-  },
-  {
-    "type": "formula",
-    "name": "checkpwn",
-    "version": "0.5.4",
-    "desc": "Check Have I Been Pwned and see if it's time for you to change passwords",
-    "homepage": "https://github.com/brycx/checkpwn",
-    "date": "2026-03-08T21:29:41Z",
-    "source_repo": "homebrew-core",
-    "path": "Formula/c/checkpwn.rb",
-    "commit_sha": "424e6913c5fa7a1056e3dd9b95707cfcdcb34d23"
   },
   {
     "type": "cask",

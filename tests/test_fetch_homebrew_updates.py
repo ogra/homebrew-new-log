@@ -233,6 +233,73 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
         state = json.loads(self.module.STATE_FILE.read_text())
         self.assertEqual(state["homebrew-core"]["last_seen_sha"], "new-core")
 
+    def test_same_name_across_commits_deduplicates_to_one_entry(self):
+        """A formula added in two separate commits should only appear once."""
+        self.module.STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        self.module.STATE_FILE.write_text(
+            json.dumps(
+                {
+                    "homebrew-core": {"last_seen_sha": "old-core"},
+                    "homebrew-cask": {"last_seen_sha": "old-cask"},
+                }
+            )
+        )
+
+        self.set_responses(
+            [
+                (
+                    self.module.BREW_API_FORMULAE,
+                    None,
+                    [
+                        {
+                            "name": "myformula",
+                            "versions": {"stable": "1.0.0"},
+                            "desc": "A formula",
+                            "homepage": "https://example.com/myformula",
+                        }
+                    ],
+                ),
+                (self.module.BREW_API_CASKS, None, []),
+                (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], ""), None, {"default_branch": "master"}),
+                (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "branches/master"), None, {"commit": {"sha": "new-core"}}),
+                (
+                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits"),
+                    {"sha": "master", "per_page": 100, "page": 1},
+                    [{"sha": "commit-core-2"}, {"sha": "commit-core-1"}, {"sha": "old-core"}],
+                ),
+                (
+                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-1"),
+                    None,
+                    {
+                        "commit": {"committer": {"date": "2026-03-08T00:00:00Z"}},
+                        "files": [{"filename": "Formula/myformula.rb", "status": "added"}],
+                    },
+                ),
+                (
+                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-2"),
+                    None,
+                    {
+                        "commit": {"committer": {"date": "2026-03-08T01:00:00Z"}},
+                        "files": [{"filename": "Formula/myformula.rb", "status": "added"}],
+                    },
+                ),
+                (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], ""), None, {"default_branch": "master"}),
+                (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "branches/master"), None, {"commit": {"sha": "old-cask"}}),
+            ]
+        )
+
+        with patch.object(self.module.requests, "get", side_effect=self.fake_get):
+            self.module.main()
+
+        items = json.loads(self.module.DATA_FILE.read_text())
+        self.assertEqual(len(items), 1, "Same-name formula across commits must be deduplicated")
+        self.assertEqual(items[0]["name"], "myformula")
+
+        log_files = list(self.module.LOG_DIR.iterdir())
+        self.assertEqual(len(log_files), 1)
+        log_text = log_files[0].read_text()
+        self.assertEqual(log_text.count("### myformula"), 1, "Formula must appear only once in log")
+
 
 if __name__ == "__main__":
     unittest.main()
