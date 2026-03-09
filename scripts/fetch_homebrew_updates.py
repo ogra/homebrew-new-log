@@ -387,6 +387,17 @@ def main():
         pending_state[repo_name] = {"last_seen_sha": latest_sha}
         print(f"Detected {len(new_repo_items)} new {repo_config['type']}(s) in {repo_name}")
 
+    # Deduplicate by (type, name): if the same formula/cask appears in multiple
+    # commits (e.g. an initial add followed by a fix commit), keep only the first.
+    seen_names: set = set()
+    deduped_items = []
+    for item in detected_items:
+        name_key = (item["type"], item["name"])
+        if name_key not in seen_names:
+            seen_names.add(name_key)
+            deduped_items.append(item)
+    detected_items = deduped_items
+
     if detected_items:
         metadata = {}
         if any(item["type"] == "formula" for item in detected_items):
