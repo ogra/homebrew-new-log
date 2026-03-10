@@ -126760,5 +126760,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/l/ltx-desktop.rb",
     "commit_sha": "c026d9f961ad068f4ffa663e2eaa5b7c0e46bec3"
+  },
+  {
+    "type": "formula",
+    "name": "gittype",
+    "version": "0.9.0",
+    "desc": "CLI code-typing game that turns your source code into typing challenges",
+    "homepage": "https://github.com/unhappychoice/gittype",
+    "date": "2026-03-09T00:56:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gittype.rb",
+    "commit_sha": "130a8789267d0c760a6995e80cbc81e36a26bac8"
+  },
+  {
+    "type": "formula",
+    "name": "flowrs",
+    "version": "0.10.0",
+    "desc": "TUI application for Apache Airflow",
+    "homepage": "https://github.com/jvanbuel/flowrs",
+    "date": "2026-03-09T00:57:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/flowrs.rb",
+    "commit_sha": "cb8a04ccaafc531f74c36c344eedd4bdd71cccfe"
+  },
+  {
+    "type": "formula",
+    "name": "docker-engine",
+    "version": "29.3.0",
+    "desc": "Pack, ship and run any application as a lightweight container (Daemon)",
+    "homepage": "https://www.docker.com/",
+    "date": "2026-03-09T02:03:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/docker-engine.rb",
+    "commit_sha": "0c26d641a1ec43d966eb6d7ae6cd9432d0f540bc"
+  },
+  {
+    "type": "formula",
+    "name": "models",
+    "version": "0.10.0",
+    "desc": "Fast TUI and CLI for browsing AI models, benchmarks, and coding agents",
+    "homepage": "https://github.com/arimxyer/models",
+    "date": "2026-03-09T04:07:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/models.rb",
+    "commit_sha": "d2a10c93e7aad86d118f2bb75cbfc84464e983ae"
+  },
+  {
+    "type": "formula",
+    "name": "buildkitd",
+    "version": "0.28.0",
+    "desc": "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit (Daemon)",
+    "homepage": "https://github.com/moby/buildkit",
+    "date": "2026-03-09T09:27:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/buildkitd.rb",
+    "commit_sha": "20b2dac10ee1b3ff48bb8522428361e6a5b3f408"
+  },
+  {
+    "type": "formula",
+    "name": "weave",
+    "version": "0.2.3",
+    "desc": "Entity-level semantic merge driver for Git using tree-sitter",
+    "homepage": "https://github.com/Ataraxy-Labs/weave",
+    "date": "2026-03-09T09:30:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/weave.rb",
+    "commit_sha": "459ab729931c56201e3a1feeb6edb44791483ea7"
   }
 ]
