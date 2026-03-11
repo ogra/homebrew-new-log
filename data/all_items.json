@@ -126826,5 +126826,82 @@
     "source_repo": "homebrew-core",
     "path": "Formula/w/weave.rb",
     "commit_sha": "459ab729931c56201e3a1feeb6edb44791483ea7"
+  },
+  {
+    "type": "formula",
+    "name": "upterm",
+    "version": "0.22.0",
+    "desc": "Instant terminal sharing",
+    "homepage": "https://github.com/owenthereal/upterm",
+    "date": "2026-03-10T03:28:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/upterm.rb",
+    "commit_sha": "cd0a3cac52068a28bcee41b9161f146dc3f94408"
+  },
+  {
+    "type": "formula",
+    "name": "docker-agent",
+    "version": "1.30.0",
+    "desc": "Agent Builder and Runtime by Docker Engineering",
+    "homepage": "https://docker.github.io/docker-agent/",
+    "date": "2026-03-10T05:23:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/docker-agent.rb",
+    "commit_sha": "c3b47b81615d5007c2a422d203e9c704d8dd058f"
+  },
+  {
+    "type": "formula",
+    "name": "topicctl",
+    "version": "2.0.1",
+    "desc": "Declarative Kafka topic management",
+    "homepage": "https://github.com/segmentio/topicctl",
+    "date": "2026-03-10T10:40:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/topicctl.rb",
+    "commit_sha": "516846295a4734156b7be19f1244da9840cfab3b"
+  },
+  {
+    "type": "formula",
+    "name": "nfd2nfc",
+    "version": "2.0.7",
+    "desc": "Convert filesystem entry names from NFD to NFC for cross-platform compatibility",
+    "homepage": "https://github.com/elgar328/nfd2nfc",
+    "date": "2026-03-10T13:21:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nfd2nfc.rb",
+    "commit_sha": "75025aa75d5614c90ec08b328dd5cfab370aba6c"
+  },
+  {
+    "type": "formula",
+    "name": "zvbi",
+    "version": "0.2.44",
+    "desc": "Vertical Blanking Interval (VBI) decoding library",
+    "homepage": "https://github.com/zapping-vbi/zvbi",
+    "date": "2026-03-10T13:40:59Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zvbi.rb",
+    "commit_sha": "b83daa6434e6384da81a7c48421cdc742769f800"
+  },
+  {
+    "type": "formula",
+    "name": "nono",
+    "version": "0.16.0",
+    "desc": "Capability-based sandbox shell for AI agents with OS-enforced isolation",
+    "homepage": "https://github.com/always-further/nono",
+    "date": "2026-03-10T16:05:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nono.rb",
+    "commit_sha": "ac0d49ae0d0187d9eaae6b2cf1fdb056d607c9d7"
+  },
+  {
+    "type": "cask",
+    "name": "seamly2d",
+    "version": "2026.3.9.214",
+    "desc": "Pattern making software",
+    "homepage": "https://seamly.io/",
+    "date": "2026-03-10T01:16:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/seamly2d.rb",
+    "commit_sha": "be52bd100a1ed67e2758c5044716760157af1d55"
   }
 ]
