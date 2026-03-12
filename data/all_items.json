@@ -126903,5 +126903,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/seamly2d.rb",
     "commit_sha": "be52bd100a1ed67e2758c5044716760157af1d55"
+  },
+  {
+    "type": "formula",
+    "name": "garden",
+    "version": "2.5.1",
+    "desc": "Grow and cultivate collections of Git trees",
+    "homepage": "https://github.com/garden-rs/garden",
+    "date": "2026-03-11T07:00:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/garden.rb",
+    "commit_sha": "f845ef771d8c484f69fc38367cd9ba44d25332b8"
+  },
+  {
+    "type": "formula",
+    "name": "scala-cli",
+    "version": "1.12.4",
+    "desc": "Scala language runner and build tool",
+    "homepage": "https://scala-cli.virtuslab.org/",
+    "date": "2026-03-11T11:19:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/scala-cli.rb",
+    "commit_sha": "83f0a27f4ff93d2e86d2a88117dfb19066f75be0"
+  },
+  {
+    "type": "formula",
+    "name": "powershell",
+    "version": "7.5.4",
+    "desc": "Command-line shell and scripting language",
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "date": "2026-03-11T12:46:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/powershell.rb",
+    "commit_sha": "5d0c20bea868942e6c28f7dffe3e3df2230e817c"
+  },
+  {
+    "type": "formula",
+    "name": "ffc.h",
+    "version": "26.03.4-test",
+    "desc": "Single-header C99 accelerated float/double parsing",
+    "homepage": "https://github.com/kolemannix/ffc.h",
+    "date": "2026-03-11T13:57:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/ffc.h.rb",
+    "commit_sha": "fb8618713f0f6fe4d0988d5eedd523de97ab040f"
   }
 ]
