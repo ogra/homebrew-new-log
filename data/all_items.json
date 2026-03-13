@@ -126947,5 +126947,115 @@
     "source_repo": "homebrew-core",
     "path": "Formula/f/ffc.h.rb",
     "commit_sha": "fb8618713f0f6fe4d0988d5eedd523de97ab040f"
+  },
+  {
+    "type": "formula",
+    "name": "tsshd",
+    "version": "0.1.6",
+    "desc": "UDP SSH server for trzsz-ssh (tssh) with roaming support",
+    "homepage": "https://github.com/trzsz/tsshd",
+    "date": "2026-03-12T00:19:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tsshd.rb",
+    "commit_sha": "fc41833a99fdb278e3d494364d1cefcecd6fdd97"
+  },
+  {
+    "type": "formula",
+    "name": "zsign",
+    "version": "0.9.7",
+    "desc": "Cross-platform codesigning tool for iOS apps",
+    "homepage": "https://github.com/zhlynn/zsign",
+    "date": "2026-03-12T12:52:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zsign.rb",
+    "commit_sha": "012eec3330a03ea92a7356fcb46e78a3181248c7"
+  },
+  {
+    "type": "formula",
+    "name": "ipapatch",
+    "version": "2.1.3",
+    "desc": "CLI tool to patch iOS IPA files and their plugins",
+    "homepage": "https://github.com/asdfzxcvbn/ipapatch",
+    "date": "2026-03-12T13:03:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/ipapatch.rb",
+    "commit_sha": "ad7cd67d17c4dd376faabd48bb4ff152184627b5"
+  },
+  {
+    "type": "formula",
+    "name": "sem-cli",
+    "version": "0.3.8",
+    "desc": "Semantic version control CLI with entity-level diffs and blame",
+    "homepage": "https://github.com/Ataraxy-Labs/sem",
+    "date": "2026-03-12T17:11:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sem-cli.rb",
+    "commit_sha": "a63d28a2f11023d06764b98156ddc41a075965ce"
+  },
+  {
+    "type": "formula",
+    "name": "buildkitd",
+    "version": "0.28.0",
+    "desc": "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit (Daemon)",
+    "homepage": "https://github.com/moby/buildkit",
+    "date": "2026-03-12T18:56:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/buildkitd.rb",
+    "commit_sha": "46e4f285023a835cdba804da4075b374b0509d0f"
+  },
+  {
+    "type": "formula",
+    "name": "docker-agent",
+    "version": "1.32.2",
+    "desc": "Agent Builder and Runtime by Docker Engineering",
+    "homepage": "https://docker.github.io/docker-agent/",
+    "date": "2026-03-12T18:56:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/docker-agent.rb",
+    "commit_sha": "46e4f285023a835cdba804da4075b374b0509d0f"
+  },
+  {
+    "type": "formula",
+    "name": "ffc.h",
+    "version": "26.03.4-test",
+    "desc": "Single-header C99 accelerated float/double parsing",
+    "homepage": "https://github.com/kolemannix/ffc.h",
+    "date": "2026-03-12T18:56:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/ffc.h.rb",
+    "commit_sha": "46e4f285023a835cdba804da4075b374b0509d0f"
+  },
+  {
+    "type": "formula",
+    "name": "garden",
+    "version": "2.5.1",
+    "desc": "Grow and cultivate collections of Git trees",
+    "homepage": "https://github.com/garden-rs/garden",
+    "date": "2026-03-12T18:56:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/garden.rb",
+    "commit_sha": "46e4f285023a835cdba804da4075b374b0509d0f"
+  },
+  {
+    "type": "formula",
+    "name": "nfd2nfc",
+    "version": "2.0.7",
+    "desc": "Convert filesystem entry names from NFD to NFC for cross-platform compatibility",
+    "homepage": "https://github.com/elgar328/nfd2nfc",
+    "date": "2026-03-12T18:56:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nfd2nfc.rb",
+    "commit_sha": "46e4f285023a835cdba804da4075b374b0509d0f"
+  },
+  {
+    "type": "cask",
+    "name": "wowup-cf",
+    "version": "2.22.0",
+    "desc": "World of Warcraft addon manager",
+    "homepage": "https://wowup.io/",
+    "date": "2026-03-12T17:33:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/wowup-cf.rb",
+    "commit_sha": "56cf5b2665b14a46209debb982713b4a78239725"
   }
 ]
