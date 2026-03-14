@@ -127057,5 +127057,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/wowup-cf.rb",
     "commit_sha": "56cf5b2665b14a46209debb982713b4a78239725"
+  },
+  {
+    "type": "formula",
+    "name": "zxc",
+    "version": "0.8.3",
+    "desc": "High-performance asymmetric lossless compression library",
+    "homepage": "https://github.com/hellobertrand/zxc",
+    "date": "2026-03-13T18:54:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zxc.rb",
+    "commit_sha": "f5bea09342ceda67e7519eaa60e5ace1492b5278"
+  },
+  {
+    "type": "cask",
+    "name": "x-air-edit",
+    "version": "1.8.1,pasxX2fZM0ia-1m2Ag3Yjg,Ur4E_DBb10WZIMoa_W9OVQ",
+    "desc": "Remote control for the Behringer X AIR series mixers",
+    "homepage": "https://www.behringer.com/series.html?category=R-BEHRINGER-XAIRSERIES",
+    "date": "2026-03-13T08:30:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/x/x-air-edit.rb",
+    "commit_sha": "d9adc80b275c76f11115b2f3e444c037cf2096bc"
   }
 ]
