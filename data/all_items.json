@@ -127079,5 +127079,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/x/x-air-edit.rb",
     "commit_sha": "d9adc80b275c76f11115b2f3e444c037cf2096bc"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-bm3d",
+    "version": "9",
+    "desc": "BM3D denoising filter for VapourSynth",
+    "homepage": "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D",
+    "date": "2026-03-14T22:48:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-bm3d.rb",
+    "commit_sha": "5da7ab620ead06c500ce3a2966c2c29657e41fc2"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-descale",
+    "version": "8",
+    "desc": "VapourSynth plugin to undo upscaling",
+    "homepage": "https://github.com/Irrational-Encoding-Wizardry/descale",
+    "date": "2026-03-14T22:50:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-descale.rb",
+    "commit_sha": "2f4c8d34a1d884b032d62fae492b155efc98a559"
   }
 ]
