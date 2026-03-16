@@ -127101,5 +127101,27 @@
     "source_repo": "homebrew-core",
     "path": "Formula/v/vapoursynth-descale.rb",
     "commit_sha": "2f4c8d34a1d884b032d62fae492b155efc98a559"
+  },
+  {
+    "type": "cask",
+    "name": "gram",
+    "version": "1.0.0",
+    "desc": "Code editor focused on stability, without AI, subscsriptions, or telemetry",
+    "homepage": "https://gram.liten.app/",
+    "date": "2026-03-15T07:39:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gram.rb",
+    "commit_sha": "7e326f53878756bf4b3a920d483abff017751d03"
+  },
+  {
+    "type": "cask",
+    "name": "spectra-app",
+    "version": "2.1.6",
+    "desc": "OpenSpec document management desktop app",
+    "homepage": "https://spectra.5xcamp.us/",
+    "date": "2026-03-15T09:42:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/spectra-app.rb",
+    "commit_sha": "7d8be7f50c899b3cb4539421e39dbb0a4529a88b"
   }
 ]
