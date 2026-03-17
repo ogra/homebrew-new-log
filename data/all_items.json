@@ -127123,5 +127123,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/spectra-app.rb",
     "commit_sha": "7d8be7f50c899b3cb4539421e39dbb0a4529a88b"
+  },
+  {
+    "type": "formula",
+    "name": "dtop",
+    "version": "0.6.14",
+    "desc": "Terminal dashboard for Docker monitoring across multiple hosts",
+    "homepage": "https://dtop.dev/",
+    "date": "2026-03-16T12:44:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dtop.rb",
+    "commit_sha": "a232a4878e7313b0960ccd90df47d5f61996f555"
+  },
+  {
+    "type": "cask",
+    "name": "ulaa",
+    "version": "2.41.1",
+    "desc": "Privacy-centric browser with advanced tracking protection",
+    "homepage": "https://ulaa.com/",
+    "date": "2026-03-16T01:04:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/ulaa.rb",
+    "commit_sha": "da0d2160a380db6e46da704499891be773147af9"
+  },
+  {
+    "type": "cask",
+    "name": "fidelity-trader+",
+    "version": "4.4.1",
+    "desc": "Trading platform",
+    "homepage": "https://www.fidelity.com/trading/advanced-trading-tools/active-trader-pro/overview",
+    "date": "2026-03-16T01:29:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/fidelity-trader+.rb",
+    "commit_sha": "1a0d20f98da9e37be3dc804cac60e97809555ee8"
+  },
+  {
+    "type": "cask",
+    "name": "tencent-ugit",
+    "version": "5.46.0",
+    "desc": "Tencent Git GUI Client",
+    "homepage": "https://ugit.qq.com/",
+    "date": "2026-03-16T01:45:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tencent-ugit.rb",
+    "commit_sha": "1b90c853e9fbf37ac657dc0013c7926bcbd7f641"
+  },
+  {
+    "type": "cask",
+    "name": "voicemod",
+    "version": "3.15.19",
+    "desc": "Real-time voice changer and soundboard",
+    "homepage": "https://www.voicemod.net/",
+    "date": "2026-03-16T02:02:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/voicemod.rb",
+    "commit_sha": "5df465d37c67ca5b15792d45083d36ed84c14b45"
+  },
+  {
+    "type": "cask",
+    "name": "supasidebar",
+    "version": "0.15.3",
+    "desc": "Arc-like sidebar to save links, files and folders from any browser",
+    "homepage": "https://supasidebar.com/",
+    "date": "2026-03-16T04:18:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/supasidebar.rb",
+    "commit_sha": "f5a90d87dec45e4395f9ce3d4d56a29be00441c8"
   }
 ]
