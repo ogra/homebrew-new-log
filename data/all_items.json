@@ -127189,5 +127189,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/supasidebar.rb",
     "commit_sha": "f5a90d87dec45e4395f9ce3d4d56a29be00441c8"
+  },
+  {
+    "type": "formula",
+    "name": "zycore-c",
+    "version": "1.5.2",
+    "desc": "Zyan Core Library for C",
+    "homepage": "https://github.com/zyantific/zycore-c",
+    "date": "2026-03-17T15:20:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zycore-c.rb",
+    "commit_sha": "b452e75f173a8b4bdbc31b0d223f8ff676a680c4"
+  },
+  {
+    "type": "formula",
+    "name": "ggml",
+    "version": "0.9.8",
+    "desc": "Tensor library for machine learning",
+    "homepage": "https://github.com/ggml-org/ggml",
+    "date": "2026-03-17T21:02:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/ggml.rb",
+    "commit_sha": "d889a1696cc13c13bd5716c4ae9bf5512fe34597"
   }
 ]
