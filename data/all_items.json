@@ -127211,5 +127211,27 @@
     "source_repo": "homebrew-core",
     "path": "Formula/g/ggml.rb",
     "commit_sha": "d889a1696cc13c13bd5716c4ae9bf5512fe34597"
+  },
+  {
+    "type": "formula",
+    "name": "oh-my-agent",
+    "version": "2.11.3",
+    "desc": "Portable multi-agent harness for .agents-based skills and workflows",
+    "homepage": "https://github.com/first-fluke/oh-my-agent",
+    "date": "2026-03-18T01:19:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/oh-my-agent.rb",
+    "commit_sha": "38527c0d48fe27b4f2c87c9ab6a8137ad306f5e4"
+  },
+  {
+    "type": "formula",
+    "name": "portless",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-03-18T21:55:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/portless.rb",
+    "commit_sha": "4f7d9c49105f177a8736ae56c090ff8761cb37a6"
   }
 ]
