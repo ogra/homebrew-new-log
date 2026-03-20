@@ -127233,5 +127233,60 @@
     "source_repo": "homebrew-core",
     "path": "Formula/p/portless.rb",
     "commit_sha": "4f7d9c49105f177a8736ae56c090ff8761cb37a6"
+  },
+  {
+    "type": "formula",
+    "name": "lief",
+    "version": "0.17.6",
+    "desc": "Library to Instrument Executable Formats",
+    "homepage": "https://lief.re/",
+    "date": "2026-03-19T04:58:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lief.rb",
+    "commit_sha": "808fa603d1d751e59eb3afca6bce2f131078a5d8"
+  },
+  {
+    "type": "formula",
+    "name": "wmbusmeters",
+    "version": "2.0.0",
+    "desc": "Read wired or wireless mbus protocol to acquire utility meter readings",
+    "homepage": "https://github.com/wmbusmeters/wmbusmeters",
+    "date": "2026-03-19T12:38:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wmbusmeters.rb",
+    "commit_sha": "3206c4eccfcb640c49392d7ad47e0252be95a01a"
+  },
+  {
+    "type": "formula",
+    "name": "ctx7",
+    "version": "0.3.6",
+    "desc": "Manage AI coding skills and documentation context",
+    "homepage": "https://context7.com",
+    "date": "2026-03-19T14:01:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/ctx7.rb",
+    "commit_sha": "489323f7b299316c397b34f04f43775445e7712b"
+  },
+  {
+    "type": "formula",
+    "name": "cline",
+    "version": "2.8.1",
+    "desc": "AI-powered coding agent for complex work",
+    "homepage": "https://cline.bot",
+    "date": "2026-03-19T14:44:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cline.rb",
+    "commit_sha": "322ebbf41d29afcc250146c2d3272fa356d5a0ec"
+  },
+  {
+    "type": "cask",
+    "name": "font-selawik",
+    "version": "1.01",
+    "desc": "",
+    "homepage": "https://github.com/microsoft/Selawik",
+    "date": "2026-03-19T10:56:48Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-selawik.rb",
+    "commit_sha": "15b4eea2029d31daebe12ab355a2240bf3826478"
   }
 ]
