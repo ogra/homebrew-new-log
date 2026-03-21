@@ -127288,5 +127288,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-s/font-selawik.rb",
     "commit_sha": "15b4eea2029d31daebe12ab355a2240bf3826478"
+  },
+  {
+    "type": "formula",
+    "name": "apache-arrow-adbc",
+    "version": "22",
+    "desc": "Cross-language, Arrow-native database access",
+    "homepage": "https://arrow.apache.org/adbc",
+    "date": "2026-03-20T13:50:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/apache-arrow-adbc.rb",
+    "commit_sha": "e0d790dc024b90149c8b455d5c4cd19cca828ec1"
+  },
+  {
+    "type": "cask",
+    "name": "dbvr",
+    "version": "26.0.0",
+    "desc": "Lightweight CLI tool for running database operations",
+    "homepage": "https://dbeaver.com/dbvr/",
+    "date": "2026-03-20T11:46:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dbvr.rb",
+    "commit_sha": "ed0f47f5130085777ef77a00ec1ade853b8bc2e9"
+  },
+  {
+    "type": "cask",
+    "name": "dbeaverteam",
+    "version": "26.0.0",
+    "desc": "Universal database tool and SQL client",
+    "homepage": "https://dbeaver.com/dbeaver-team-edition",
+    "date": "2026-03-20T12:18:48Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dbeaverteam.rb",
+    "commit_sha": "f9959a204fdcb10ef7d018707a6744dbeaee248d"
   }
 ]
