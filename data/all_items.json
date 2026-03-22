@@ -127321,5 +127321,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/d/dbeaverteam.rb",
     "commit_sha": "f9959a204fdcb10ef7d018707a6744dbeaee248d"
+  },
+  {
+    "type": "formula",
+    "name": "summarize",
+    "version": "0.12.0",
+    "desc": "Multi-modal AI tool to extract and summarize content",
+    "homepage": "https://summarize.sh",
+    "date": "2026-03-21T04:57:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/summarize.rb",
+    "commit_sha": "8db8d637a9a6e0b0860e4f93d0c1a3fcef499a6b"
+  },
+  {
+    "type": "formula",
+    "name": "cyan",
+    "version": "1.4.4",
+    "desc": "iOS app injector and modifier",
+    "homepage": "https://github.com/asdfzxcvbn/pyzule-rw",
+    "date": "2026-03-21T08:20:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cyan.rb",
+    "commit_sha": "9b150e066eacc8d479495fb1f1a9cef91e36d795"
   }
 ]
