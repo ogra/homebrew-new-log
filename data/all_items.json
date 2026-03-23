@@ -127343,5 +127343,27 @@
     "source_repo": "homebrew-core",
     "path": "Formula/c/cyan.rb",
     "commit_sha": "9b150e066eacc8d479495fb1f1a9cef91e36d795"
+  },
+  {
+    "type": "formula",
+    "name": "et",
+    "version": "6.2.11",
+    "desc": "Remote terminal with IP roaming",
+    "homepage": "https://mistertea.github.io/EternalTerminal/",
+    "date": "2026-03-22T17:59:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/et.rb",
+    "commit_sha": "7f727bb2e7ea76c2be2f1474c4b05bd3a25ee2bf"
+  },
+  {
+    "type": "formula",
+    "name": "icestorm",
+    "version": "1.1",
+    "desc": "Tools for analyzing and creating Lattice iCE40 FPGA bitstream files",
+    "homepage": "https://prjicestorm.readthedocs.io",
+    "date": "2026-03-22T18:14:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/icestorm.rb",
+    "commit_sha": "fc62d2a6ea3005ac70199d3922b048d074627347"
   }
 ]
