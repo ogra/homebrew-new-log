@@ -127365,5 +127365,38 @@
     "source_repo": "homebrew-core",
     "path": "Formula/i/icestorm.rb",
     "commit_sha": "fc62d2a6ea3005ac70199d3922b048d074627347"
+  },
+  {
+    "type": "formula",
+    "name": "wireplumber",
+    "version": "0.5.13",
+    "desc": "Session / policy manager implementation for PipeWire",
+    "homepage": "https://pipewire.pages.freedesktop.org/wireplumber/",
+    "date": "2026-03-23T18:48:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wireplumber.rb",
+    "commit_sha": "025cf367a941c41e5fd834f78b2898f56e25cf70"
+  },
+  {
+    "type": "formula",
+    "name": "pipewire-gstreamer",
+    "version": "1.6.2",
+    "desc": "GStreamer Plugin for PipeWire",
+    "homepage": "https://pipewire.org",
+    "date": "2026-03-23T20:44:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pipewire-gstreamer.rb",
+    "commit_sha": "d40e9d02e291271e6a66d9a87b216731863ac4b6"
+  },
+  {
+    "type": "cask",
+    "name": "mesh",
+    "version": "2.20.0",
+    "desc": "Private rolodex to remember people better",
+    "homepage": "https://me.sh/",
+    "date": "2026-03-23T02:30:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mesh.rb",
+    "commit_sha": "622e457150e9586fda896731eaf232d505ab268f"
   }
 ]
