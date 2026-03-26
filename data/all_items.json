@@ -127398,5 +127398,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/mesh.rb",
     "commit_sha": "622e457150e9586fda896731eaf232d505ab268f"
+  },
+  {
+    "type": "formula",
+    "name": "xcursorgen",
+    "version": "1.0.9",
+    "desc": "Create an X cursor file from a collection of PNG images",
+    "homepage": "https://gitlab.freedesktop.org/xorg/app/xcursorgen",
+    "date": "2026-03-25T01:22:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/x/xcursorgen.rb",
+    "commit_sha": "50a5e84a49cc37b4cf35e778adc72dfe1671960b"
+  },
+  {
+    "type": "formula",
+    "name": "crip",
+    "version": "2.7.1",
+    "desc": "Tool to extract server certificates",
+    "homepage": "https://github.com/Hakky54/certificate-ripper",
+    "date": "2026-03-25T01:40:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/crip.rb",
+    "commit_sha": "c1ddaa9f7f56c271a547994f9b5b4db57adbd2f0"
+  },
+  {
+    "type": "cask",
+    "name": "altar-ai",
+    "version": "1.0.52",
+    "desc": "AI-powered meeting assistant",
+    "homepage": "https://app.altar.inc/",
+    "date": "2026-03-25T22:48:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/altar-ai.rb",
+    "commit_sha": "64e092cad4eeb9b8a567d2550a9b39c761f045d5"
   }
 ]
