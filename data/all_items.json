@@ -127431,5 +127431,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/altar-ai.rb",
     "commit_sha": "64e092cad4eeb9b8a567d2550a9b39c761f045d5"
+  },
+  {
+    "type": "formula",
+    "name": "miniaudio",
+    "version": "0.11.25",
+    "desc": "Audio playback and capture library",
+    "homepage": "https://miniaud.io",
+    "date": "2026-03-26T06:53:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/miniaudio.rb",
+    "commit_sha": "400c387db63df9ac0013e08c55fcfff670feebdf"
+  },
+  {
+    "type": "formula",
+    "name": "lazycut",
+    "version": "0.3.9",
+    "desc": "Terminal-based video trimming TUI",
+    "homepage": "https://github.com/ozemin/lazycut",
+    "date": "2026-03-26T09:39:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lazycut.rb",
+    "commit_sha": "fc2f4136ff07de0e4b80f6cfb70e488920dc479a"
+  },
+  {
+    "type": "cask",
+    "name": "nvidia-sync",
+    "version": "0.64.24",
+    "desc": "Utility for launching applications and containers on remote Linux systems",
+    "homepage": "https://docs.nvidia.com/dgx/dgx-spark/nvidia-sync.html",
+    "date": "2026-03-26T02:47:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/nvidia-sync.rb",
+    "commit_sha": "2dfe007b24ea7b287589b82c471c00abdb5d9c72"
+  },
+  {
+    "type": "cask",
+    "name": "notchi",
+    "version": "1.0.2",
+    "desc": "Notch companion for Claude Code",
+    "homepage": "https://notchi.app/",
+    "date": "2026-03-26T03:43:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/notchi.rb",
+    "commit_sha": "0a94dc504205eaf2e7c39ab27a5f724e12e6d1e2"
+  },
+  {
+    "type": "cask",
+    "name": "voiden@beta",
+    "version": "1.4.2-beta.1",
+    "desc": "API development tool",
+    "homepage": "https://voiden.md/",
+    "date": "2026-03-26T06:11:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/voiden@beta.rb",
+    "commit_sha": "c7ef117e3513a2e8a46a72200bb112a0a622202a"
+  },
+  {
+    "type": "cask",
+    "name": "ob-xf",
+    "version": "1.0.2",
+    "desc": "Virtual analog synthesizer",
+    "homepage": "https://surge-synth-team.org/ob-xf/",
+    "date": "2026-03-26T23:04:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/ob-xf.rb",
+    "commit_sha": "421eaf33ec13a669a4d0c5a40baee09337fdabc3"
   }
 ]
