@@ -127497,5 +127497,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/ob-xf.rb",
     "commit_sha": "421eaf33ec13a669a4d0c5a40baee09337fdabc3"
+  },
+  {
+    "type": "formula",
+    "name": "dispenso",
+    "version": "1.5.0",
+    "desc": "High-performance C++ library for parallel programming",
+    "homepage": "https://github.com/facebookincubator/dispenso",
+    "date": "2026-03-27T08:57:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dispenso.rb",
+    "commit_sha": "d240744b8177f9548313c1778dfdb883131bd14c"
+  },
+  {
+    "type": "formula",
+    "name": "jsongrep",
+    "version": "0.7.0",
+    "desc": "Path query language over JSON documents",
+    "homepage": "https://github.com/micahkepe/jsongrep",
+    "date": "2026-03-27T12:19:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/j/jsongrep.rb",
+    "commit_sha": "5d3d7e5c4dfc1925f0d6fcb944b3ba3d7eea6a8c"
+  },
+  {
+    "type": "formula",
+    "name": "qtcanvaspainter",
+    "version": "6.11.0",
+    "desc": "Accelerated 2D painting solution for Qt Quick and QRhi-based render targets",
+    "homepage": "https://www.qt.io/",
+    "date": "2026-03-27T13:47:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/qtcanvaspainter.rb",
+    "commit_sha": "48ee78a5e2005dec4b076f36648595e2cee49d27"
+  },
+  {
+    "type": "formula",
+    "name": "qttasktree",
+    "version": "6.11.0",
+    "desc": "General purpose library for asynchronous task execution",
+    "homepage": "https://www.qt.io/",
+    "date": "2026-03-27T13:47:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/qttasktree.rb",
+    "commit_sha": "48ee78a5e2005dec4b076f36648595e2cee49d27"
+  },
+  {
+    "type": "cask",
+    "name": "nimbalyst",
+    "version": "0.56.17",
+    "desc": "Visual workspace for building with Codex and Claude Code",
+    "homepage": "https://nimbalyst.com/",
+    "date": "2026-03-27T23:12:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/nimbalyst.rb",
+    "commit_sha": "00cd0f4c7be776c4e910ec314d3dc6fdfa1d895c"
   }
 ]
