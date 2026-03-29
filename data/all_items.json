@@ -127552,5 +127552,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/n/nimbalyst.rb",
     "commit_sha": "00cd0f4c7be776c4e910ec314d3dc6fdfa1d895c"
+  },
+  {
+    "type": "formula",
+    "name": "pay",
+    "version": "0.1.0",
+    "desc": "HTTP client that automatically handles 402 Payment Required",
+    "homepage": "https://github.com/solana-foundation/pay",
+    "date": "2026-03-28T16:59:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pay.rb",
+    "commit_sha": "452cc8bc3a692d27d93ae445ce4421fa58850c47"
+  },
+  {
+    "type": "cask",
+    "name": "incident-io",
+    "version": "1.2.17",
+    "desc": "Incident management platform",
+    "homepage": "https://incident.io/",
+    "date": "2026-03-28T11:07:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/incident-io.rb",
+    "commit_sha": "bcc861ed05ba0f6fa3ddad043d7c47a0c90c8fc7"
+  },
+  {
+    "type": "cask",
+    "name": "scribus@devel",
+    "version": "1.7.2",
+    "desc": "Free and open-source page layout program",
+    "homepage": "https://www.scribus.net/",
+    "date": "2026-03-28T11:35:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/scribus@devel.rb",
+    "commit_sha": "4ecf6855c5811ae68cfac069f0c846ce5259d69e"
   }
 ]
