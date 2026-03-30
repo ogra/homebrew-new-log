@@ -127585,5 +127585,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/scribus@devel.rb",
     "commit_sha": "4ecf6855c5811ae68cfac069f0c846ce5259d69e"
+  },
+  {
+    "type": "formula",
+    "name": "nextpnr-ice40",
+    "version": "0.10",
+    "desc": "Portable FPGA place and route tool for Lattice iCE40",
+    "homepage": "https://github.com/YosysHQ/nextpnr",
+    "date": "2026-03-29T04:23:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nextpnr-ice40.rb",
+    "commit_sha": "d82d1d8e1ee7a5fef2840c49edd4725ac4f08b7c"
+  },
+  {
+    "type": "cask",
+    "name": "font-bj-cree",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/silnrsi/font-bjcree",
+    "date": "2026-03-29T00:25:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-b/font-bj-cree.rb",
+    "commit_sha": "f7465c19da1f63b291da498a7e36049877128820"
+  },
+  {
+    "type": "cask",
+    "name": "font-saira-stencil",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/Omnibus-Type/Saira_Stencil",
+    "date": "2026-03-29T00:25:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-saira-stencil.rb",
+    "commit_sha": "7193d8a4daa283abe49fc211c31bcce991b25cc1"
   }
 ]
