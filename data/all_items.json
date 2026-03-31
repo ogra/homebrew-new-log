@@ -127618,5 +127618,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-s/font-saira-stencil.rb",
     "commit_sha": "7193d8a4daa283abe49fc211c31bcce991b25cc1"
+  },
+  {
+    "type": "formula",
+    "name": "proxelar",
+    "version": "0.3.0",
+    "desc": "Man-in-the-Middle proxy for HTTP/HTTPS traffic",
+    "homepage": "https://github.com/emanuele-em/proxelar",
+    "date": "2026-03-30T06:50:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/proxelar.rb",
+    "commit_sha": "d04679b0cf3dc58f42ecfd255d6aed11953a2267"
+  },
+  {
+    "type": "formula",
+    "name": "opentimestamps-client",
+    "version": "0.7.2",
+    "desc": "Create and verify OpenTimestamps proofs",
+    "homepage": "https://opentimestamps.org",
+    "date": "2026-03-30T09:25:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/opentimestamps-client.rb",
+    "commit_sha": "d07ca714f5d52ec70aada741ce80580e9e804db6"
+  },
+  {
+    "type": "cask",
+    "name": "jiba",
+    "version": "1.4.1",
+    "desc": "Apple Music metadata localisation tool",
+    "homepage": "https://jiba.hee.ink/",
+    "date": "2026-03-30T03:52:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/j/jiba.rb",
+    "commit_sha": "92c88f3d0cd5dbe6ddbc022b7917afea68859d19"
+  },
+  {
+    "type": "cask",
+    "name": "claude-code@latest",
+    "version": "2.1.87",
+    "desc": "Terminal-based AI coding assistant",
+    "homepage": "https://www.anthropic.com/claude-code",
+    "date": "2026-03-30T16:24:27Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/claude-code@latest.rb",
+    "commit_sha": "9736ad32c076a4467c1013805cd994fcbcb0c212"
   }
 ]
