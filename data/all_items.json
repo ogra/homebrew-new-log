@@ -127662,5 +127662,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/claude-code@latest.rb",
     "commit_sha": "9736ad32c076a4467c1013805cd994fcbcb0c212"
+  },
+  {
+    "type": "formula",
+    "name": "copilot-language-server",
+    "version": "1.460.0",
+    "desc": "Language Server Protocol server for GitHub Copilot",
+    "homepage": "https://github.com/github/copilot-language-server-release",
+    "date": "2026-03-31T14:51:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/copilot-language-server.rb",
+    "commit_sha": "b764989ea5b14fdadac0bfc2ca2007666cb74a29"
+  },
+  {
+    "type": "cask",
+    "name": "wallspace",
+    "version": "1.4.4",
+    "desc": "Live wallpaper app",
+    "homepage": "https://wallspace.app/",
+    "date": "2026-03-31T11:23:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/wallspace.rb",
+    "commit_sha": "f0b82f6d510b49eb3acde9e19cde844cdcdece03"
   }
 ]
