@@ -127684,5 +127684,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/wallspace.rb",
     "commit_sha": "f0b82f6d510b49eb3acde9e19cde844cdcdece03"
+  },
+  {
+    "type": "formula",
+    "name": "expert",
+    "version": "0.1.0",
+    "desc": "Official Elixir Language Server Protocol implementation",
+    "homepage": "https://expert-lsp.org",
+    "date": "2026-04-01T17:12:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/expert.rb",
+    "commit_sha": "8985c8ec92d9098f1969c6d9b8e092751a2646b7"
+  },
+  {
+    "type": "cask",
+    "name": "proton-meet",
+    "version": "1.0.7",
+    "desc": "Desktop client for Proton Meet",
+    "homepage": "https://proton.me/meet",
+    "date": "2026-04-01T10:40:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/proton-meet.rb",
+    "commit_sha": "b966428cac5d3be03a8577b2fc2d3373188e9dac"
   }
 ]
