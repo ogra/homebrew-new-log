@@ -127706,5 +127706,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/proton-meet.rb",
     "commit_sha": "b966428cac5d3be03a8577b2fc2d3373188e9dac"
+  },
+  {
+    "type": "formula",
+    "name": "yelp-xsl",
+    "version": "49.0",
+    "desc": "Document transformations from Yelp",
+    "homepage": "https://gitlab.gnome.org/GNOME/yelp-xsl",
+    "date": "2026-04-02T00:27:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/y/yelp-xsl.rb",
+    "commit_sha": "72767d737c0c049bd5c37d4b754f0c247a74a0fc"
+  },
+  {
+    "type": "formula",
+    "name": "libpathrs",
+    "version": "0.2.4",
+    "desc": "C-friendly API to make path resolution safer on Linux",
+    "homepage": "https://github.com/cyphar/libpathrs",
+    "date": "2026-04-02T03:23:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libpathrs.rb",
+    "commit_sha": "9c52da7ab504f334d59a50742375103abb6753dd"
+  },
+  {
+    "type": "formula",
+    "name": "git-format-staged",
+    "version": "4.0.1",
+    "desc": "Git command to transform staged files using a formatting command",
+    "homepage": "https://github.com/hallettj/git-format-staged",
+    "date": "2026-04-02T13:37:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/git-format-staged.rb",
+    "commit_sha": "2880ca05f723a11c6165f227275be6ccd829f9f4"
+  },
+  {
+    "type": "formula",
+    "name": "libkiwix",
+    "version": "14.2.0",
+    "desc": "Common code base for all Kiwix ports",
+    "homepage": "https://github.com/kiwix/libkiwix",
+    "date": "2026-04-02T18:01:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libkiwix.rb",
+    "commit_sha": "d04da0bbfe4941139c3926db7f1472d6da089684"
+  },
+  {
+    "type": "formula",
+    "name": "t2sz",
+    "version": "1.2.5",
+    "desc": "Compress a file into a seekable zstd with per-file seeking for tar archives",
+    "homepage": "https://github.com/martinellimarco/t2sz",
+    "date": "2026-04-02T18:01:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/t2sz.rb",
+    "commit_sha": "48da55f2803a8f10c5519cc2b9334cf00bb5b0e0"
+  },
+  {
+    "type": "formula",
+    "name": "rvvm",
+    "version": "0.6",
+    "desc": "RISC-V Virtual Machine",
+    "homepage": "https://github.com/LekKit/RVVM",
+    "date": "2026-04-02T18:01:59Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rvvm.rb",
+    "commit_sha": "d67bbb3a7f587d8c39c64a6715a5c2a686f9885b"
+  },
+  {
+    "type": "cask",
+    "name": "craft-agents",
+    "version": "0.8.2",
+    "desc": "AI assistant for connecting and working across data sources",
+    "homepage": "https://agents.craft.do/",
+    "date": "2026-04-02T07:00:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/craft-agents.rb",
+    "commit_sha": "719c29f1d22461f72ad1d53f29672f9ef6368c83"
+  },
+  {
+    "type": "cask",
+    "name": "remanager",
+    "version": "1.2.5",
+    "desc": "Desktop app for managing mods on reMarkable tablets",
+    "homepage": "https://github.com/rmitchellscott/reManager",
+    "date": "2026-04-02T12:58:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/remanager.rb",
+    "commit_sha": "055f4df235ee018db977e9a168eff1d25df31e03"
+  },
+  {
+    "type": "cask",
+    "name": "font-ioskeley-mono",
+    "version": "2.0.0-beta.1",
+    "desc": "",
+    "homepage": "https://github.com/ahatem/IoskeleyMono",
+    "date": "2026-04-02T13:05:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-i/font-ioskeley-mono.rb",
+    "commit_sha": "ede792a37281e1aa24192a7a84dd0ed83776a54c"
   }
 ]
