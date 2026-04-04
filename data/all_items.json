@@ -127805,5 +127805,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-i/font-ioskeley-mono.rb",
     "commit_sha": "ede792a37281e1aa24192a7a84dd0ed83776a54c"
+  },
+  {
+    "type": "formula",
+    "name": "graalvm",
+    "version": "25.0.2",
+    "desc": "JDK distribution with Graal compiler and Native Image",
+    "homepage": "https://www.graalvm.org/",
+    "date": "2026-04-03T03:21:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/graalvm.rb",
+    "commit_sha": "135b372eeb76ef362c0b2ef2373acc269091f036"
+  },
+  {
+    "type": "formula",
+    "name": "tini",
+    "version": "0.19.0",
+    "desc": "Tiny but valid init for containers",
+    "homepage": "https://github.com/krallin/tini",
+    "date": "2026-04-03T09:48:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tini.rb",
+    "commit_sha": "da7ca9041ea194523f91e7a75aea0a430d6de47a"
+  },
+  {
+    "type": "cask",
+    "name": "radial",
+    "version": "4.1.0",
+    "desc": "Gesture-based launcher for apps, text snippets, and scripts",
+    "homepage": "https://radial.appverge.net/",
+    "date": "2026-04-03T09:43:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/radial.rb",
+    "commit_sha": "31104f8c48d32bbb56685a1a3b92ac1e2a4410e5"
   }
 ]
