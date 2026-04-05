@@ -127838,5 +127838,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/r/radial.rb",
     "commit_sha": "31104f8c48d32bbb56685a1a3b92ac1e2a4410e5"
+  },
+  {
+    "type": "formula",
+    "name": "merve",
+    "version": "1.2.2",
+    "desc": "C++ lexer for extracting named exports from CommonJS modules",
+    "homepage": "https://github.com/nodejs/merve",
+    "date": "2026-04-03T22:53:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/merve.rb",
+    "commit_sha": "fe5a928d653bda09cbf0fbb506ba3d077b2faeed"
+  },
+  {
+    "type": "formula",
+    "name": "dartaotruntime",
+    "version": "3.11.4",
+    "desc": "Command-line tool for running AOT-compiled snapshots of Dart code",
+    "homepage": "https://dart.dev/tools/dartaotruntime",
+    "date": "2026-04-04T01:27:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dartaotruntime.rb",
+    "commit_sha": "2f3112bc081282a0694be025492f59bd122e301b"
+  },
+  {
+    "type": "cask",
+    "name": "super",
+    "version": "0.3.0",
+    "desc": "Analytics database that fuses structured and semi-structured data",
+    "homepage": "https://github.com/brimdata/super",
+    "date": "2026-04-04T02:05:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/super.rb",
+    "commit_sha": "54ffd30a73d896a44870fd9e3223702eb54dd917"
   }
 ]
