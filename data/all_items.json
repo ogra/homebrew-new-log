@@ -127871,5 +127871,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/super.rb",
     "commit_sha": "54ffd30a73d896a44870fd9e3223702eb54dd917"
+  },
+  {
+    "type": "cask",
+    "name": "font-strichpunkt-sans",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
+    "date": "2026-04-05T00:25:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-strichpunkt-sans.rb",
+    "commit_sha": "cfb7e11ed456aa4556f96ed5e03472ec526b8643"
+  },
+  {
+    "type": "cask",
+    "name": "vibeproxy",
+    "version": "1.8.131",
+    "desc": "Menu bar app for using AI subscriptions with coding tools",
+    "homepage": "https://github.com/automazeio/vibeproxy",
+    "date": "2026-04-05T04:30:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vibeproxy.rb",
+    "commit_sha": "25634c8af48aa3fc371499018af9bd9eaff17218"
   }
 ]
