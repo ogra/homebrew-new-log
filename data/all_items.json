@@ -127893,5 +127893,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/v/vibeproxy.rb",
     "commit_sha": "25634c8af48aa3fc371499018af9bd9eaff17218"
+  },
+  {
+    "type": "formula",
+    "name": "rustpython",
+    "version": "0.5.0",
+    "desc": "Python Interpreter written in Rust",
+    "homepage": "https://rustpython.github.io",
+    "date": "2026-04-06T01:13:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rustpython.rb",
+    "commit_sha": "31a70344df19c46e0d7c8e1df96144c82bdd9525"
+  },
+  {
+    "type": "formula",
+    "name": "sarif-fmt",
+    "version": "0.8.0",
+    "desc": "Pretty print SARIF files to easy human readable output",
+    "homepage": "https://docs.rs/crate/sarif-fmt/latest",
+    "date": "2026-04-06T01:38:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sarif-fmt.rb",
+    "commit_sha": "1aa7031176dce5364b68ee6c9b74a863ca0c5c11"
+  },
+  {
+    "type": "formula",
+    "name": "skip",
+    "version": "1.8.4",
+    "desc": "Tool for building Swift apps for Android",
+    "homepage": "https://skip.dev",
+    "date": "2026-04-06T02:13:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/skip.rb",
+    "commit_sha": "c0f03f299644dadd8d26c850d00b3c553105cee8"
   }
 ]
