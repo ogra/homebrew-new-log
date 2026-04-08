@@ -127926,5 +127926,82 @@
     "source_repo": "homebrew-core",
     "path": "Formula/s/skip.rb",
     "commit_sha": "c0f03f299644dadd8d26c850d00b3c553105cee8"
+  },
+  {
+    "type": "formula",
+    "name": "apache-arrow-adbc-glib",
+    "version": "23",
+    "desc": "GLib bindings for Apache Arrow ADBC",
+    "homepage": "https://arrow.apache.org/adbc",
+    "date": "2026-04-07T15:35:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/apache-arrow-adbc-glib.rb",
+    "commit_sha": "3b544dbf056b09b03a97f1750c327449b9e72017"
+  },
+  {
+    "type": "cask",
+    "name": "cadran",
+    "version": "1.2.12",
+    "desc": "Desktop clock rendered behind your icons",
+    "homepage": "https://cadranapp.com/",
+    "date": "2026-04-07T22:57:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cadran.rb",
+    "commit_sha": "c26a96d55e4af79d8aaf9b8d064215417a17d017"
+  },
+  {
+    "type": "cask",
+    "name": "backblaze-restore",
+    "version": "10.0.0.1030",
+    "desc": "Computer backup restore client",
+    "homepage": "https://backblaze.com/",
+    "date": "2026-04-07T23:02:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/backblaze-restore.rb",
+    "commit_sha": "941890f5886dae3e24b2aaf7e478ed0b9d6056b8"
+  },
+  {
+    "type": "cask",
+    "name": "happ",
+    "version": "2.7.0",
+    "desc": "Platform for building proxies to bypass network restrictions",
+    "homepage": "https://www.happ.su/main/",
+    "date": "2026-04-07T23:13:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/happ.rb",
+    "commit_sha": "f10b8abfe735bd193a1a7cc06260ea99128b2e5a"
+  },
+  {
+    "type": "cask",
+    "name": "plamo-translate",
+    "version": "0.4.3",
+    "desc": "Translator focused on Japanese",
+    "homepage": "https://translate.preferredai.jp/",
+    "date": "2026-04-07T23:20:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/plamo-translate.rb",
+    "commit_sha": "149179f509e9607ee4a999682581c176bc5b2346"
+  },
+  {
+    "type": "cask",
+    "name": "rayon",
+    "version": "2.12.0",
+    "desc": "AI-powered drawing for interior designers and architects",
+    "homepage": "https://www.rayon.design/download",
+    "date": "2026-04-07T23:22:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rayon.rb",
+    "commit_sha": "ee13f7ff7872f80447d949e5b31e89e83bdbb3f1"
+  },
+  {
+    "type": "cask",
+    "name": "clearance",
+    "version": "1.3.1",
+    "desc": "Markdown viewer and editor",
+    "homepage": "https://github.com/prime-radiant-inc/clearance/blob/main/apps/macos/README.md",
+    "date": "2026-04-07T23:27:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/clearance.rb",
+    "commit_sha": "123b2a06d3f11c226509120df305c98884d3a927"
   }
 ]
