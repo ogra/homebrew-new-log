@@ -128003,5 +128003,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/clearance.rb",
     "commit_sha": "123b2a06d3f11c226509120df305c98884d3a927"
+  },
+  {
+    "type": "formula",
+    "name": "overturemaps",
+    "version": "0.20.0",
+    "desc": "Python tools for interacting with Overture Maps data",
+    "homepage": "https://overturemaps.org",
+    "date": "2026-04-08T16:12:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/overturemaps.rb",
+    "commit_sha": "6bc99fc133716ca7aa6ca3e555b272b6344b7ba9"
+  },
+  {
+    "type": "formula",
+    "name": "sheets",
+    "version": "0.2.0",
+    "desc": "Terminal based spreadsheet tool",
+    "homepage": "https://github.com/maaslalani/sheets",
+    "date": "2026-04-08T16:19:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sheets.rb",
+    "commit_sha": "15dc57f075a85d0b24e9f033e4f6843c6df694b1"
+  },
+  {
+    "type": "formula",
+    "name": "nbytes",
+    "version": "0.1.3",
+    "desc": "Library of byte handling functions extracted from Node.js core",
+    "homepage": "https://github.com/nodejs/nbytes",
+    "date": "2026-04-08T20:17:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nbytes.rb",
+    "commit_sha": "fc0c12a6562f8eb6635e3d5487976ae13134ea8a"
+  },
+  {
+    "type": "cask",
+    "name": "vibe-island",
+    "version": "1.0.22",
+    "desc": "Dynamic island AI agent utility",
+    "homepage": "https://vibeisland.app/",
+    "date": "2026-04-08T09:45:03Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vibe-island.rb",
+    "commit_sha": "f6feb1fe4bfa3fff394748b5a12bed721d221aba"
+  },
+  {
+    "type": "cask",
+    "name": "hive-app",
+    "version": "1.0.96",
+    "desc": "AI agent orchestrator for parallel coding across projects",
+    "homepage": "https://github.com/morapelker/hive",
+    "date": "2026-04-08T13:48:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hive-app.rb",
+    "commit_sha": "aeea6d988f4da0be1fd28933c556c8da2da3119d"
   }
 ]
