@@ -128058,5 +128058,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/h/hive-app.rb",
     "commit_sha": "aeea6d988f4da0be1fd28933c556c8da2da3119d"
+  },
+  {
+    "type": "formula",
+    "name": "dart-sass",
+    "version": "1.99.0",
+    "desc": "Reference implementation of Sass, written in Dart",
+    "homepage": "https://sass-lang.com/dart-sass",
+    "date": "2026-04-09T09:11:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dart-sass.rb",
+    "commit_sha": "72d0cebe88b3c647b4305acfd53faa34f2a940d2"
+  },
+  {
+    "type": "cask",
+    "name": "appgridmac",
+    "version": "1.1.8",
+    "desc": "AI-assisted Launchpad replacement",
+    "homepage": "https://appgridmac.com/",
+    "date": "2026-04-09T13:52:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/appgridmac.rb",
+    "commit_sha": "2c50d6e0a47968d5e026b806e6a616aa0a9fe989"
+  },
+  {
+    "type": "cask",
+    "name": "intiface-central",
+    "version": "3.0.4,40",
+    "desc": "Frontend application for the Buttplug sex toy control library",
+    "homepage": "https://github.com/intiface/intiface-central",
+    "date": "2026-04-09T13:55:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/intiface-central.rb",
+    "commit_sha": "f78afc89eb3ffbfc1142fc1ca24d600f6d5c1782"
   }
 ]
