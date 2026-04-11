@@ -128091,5 +128091,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/intiface-central.rb",
     "commit_sha": "f78afc89eb3ffbfc1142fc1ca24d600f6d5c1782"
+  },
+  {
+    "type": "formula",
+    "name": "resticprofile",
+    "version": "0.33.0",
+    "desc": "Configuration profiles manager and scheduler for restic backup",
+    "homepage": "https://creativeprojects.github.io/resticprofile/",
+    "date": "2026-04-10T15:16:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/resticprofile.rb",
+    "commit_sha": "a117e5d0d351e898c57fb9cc07445f6faab0bc36"
+  },
+  {
+    "type": "formula",
+    "name": "fvm",
+    "version": "4.0.5",
+    "desc": "Manage Flutter SDK versions per project",
+    "homepage": "https://fvm.app",
+    "date": "2026-04-10T16:44:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fvm.rb",
+    "commit_sha": "2029621100f6ea15d670dd03304b2ddd7f072dc4"
+  },
+  {
+    "type": "cask",
+    "name": "worksheet-crafter",
+    "version": "2026.1.2",
+    "desc": "Worksheet and lesson material creator",
+    "homepage": "https://worksheetcrafter.com/",
+    "date": "2026-04-10T13:03:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/worksheet-crafter.rb",
+    "commit_sha": "79daedb3f23d477b70981a429089270afef09840"
   }
 ]
