@@ -128124,5 +128124,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/worksheet-crafter.rb",
     "commit_sha": "79daedb3f23d477b70981a429089270afef09840"
+  },
+  {
+    "type": "cask",
+    "name": "baoliandeng",
+    "version": "5.2",
+    "desc": "VPN proxy powered by Mihomo (Clash Meta)",
+    "homepage": "https://madeye.github.io/BaoLianDeng/",
+    "date": "2026-04-11T06:10:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/baoliandeng.rb",
+    "commit_sha": "65281c5fb85ad491548289071547178420b917cb"
+  },
+  {
+    "type": "cask",
+    "name": "tablen",
+    "version": "1.21.3",
+    "desc": "Native SQL client",
+    "homepage": "https://tablen.app/",
+    "date": "2026-04-11T06:42:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tablen.rb",
+    "commit_sha": "d04dd24c928aadbce76d9eef8807dd5a74fec7e9"
+  },
+  {
+    "type": "cask",
+    "name": "idevice-pair",
+    "version": "0.1.9-rppairing",
+    "desc": "Generate pair records for iOS devices",
+    "homepage": "https://github.com/jkcoxson/idevice_pair",
+    "date": "2026-04-11T07:55:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/idevice-pair.rb",
+    "commit_sha": "1ec711c3d35ca9ccf9199e1f511fd67dadbcd7d6"
+  },
+  {
+    "type": "cask",
+    "name": "rowboat",
+    "version": "0.2.5",
+    "desc": "Open-source AI coworker, with memory",
+    "homepage": "https://www.rowboatlabs.com/",
+    "date": "2026-04-11T08:02:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rowboat.rb",
+    "commit_sha": "8c8a2eceedd20898652a22d1f1b9b956a0c08ac3"
+  },
+  {
+    "type": "cask",
+    "name": "paper-design",
+    "version": "0.1.12,2604116ylbmu5uc",
+    "desc": "Design tool for creating interfaces and prototypes",
+    "homepage": "https://paper.design/",
+    "date": "2026-04-11T08:02:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/paper-design.rb",
+    "commit_sha": "6f49e25e44132c18233cd9182483875e2aa5f4c8"
+  },
+  {
+    "type": "cask",
+    "name": "rockxy-community",
+    "version": "0.6.0,8",
+    "desc": "HTTP proxy",
+    "homepage": "https://rockxy.io/",
+    "date": "2026-04-11T12:16:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rockxy-community.rb",
+    "commit_sha": "6f1888d518beff855745d03f2fec5666cd3e4df8"
+  },
+  {
+    "type": "cask",
+    "name": "copilot-language-server",
+    "version": "1.467.0",
+    "desc": "Language Server Protocol server for GitHub Copilot",
+    "homepage": "https://github.com/github/copilot-language-server-release",
+    "date": "2026-04-11T16:30:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/copilot-language-server.rb",
+    "commit_sha": "e5d3290149a7dc4f46dd5175706962cb7ece33ec"
   }
 ]
