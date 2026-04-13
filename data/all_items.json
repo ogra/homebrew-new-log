@@ -128201,5 +128201,148 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/copilot-language-server.rb",
     "commit_sha": "e5d3290149a7dc4f46dd5175706962cb7ece33ec"
+  },
+  {
+    "type": "formula",
+    "name": "rpiboot",
+    "version": "162618",
+    "desc": "Raspberry Pi USB boot tool for Compute Modules",
+    "homepage": "https://github.com/raspberrypi/usbboot",
+    "date": "2026-04-12T01:42:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rpiboot.rb",
+    "commit_sha": "b78e20e2416075488a7016de42c3b35198323dad"
+  },
+  {
+    "type": "formula",
+    "name": "apfel",
+    "version": "1.0.1",
+    "desc": "Apple Intelligence from the command-line, with OpenAi-compatible API server",
+    "homepage": "https://apfel.franzai.com",
+    "date": "2026-04-12T11:08:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/apfel.rb",
+    "commit_sha": "2f3291c3adbcbb0c617867f83ea52d86f99965bb"
+  },
+  {
+    "type": "formula",
+    "name": "libheif-plugins",
+    "version": "1.21.2",
+    "desc": "ISO/IEC 23008-12:2017 HEIF file format decoder and encoder",
+    "homepage": "https://www.libde265.org/",
+    "date": "2026-04-12T16:51:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libheif-plugins.rb",
+    "commit_sha": "e3df57fd399a78dde319144a77c7d3c830246b9a"
+  },
+  {
+    "type": "cask",
+    "name": "font-suez-one",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Suez+One",
+    "date": "2026-04-12T00:26:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-suez-one.rb",
+    "commit_sha": "861d63db952efed041ae79c77b8cfa1d8c7b2cb2"
+  },
+  {
+    "type": "cask",
+    "name": "font-sulphur-point",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Sulphur+Point",
+    "date": "2026-04-12T00:26:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-sulphur-point.rb",
+    "commit_sha": "cc9d16dabbb23d4d0b617ef9ed488e7ef75a7358"
+  },
+  {
+    "type": "cask",
+    "name": "font-sumana",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Sumana",
+    "date": "2026-04-12T00:26:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-sumana.rb",
+    "commit_sha": "5543bd159b84c5e4c11428e021cb53a1302c8e0f"
+  },
+  {
+    "type": "cask",
+    "name": "font-sura",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Sura",
+    "date": "2026-04-12T00:26:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-sura.rb",
+    "commit_sha": "8de7ccdbbd1e225c458f8fda96a9edfa7d18aad7"
+  },
+  {
+    "type": "cask",
+    "name": "font-suranna",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Suranna",
+    "date": "2026-04-12T00:26:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-suranna.rb",
+    "commit_sha": "5d896c22c344313f94b854b74e61d05ae9fafcd5"
+  },
+  {
+    "type": "cask",
+    "name": "font-suravaram",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Suravaram",
+    "date": "2026-04-12T00:26:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-suravaram.rb",
+    "commit_sha": "eb37d4b91608e9f208e0ce29fee3afb0f7c49a41"
+  },
+  {
+    "type": "cask",
+    "name": "font-syne-mono",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Syne+Mono",
+    "date": "2026-04-12T00:26:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-syne-mono.rb",
+    "commit_sha": "7fb6e8f543c0b8109f5f110e006b9054081da21d"
+  },
+  {
+    "type": "cask",
+    "name": "font-syne-tactile",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Syne+Tactile",
+    "date": "2026-04-12T00:26:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-syne-tactile.rb",
+    "commit_sha": "73a24101eca2e3a3e678882274d161c2d3151297"
+  },
+  {
+    "type": "cask",
+    "name": "orchard",
+    "version": "1.11.2",
+    "desc": "Native GUI for Apple Containers",
+    "homepage": "https://github.com/andrew-waters/orchard",
+    "date": "2026-04-12T04:14:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/orchard.rb",
+    "commit_sha": "40da097f6e249f98589f25cc9793dd635c7beef3"
+  },
+  {
+    "type": "cask",
+    "name": "cc-switch",
+    "version": "3.13.0",
+    "desc": "Configuration manager for AI coding agents",
+    "homepage": "https://github.com/farion1231/cc-switch",
+    "date": "2026-04-12T07:40:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cc-switch.rb",
+    "commit_sha": "f8747440ab6825bc6529018af5d5c766611b0838"
   }
 ]
