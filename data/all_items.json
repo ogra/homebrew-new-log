@@ -128344,5 +128344,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/cc-switch.rb",
     "commit_sha": "f8747440ab6825bc6529018af5d5c766611b0838"
+  },
+  {
+    "type": "cask",
+    "name": "pluralplay-flclashx",
+    "version": "0.3.2",
+    "desc": "Cross-platform proxy client based on ClashMeta",
+    "homepage": "https://github.com/pluralplay/FlClashX",
+    "date": "2026-04-13T11:50:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pluralplay-flclashx.rb",
+    "commit_sha": "9a8021d925f31b4d3e8e0f8c0febd6ffdabb3867"
+  },
+  {
+    "type": "cask",
+    "name": "equibop",
+    "version": "3.1.9",
+    "desc": "Custom Discord App",
+    "homepage": "https://github.com/Equicord/Equibop",
+    "date": "2026-04-13T11:52:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/equibop.rb",
+    "commit_sha": "8cf08511a2961db1110dce0b4cf13cf398128ae1"
   }
 ]
