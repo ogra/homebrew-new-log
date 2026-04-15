@@ -128366,5 +128366,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/e/equibop.rb",
     "commit_sha": "8cf08511a2961db1110dce0b4cf13cf398128ae1"
+  },
+  {
+    "type": "cask",
+    "name": "fluidvoice",
+    "version": "1.5.12",
+    "desc": "Offline voice-to-text dictation app with AI enhancement",
+    "homepage": "https://altic.dev/fluid",
+    "date": "2026-04-14T04:37:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/fluidvoice.rb",
+    "commit_sha": "08fa3c6522682ae2122860b6a9c0bb2f0dbbbb89"
+  },
+  {
+    "type": "cask",
+    "name": "xdeck",
+    "version": "3.0",
+    "desc": "TweetDeck-style X/Twitter client",
+    "homepage": "https://github.com/morishin/XDeck",
+    "date": "2026-04-14T13:38:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/x/xdeck.rb",
+    "commit_sha": "e983cda795d43b8740afc582450342d26178f4ec"
   }
 ]
