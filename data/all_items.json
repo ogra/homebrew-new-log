@@ -128388,5 +128388,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/x/xdeck.rb",
     "commit_sha": "e983cda795d43b8740afc582450342d26178f4ec"
+  },
+  {
+    "type": "formula",
+    "name": "zig@0.15",
+    "version": "0.15.2",
+    "desc": "Programming language designed for robustness, optimality, and clarity",
+    "homepage": "https://ziglang.org/",
+    "date": "2026-04-15T03:25:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zig@0.15.rb",
+    "commit_sha": "99767b1026d7dfa86baae679fb16668bfd0a422d"
+  },
+  {
+    "type": "formula",
+    "name": "pocket-id",
+    "version": "2.5.0",
+    "desc": "Open-source identity provider for secure user authentication",
+    "homepage": "https://pocket-id.org",
+    "date": "2026-04-15T16:15:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pocket-id.rb",
+    "commit_sha": "3a8294e7c538f72f134914188bf998fbce6cc2d5"
+  },
+  {
+    "type": "formula",
+    "name": "paneru",
+    "version": "0.4.0",
+    "desc": "Sliding, tiling window manager for MacOS",
+    "homepage": "https://github.com/karinushka/paneru",
+    "date": "2026-04-15T20:04:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/paneru.rb",
+    "commit_sha": "5511030be7f81d777189dca64cc8033f63c11796"
+  },
+  {
+    "type": "cask",
+    "name": "puremac",
+    "version": "2.0.0",
+    "desc": "Open-source application manager and system cleaner",
+    "homepage": "https://github.com/momenbasel/PureMac",
+    "date": "2026-04-14T23:51:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/puremac.rb",
+    "commit_sha": "0eb6fdf1111b40c01312a19f5dcf54c765f5108e"
+  },
+  {
+    "type": "cask",
+    "name": "koharu",
+    "version": "0.44.5",
+    "desc": "ML-powered manga translator",
+    "homepage": "https://koharu.rs/",
+    "date": "2026-04-15T05:43:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/koharu.rb",
+    "commit_sha": "0a4ecde4c39b2758c299207c7a2ff696ac381c54"
+  },
+  {
+    "type": "cask",
+    "name": "macshot",
+    "version": "4.0.4",
+    "desc": "Screenshot and screen recording tool",
+    "homepage": "https://github.com/sw33tLie/macshot",
+    "date": "2026-04-15T11:41:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/macshot.rb",
+    "commit_sha": "b0827ce7faf111d1e3e02261c01c6693b2725cc2"
+  },
+  {
+    "type": "cask",
+    "name": "renameclick",
+    "version": "2.7.5",
+    "desc": "Local-first AI app for file renaming and organisation",
+    "homepage": "https://rename.click/",
+    "date": "2026-04-15T14:46:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/renameclick.rb",
+    "commit_sha": "ffb80ec0abea318189c92d0bcf7cca1ae3c7f72f"
+  },
+  {
+    "type": "cask",
+    "name": "google-gemini",
+    "version": "1.45.6.217",
+    "desc": "Native desktop AI assistant from Google",
+    "homepage": "https://gemini.google/",
+    "date": "2026-04-15T20:01:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/google-gemini.rb",
+    "commit_sha": "946ba14cea43e2ad96579f16bbc743365b4b798b"
   }
 ]
