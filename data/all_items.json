@@ -128476,5 +128476,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/google-gemini.rb",
     "commit_sha": "946ba14cea43e2ad96579f16bbc743365b4b798b"
+  },
+  {
+    "type": "cask",
+    "name": "rockxy",
+    "version": "0.8.0,11",
+    "desc": "HTTP proxy",
+    "homepage": "https://rockxy.io/",
+    "date": "2026-04-16T12:16:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rockxy.rb",
+    "commit_sha": "f9b0dbfe795cae92849b3b9b01eeca596af683a1"
+  },
+  {
+    "type": "cask",
+    "name": "unblocked",
+    "version": "1.0.2626",
+    "desc": "AI-powered developer collaboration platform",
+    "homepage": "https://getunblocked.com/",
+    "date": "2026-04-16T14:02:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/unblocked.rb",
+    "commit_sha": "f0f9011f97108805e083bdcfac2661e44b7ddf86"
+  },
+  {
+    "type": "cask",
+    "name": "intellij-idea-oss",
+    "version": "2026.1",
+    "desc": "Open-source edition of IntelliJ IDEA",
+    "homepage": "https://github.com/JetBrains/intellij-community",
+    "date": "2026-04-16T22:26:27Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/intellij-idea-oss.rb",
+    "commit_sha": "94a6a0af052f2fc217231615aad92e726ec8cfd1"
   }
 ]
