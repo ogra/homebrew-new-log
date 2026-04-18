@@ -128509,5 +128509,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/intellij-idea-oss.rb",
     "commit_sha": "94a6a0af052f2fc217231615aad92e726ec8cfd1"
+  },
+  {
+    "type": "formula",
+    "name": "sheen-bidi",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-04-17T04:25:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sheen-bidi.rb",
+    "commit_sha": "e43f7dd6e677e6ef554a05fd48b1bdec854c8c9b"
+  },
+  {
+    "type": "formula",
+    "name": "odinfmt",
+    "version": "dev-2026-03",
+    "desc": "Formatter for The Odin Programming Language",
+    "homepage": "https://github.com/DanielGavin/ols",
+    "date": "2026-04-17T11:14:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/odinfmt.rb",
+    "commit_sha": "1f169d12593a983a119ba95e5115d5b7ba682ba1"
+  },
+  {
+    "type": "formula",
+    "name": "ols",
+    "version": "dev-2026-03",
+    "desc": "Language server for The Odin Programming Language",
+    "homepage": "https://github.com/DanielGavin/ols",
+    "date": "2026-04-17T11:14:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/ols.rb",
+    "commit_sha": "1f169d12593a983a119ba95e5115d5b7ba682ba1"
   }
 ]
