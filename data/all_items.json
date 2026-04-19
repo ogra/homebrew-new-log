@@ -128542,5 +128542,27 @@
     "source_repo": "homebrew-core",
     "path": "Formula/o/ols.rb",
     "commit_sha": "1f169d12593a983a119ba95e5115d5b7ba682ba1"
+  },
+  {
+    "type": "formula",
+    "name": "cc-connect",
+    "version": "1.2.1",
+    "desc": "Bridges local AI coding agents to messaging platforms",
+    "homepage": "https://github.com/chenhg5/cc-connect",
+    "date": "2026-04-18T01:16:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cc-connect.rb",
+    "commit_sha": "266d8a111527c525ea352f2174c220dd851d8965"
+  },
+  {
+    "type": "cask",
+    "name": "t3-code@nightly",
+    "version": "0.0.21-nightly.20260417.58",
+    "desc": "Minimal GUI for AI code agents",
+    "homepage": "https://t3.codes/",
+    "date": "2026-04-18T02:25:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/t3-code@nightly.rb",
+    "commit_sha": "5b7daa4b81ce79715e87d0df108533abce58c38c"
   }
 ]
