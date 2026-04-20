@@ -128564,5 +128564,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/t3-code@nightly.rb",
     "commit_sha": "5b7daa4b81ce79715e87d0df108533abce58c38c"
+  },
+  {
+    "type": "formula",
+    "name": "openssl@4",
+    "version": "4.0.0",
+    "desc": "Cryptography and SSL/TLS Toolkit",
+    "homepage": "https://openssl-library.org",
+    "date": "2026-04-19T16:30:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/openssl@4.rb",
+    "commit_sha": "2c360366b6b1311aea873543da39e3d2a609f5e7"
+  },
+  {
+    "type": "cask",
+    "name": "font-bjcree",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/silnrsi/font-bjcree",
+    "date": "2026-04-19T00:28:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-b/font-bjcree.rb",
+    "commit_sha": "317c51c0bf169e6b3b5964a5b19de7f76ca6e56b"
+  },
+  {
+    "type": "cask",
+    "name": "font-estedad",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/aminabedi68/Estedad",
+    "date": "2026-04-19T00:28:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-e/font-estedad.rb",
+    "commit_sha": "99c5645693a681ade5c6cd5ef2cb7070e0848233"
+  },
+  {
+    "type": "cask",
+    "name": "openin",
+    "version": "4.3.5-1",
+    "desc": "Route links, emails, and files to your preferred apps",
+    "homepage": "https://loshadki.app/openin4/",
+    "date": "2026-04-19T09:11:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openin.rb",
+    "commit_sha": "5d7a337c22c3b851a85f44361c3699b6d8a29dab"
   }
 ]
