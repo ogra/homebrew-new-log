@@ -128608,5 +128608,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openin.rb",
     "commit_sha": "5d7a337c22c3b851a85f44361c3699b6d8a29dab"
+  },
+  {
+    "type": "cask",
+    "name": "mujoco",
+    "version": "3.7.0",
+    "desc": "General purpose physics engine",
+    "homepage": "https://mujoco.org/",
+    "date": "2026-04-20T08:11:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mujoco.rb",
+    "commit_sha": "6329d8930c363734c5a9714430ad7d965a213bab"
+  },
+  {
+    "type": "cask",
+    "name": "cavalry",
+    "version": "2.7",
+    "desc": "Procedural motion design and animation software",
+    "homepage": "https://cavalry.studio/",
+    "date": "2026-04-20T10:58:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cavalry.rb",
+    "commit_sha": "28bc864913363a2e9e747a94af9304afb5944d0a"
   }
 ]
