@@ -128630,5 +128630,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/cavalry.rb",
     "commit_sha": "28bc864913363a2e9e747a94af9304afb5944d0a"
+  },
+  {
+    "type": "formula",
+    "name": "vite-plus",
+    "version": "0.1.19",
+    "desc": "Unified toolchain and entry point for web development",
+    "homepage": "https://viteplus.dev",
+    "date": "2026-04-22T02:22:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vite-plus.rb",
+    "commit_sha": "8ed87e14fe24a2bf03e0532014bed0cd07bab5ac"
+  },
+  {
+    "type": "formula",
+    "name": "try",
+    "version": "1.9.3",
+    "desc": "Quickly manage and navigate project directories for experiments",
+    "homepage": "https://github.com/tobi/try",
+    "date": "2026-04-22T04:57:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/try.rb",
+    "commit_sha": "83814b22b231caee23ef0487269e8a31b85bc5fc"
+  },
+  {
+    "type": "cask",
+    "name": "hop",
+    "version": "0.1.6",
+    "desc": "View and edit HWP documents",
+    "homepage": "https://golbin.github.io/hop/",
+    "date": "2026-04-22T18:43:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hop.rb",
+    "commit_sha": "1010edc59cdf37412e646ae45dfc98312d4de18c"
   }
 ]
