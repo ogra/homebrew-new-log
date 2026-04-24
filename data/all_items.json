@@ -128663,5 +128663,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/h/hop.rb",
     "commit_sha": "1010edc59cdf37412e646ae45dfc98312d4de18c"
+  },
+  {
+    "type": "formula",
+    "name": "forgecode",
+    "version": "2.12.2",
+    "desc": "AI-enhanced terminal development environment",
+    "homepage": "https://forgecode.dev/",
+    "date": "2026-04-23T08:11:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/forgecode.rb",
+    "commit_sha": "b14e4e1ac677e750c069ca5336881f7d8495983d"
+  },
+  {
+    "type": "formula",
+    "name": "lazymake",
+    "version": "0.4.1",
+    "desc": "Modern TUI for Makefiles",
+    "homepage": "https://lazymake.vercel.app/",
+    "date": "2026-04-23T18:24:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lazymake.rb",
+    "commit_sha": "e2738ab3f26cf993956f459d502aeff80453f4b9"
+  },
+  {
+    "type": "formula",
+    "name": "floresta",
+    "version": "0.9.0",
+    "desc": "Lightweight and embeddable Bitcoin client, built for sovereignty",
+    "homepage": "https://getfloresta.org",
+    "date": "2026-04-23T19:44:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/floresta.rb",
+    "commit_sha": "bd539c0d18d62a8b5d118bfc636f38d391b0acb9"
+  },
+  {
+    "type": "cask",
+    "name": "paranoia-file-text-encryption",
+    "version": "16.1.43",
+    "desc": "File and text encryptor with steganography and post-quantum key exchange",
+    "homepage": "https://paranoiaworks.mobi/pfte/",
+    "date": "2026-04-23T09:10:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/paranoia-file-text-encryption.rb",
+    "commit_sha": "9aa725ef4385c3372ee123475232360271483523"
   }
 ]
