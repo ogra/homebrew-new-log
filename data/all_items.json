@@ -128707,5 +128707,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/paranoia-file-text-encryption.rb",
     "commit_sha": "9aa725ef4385c3372ee123475232360271483523"
+  },
+  {
+    "type": "formula",
+    "name": "mcp-remote",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-04-24T03:13:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mcp-remote.rb",
+    "commit_sha": "a52a8b4da0c369a2e5a74d527a199b590e980da7"
+  },
+  {
+    "type": "formula",
+    "name": "sdl3_mixer",
+    "version": "3.2.0",
+    "desc": "Sample multi-channel audio mixer library",
+    "homepage": "https://github.com/libsdl-org/SDL_mixer",
+    "date": "2026-04-24T08:22:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sdl3_mixer.rb",
+    "commit_sha": "4cda0fdcd8184b0f56cbcc8162aec1f556217513"
+  },
+  {
+    "type": "formula",
+    "name": "erfa",
+    "version": "2.0.1",
+    "desc": "Essential Routines for Fundamental Astronomy",
+    "homepage": "https://github.com/liberfa/erfa",
+    "date": "2026-04-24T14:39:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/erfa.rb",
+    "commit_sha": "f8a78746ae19dcf7fb2f43433a22540be30ea91f"
+  },
+  {
+    "type": "formula",
+    "name": "rabbitmqadmin",
+    "version": "2.29.0",
+    "desc": "Command-line tool for RabbitMQ that uses the HTTP API",
+    "homepage": "https://www.rabbitmq.com/docs/management-cli",
+    "date": "2026-04-24T14:45:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rabbitmqadmin.rb",
+    "commit_sha": "ff5081f32556697798df197fa3875553c16157bf"
+  },
+  {
+    "type": "cask",
+    "name": "serverbox",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-04-24T05:56:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/serverbox.rb",
+    "commit_sha": "33949615043a696174e88eca71d0e9bde962077b"
+  },
+  {
+    "type": "cask",
+    "name": "gopher64",
+    "version": "1.1.18",
+    "desc": "N64 emulator",
+    "homepage": "https://github.com/gopher64/gopher64",
+    "date": "2026-04-24T09:32:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gopher64.rb",
+    "commit_sha": "9f4e4685e1daafb59e6ffffce05e71981af00ee1"
+  },
+  {
+    "type": "cask",
+    "name": "tolaria",
+    "version": "2026.4.24",
+    "desc": "Markdown knowledgebase manager",
+    "homepage": "https://tolaria.md/",
+    "date": "2026-04-24T12:11:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tolaria.rb",
+    "commit_sha": "2b2cdf0089b6e1b6a7ff76cc348a4541c4b9c229"
+  },
+  {
+    "type": "cask",
+    "name": "server-box",
+    "version": "1.0.1365",
+    "desc": "App for monitoring server status with SSH terminal, SFTP, Container management",
+    "homepage": "https://github.com/lollipopkit/flutter_server_box",
+    "date": "2026-04-24T14:52:48Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/server-box.rb",
+    "commit_sha": "5d6c58496baf289e1dc4476c2a0d2b18da71758e"
+  },
+  {
+    "type": "cask",
+    "name": "sharefile",
+    "version": "26.04.20,20p795",
+    "desc": "Client for the Progress ShareFile storage service",
+    "homepage": "https://www.sharefile.com/",
+    "date": "2026-04-24T19:55:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sharefile.rb",
+    "commit_sha": "901ef330c594d3ac2cd589fb94d49d9b0f209d58"
   }
 ]
