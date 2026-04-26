@@ -128806,5 +128806,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sharefile.rb",
     "commit_sha": "901ef330c594d3ac2cd589fb94d49d9b0f209d58"
+  },
+  {
+    "type": "formula",
+    "name": "hf-mount",
+    "version": "0.4.1",
+    "desc": "Mount Hugging Face Buckets and repos as local filesystems",
+    "homepage": "https://github.com/huggingface/hf-mount",
+    "date": "2026-04-25T02:40:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hf-mount.rb",
+    "commit_sha": "f56f8eecb5cdb7550e068c3e49e4dd1092d89809"
+  },
+  {
+    "type": "cask",
+    "name": "iplay",
+    "version": "1.2.14",
+    "desc": "Multimedia player",
+    "homepage": "https://iplay.saltpi.cn/",
+    "date": "2026-04-25T03:33:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/iplay.rb",
+    "commit_sha": "bff79ed1ee81979d10f0100a0e499e7ecee4582d"
   }
 ]
