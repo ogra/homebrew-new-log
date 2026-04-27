@@ -128828,5 +128828,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/iplay.rb",
     "commit_sha": "bff79ed1ee81979d10f0100a0e499e7ecee4582d"
+  },
+  {
+    "type": "cask",
+    "name": "rustcast",
+    "version": "0.7.6",
+    "desc": "Application and utility launcher",
+    "homepage": "https://rustcast.app/",
+    "date": "2026-04-26T08:49:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rustcast.rb",
+    "commit_sha": "a14368e99a389097495987b84aef04fad30d9a5d"
+  },
+  {
+    "type": "cask",
+    "name": "ua-connect",
+    "version": "1.9.3,3637",
+    "desc": "Software installer and device manager for Universal Audio products",
+    "homepage": "https://www.uaudio.com/pages/download-ua-connect",
+    "date": "2026-04-26T08:54:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/ua-connect.rb",
+    "commit_sha": "5e98f2ff70e6e39b5e84ab84cf1c2c0a7f2b2d55"
   }
 ]
