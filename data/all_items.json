@@ -128850,5 +128850,16 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/u/ua-connect.rb",
     "commit_sha": "5e98f2ff70e6e39b5e84ab84cf1c2c0a7f2b2d55"
+  },
+  {
+    "type": "cask",
+    "name": "wox",
+    "version": "2.0.3",
+    "desc": "Launcher tool",
+    "homepage": "https://github.com/Wox-launcher/Wox",
+    "date": "2026-04-27T04:24:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/wox.rb",
+    "commit_sha": "0049f5679b8a0677324b03c6e576df64aa660e38"
   }
 ]
