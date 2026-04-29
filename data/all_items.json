@@ -128861,5 +128861,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/wox.rb",
     "commit_sha": "0049f5679b8a0677324b03c6e576df64aa660e38"
+  },
+  {
+    "type": "formula",
+    "name": "barman",
+    "version": "3.18.0",
+    "desc": "Backup and Recovery Manager for PostgreSQL",
+    "homepage": "https://www.pgbarman.org/",
+    "date": "2026-04-28T08:24:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/barman.rb",
+    "commit_sha": "575098887448d83e1cee21424d7643000a28960f"
+  },
+  {
+    "type": "formula",
+    "name": "zfp",
+    "version": "1.0.1",
+    "desc": "Compressed numerical arrays that support high-speed random access",
+    "homepage": "https://zfp.llnl.gov",
+    "date": "2026-04-28T13:05:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zfp.rb",
+    "commit_sha": "b20e144e3e236ae89b04ccea9374d2fd0ae8d8f7"
+  },
+  {
+    "type": "formula",
+    "name": "libchardet",
+    "version": "1.0.6",
+    "desc": "Mozilla's Universal Charset Detector C/C++ API",
+    "homepage": "https://github.com/Joungkyun/libchardet",
+    "date": "2026-04-28T15:45:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libchardet.rb",
+    "commit_sha": "c9d396f77c67cccf57924d754944e82d99f15564"
   }
 ]
