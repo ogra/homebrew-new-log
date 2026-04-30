@@ -128894,5 +128894,82 @@
     "source_repo": "homebrew-core",
     "path": "Formula/lib/libchardet.rb",
     "commit_sha": "c9d396f77c67cccf57924d754944e82d99f15564"
+  },
+  {
+    "type": "formula",
+    "name": "alevin-fry",
+    "version": "0.14.0",
+    "desc": "Efficient and flexible tool for processing single-cell sequencing data",
+    "homepage": "https://github.com/COMBINE-lab/alevin-fry",
+    "date": "2026-04-29T03:38:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/alevin-fry.rb",
+    "commit_sha": "107fa41cf89e6f71905d70c54e4acd4fbdaac9a2"
+  },
+  {
+    "type": "formula",
+    "name": "kubernetes-cli@1.35",
+    "version": "1.35.4",
+    "desc": "Kubernetes command-line interface",
+    "homepage": "https://kubernetes.io/docs/reference/kubectl/",
+    "date": "2026-04-29T15:23:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kubernetes-cli@1.35.rb",
+    "commit_sha": "4f9e9c0ca66ad48d268c3136ba74180d7d30e41a"
+  },
+  {
+    "type": "formula",
+    "name": "defuddle",
+    "version": "0.18.1",
+    "desc": "Extract article content and metadata from web pages",
+    "homepage": "https://github.com/kepano/defuddle",
+    "date": "2026-04-29T15:32:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/defuddle.rb",
+    "commit_sha": "4aaab77aaae00fd4564a62f709ad8e9e4ac221fd"
+  },
+  {
+    "type": "formula",
+    "name": "oarfish",
+    "version": "0.9.4",
+    "desc": "Long read RNA-seq quantification",
+    "homepage": "https://github.com/COMBINE-lab/oarfish",
+    "date": "2026-04-29T17:47:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/oarfish.rb",
+    "commit_sha": "c5c76093ced36a04427640ea491d53b2655cfd60"
+  },
+  {
+    "type": "formula",
+    "name": "pomerium",
+    "version": "0.32.6",
+    "desc": "Identity and context-aware access proxy",
+    "homepage": "https://www.pomerium.com",
+    "date": "2026-04-29T18:38:06Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pomerium.rb",
+    "commit_sha": "ba14a6b09d11a5c8d71f960a1206b01dd43f8f1b"
+  },
+  {
+    "type": "cask",
+    "name": "segger-embedded-studio",
+    "version": "8.28",
+    "desc": "IDE for embedded systems",
+    "homepage": "https://www.segger.com/products/development-tools/embedded-studio/",
+    "date": "2026-04-29T13:42:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/segger-embedded-studio.rb",
+    "commit_sha": "7fa1e624a01a2306f639a0b304aaedc1d08bdc32"
+  },
+  {
+    "type": "cask",
+    "name": "openusage",
+    "version": "0.6.20",
+    "desc": "AI usage tracker for Cursor, Claude Code, Codex, Copilot and more",
+    "homepage": "https://www.openusage.ai/",
+    "date": "2026-04-29T15:06:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openusage.rb",
+    "commit_sha": "bc1320a3586ba6519d8bfa00848af1ac0744f2aa"
   }
 ]
