@@ -128971,5 +128971,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openusage.rb",
     "commit_sha": "bc1320a3586ba6519d8bfa00848af1ac0744f2aa"
+  },
+  {
+    "type": "formula",
+    "name": "spoa",
+    "version": "4.1.5",
+    "desc": "SIMD partial order alignment tool/library",
+    "homepage": "https://github.com/rvaser/spoa",
+    "date": "2026-04-30T05:44:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/spoa.rb",
+    "commit_sha": "7bb9ee6a0f67169523cfa69eba4c14a13a917528"
+  },
+  {
+    "type": "formula",
+    "name": "vcflib",
+    "version": "1.0.15",
+    "desc": "C++ library and cmdline tools for parsing and manipulating VCF files",
+    "homepage": "https://github.com/vcflib/vcflib",
+    "date": "2026-04-30T06:36:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vcflib.rb",
+    "commit_sha": "1dcae63b51c899bc4de9fb58561baea0c7e53e18"
+  },
+  {
+    "type": "formula",
+    "name": "echtvar",
+    "version": "0.2.4",
+    "desc": "Rapid variant annotation and filtering",
+    "homepage": "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac931/6775383",
+    "date": "2026-04-30T17:14:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/echtvar.rb",
+    "commit_sha": "484488419411a0a91697609fcc1451834c433ded"
+  },
+  {
+    "type": "formula",
+    "name": "unordered_dense",
+    "version": "4.8.1",
+    "desc": "Hashmap and hashset based on robin-hood backward shift deletion",
+    "homepage": "https://github.com/martinus/unordered_dense",
+    "date": "2026-04-30T17:27:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/unordered_dense.rb",
+    "commit_sha": "dfb551457330a13d7293bd55689c54500f7efb53"
+  },
+  {
+    "type": "cask",
+    "name": "ghostpepper",
+    "version": "2.3.0",
+    "desc": "Speech-to-text and meeting transcription tool",
+    "homepage": "https://github.com/matthartman/ghost-pepper",
+    "date": "2026-04-30T11:21:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/ghostpepper.rb",
+    "commit_sha": "de9494156210e3b60ecd1884b2bf2982dfb749c1"
+  },
+  {
+    "type": "cask",
+    "name": "buhobarx",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-04-30T11:21:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/buhobarx.rb",
+    "commit_sha": "75ef427de1fe55af91b43e19da5bb6646b5dae41"
   }
 ]
