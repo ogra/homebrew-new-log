@@ -129037,5 +129037,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/b/buhobarx.rb",
     "commit_sha": "75ef427de1fe55af91b43e19da5bb6646b5dae41"
+  },
+  {
+    "type": "formula",
+    "name": "pnpm@10",
+    "version": "10.33.2",
+    "desc": "Fast, disk space efficient package manager",
+    "homepage": "https://pnpm.io/",
+    "date": "2026-05-01T00:43:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pnpm@10.rb",
+    "commit_sha": "f6f0bb738798e5625334802d4ec4f4619869c902"
+  },
+  {
+    "type": "formula",
+    "name": "gemmi",
+    "version": "0.7.5",
+    "desc": "Macromolecular crystallography library and utilities",
+    "homepage": "https://project-gemmi.github.io/",
+    "date": "2026-05-01T00:47:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gemmi.rb",
+    "commit_sha": "3b483e423bc75501a0ca8502e05b6f25324911a9"
+  },
+  {
+    "type": "formula",
+    "name": "hyphy",
+    "version": "2.5.98",
+    "desc": "Hypothesis testing using Phylogenies",
+    "homepage": "https://www.hyphy.org",
+    "date": "2026-05-01T01:03:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hyphy.rb",
+    "commit_sha": "87f1d8911586e350f6113ac1aaffe1d9992d2761"
+  },
+  {
+    "type": "formula",
+    "name": "stellar-xdr",
+    "version": "26.0.1",
+    "desc": "Stellar command-line tool for encoding/decoding XDR for the Stellar network",
+    "homepage": "https://developers.stellar.org",
+    "date": "2026-05-01T05:09:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/stellar-xdr.rb",
+    "commit_sha": "99612981032fb76f7ab338d2fd5b39ff3a3ecacf"
+  },
+  {
+    "type": "cask",
+    "name": "yakit",
+    "version": "1.4.7-0429",
+    "desc": "Cybersecurity platform",
+    "homepage": "https://github.com/yaklang/yakit",
+    "date": "2026-05-01T12:39:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/y/yakit.rb",
+    "commit_sha": "3f44d14b7a93eef29335d70ad291e779e975cd9b"
   }
 ]
