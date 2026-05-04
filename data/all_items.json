@@ -129103,5 +129103,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/screenkite.rb",
     "commit_sha": "eb172d1d92408fa5ae09ba910e64e6cee93f8261"
+  },
+  {
+    "type": "formula",
+    "name": "paml",
+    "version": "4.10.10",
+    "desc": "Phylogenetic analyses of DNA or protein sequences using maximum likelihood",
+    "homepage": "https://github.com/abacus-gene/paml",
+    "date": "2026-05-03T12:46:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/paml.rb",
+    "commit_sha": "86df33be8853243ab9009d211350083609b6bbcb"
+  },
+  {
+    "type": "cask",
+    "name": "jetbrains-air",
+    "version": "261.474.25",
+    "desc": "Agentic development environment",
+    "homepage": "https://air.dev/",
+    "date": "2026-05-03T00:28:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/j/jetbrains-air.rb",
+    "commit_sha": "3222132bf27d1cc36dbfb85e569eebee055e7a6e"
+  },
+  {
+    "type": "cask",
+    "name": "font-akt",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/dimgrenev/akt",
+    "date": "2026-05-03T00:34:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-a/font-akt.rb",
+    "commit_sha": "f4d28fc7dbebd9380a2fa3f2a222c9fe99c23f5e"
+  },
+  {
+    "type": "cask",
+    "name": "font-alien-block",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/koci-design/AlienBlock",
+    "date": "2026-05-03T00:34:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-a/font-alien-block.rb",
+    "commit_sha": "a533c02b57718e837bb5b8dc7a2dce32b428e51a"
+  },
+  {
+    "type": "cask",
+    "name": "font-finlandica-headline",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/HelsinkiTypeStudio/FinlandicaHeadline",
+    "date": "2026-05-03T00:34:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-f/font-finlandica-headline.rb",
+    "commit_sha": "fa1c337842574830060044c1f579e8c7a1122d3f"
+  },
+  {
+    "type": "cask",
+    "name": "font-finlandica-text",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/HelsinkiTypeStudio/FinlandicaText",
+    "date": "2026-05-03T00:34:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-f/font-finlandica-text.rb",
+    "commit_sha": "73bcef2804b60e182524194b5dfafb8aa43386af"
+  },
+  {
+    "type": "cask",
+    "name": "font-m-plus-u",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/coz-m/MPLUS_FONTS",
+    "date": "2026-05-03T00:34:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-m/font-m-plus-u.rb",
+    "commit_sha": "b9b9738e766668122bf8a9cf15b2689aa1def069"
+  },
+  {
+    "type": "cask",
+    "name": "manus",
+    "version": "1.5.6",
+    "desc": "AI agent for automating local computer workflows",
+    "homepage": "https://manus.im/desktop",
+    "date": "2026-05-03T04:28:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/manus.rb",
+    "commit_sha": "5e913db89bd37024e5e69dc4ad54e743b6c3d526"
   }
 ]
