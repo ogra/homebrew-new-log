@@ -129191,5 +129191,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/manus.rb",
     "commit_sha": "5e913db89bd37024e5e69dc4ad54e743b6c3d526"
+  },
+  {
+    "type": "formula",
+    "name": "ginkgo",
+    "version": "1.11.0",
+    "desc": "High-performance numerical linear algebra software package",
+    "homepage": "https://ginkgo-project.github.io/",
+    "date": "2026-05-04T11:55:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/ginkgo.rb",
+    "commit_sha": "02d9b0a0d5f85272a7790e9b466651c3b450fc55"
+  },
+  {
+    "type": "formula",
+    "name": "cutadapt",
+    "version": "5.2",
+    "desc": "Removes adapter sequences from sequencing reads",
+    "homepage": "https://cutadapt.readthedocs.io",
+    "date": "2026-05-04T16:09:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cutadapt.rb",
+    "commit_sha": "685392629bec8f79860e87738d8d4a88a983717e"
+  },
+  {
+    "type": "cask",
+    "name": "droid-desktop",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-05-04T11:35:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/droid-desktop.rb",
+    "commit_sha": "5fe2c9c8df14f89f309551e4e7cdc5c0f9672e2a"
+  },
+  {
+    "type": "cask",
+    "name": "factory",
+    "version": "0.75.0",
+    "desc": "Native AI agent interface to build, manage, and ship software by Factory",
+    "homepage": "https://www.factory.ai/",
+    "date": "2026-05-04T15:12:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/factory.rb",
+    "commit_sha": "2c68fedd9fd15d196cb7905a23d97e4ab27f588d"
   }
 ]
