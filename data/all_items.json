@@ -129235,5 +129235,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/f/factory.rb",
     "commit_sha": "2c68fedd9fd15d196cb7905a23d97e4ab27f588d"
+  },
+  {
+    "type": "formula",
+    "name": "hermes-agent",
+    "version": "2026.4.30",
+    "desc": "Self-improving AI agent that creates skills from experience",
+    "homepage": "https://hermes-agent.nousresearch.com",
+    "date": "2026-05-05T13:43:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hermes-agent.rb",
+    "commit_sha": "799635be72a6c3940c289bb6d29463e894148483"
+  },
+  {
+    "type": "formula",
+    "name": "opendoor",
+    "version": "5.15.2",
+    "desc": "CLI for web reconnaissance, directory discovery, and exposure assessment",
+    "homepage": "https://github.com/stanislav-web/OpenDoor",
+    "date": "2026-05-05T13:55:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/opendoor.rb",
+    "commit_sha": "b43cee92d08191bc2406034f1dc262d6a6cef59c"
+  },
+  {
+    "type": "formula",
+    "name": "lavinmq",
+    "version": "2.7.2",
+    "desc": "Message broker implementing the AMQP 0-9-1 and MQTT protocols",
+    "homepage": "https://lavinmq.com",
+    "date": "2026-05-05T14:01:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lavinmq.rb",
+    "commit_sha": "d30e708866a089c2f6898e3faeacce731320a9e4"
+  },
+  {
+    "type": "cask",
+    "name": "eez-studio",
+    "version": "0.27.1",
+    "desc": "Visual tool for GUI development and T&M automation",
+    "homepage": "https://www.envox.eu/studio/studio-introduction/",
+    "date": "2026-05-05T12:28:53Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/eez-studio.rb",
+    "commit_sha": "d07951bae09e7e7f839b19ee570b8f100852e224"
   }
 ]
