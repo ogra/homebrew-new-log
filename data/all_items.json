@@ -129279,5 +129279,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/e/eez-studio.rb",
     "commit_sha": "d07951bae09e7e7f839b19ee570b8f100852e224"
+  },
+  {
+    "type": "formula",
+    "name": "gitea-runner",
+    "version": "1.0.0",
+    "desc": "Official Actions runner for Gitea",
+    "homepage": "https://gitea.com/gitea/runner",
+    "date": "2026-05-06T00:07:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gitea-runner.rb",
+    "commit_sha": "d405ca5f086760f9c3f62ada9649c944ba2a0f89"
+  },
+  {
+    "type": "formula",
+    "name": "freesasa",
+    "version": "2.1.3",
+    "desc": "Solvent Accessible Surface Area calculations",
+    "homepage": "https://freesasa.github.io/",
+    "date": "2026-05-06T00:58:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/freesasa.rb",
+    "commit_sha": "ab512195c53209c2679fc080013fc4a280f36f3a"
+  },
+  {
+    "type": "formula",
+    "name": "iqtree3",
+    "version": "3.1.1",
+    "desc": "Phylogenetics by maximum likelihood",
+    "homepage": "http://www.iqtree.org",
+    "date": "2026-05-06T00:58:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/iqtree3.rb",
+    "commit_sha": "32d426aeceb6ebcbec18cd3f30e061ce76955cbf"
+  },
+  {
+    "type": "formula",
+    "name": "smlnj",
+    "version": "2026.1",
+    "desc": "Compiler and programming system for Standard ML",
+    "homepage": "https://www.smlnj.org/",
+    "date": "2026-05-06T05:22:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/smlnj.rb",
+    "commit_sha": "100ec86bcca197277745c2080a720006cb573749"
+  },
+  {
+    "type": "formula",
+    "name": "zapp",
+    "version": "1.0.0",
+    "desc": "Flash ZSA keyboards from your terminal",
+    "homepage": "https://github.com/zsa/zapp",
+    "date": "2026-05-06T13:38:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zapp.rb",
+    "commit_sha": "b87182e1b25b2b5946d82c1a8b8e532e66ef4b7d"
+  },
+  {
+    "type": "cask",
+    "name": "open-webui",
+    "version": "0.0.20",
+    "desc": "Desktop application for Open WebUI",
+    "homepage": "https://openwebui.com/",
+    "date": "2026-05-06T18:17:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/open-webui.rb",
+    "commit_sha": "ca981034c4b61afa153c4af1f80192eb50c6aa82"
   }
 ]
