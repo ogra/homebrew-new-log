@@ -129345,5 +129345,16 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/open-webui.rb",
     "commit_sha": "ca981034c4b61afa153c4af1f80192eb50c6aa82"
+  },
+  {
+    "type": "formula",
+    "name": "crit",
+    "version": "0.10.5",
+    "desc": "Your feedback loop with the agent: review plans and code locally",
+    "homepage": "https://crit.md/",
+    "date": "2026-05-07T06:21:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/crit.rb",
+    "commit_sha": "d66a62d0cf149330942c8bb6533848fefe5b847d"
   }
 ]
