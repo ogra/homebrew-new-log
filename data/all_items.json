@@ -129356,5 +129356,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/c/crit.rb",
     "commit_sha": "d66a62d0cf149330942c8bb6533848fefe5b847d"
+  },
+  {
+    "type": "formula",
+    "name": "go-hass-agent",
+    "version": "14.11.0",
+    "desc": "Native Home Assistant agent for desktop/laptop devices",
+    "homepage": "https://github.com/joshuar/go-hass-agent",
+    "date": "2026-05-08T02:22:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/go-hass-agent.rb",
+    "commit_sha": "ee363e21fc2112235b989e783774d14c9cfabf24"
+  },
+  {
+    "type": "formula",
+    "name": "committed",
+    "version": "1.1.11",
+    "desc": "Nitpicking commit history since beabf39",
+    "homepage": "https://github.com/crate-ci/committed",
+    "date": "2026-05-08T13:12:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/committed.rb",
+    "commit_sha": "c141466efd03188dbbab76c4b707cef23bd8db94"
+  },
+  {
+    "type": "formula",
+    "name": "dexter-lsp",
+    "version": "0.6.0",
+    "desc": "Elixir LSP optimized for large codebases",
+    "homepage": "https://github.com/remoteoss/dexter",
+    "date": "2026-05-08T16:51:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dexter-lsp.rb",
+    "commit_sha": "458fc34e680f3049f36f11478c27ac73b8b146bf"
+  },
+  {
+    "type": "cask",
+    "name": "openchamber",
+    "version": "1.10.4",
+    "desc": "Desktop and web interface for OpenCode AI agent",
+    "homepage": "https://openchamber.dev/",
+    "date": "2026-05-08T09:20:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openchamber.rb",
+    "commit_sha": "65b729d7f6efc762c09c6392324e66e932e741e7"
   }
 ]
