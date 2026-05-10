@@ -129400,5 +129400,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openchamber.rb",
     "commit_sha": "65b729d7f6efc762c09c6392324e66e932e741e7"
+  },
+  {
+    "type": "formula",
+    "name": "sol2",
+    "version": "3.5.0",
+    "desc": "C++ <-> Lua API wrapper with advanced features and top notch performance",
+    "homepage": "https://sol2.readthedocs.io/en/latest/",
+    "date": "2026-05-09T00:46:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sol2.rb",
+    "commit_sha": "0808ec6cb1bf9089bd6a0c12281d1a514e862c51"
+  },
+  {
+    "type": "formula",
+    "name": "vtzero",
+    "version": "1.2.0",
+    "desc": "Minimalist vector tile decoder and encoder in C++",
+    "homepage": "https://github.com/mapbox/vtzero",
+    "date": "2026-05-09T00:46:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vtzero.rb",
+    "commit_sha": "0808ec6cb1bf9089bd6a0c12281d1a514e862c51"
+  },
+  {
+    "type": "formula",
+    "name": "plutosvg",
+    "version": "0.0.7",
+    "desc": "Tiny SVG rendering library in C",
+    "homepage": "https://github.com/sammycage/plutosvg",
+    "date": "2026-05-09T01:21:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/plutosvg.rb",
+    "commit_sha": "0092f4a4741d32f5758b69c862b1cc823e036934"
+  },
+  {
+    "type": "formula",
+    "name": "marmot",
+    "version": "0.9.0",
+    "desc": "Open-source data catalog exposing metadata to AI agents",
+    "homepage": "https://marmotdata.io",
+    "date": "2026-05-09T04:49:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/marmot.rb",
+    "commit_sha": "c58b46acfe49eaaea3cd7b384365f7e56248583b"
+  },
+  {
+    "type": "cask",
+    "name": "chiri",
+    "version": "0.8.1",
+    "desc": "CalDAV-compatible task management app",
+    "homepage": "https://github.com/chiriapp/chiri",
+    "date": "2026-05-09T11:54:14Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/chiri.rb",
+    "commit_sha": "b3e6898b31a63e2082a39b1ae71dba3ceaad63af"
   }
 ]
