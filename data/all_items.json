@@ -129455,5 +129455,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/chiri.rb",
     "commit_sha": "b3e6898b31a63e2082a39b1ae71dba3ceaad63af"
+  },
+  {
+    "type": "formula",
+    "name": "hexapoda",
+    "version": "0.2.3",
+    "desc": "Colorful modal hex editor",
+    "homepage": "https://simonomi.dev/hexapoda",
+    "date": "2026-05-10T05:43:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hexapoda.rb",
+    "commit_sha": "64f943985321754ea6024d31a740479183e41624"
+  },
+  {
+    "type": "formula",
+    "name": "nettle@3",
+    "version": "3.10.2",
+    "desc": "Low-level cryptographic library",
+    "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
+    "date": "2026-05-10T17:55:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nettle@3.rb",
+    "commit_sha": "b82fe82229fa49ff9758ea96ff592bd7d23354f6"
   }
 ]
