@@ -129477,5 +129477,16 @@
     "source_repo": "homebrew-core",
     "path": "Formula/n/nettle@3.rb",
     "commit_sha": "b82fe82229fa49ff9758ea96ff592bd7d23354f6"
+  },
+  {
+    "type": "formula",
+    "name": "osdctl",
+    "version": "0.56.0",
+    "desc": "CLI tool for managed OpenShift clusters",
+    "homepage": "https://github.com/openshift/osdctl",
+    "date": "2026-05-11T12:06:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/osdctl.rb",
+    "commit_sha": "7f70335861e0778551aa6216a43abe1db2022e81"
   }
 ]
