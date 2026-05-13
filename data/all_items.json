@@ -129488,5 +129488,71 @@
     "source_repo": "homebrew-core",
     "path": "Formula/o/osdctl.rb",
     "commit_sha": "7f70335861e0778551aa6216a43abe1db2022e81"
+  },
+  {
+    "type": "formula",
+    "name": "backplane-cli",
+    "version": "0.9.0",
+    "desc": "CLI for interacting with the OpenShift Backplane API",
+    "homepage": "https://github.com/openshift/backplane-cli",
+    "date": "2026-05-12T04:45:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/backplane-cli.rb",
+    "commit_sha": "76cdf59532d89642bcfc436978199dc092c84b95"
+  },
+  {
+    "type": "formula",
+    "name": "gascity",
+    "version": "1.1.0",
+    "desc": "Orchestration-builder SDK for multi-agent coding workflows",
+    "homepage": "https://github.com/gastownhall/gascity",
+    "date": "2026-05-12T04:47:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gascity.rb",
+    "commit_sha": "99fe27f271b8b446c9678f17d41b4ae3fcf69c03"
+  },
+  {
+    "type": "formula",
+    "name": "tinyice",
+    "version": "2.6.1",
+    "desc": "Modern, all-in-one Icecast-compatible audio/video streaming server",
+    "homepage": "https://github.com/DatanoiseTV/tinyice",
+    "date": "2026-05-12T04:47:27Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tinyice.rb",
+    "commit_sha": "2efae0b688776a725ff6cc75cb80f04f76cbca10"
+  },
+  {
+    "type": "formula",
+    "name": "vcfanno",
+    "version": "0.3.8",
+    "desc": "Annotate a VCF with other VCFs/BEDs/tabixed files",
+    "homepage": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0973-5",
+    "date": "2026-05-12T04:48:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vcfanno.rb",
+    "commit_sha": "a88601f914ff37c5de3a541067c856cb21042c87"
+  },
+  {
+    "type": "formula",
+    "name": "fallow",
+    "version": "2.72.0",
+    "desc": "Codebase intelligence for TypeScript and JavaScript",
+    "homepage": "https://docs.fallow.tools",
+    "date": "2026-05-12T04:48:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fallow.rb",
+    "commit_sha": "6cedc122936f5acfc00b1e77ff23669d22e4aad1"
+  },
+  {
+    "type": "formula",
+    "name": "arf",
+    "version": "0.3.3",
+    "desc": "Modern R console with syntax highlighting and fuzzy search",
+    "homepage": "https://github.com/eitsupi/arf",
+    "date": "2026-05-12T09:09:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/arf.rb",
+    "commit_sha": "8eee356d881634e0f06d039f843e1be76253e528"
   }
 ]
