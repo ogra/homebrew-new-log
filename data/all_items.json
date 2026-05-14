@@ -129554,5 +129554,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/a/arf.rb",
     "commit_sha": "8eee356d881634e0f06d039f843e1be76253e528"
+  },
+  {
+    "type": "formula",
+    "name": "cargo-insta",
+    "version": "1.47.2",
+    "desc": "Snapshot testing CLI for Rust",
+    "homepage": "https://insta.rs",
+    "date": "2026-05-13T01:42:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cargo-insta.rb",
+    "commit_sha": "d06d607fcfdd4455002405aafe78c418401d61ae"
+  },
+  {
+    "type": "cask",
+    "name": "font-space-mono",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Space+Mono",
+    "date": "2026-05-13T02:30:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-space-mono.rb",
+    "commit_sha": "99f3e219351ed155a237a961048bd1c4e3e86309"
+  },
+  {
+    "type": "cask",
+    "name": "runtimeviewer",
+    "version": "2.0.1",
+    "desc": "Inspect Objective-C and Swift runtime interfaces",
+    "homepage": "https://github.com/MxIris-Reverse-Engineering/RuntimeViewer",
+    "date": "2026-05-13T08:36:27Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/runtimeviewer.rb",
+    "commit_sha": "ddb1bc1452fc61f0b8d5f75aa7ea09ca98d23632"
+  },
+  {
+    "type": "cask",
+    "name": "input0",
+    "version": "0.5.0",
+    "desc": "Voice input tool with AI transcription",
+    "homepage": "https://input0.com/",
+    "date": "2026-05-13T12:29:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/input0.rb",
+    "commit_sha": "c6515f7410629dec3a73b8dfd09b84e732de7890"
   }
 ]
