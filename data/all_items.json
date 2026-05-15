@@ -129598,5 +129598,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/input0.rb",
     "commit_sha": "c6515f7410629dec3a73b8dfd09b84e732de7890"
+  },
+  {
+    "type": "formula",
+    "name": "mado",
+    "version": "0.3.0",
+    "desc": "Fast Markdown linter written in Rust",
+    "homepage": "https://github.com/akiomik/mado",
+    "date": "2026-05-14T19:04:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mado.rb",
+    "commit_sha": "68435509dcb7e4e92ee5aba7cd83092201592e90"
+  },
+  {
+    "type": "cask",
+    "name": "notion-cli@beta",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-05-13T23:54:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/notion-cli@beta.rb",
+    "commit_sha": "840c90d2b0e853e34f98002cbde47110e28d572b"
+  },
+  {
+    "type": "cask",
+    "name": "shichizip",
+    "version": "0.2.0",
+    "desc": "7-Zip derivative GUI",
+    "homepage": "https://github.com/idawnlight/ShichiZip",
+    "date": "2026-05-14T03:06:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/shichizip.rb",
+    "commit_sha": "f0341f32cb76bb5b88a3e54b4788f637d6d45a84"
+  },
+  {
+    "type": "cask",
+    "name": "sshfs-mac",
+    "version": "3.7.5",
+    "desc": "Network filesystem client to connect to SSH servers",
+    "homepage": "https://github.com/libfuse/sshfs/",
+    "date": "2026-05-14T05:30:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sshfs-mac.rb",
+    "commit_sha": "aecf204d56606a389ca947fd73d903a848f5f282"
+  },
+  {
+    "type": "cask",
+    "name": "amore",
+    "version": "0.1,35",
+    "desc": "App distribution platform with Sparkle, code signing, and notarization",
+    "homepage": "https://amore.computer/",
+    "date": "2026-05-14T08:01:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/amore.rb",
+    "commit_sha": "a6037bc9ffc34b5ff54176f124dd0a54c719d548"
+  },
+  {
+    "type": "cask",
+    "name": "notion-cli",
+    "version": "0.14.0",
+    "desc": "Command-line interface for Notion",
+    "homepage": "https://www.notion.com/product/dev",
+    "date": "2026-05-14T14:19:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/notion-cli.rb",
+    "commit_sha": "4c2634a7a3fcd1a8235b70b57e65dd29619aa8f0"
+  },
+  {
+    "type": "cask",
+    "name": "openwork",
+    "version": "0.13.8",
+    "desc": "Unofficial desktop GUI for OpenCode",
+    "homepage": "https://openworklabs.com/",
+    "date": "2026-05-14T14:51:00Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openwork.rb",
+    "commit_sha": "87740183c35a62dc7634035a32d5640a98d1c189"
+  },
+  {
+    "type": "cask",
+    "name": "github-copilot-app",
+    "version": "0.2.2",
+    "desc": "Native client for GitHub Copilot",
+    "homepage": "https://github.com/github/app",
+    "date": "2026-05-14T17:11:14Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/github-copilot-app.rb",
+    "commit_sha": "9538a72dfd17b3c1e5b49178e1a21ca7febf12e5"
   }
 ]
