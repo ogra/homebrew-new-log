@@ -129686,5 +129686,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/github-copilot-app.rb",
     "commit_sha": "9538a72dfd17b3c1e5b49178e1a21ca7febf12e5"
+  },
+  {
+    "type": "formula",
+    "name": "skm",
+    "version": "0.8.9",
+    "desc": "Simple and powerful SSH keys manager",
+    "homepage": "https://timothyye.github.io/skm",
+    "date": "2026-05-16T12:39:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/skm.rb",
+    "commit_sha": "1fc952dae3de1c25dd0c0ce0918d20c2e503ccc8"
+  },
+  {
+    "type": "formula",
+    "name": "phpantom-lsp",
+    "version": "0.8.0",
+    "desc": "Fast PHP language server written in Rust",
+    "homepage": "https://github.com/AJenbo/phpantom_lsp",
+    "date": "2026-05-16T14:51:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/phpantom-lsp.rb",
+    "commit_sha": "eb61d6bd4b6232fb6757e29562f208e37bd80057"
+  },
+  {
+    "type": "cask",
+    "name": "presentify",
+    "version": "8.0.6",
+    "desc": "Annotate screens, highlight cursors, and spotlight or zoom key areas",
+    "homepage": "https://presentifyapp.com/",
+    "date": "2026-05-16T00:27:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/presentify.rb",
+    "commit_sha": "ac9f7357fdfd403fc1fbbca79fc911d74f2c95b0"
+  },
+  {
+    "type": "cask",
+    "name": "agentsview",
+    "version": "0.29.0",
+    "desc": "Browse, search and analyse your past AI coding sessions",
+    "homepage": "https://www.agentsview.io/",
+    "date": "2026-05-16T02:20:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/agentsview.rb",
+    "commit_sha": "c27b7530568e966b9696a13a6dbbd3837cc6f86a"
   }
 ]
