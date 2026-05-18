@@ -129730,5 +129730,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/agentsview.rb",
     "commit_sha": "c27b7530568e966b9696a13a6dbbd3837cc6f86a"
+  },
+  {
+    "type": "formula",
+    "name": "lisette",
+    "version": "0.2.6",
+    "desc": "Language inspired by Rust that compiles to Go",
+    "homepage": "https://lisette.run",
+    "date": "2026-05-17T11:21:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lisette.rb",
+    "commit_sha": "3b03cbfa1a56031ecdbe140eed63e598b9df3ce1"
+  },
+  {
+    "type": "cask",
+    "name": "general-software-fresh",
+    "version": "1.0.5",
+    "desc": "Short-term memory for screenshots, downloads, clipboard, and desktop files",
+    "homepage": "https://general.software/fresh/",
+    "date": "2026-05-17T08:23:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/general-software-fresh.rb",
+    "commit_sha": "762207c9a2db639ffa59d02b3557152d4353ec44"
   }
 ]
