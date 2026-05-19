@@ -129752,5 +129752,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/general-software-fresh.rb",
     "commit_sha": "762207c9a2db639ffa59d02b3557152d4353ec44"
+  },
+  {
+    "type": "formula",
+    "name": "far2l-tty",
+    "version": "2.8.0",
+    "desc": "Unix TTY port of FAR Manager v2 (with NetRocks support)",
+    "homepage": "https://github.com/elfmz/far2l",
+    "date": "2026-05-18T19:19:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/far2l-tty.rb",
+    "commit_sha": "1f757f6b9efea9b6e643232f8e05a1ffe6969350"
+  },
+  {
+    "type": "cask",
+    "name": "mole-app",
+    "version": "1.4.1",
+    "desc": "Deep clean, analyze, and optimize app",
+    "homepage": "https://mole.fit/",
+    "date": "2026-05-18T04:04:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mole-app.rb",
+    "commit_sha": "fb7728966f015375f8835d33c96cd6cde2f06cb1"
+  },
+  {
+    "type": "cask",
+    "name": "duo-desktop",
+    "version": "7.17.0.0",
+    "desc": "Endpoint health checks for Duo-protected applications",
+    "homepage": "https://duo.com/docs/duo-desktop",
+    "date": "2026-05-18T04:07:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/duo-desktop.rb",
+    "commit_sha": "26155307e7c7ef95d852a5ffabd5c97e6d4a4734"
   }
 ]
