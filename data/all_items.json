@@ -129785,5 +129785,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/d/duo-desktop.rb",
     "commit_sha": "26155307e7c7ef95d852a5ffabd5c97e6d4a4734"
+  },
+  {
+    "type": "formula",
+    "name": "arf",
+    "version": "0.3.3",
+    "desc": "Modern R console with syntax highlighting and fuzzy search",
+    "homepage": "https://github.com/eitsupi/arf",
+    "date": "2026-05-19T05:19:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/arf.rb",
+    "commit_sha": "104d27330f4c563a31e211218f42f51c9f3229d6"
+  },
+  {
+    "type": "formula",
+    "name": "backplane-cli",
+    "version": "0.10.0",
+    "desc": "CLI for interacting with the OpenShift Backplane API",
+    "homepage": "https://github.com/openshift/backplane-cli",
+    "date": "2026-05-19T05:19:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/backplane-cli.rb",
+    "commit_sha": "104d27330f4c563a31e211218f42f51c9f3229d6"
+  },
+  {
+    "type": "formula",
+    "name": "cargo-insta",
+    "version": "1.47.2",
+    "desc": "Snapshot testing CLI for Rust",
+    "homepage": "https://insta.rs",
+    "date": "2026-05-19T05:19:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cargo-insta.rb",
+    "commit_sha": "104d27330f4c563a31e211218f42f51c9f3229d6"
+  },
+  {
+    "type": "formula",
+    "name": "committed",
+    "version": "1.1.11",
+    "desc": "Nitpicking commit history since beabf39",
+    "homepage": "https://github.com/crate-ci/committed",
+    "date": "2026-05-19T05:19:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/committed.rb",
+    "commit_sha": "104d27330f4c563a31e211218f42f51c9f3229d6"
+  },
+  {
+    "type": "formula",
+    "name": "crit",
+    "version": "0.15.2",
+    "desc": "Your feedback loop with the agent: review plans and code locally",
+    "homepage": "https://crit.md/",
+    "date": "2026-05-19T05:19:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/crit.rb",
+    "commit_sha": "104d27330f4c563a31e211218f42f51c9f3229d6"
+  },
+  {
+    "type": "formula",
+    "name": "far2l-tty",
+    "version": "2.8.0",
+    "desc": "Unix TTY port of FAR Manager v2 (with NetRocks support)",
+    "homepage": "https://github.com/elfmz/far2l",
+    "date": "2026-05-19T05:21:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/far2l-tty.rb",
+    "commit_sha": "4f00c38b688eee47d0a2d82f90df0f2aa6cd4c0b"
+  },
+  {
+    "type": "formula",
+    "name": "zerolang",
+    "version": "0.1.3",
+    "desc": "Programming language for agents with explicit effects and predictable memory",
+    "homepage": "https://zerolang.ai/",
+    "date": "2026-05-19T11:12:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zerolang.rb",
+    "commit_sha": "dfc93b5f947179788cb64d8d77235aebde5f543e"
+  },
+  {
+    "type": "cask",
+    "name": "transcribex",
+    "version": "7.0",
+    "desc": "Local AI transcription app",
+    "homepage": "https://www.transcribex.io/",
+    "date": "2026-05-19T03:41:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/transcribex.rb",
+    "commit_sha": "19361b72e5c6753460e653285ba291a7ad9af910"
+  },
+  {
+    "type": "cask",
+    "name": "revpdf-editor",
+    "version": "4.0.0",
+    "desc": "PDF editor for annotation and editing",
+    "homepage": "https://revpdf.com/",
+    "date": "2026-05-19T04:04:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/revpdf-editor.rb",
+    "commit_sha": "78f544df4991043f03cd16ab1d832319f9c8181c"
+  },
+  {
+    "type": "cask",
+    "name": "pgen",
+    "version": "1.7.0",
+    "desc": "PostgreSQL client",
+    "homepage": "https://pgendb.com/",
+    "date": "2026-05-19T05:30:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pgen.rb",
+    "commit_sha": "e20ec80097155e196e17f037f85c10b81da4c236"
+  },
+  {
+    "type": "cask",
+    "name": "executor",
+    "version": "1.4.29",
+    "desc": "Tool discovery and execution layer for AI agents",
+    "homepage": "https://executor.sh/",
+    "date": "2026-05-19T12:53:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/executor.rb",
+    "commit_sha": "2bef402c362df41c84a62a96d38b9c75e1e2caeb"
   }
 ]
