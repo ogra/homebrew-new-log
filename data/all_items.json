@@ -129906,5 +129906,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/e/executor.rb",
     "commit_sha": "2bef402c362df41c84a62a96d38b9c75e1e2caeb"
+  },
+  {
+    "type": "formula",
+    "name": "quickjs-ng",
+    "version": "0.14.0",
+    "desc": "QuickJS, the Next Generation: a mighty JavaScript engine",
+    "homepage": "https://quickjs-ng.github.io/quickjs/",
+    "date": "2026-05-20T00:39:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/quickjs-ng.rb",
+    "commit_sha": "eee2b79087355414e79228f166d82e42e366cb9d"
+  },
+  {
+    "type": "formula",
+    "name": "rustnet",
+    "version": "1.3.0",
+    "desc": "Cross-platform network monitoring terminal UI with deep packet inspection",
+    "homepage": "https://github.com/domcyrus/rustnet",
+    "date": "2026-05-20T01:46:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rustnet.rb",
+    "commit_sha": "3588fc9eca6657290d178161f3f318d40d38775d"
+  },
+  {
+    "type": "formula",
+    "name": "openjdk@25",
+    "version": "25.0.3",
+    "desc": "Development kit for the Java programming language",
+    "homepage": "https://openjdk.org/",
+    "date": "2026-05-20T08:49:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/openjdk@25.rb",
+    "commit_sha": "5975e29ad1f2edff8b7c3cdea38c4b00cdd81945"
+  },
+  {
+    "type": "formula",
+    "name": "erlang@28",
+    "version": "28.5",
+    "desc": "Programming language for highly scalable real-time systems",
+    "homepage": "https://www.erlang.org/",
+    "date": "2026-05-20T14:04:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/erlang@28.rb",
+    "commit_sha": "7d8ef89db719fd3ed5548aaab31e2eed1029569b"
   }
 ]
