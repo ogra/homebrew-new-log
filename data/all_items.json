@@ -129950,5 +129950,16 @@
     "source_repo": "homebrew-core",
     "path": "Formula/e/erlang@28.rb",
     "commit_sha": "7d8ef89db719fd3ed5548aaab31e2eed1029569b"
+  },
+  {
+    "type": "cask",
+    "name": "antigravity-cli",
+    "version": "1.0.1,5826024320139264",
+    "desc": "Terminal interface for Antigravity agents",
+    "homepage": "https://antigravity.google/product/antigravity-cli",
+    "date": "2026-05-21T06:03:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/antigravity-cli.rb",
+    "commit_sha": "a875362e0d7570b6e5b1b5f8f526a408b0f297b7"
   }
 ]
