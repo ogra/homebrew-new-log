@@ -129961,5 +129961,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/antigravity-cli.rb",
     "commit_sha": "a875362e0d7570b6e5b1b5f8f526a408b0f297b7"
+  },
+  {
+    "type": "formula",
+    "name": "chunkah",
+    "version": "0.5.0",
+    "desc": "OCI building tool for content-based layers",
+    "homepage": "https://github.com/coreos/chunkah",
+    "date": "2026-05-22T12:25:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/chunkah.rb",
+    "commit_sha": "fb74e367c26cde7a1fd9a392eb7c48bc42962436"
+  },
+  {
+    "type": "formula",
+    "name": "leaf-md",
+    "version": "1.22.3",
+    "desc": "Terminal Markdown previewer with a GUI-like experience",
+    "homepage": "https://leaf.rivolink.mg/",
+    "date": "2026-05-22T14:10:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/leaf-md.rb",
+    "commit_sha": "d80d4ff512b3eecd5d527646771a515fc70dcf9f"
+  },
+  {
+    "type": "formula",
+    "name": "gmp-ecm",
+    "version": "7.0.7",
+    "desc": "Elliptic Curve Method for integer factorization",
+    "homepage": "https://gitlab.inria.fr/zimmerma/ecm",
+    "date": "2026-05-22T14:11:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gmp-ecm.rb",
+    "commit_sha": "04bbb48baf19bc9d91ff355d48591db882d2aaeb"
+  },
+  {
+    "type": "formula",
+    "name": "miasma",
+    "version": "0.2.5",
+    "desc": "Trap AI web scrapers in an endless poison pit",
+    "homepage": "https://github.com/austin-weeks/miasma",
+    "date": "2026-05-22T15:11:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/miasma.rb",
+    "commit_sha": "636b653aa6b844b8a7b728c9ee8f0513f1a0e9d3"
+  },
+  {
+    "type": "formula",
+    "name": "codeburn",
+    "version": "0.9.10",
+    "desc": "See where your AI coding tokens go - by task, tool, model, and project",
+    "homepage": "https://github.com/getagentseal/codeburn",
+    "date": "2026-05-22T16:36:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/codeburn.rb",
+    "commit_sha": "4799bede36a20de9298024c9b7fd9d42698508c2"
+  },
+  {
+    "type": "formula",
+    "name": "todoist-cli",
+    "version": "1.67.0",
+    "desc": "Official command-line interface for Todoist",
+    "homepage": "https://github.com/Doist/todoist-cli",
+    "date": "2026-05-22T17:31:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/todoist-cli.rb",
+    "commit_sha": "d4c4e65f2dc18b4ca82f9504d82c8b2f00634807"
+  },
+  {
+    "type": "formula",
+    "name": "todoist-cli-go",
+    "version": "0.24.0",
+    "desc": "CLI for Todoist",
+    "homepage": "https://github.com/sachaos/todoist",
+    "date": "2026-05-22T18:14:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/todoist-cli-go.rb",
+    "commit_sha": "0276880e14c843ceeffb0c55b54debde24f571b1"
+  },
+  {
+    "type": "cask",
+    "name": "antigravity-ide",
+    "version": "2.0.3,6242596486512640",
+    "desc": "AI Coding Agent IDE",
+    "homepage": "https://antigravity.google/product/antigravity-ide",
+    "date": "2026-05-22T08:52:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/antigravity-ide.rb",
+    "commit_sha": "d376ca55db36bd26ad220acf0e86f785c260e9aa"
+  },
+  {
+    "type": "cask",
+    "name": "overtone-analyzer",
+    "version": "5.11.0.9351",
+    "desc": "Real-time voice spectrum analyzer and audio editor",
+    "homepage": "https://www.sygyt.com/",
+    "date": "2026-05-22T14:26:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/overtone-analyzer.rb",
+    "commit_sha": "fce1a54cb8cb4b8cdc71e3b5e4b0d63513b4d380"
+  },
+  {
+    "type": "cask",
+    "name": "vocevista-video",
+    "version": "5.11.0.9351",
+    "desc": "Voice spectrum analyzer with resonance and vowel analysis",
+    "homepage": "https://www.sygyt.com/",
+    "date": "2026-05-22T14:26:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vocevista-video.rb",
+    "commit_sha": "71552f98ebe2deae6e9b89cb44c39a5cab548bf1"
+  },
+  {
+    "type": "cask",
+    "name": "vocevista-video-pro",
+    "version": "5.11.0.9351",
+    "desc": "High-resolution voice spectrum and vibrato analyzer",
+    "homepage": "https://www.sygyt.com/",
+    "date": "2026-05-22T14:27:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vocevista-video-pro.rb",
+    "commit_sha": "24430eb6f03ef2b1eec50bcad93dd47e2f4325eb"
   }
 ]
