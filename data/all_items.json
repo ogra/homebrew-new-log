@@ -130159,5 +130159,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/maestri.rb",
     "commit_sha": "f3722cb95b600048ed5cf4b4166756101da488e8"
+  },
+  {
+    "type": "formula",
+    "name": "ladder",
+    "version": "0.0.23",
+    "desc": "Selfhosted alternative to 12ft.io and 1ft.io HTTP web proxies",
+    "homepage": "https://github.com/everywall/ladder",
+    "date": "2026-05-24T03:44:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/ladder.rb",
+    "commit_sha": "1437e70f065f2efdd4706ca8ce96eac13231e2bb"
+  },
+  {
+    "type": "formula",
+    "name": "chunkah",
+    "version": "0.5.0",
+    "desc": "OCI building tool for content-based layers",
+    "homepage": "https://github.com/coreos/chunkah",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/chunkah.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "codeburn",
+    "version": "0.9.10",
+    "desc": "See where your AI coding tokens go - by task, tool, model, and project",
+    "homepage": "https://github.com/getagentseal/codeburn",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/codeburn.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "gmp-ecm",
+    "version": "7.0.7",
+    "desc": "Elliptic Curve Method for integer factorization",
+    "homepage": "https://gitlab.inria.fr/zimmerma/ecm",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gmp-ecm.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "leaf-md",
+    "version": "1.23.0",
+    "desc": "Terminal Markdown previewer with a GUI-like experience",
+    "homepage": "https://leaf.rivolink.mg/",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/leaf-md.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "m4ri",
+    "version": "20260122",
+    "desc": "Library for fast arithmetic with dense matrices over GF(2)",
+    "homepage": "https://github.com/malb/m4ri",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/m4ri.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "mercury-cli",
+    "version": "0.8.2",
+    "desc": "CLI interface for Mercury banking",
+    "homepage": "https://github.com/MercuryTechnologies/mercury-cli",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mercury-cli.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "formula",
+    "name": "miasma",
+    "version": "0.2.5",
+    "desc": "Trap AI web scrapers in an endless poison pit",
+    "homepage": "https://github.com/austin-weeks/miasma",
+    "date": "2026-05-24T04:53:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/miasma.rb",
+    "commit_sha": "d2374e7042f4a7f48c8ea4e0a2172e0405fb6806"
+  },
+  {
+    "type": "cask",
+    "name": "font-pliant",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/TheJonassss/Pliant",
+    "date": "2026-05-24T00:39:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-p/font-pliant.rb",
+    "commit_sha": "738ed46b89000ef2d8966ce3dc7d4c065355b660"
   }
 ]
