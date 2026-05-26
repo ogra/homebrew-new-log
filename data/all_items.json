@@ -130258,5 +130258,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-p/font-pliant.rb",
     "commit_sha": "738ed46b89000ef2d8966ce3dc7d4c065355b660"
+  },
+  {
+    "type": "formula",
+    "name": "cloudmonkey",
+    "version": "6.5.0",
+    "desc": "Apache CloudStack CloudMonkey CLI",
+    "homepage": "https://github.com/apache/cloudstack-cloudmonkey",
+    "date": "2026-05-25T13:30:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cloudmonkey.rb",
+    "commit_sha": "bb9aa50f8b407c56304de2af8ced490dfc4513f7"
+  },
+  {
+    "type": "formula",
+    "name": "herdr",
+    "version": "0.6.2",
+    "desc": "Agent multiplexer that lives in your terminal",
+    "homepage": "https://herdr.dev",
+    "date": "2026-05-25T15:03:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/herdr.rb",
+    "commit_sha": "0eb9def3cbb261e6719d45a8f9e2e08c583c9eb9"
+  },
+  {
+    "type": "formula",
+    "name": "vs-preview",
+    "version": "0.20.1",
+    "desc": "Previewer for VapourSynth scripts",
+    "homepage": "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview",
+    "date": "2026-05-25T20:04:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vs-preview.rb",
+    "commit_sha": "86533c555406c084be7bef15729906e0464a5c02"
+  },
+  {
+    "type": "formula",
+    "name": "mips-linux-gnu-binutils",
+    "version": "2.46.0",
+    "desc": "GNU Binutils for mips-linux-gnu cross development",
+    "homepage": "https://www.gnu.org/software/binutils/",
+    "date": "2026-05-25T21:20:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mips-linux-gnu-binutils.rb",
+    "commit_sha": "b181ccb088816dc8b92685dd1741dbd0126bfb9a"
+  },
+  {
+    "type": "cask",
+    "name": "chronoid",
+    "version": "1.0.84",
+    "desc": "Automatic time tracker and productivity insights app",
+    "homepage": "https://chronoid.app/",
+    "date": "2026-05-25T02:29:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/chronoid.rb",
+    "commit_sha": "4e4ad37cc889d50905d688bba584f72e6f58b7df"
+  },
+  {
+    "type": "cask",
+    "name": "trickster",
+    "version": "3.9.11",
+    "desc": "Quickly access recently changed or modified files with a keyboard shortcut",
+    "homepage": "https://www.apparentsoft.com/trickster",
+    "date": "2026-05-25T02:30:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/trickster.rb",
+    "commit_sha": "d1b76cdf9771f380e5af737dca4761f836d04800"
+  },
+  {
+    "type": "cask",
+    "name": "tldraw",
+    "version": "1.2.3",
+    "desc": "Editor for .tldr files",
+    "homepage": "https://github.com/tldraw/tldraw-desktop",
+    "date": "2026-05-25T02:35:15Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tldraw.rb",
+    "commit_sha": "1173d58616ef468ad1f4f92a6787e5fd69a9e6cc"
+  },
+  {
+    "type": "cask",
+    "name": "dusklight",
+    "version": "1.3.0",
+    "desc": "Reverse-engineered reimplementation of Twilight Princess",
+    "homepage": "https://twilitrealm.dev/",
+    "date": "2026-05-25T02:35:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dusklight.rb",
+    "commit_sha": "d0cf822ac12a20ec539110634b40322f2d9ab152"
+  },
+  {
+    "type": "cask",
+    "name": "macmd-viewer",
+    "version": "1.2.1",
+    "desc": "Markdown viewer with QuickLook and Mermaid support",
+    "homepage": "https://macmdviewer.com/",
+    "date": "2026-05-25T09:40:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/macmd-viewer.rb",
+    "commit_sha": "3f8d5e66a67ab1296cab3e7092dfcbd1c0d39c23"
   }
 ]
