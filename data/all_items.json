@@ -130357,5 +130357,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/macmd-viewer.rb",
     "commit_sha": "3f8d5e66a67ab1296cab3e7092dfcbd1c0d39c23"
+  },
+  {
+    "type": "formula",
+    "name": "goenv@2",
+    "version": "2.2.40",
+    "desc": "Go version management",
+    "homepage": "https://github.com/go-nv/goenv",
+    "date": "2026-05-27T01:28:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/goenv@2.rb",
+    "commit_sha": "54bcd1cb6105ab67494d45a0f6837914719c2ed4"
+  },
+  {
+    "type": "cask",
+    "name": "atomcode",
+    "version": "4.23.1",
+    "desc": "Open-source terminal AI coding agent",
+    "homepage": "https://atomgit.com/atomgit_atomcode/atomcode",
+    "date": "2026-05-27T04:15:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/atomcode.rb",
+    "commit_sha": "b851e8650296b5af3e27d077034b1e7d9f95ecf9"
+  },
+  {
+    "type": "cask",
+    "name": "smoothcapture",
+    "version": "1.2.47",
+    "desc": "Screen recorder and video editor",
+    "homepage": "https://www.smoothcapture.app/",
+    "date": "2026-05-27T09:57:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/smoothcapture.rb",
+    "commit_sha": "85bb1557a24a9376ab037c08d535d0aef7590ad5"
+  },
+  {
+    "type": "cask",
+    "name": "airi",
+    "version": "0.10.2",
+    "desc": "AI companion and VTuber application",
+    "homepage": "https://airi.moeru.ai/",
+    "date": "2026-05-27T10:13:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/airi.rb",
+    "commit_sha": "6289552ba4cedcb7bf222c83cd1e4fddf913f9b8"
+  },
+  {
+    "type": "cask",
+    "name": "eurkey-next",
+    "version": "2026.03.22",
+    "desc": "Keyboard layout for Europeans, coders, and translators",
+    "homepage": "https://eurkey-macos.eu/",
+    "date": "2026-05-27T11:03:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/eurkey-next.rb",
+    "commit_sha": "37852d0d3ac0eb4aff69f6af37fa0b1c069559e9"
+  },
+  {
+    "type": "cask",
+    "name": "grok-build",
+    "version": "0.2.3",
+    "desc": "Extensible coding agent for the terminal",
+    "homepage": "https://x.ai/cli",
+    "date": "2026-05-27T19:03:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/grok-build.rb",
+    "commit_sha": "d76f46b274f0ff46fbb4da36f5cc6ee757a5b6a7"
   }
 ]
