@@ -130423,5 +130423,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/grok-build.rb",
     "commit_sha": "d76f46b274f0ff46fbb4da36f5cc6ee757a5b6a7"
+  },
+  {
+    "type": "formula",
+    "name": "bumblebee",
+    "version": "0.1.1",
+    "desc": "Read-only developer endpoint scanner for supply-chain exposure",
+    "homepage": "https://github.com/perplexityai/bumblebee",
+    "date": "2026-05-28T02:38:32Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bumblebee.rb",
+    "commit_sha": "67bedb9704b286b73fd62094f0c69bde1bc77e23"
+  },
+  {
+    "type": "formula",
+    "name": "cc-switch-cli",
+    "version": "5.7.0",
+    "desc": "All-in-one assistant tool for Claude Code, Codex, Gemini, OpenCode and OpenClaw",
+    "homepage": "https://github.com/SaladDay/cc-switch-cli",
+    "date": "2026-05-28T09:28:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cc-switch-cli.rb",
+    "commit_sha": "293a7b803301c8d37a214945e5da8957e12f0a61"
+  },
+  {
+    "type": "formula",
+    "name": "btdu",
+    "version": "0.7.2",
+    "desc": "Sampling disk usage profiler for btrfs",
+    "homepage": "https://github.com/CyberShadow/btdu",
+    "date": "2026-05-28T12:02:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/btdu.rb",
+    "commit_sha": "4050c8c416103178dd93c43c91e06ce106a5c82b"
+  },
+  {
+    "type": "formula",
+    "name": "sanity",
+    "version": "5.28.0",
+    "desc": "Command-line interface for Sanity",
+    "homepage": "https://www.sanity.io/",
+    "date": "2026-05-28T22:09:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sanity.rb",
+    "commit_sha": "436d034dab76f86815022e16bee66c7e4ecf375f"
+  },
+  {
+    "type": "formula",
+    "name": "cozypkg",
+    "version": "1.4.1",
+    "desc": "CLI for managing Cozystack packages",
+    "homepage": "https://github.com/cozystack/cozystack",
+    "date": "2026-05-29T15:55:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cozypkg.rb",
+    "commit_sha": "756992ef21e0a43b8ecd5af7ccb669f0e61f4bf6"
+  },
+  {
+    "type": "formula",
+    "name": "ghcitty",
+    "version": "0.4.0",
+    "desc": "Fast, friendly GHCi",
+    "homepage": "https://github.com/mattlianje/ghcitty",
+    "date": "2026-05-29T18:27:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/ghcitty.rb",
+    "commit_sha": "71ea712413482cecc33c1bbc000db9ab92af8e03"
+  },
+  {
+    "type": "formula",
+    "name": "ratty",
+    "version": "0.4.0",
+    "desc": "GPU-rendered terminal emulator with inline 3D graphics",
+    "homepage": "https://ratty-term.org/",
+    "date": "2026-05-29T21:38:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/ratty.rb",
+    "commit_sha": "5aad4b9bfa218c703968d773105be1a9b355dbf1"
+  },
+  {
+    "type": "cask",
+    "name": "activitywatch@beta",
+    "version": "0.14.0b1",
+    "desc": "Time tracker",
+    "homepage": "https://activitywatch.net/",
+    "date": "2026-05-28T09:06:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/activitywatch@beta.rb",
+    "commit_sha": "9236de4b700655ab9b25e1d4a248d6c054b21ca3"
   }
 ]
