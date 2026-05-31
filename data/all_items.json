@@ -130511,5 +130511,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/activitywatch@beta.rb",
     "commit_sha": "9236de4b700655ab9b25e1d4a248d6c054b21ca3"
+  },
+  {
+    "type": "formula",
+    "name": "quien",
+    "version": "0.10.0",
+    "desc": "Better WHOIS and domain intelligence toolkit",
+    "homepage": "https://benword.com/quien-a-better-whois-and-domain-intelligence-toolkit",
+    "date": "2026-05-30T09:01:59Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/quien.rb",
+    "commit_sha": "58b245e7b6b33a1b38791ae8b2253f0f176ed714"
+  },
+  {
+    "type": "formula",
+    "name": "libredwg",
+    "version": "0.13.3",
+    "desc": "DWG utilities",
+    "homepage": "https://www.gnu.org/software/libredwg/",
+    "date": "2026-05-30T20:32:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libredwg.rb",
+    "commit_sha": "2ca5e315283e8fa8ad8eaa729252fd9c74ce5ee9"
+  },
+  {
+    "type": "cask",
+    "name": "meetily",
+    "version": "0.3.0",
+    "desc": "Meeting transcription and analysis application",
+    "homepage": "https://meetily.ai/",
+    "date": "2026-05-30T00:37:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/meetily.rb",
+    "commit_sha": "d83396762b66aa6c5c80e979f1b8669af1621ca9"
+  },
+  {
+    "type": "cask",
+    "name": "openpencil",
+    "version": "0.13.2",
+    "desc": "Open-source design editor compatible with Figma",
+    "homepage": "https://openpencil.dev/",
+    "date": "2026-05-30T00:37:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openpencil.rb",
+    "commit_sha": "fec884e9b7d917c8f4991c9cdad4225f996a82f8"
+  },
+  {
+    "type": "cask",
+    "name": "auto-subs",
+    "version": "3.6.0",
+    "desc": "Subtitle generator for audio and video files",
+    "homepage": "https://github.com/tmoroney/auto-subs/",
+    "date": "2026-05-30T00:37:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/auto-subs.rb",
+    "commit_sha": "6cee6baf11eeb02cac40169fdc09c7a5d502c09a"
+  },
+  {
+    "type": "cask",
+    "name": "yojam",
+    "version": "1.1.5",
+    "desc": "Open links in selected browser, profiles, or apps",
+    "homepage": "https://yoj.am/",
+    "date": "2026-05-30T00:37:54Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/y/yojam.rb",
+    "commit_sha": "6bbfc0587802ab7c6b2708db5ba687cf1f2f2610"
+  },
+  {
+    "type": "cask",
+    "name": "dbx",
+    "version": "0.5.25",
+    "desc": "Database management tool",
+    "homepage": "https://dbxio.com/",
+    "date": "2026-05-30T01:14:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dbx.rb",
+    "commit_sha": "431d54a884f9ab575087c45a00e2fa95127eb904"
+  },
+  {
+    "type": "cask",
+    "name": "speechify-ai-assistant",
+    "version": "3.3.0",
+    "desc": "AI-powered reading and voice assistant",
+    "homepage": "https://www.speechify.com/",
+    "date": "2026-05-30T19:04:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/speechify-ai-assistant.rb",
+    "commit_sha": "bffecfec9d4b4d70af0890e39157996dd2f412d4"
   }
 ]
