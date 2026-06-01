@@ -130599,5 +130599,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/speechify-ai-assistant.rb",
     "commit_sha": "bffecfec9d4b4d70af0890e39157996dd2f412d4"
+  },
+  {
+    "type": "formula",
+    "name": "telegram-send",
+    "version": "0.39.2",
+    "desc": "Command-line tool to send Telegram messages",
+    "homepage": "https://pypi.org/project/telegram-send/",
+    "date": "2026-05-31T00:57:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/telegram-send.rb",
+    "commit_sha": "502381238eacbece5707a0ba950113bb4f5d1954"
+  },
+  {
+    "type": "formula",
+    "name": "tdf",
+    "version": "0.5.0",
+    "desc": "TUI-based PDF viewer",
+    "homepage": "https://github.com/itsjunetime/tdf",
+    "date": "2026-05-31T09:18:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tdf.rb",
+    "commit_sha": "40e565a134e3118fe3c79104029448fc3a1ef422"
+  },
+  {
+    "type": "formula",
+    "name": "wl-clipboard",
+    "version": "2.3.0",
+    "desc": "Command-line copy/paste utilities for Wayland",
+    "homepage": "https://github.com/bugaevc/wl-clipboard",
+    "date": "2026-05-31T17:19:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wl-clipboard.rb",
+    "commit_sha": "d0b378199b16658570cff4ad0136a2a3fb045165"
+  },
+  {
+    "type": "formula",
+    "name": "sdl3_net",
+    "version": "3.2.0",
+    "desc": "Simple cross-platform wrapper over TCP/IP sockets",
+    "homepage": "https://github.com/libsdl-org/SDL_net",
+    "date": "2026-05-31T19:13:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sdl3_net.rb",
+    "commit_sha": "ba58ecfca83245edf109bc79b69f8b58f725af4f"
+  },
+  {
+    "type": "formula",
+    "name": "sdl2-compat",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-05-31T21:26:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sdl2-compat.rb",
+    "commit_sha": "198f180df0587bf376688a8184fa1d5089d08bcb"
+  },
+  {
+    "type": "cask",
+    "name": "font-montenegrin-gothic-one",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/MagicformDesign/montenegrin-gothic-one",
+    "date": "2026-05-31T00:41:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-m/font-montenegrin-gothic-one.rb",
+    "commit_sha": "a9893b9b67302a4cffc6c5f2e84e2c0cfd541f10"
+  },
+  {
+    "type": "cask",
+    "name": "ghostvm",
+    "version": "2.11.0",
+    "desc": "Native macOS Virtual Machines for Apple Silicon",
+    "homepage": "https://ghostvm.org/",
+    "date": "2026-05-31T05:33:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/ghostvm.rb",
+    "commit_sha": "1c87e8f80617b94d4de4a9be822d5dff490deb0f"
+  },
+  {
+    "type": "cask",
+    "name": "harvest",
+    "version": "3.0.5",
+    "desc": "Time tracking application",
+    "homepage": "https://www.getharvest.com/apps/mac",
+    "date": "2026-05-31T13:56:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/harvest.rb",
+    "commit_sha": "b59288a02a646282bb0130022d3b7e3b0fe8c73e"
+  },
+  {
+    "type": "cask",
+    "name": "facescreen",
+    "version": "2.2.0",
+    "desc": "Camera and text overlay for presentations and screen sharing",
+    "homepage": "https://facescreenapp.com/",
+    "date": "2026-05-31T14:01:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/facescreen.rb",
+    "commit_sha": "447f7ee63a0bb688d62a8688ee148bfd9d5532bf"
+  },
+  {
+    "type": "cask",
+    "name": "devin-cli",
+    "version": "2026.5.26-2",
+    "desc": "Coding agent with Devin Cloud integration",
+    "homepage": "https://cli.devin.ai/docs",
+    "date": "2026-05-31T14:44:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/devin-cli.rb",
+    "commit_sha": "d34022b320337a88f982d9c9b2cd780eae24a7ec"
+  },
+  {
+    "type": "cask",
+    "name": "choragus",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-05-31T15:57:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/choragus.rb",
+    "commit_sha": "577ffb7370e713fc98594c18fbbfee7e2b1572f6"
   }
 ]
