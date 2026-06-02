@@ -130720,5 +130720,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/choragus.rb",
     "commit_sha": "577ffb7370e713fc98594c18fbbfee7e2b1572f6"
+  },
+  {
+    "type": "formula",
+    "name": "aube",
+    "version": "1.17.1",
+    "desc": "Fast Node.js package manager",
+    "homepage": "https://aube.en.dev",
+    "date": "2026-06-01T16:49:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/aube.rb",
+    "commit_sha": "732838d8d8ccdc88d965fe42f17a6322dc3d5247"
+  },
+  {
+    "type": "formula",
+    "name": "dz6",
+    "version": "0.7.0",
+    "desc": "Fast Vim-inspired TUI hex editor",
+    "homepage": "https://dz6.dev.br",
+    "date": "2026-06-01T21:21:32Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dz6.rb",
+    "commit_sha": "00af1e5f23cb5fa1975d072824d8253820648271"
+  },
+  {
+    "type": "cask",
+    "name": "mirai",
+    "version": "0.3.1",
+    "desc": "Inference engine for AI models",
+    "homepage": "https://trymirai.com/",
+    "date": "2026-06-01T05:28:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mirai.rb",
+    "commit_sha": "b0529d7a67cc7d0d24b689b36c7e93f9633fab6e"
+  },
+  {
+    "type": "cask",
+    "name": "whatcable",
+    "version": "0.16.0",
+    "desc": "Menu bar app for USB-C cable diagnostics",
+    "homepage": "https://github.com/darrylmorley/whatcable",
+    "date": "2026-06-01T06:12:53Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/whatcable.rb",
+    "commit_sha": "42ede424e0bdf127939c4af8f2e5fb5a29767c8e"
+  },
+  {
+    "type": "cask",
+    "name": "mactools",
+    "version": "1.0.13",
+    "desc": "Menu bar toolbox",
+    "homepage": "https://github.com/ggbond268/MacTools",
+    "date": "2026-06-01T07:45:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mactools.rb",
+    "commit_sha": "b758a1f35267632547f3d48ad339edcfa6cdca2b"
+  },
+  {
+    "type": "cask",
+    "name": "vmlx",
+    "version": "1.5.49",
+    "desc": "Run local AI models on Apple Silicon",
+    "homepage": "https://mlx.studio/",
+    "date": "2026-06-01T07:46:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vmlx.rb",
+    "commit_sha": "98ec9cfca8a8d87f168a56929b4c39326f55c23c"
+  },
+  {
+    "type": "cask",
+    "name": "font-xiaolai",
+    "version": "3.126",
+    "desc": "",
+    "homepage": "https://github.com/lxgw/kose-font",
+    "date": "2026-06-01T07:49:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-x/font-xiaolai.rb",
+    "commit_sha": "4f056d5287aeeaa1e8399446a22bcbe1d8b3a350"
+  },
+  {
+    "type": "cask",
+    "name": "font-xiaolai-mono",
+    "version": "3.126",
+    "desc": "",
+    "homepage": "https://github.com/lxgw/kose-font",
+    "date": "2026-06-01T07:50:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-x/font-xiaolai-mono.rb",
+    "commit_sha": "f4a07045e2784be609ac3db2a6bff2381dbdcea2"
+  },
+  {
+    "type": "cask",
+    "name": "rcmd",
+    "version": "3.2.1",
+    "desc": "App switcher driven by the Right Command key",
+    "homepage": "https://lowtechguys.com/rcmd/",
+    "date": "2026-06-01T14:57:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rcmd.rb",
+    "commit_sha": "d38b4c3c02bb7a26acda6e9287fb847ef9fe953c"
+  },
+  {
+    "type": "cask",
+    "name": "ping-island",
+    "version": "0.20.0",
+    "desc": "Menu bar status for coding agent sessions",
+    "homepage": "https://erha19.github.io/ping-island/",
+    "date": "2026-06-01T15:31:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/ping-island.rb",
+    "commit_sha": "cf40f14bae197de1b52892b31f59f2d40292b1a9"
+  },
+  {
+    "type": "cask",
+    "name": "agentsmesh",
+    "version": "0.40.0",
+    "desc": "AI agent workforce platform",
+    "homepage": "https://agentsmesh.ai/",
+    "date": "2026-06-01T18:28:58Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/agentsmesh.rb",
+    "commit_sha": "82ab96620562cc14ec6868132f1e7240ebe54a7e"
   }
 ]
