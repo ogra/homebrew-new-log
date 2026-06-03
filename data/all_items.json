@@ -130841,5 +130841,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/agentsmesh.rb",
     "commit_sha": "82ab96620562cc14ec6868132f1e7240ebe54a7e"
+  },
+  {
+    "type": "cask",
+    "name": "cc-pocket",
+    "version": "1.101.1,179",
+    "desc": "Remote client for Codex and Claude coding agents",
+    "homepage": "https://k9i-0.github.io/ccpocket/install/",
+    "date": "2026-06-02T00:22:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cc-pocket.rb",
+    "commit_sha": "e06a7b0c7e54c9678d050cdb758caf4813c7f644"
+  },
+  {
+    "type": "cask",
+    "name": "mister-plimsoll",
+    "version": "1.1.5",
+    "desc": "Storage volume usage monitoring and fullness notifications",
+    "homepage": "https://www.misterplimsoll.app/",
+    "date": "2026-06-02T01:06:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mister-plimsoll.rb",
+    "commit_sha": "bed27b78ed2cabbb89fa87cae595f01f177c79ad"
+  },
+  {
+    "type": "cask",
+    "name": "exo",
+    "version": "1.0.71",
+    "desc": "Run AI models locally across multiple devices",
+    "homepage": "https://exolabs.net/",
+    "date": "2026-06-02T04:23:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/exo.rb",
+    "commit_sha": "dec5df75f7f19ede9af16dafb398a1eada3d429e"
+  },
+  {
+    "type": "cask",
+    "name": "open-island",
+    "version": "1.1.2",
+    "desc": "Native companion app for AI coding agents",
+    "homepage": "https://github.com/Octane0411/open-vibe-island",
+    "date": "2026-06-02T08:57:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/open-island.rb",
+    "commit_sha": "73d6bcf419459f3d7c2fc0498d8cd7166458165c"
+  },
+  {
+    "type": "cask",
+    "name": "tangleguard-cli",
+    "version": "0.6.1",
+    "desc": "Codebase Architecture Context via the CLI for LLMs and Humans",
+    "homepage": "https://tangleguard.com/",
+    "date": "2026-06-02T18:06:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tangleguard-cli.rb",
+    "commit_sha": "20ff7f3abd69e1ce8870e9880a38a706571c3238"
   }
 ]
