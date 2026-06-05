@@ -130951,5 +130951,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openlogi.rb",
     "commit_sha": "f5bba0cd23cf5aeea99e280cfb63ce1a5fa5a10b"
+  },
+  {
+    "type": "formula",
+    "name": "pitchfork",
+    "version": "2.12.1",
+    "desc": "CLI for managing daemons with a focus on developer experience",
+    "homepage": "https://pitchfork.en.dev",
+    "date": "2026-06-04T00:46:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pitchfork.rb",
+    "commit_sha": "dec565b7faabbdc515aa34df9d9327733a250b03"
+  },
+  {
+    "type": "formula",
+    "name": "miniz",
+    "version": "3.1.1",
+    "desc": "Lossless, high-performance data compression library (zlib/Deflate)",
+    "homepage": "https://github.com/richgel999/miniz",
+    "date": "2026-06-04T03:14:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/miniz.rb",
+    "commit_sha": "40c0cb0386b30fb0cd627f8757e792a3b2e2a2bb"
+  },
+  {
+    "type": "formula",
+    "name": "hookdeck",
+    "version": "2.2.0",
+    "desc": "Forward webhook events from Hookdeck to a local server",
+    "homepage": "https://hookdeck.com",
+    "date": "2026-06-04T03:22:31Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hookdeck.rb",
+    "commit_sha": "341da98939d78b2734d75485e73def43ad4821d9"
+  },
+  {
+    "type": "formula",
+    "name": "ansible@13",
+    "version": "13.7.0",
+    "desc": "Automate deployment, configuration, and upgrading",
+    "homepage": "https://www.ansible.com/",
+    "date": "2026-06-04T03:30:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/ansible@13.rb",
+    "commit_sha": "ef72d033d0ecf690471ccdc85d368a5da7f78402"
+  },
+  {
+    "type": "formula",
+    "name": "libbcg729",
+    "version": "1.1.1",
+    "desc": "Encoder and decoder of the ITU G.729 Annex A/B speech codec",
+    "homepage": "https://www.linphone.org",
+    "date": "2026-06-04T14:58:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libbcg729.rb",
+    "commit_sha": "5edb69a202d9b23a49997d8a3bcba54c1979957d"
+  },
+  {
+    "type": "formula",
+    "name": "vim-classic",
+    "version": "8.3.0",
+    "desc": "Vim 8 long term support version with no LLM-generated code",
+    "homepage": "https://vim-classic.org/",
+    "date": "2026-06-04T21:57:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vim-classic.rb",
+    "commit_sha": "0925775a88be4820e119628635168157ba4cb023"
   }
 ]
