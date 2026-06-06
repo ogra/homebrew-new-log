@@ -131017,5 +131017,93 @@
     "source_repo": "homebrew-core",
     "path": "Formula/v/vim-classic.rb",
     "commit_sha": "0925775a88be4820e119628635168157ba4cb023"
+  },
+  {
+    "type": "formula",
+    "name": "baguette",
+    "version": "0.1.74",
+    "desc": "Headless iOS Simulator manager and host-side input injection for iOS 26",
+    "homepage": "https://github.com/tddworks/baguette",
+    "date": "2026-06-05T02:21:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/baguette.rb",
+    "commit_sha": "b2ad49db42aab164efdad4282db08a07e11a9ac4"
+  },
+  {
+    "type": "formula",
+    "name": "rura",
+    "version": "1.5.0",
+    "desc": "Interactive TUI scratchpad for building shell pipelines",
+    "homepage": "https://github.com/tlipinski/rura",
+    "date": "2026-06-05T02:29:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rura.rb",
+    "commit_sha": "946c29656672a879b9797accae63a0ce7ce2fdfc"
+  },
+  {
+    "type": "formula",
+    "name": "threatdeck",
+    "version": "0.5.0",
+    "desc": "TUI threat intelligence monitoring and alerting platform",
+    "homepage": "https://threatdeck.io/",
+    "date": "2026-06-05T05:52:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/threatdeck.rb",
+    "commit_sha": "00883f953c72c169a0b8b740a15f65a535e45ce8"
+  },
+  {
+    "type": "formula",
+    "name": "ec",
+    "version": "0.3.2",
+    "desc": "TUI 3-way git mergetool",
+    "homepage": "https://github.com/chojs23/ec",
+    "date": "2026-06-05T13:32:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/ec.rb",
+    "commit_sha": "0c60a7a1e60f4f0b8b4a153b9df75045d45120f6"
+  },
+  {
+    "type": "cask",
+    "name": "shichizip-zs",
+    "version": "0.2.4",
+    "desc": "7-Zip derivative GUI based on mcmilk/7-Zip-zstd",
+    "homepage": "https://github.com/idawnlight/ShichiZip",
+    "date": "2026-06-05T04:32:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/shichizip-zs.rb",
+    "commit_sha": "347cb1d3345d0332f1ca1638b0bca1a2d532f630"
+  },
+  {
+    "type": "cask",
+    "name": "font-geist-pixel",
+    "version": "1.7.2",
+    "desc": "",
+    "homepage": "https://vercel.com/font",
+    "date": "2026-06-05T04:57:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-g/font-geist-pixel.rb",
+    "commit_sha": "5fbc743ad2dea1bed14c603a41ab649bf446f998"
+  },
+  {
+    "type": "cask",
+    "name": "mindmanager",
+    "version": "25.2.105",
+    "desc": "Mind mapping and visual work-management tool",
+    "homepage": "https://www.mindmanager.com/en/",
+    "date": "2026-06-05T14:05:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mindmanager.rb",
+    "commit_sha": "b1485dc62b649d16229bc22c55566b6a4952f2c5"
+  },
+  {
+    "type": "cask",
+    "name": "clickshare",
+    "version": "4.50.0,15",
+    "desc": "Client for wireless screen sharing with Barco conferencing systems",
+    "homepage": "https://www.barco.com/en/product/clickshare-app",
+    "date": "2026-06-05T23:34:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/clickshare.rb",
+    "commit_sha": "f9d02f7454aa743c6e545d140eaa6a7749251a1a"
   }
 ]
