@@ -131105,5 +131105,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/clickshare.rb",
     "commit_sha": "f9d02f7454aa743c6e545d140eaa6a7749251a1a"
+  },
+  {
+    "type": "cask",
+    "name": "power-monitor",
+    "version": "1.3.3",
+    "desc": "Reports power adapter and battery status",
+    "homepage": "https://github.com/SAP/power-monitoring-tool-for-macos",
+    "date": "2026-06-06T00:12:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/power-monitor.rb",
+    "commit_sha": "3d2193f3fd31547f0c47b34ab0489b9987eb7b92"
+  },
+  {
+    "type": "cask",
+    "name": "devin-desktop",
+    "version": "3.0.28,e9f7e622f49ec544e97d0e624691d71a963ac40b",
+    "desc": "Agentic IDE with AI agent command center",
+    "homepage": "https://devin.ai/desktop",
+    "date": "2026-06-06T00:17:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/devin-desktop.rb",
+    "commit_sha": "5f4b0d946a82762d6df48748d23c300d0f11ab49"
+  },
+  {
+    "type": "cask",
+    "name": "devin-desktop@next",
+    "version": "3.0.1028+next.e9f7e622f4,e9f7e622f49ec544e97d0e624691d71a963ac40b",
+    "desc": "Agentic IDE with AI agent command center",
+    "homepage": "https://codeium.com/windsurf/download-next",
+    "date": "2026-06-06T00:17:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/devin-desktop@next.rb",
+    "commit_sha": "5f4b0d946a82762d6df48748d23c300d0f11ab49"
+  },
+  {
+    "type": "cask",
+    "name": "groove-omnidialer",
+    "version": "26.603.1017",
+    "desc": "Outbound sales dialer for making and managing calls",
+    "homepage": "https://www.groove.co/",
+    "date": "2026-06-06T00:40:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/groove-omnidialer.rb",
+    "commit_sha": "597857da470f7f309bb64171803c8a1e8475527c"
+  },
+  {
+    "type": "cask",
+    "name": "microsoft-365-copilot",
+    "version": "1.2605.2501",
+    "desc": "AI-first productivity assistant for Microsoft 365",
+    "homepage": "https://www.microsoft.com/en-us/microsoft-365-copilot/download-copilot-app",
+    "date": "2026-06-06T01:30:00Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/microsoft-365-copilot.rb",
+    "commit_sha": "3c0744a93fd749e34b32594242c313f72f862c2d"
+  },
+  {
+    "type": "cask",
+    "name": "dwellclick",
+    "version": "2.3.1",
+    "desc": "Assistive app for clicking without physically pressing a mouse button",
+    "homepage": "https://pilotmoon.com/dwellclick/",
+    "date": "2026-06-06T03:10:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dwellclick.rb",
+    "commit_sha": "28997299d94d0c810d4c5398da5f790ae6d4c9f5"
+  },
+  {
+    "type": "cask",
+    "name": "dfu-blaster-pro",
+    "version": "4.2,3282",
+    "desc": "Utility to put Apple silicon Macs into DFU mode for restore",
+    "homepage": "https://twocanoes.com/products/mac/dfu-blaster/",
+    "date": "2026-06-06T12:32:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dfu-blaster-pro.rb",
+    "commit_sha": "a4305411a5101be2e2aea4717d6cecbf73735fed"
+  },
+  {
+    "type": "cask",
+    "name": "buzz",
+    "version": "1.4.4",
+    "desc": "Transcribe and translate audio",
+    "homepage": "https://github.com/chidiwilliams/buzz",
+    "date": "2026-06-06T15:24:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/buzz.rb",
+    "commit_sha": "a7e4dbf06c640a1a097427286c42b4ca777bb2e3"
   }
 ]
