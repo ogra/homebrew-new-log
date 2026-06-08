@@ -131193,5 +131193,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/b/buzz.rb",
     "commit_sha": "a7e4dbf06c640a1a097427286c42b4ca777bb2e3"
+  },
+  {
+    "type": "formula",
+    "name": "cargo-show-asm",
+    "version": "0.2.60",
+    "desc": "Show assembly, LLVM-IR, MIR, and WASM generated for Rust code",
+    "homepage": "https://github.com/pacak/cargo-show-asm",
+    "date": "2026-06-06T22:13:59Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cargo-show-asm.rb",
+    "commit_sha": "e9f71a62f32a6838a0c62861ed642d716ce22485"
+  },
+  {
+    "type": "formula",
+    "name": "rmux",
+    "version": "0.5.0",
+    "desc": "Terminal multiplexer with a tmux-style CLI and daemon runtime",
+    "homepage": "https://rmux.io",
+    "date": "2026-06-07T08:46:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rmux.rb",
+    "commit_sha": "4c76789e5871ccd7f1d6468cfdd3ec330470cda4"
+  },
+  {
+    "type": "formula",
+    "name": "elio",
+    "version": "1.8.0",
+    "desc": "Batteries-included terminal file manager with rich previews",
+    "homepage": "https://github.com/elio-fm/elio",
+    "date": "2026-06-07T09:19:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/elio.rb",
+    "commit_sha": "ad6564769dbc2782f936787a49023e5ac9ca2226"
+  },
+  {
+    "type": "formula",
+    "name": "k0sctl",
+    "version": "0.30.1",
+    "desc": "Bootstrapping and management tool for k0s clusters",
+    "homepage": "https://github.com/k0sproject/k0sctl",
+    "date": "2026-06-07T13:12:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/k0sctl.rb",
+    "commit_sha": "6c4f1f5ff4555869764d8ea7c1ebe84e21a76190"
+  },
+  {
+    "type": "formula",
+    "name": "wtype",
+    "version": "0.4",
+    "desc": "Xdotool type for wayland",
+    "homepage": "https://github.com/atx/wtype",
+    "date": "2026-06-07T13:32:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wtype.rb",
+    "commit_sha": "118f43660c191cc16b4cf03d5dffa78cd4e10e88"
+  },
+  {
+    "type": "formula",
+    "name": "kimi-code",
+    "version": "0.11.0",
+    "desc": "AI coding agent for your terminal",
+    "homepage": "https://github.com/MoonshotAI/kimi-code",
+    "date": "2026-06-07T18:50:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kimi-code.rb",
+    "commit_sha": "733f25c27ddf272d2bfb7cca05157270f73ca23d"
+  },
+  {
+    "type": "cask",
+    "name": "ibm-notifier",
+    "version": "3.2.3,135",
+    "desc": "Agent that displays custom notifications and alerts to end users",
+    "homepage": "https://github.com/IBM/mac-ibm-notifications",
+    "date": "2026-06-07T12:23:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/ibm-notifier.rb",
+    "commit_sha": "a553558a0312b0baa9cfbabd440d253841568cbc"
+  },
+  {
+    "type": "cask",
+    "name": "macparakeet",
+    "version": "0.6.18",
+    "desc": "Local speech-to-text, transcription, and meeting recording",
+    "homepage": "https://macparakeet.com/",
+    "date": "2026-06-07T12:48:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/macparakeet.rb",
+    "commit_sha": "1a064c3a4fd5fe200d3a99f2aa23bb7322302d46"
+  },
+  {
+    "type": "cask",
+    "name": "microsoft-remote-help",
+    "version": "1.0.2601221",
+    "desc": "Screen sharing and assistance tool for enterprise IT support",
+    "homepage": "https://learn.microsoft.com/mem/intune/fundamentals/remote-help",
+    "date": "2026-06-07T12:51:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/microsoft-remote-help.rb",
+    "commit_sha": "d62b095b9af85024d5cc27c288a95790f0ac0165"
+  },
+  {
+    "type": "cask",
+    "name": "dotnet-reactor",
+    "version": "7.5.0.0",
+    "desc": ".NET code protection and obfuscation tool",
+    "homepage": "https://www.eziriz.com/dotnet_reactor.htm",
+    "date": "2026-06-07T12:51:53Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dotnet-reactor.rb",
+    "commit_sha": "e4b1445936b998b555f232af54c3801deb4b19dd"
   }
 ]
