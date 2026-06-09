@@ -131303,5 +131303,16 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/d/dotnet-reactor.rb",
     "commit_sha": "e4b1445936b998b555f232af54c3801deb4b19dd"
+  },
+  {
+    "type": "formula",
+    "name": "kubectl-explore",
+    "version": "0.14.1",
+    "desc": "Better kubectl explain with the fuzzy finder",
+    "homepage": "https://github.com/keisku/kubectl-explore",
+    "date": "2026-06-08T15:51:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kubectl-explore.rb",
+    "commit_sha": "868204758c9142e294fdba62e7c43f2bfb4cba50"
   }
 ]
