@@ -131314,5 +131314,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/k/kubectl-explore.rb",
     "commit_sha": "868204758c9142e294fdba62e7c43f2bfb4cba50"
+  },
+  {
+    "type": "formula",
+    "name": "concord",
+    "version": "2.1.13",
+    "desc": "Terminal user interface client for Discord",
+    "homepage": "https://github.com/chojs23/concord",
+    "date": "2026-06-09T02:52:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/concord.rb",
+    "commit_sha": "5c57db22555030205d691cc977059e04377fbf75"
+  },
+  {
+    "type": "formula",
+    "name": "speech",
+    "version": "0.0.20",
+    "desc": "On-device speech toolkit for Apple Silicon: ASR, TTS, VAD, diarization",
+    "homepage": "https://github.com/soniqo/speech-swift",
+    "date": "2026-06-09T06:47:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/speech.rb",
+    "commit_sha": "a23ee2d4cb0b340182584be3d5dd1a67ebff9f05"
+  },
+  {
+    "type": "formula",
+    "name": "wx-cli",
+    "version": "0.3.0",
+    "desc": "WeChat 4.x local data CLI with daemon architecture",
+    "homepage": "https://github.com/jackwener/wx-cli",
+    "date": "2026-06-09T08:09:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wx-cli.rb",
+    "commit_sha": "2d345c67497d3a493198bde4f781fa69895cd715"
+  },
+  {
+    "type": "formula",
+    "name": "eas-cli",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-09T17:18:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/eas-cli.rb",
+    "commit_sha": "b69bf237ba72788415613cd35d42b8ff68641ec7"
   }
 ]
