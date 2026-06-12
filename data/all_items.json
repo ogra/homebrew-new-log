@@ -131402,5 +131402,159 @@
     "source_repo": "homebrew-core",
     "path": "Formula/lib/libcext.rb",
     "commit_sha": "b5416e698db34a1b1f9ec4da6e513f0fde6fa475"
+  },
+  {
+    "type": "formula",
+    "name": "pup",
+    "version": "1.0.0",
+    "desc": "CLI companion with 200+ commands across 33+ Datadog products",
+    "homepage": "https://github.com/DataDog/pup",
+    "date": "2026-06-11T00:41:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pup.rb",
+    "commit_sha": "4ad07906f8c977d755fc696c69d9877634c6bbd8"
+  },
+  {
+    "type": "formula",
+    "name": "zot",
+    "version": "0.2.29",
+    "desc": "Lightweight coding agent harness written in Go",
+    "homepage": "https://www.zot.sh/",
+    "date": "2026-06-11T01:02:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zot.rb",
+    "commit_sha": "a1a87f03d49783f4e64a943da48e9acd21fc5559"
+  },
+  {
+    "type": "formula",
+    "name": "container-use",
+    "version": "0.4.2",
+    "desc": "Dev envs for coding agents. Run multiple agents safely with your stack",
+    "homepage": "https://container-use.com/introduction",
+    "date": "2026-06-11T02:48:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/container-use.rb",
+    "commit_sha": "b227187bf1244a4e995dd6ff7ad0b319555bee47"
+  },
+  {
+    "type": "formula",
+    "name": "vulcain",
+    "version": "1.4.1",
+    "desc": "Fast and idiomatic client-driven REST APIs",
+    "homepage": "https://vulcain.rocks/",
+    "date": "2026-06-11T03:13:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vulcain.rb",
+    "commit_sha": "6e51d4773f4066c712f1331104ad70e17fcab601"
+  },
+  {
+    "type": "formula",
+    "name": "kdash",
+    "version": "1.1.2",
+    "desc": "Simple and fast dashboard for Kubernetes",
+    "homepage": "https://kdash.cli.rs/",
+    "date": "2026-06-11T03:40:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kdash.rb",
+    "commit_sha": "7df59e9f6fe658ff5b7b02bfff09e01d760e5035"
+  },
+  {
+    "type": "formula",
+    "name": "syswatch",
+    "version": "0.7.2",
+    "desc": "Cross-platform system diagnostics TUI",
+    "homepage": "https://netwatchlabs.com",
+    "date": "2026-06-11T03:42:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/syswatch.rb",
+    "commit_sha": "0036eacb03579aefde3de3c36c09477a7d6dcf8d"
+  },
+  {
+    "type": "formula",
+    "name": "safestringlib",
+    "version": "1.3.0",
+    "desc": "Safe string operations and memory routines",
+    "homepage": "https://github.com/intel/safestringlib",
+    "date": "2026-06-11T07:08:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/safestringlib.rb",
+    "commit_sha": "0b6da33485f259a8a204fc8db9c72196d06d2fce"
+  },
+  {
+    "type": "formula",
+    "name": "md-tui",
+    "version": "0.10.1",
+    "desc": "Markdown renderer in the terminal written in rust",
+    "homepage": "https://github.com/henriklovhaug/md-tui",
+    "date": "2026-06-11T07:28:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/md-tui.rb",
+    "commit_sha": "7f68bac1dda5c4460770321d0ff9977a4e324ed3"
+  },
+  {
+    "type": "formula",
+    "name": "keyd",
+    "version": "2.6.0",
+    "desc": "Key remapping daemon for Linux",
+    "homepage": "https://github.com/rvaiya/keyd",
+    "date": "2026-06-11T10:29:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/keyd.rb",
+    "commit_sha": "a2e48bce3cf593df0d349ab858c1a96b80fa3433"
+  },
+  {
+    "type": "formula",
+    "name": "bttf",
+    "version": "0.1.4",
+    "desc": "CLI tool for datetime arithmetic, parsing, formatting and more",
+    "homepage": "https://github.com/BurntSushi/bttf",
+    "date": "2026-06-11T15:25:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bttf.rb",
+    "commit_sha": "0afc390c1a5956e76ca1c235ad31d2fdc61d3ef6"
+  },
+  {
+    "type": "formula",
+    "name": "merman-cli",
+    "version": "0.7.0",
+    "desc": "Mermaid.js, but headless, in Rust",
+    "homepage": "https://frankorz.com/merman/",
+    "date": "2026-06-11T22:33:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/merman-cli.rb",
+    "commit_sha": "2baf707b2d60ecc8702e5ace126604841e17fb61"
+  },
+  {
+    "type": "formula",
+    "name": "pdf.tocgen",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-12T00:10:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pdf.tocgen.rb",
+    "commit_sha": "c04386addf90e7291ef43920f3367c36fe58b23c"
+  },
+  {
+    "type": "cask",
+    "name": "shade",
+    "version": "2.3.16",
+    "desc": "AI-powered media storage and asset management platform",
+    "homepage": "https://shade.inc/",
+    "date": "2026-06-11T04:03:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/shade.rb",
+    "commit_sha": "a5ae3775481d10fe34742a696161ae2efbbe8f9a"
+  },
+  {
+    "type": "cask",
+    "name": "terax",
+    "version": "0.7.3",
+    "desc": "Terminal-first AI-native developer workspace",
+    "homepage": "https://terax.app/",
+    "date": "2026-06-11T07:33:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/terax.rb",
+    "commit_sha": "37f81cd29ea80dc5e59b38316eb5edfdf3c75c2b"
   }
 ]
