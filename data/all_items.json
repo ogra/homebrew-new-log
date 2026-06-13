@@ -131556,5 +131556,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/terax.rb",
     "commit_sha": "37f81cd29ea80dc5e59b38316eb5edfdf3c75c2b"
+  },
+  {
+    "type": "formula",
+    "name": "mimo-code",
+    "version": "0.1.0",
+    "desc": "AI coding agent with cross-session memory",
+    "homepage": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "date": "2026-06-12T05:06:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mimo-code.rb",
+    "commit_sha": "c645479e6185df43fc2beb2a64c0e0825ef62985"
+  },
+  {
+    "type": "formula",
+    "name": "pkgsite",
+    "version": "0.1.0",
+    "desc": "Documentation server for Go packages",
+    "homepage": "https://pkg.go.dev/golang.org/x/pkgsite",
+    "date": "2026-06-12T13:02:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pkgsite.rb",
+    "commit_sha": "3b2fc7f430f8f536f46e16557685eecf187b4367"
+  },
+  {
+    "type": "formula",
+    "name": "netwatch",
+    "version": "0.25.7",
+    "desc": "Cross-platform realtime network diagnostics TUI",
+    "homepage": "https://www.netwatchlabs.com/labs/netwatch",
+    "date": "2026-06-12T13:44:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/netwatch.rb",
+    "commit_sha": "dbdaa8d36a24d594f81ac10042e3d5f80a7488d4"
+  },
+  {
+    "type": "formula",
+    "name": "swgp-go",
+    "version": "1.10.0",
+    "desc": "Simple WireGuard proxy with minimal overhead for WireGuard traffic",
+    "homepage": "https://github.com/database64128/swgp-go",
+    "date": "2026-06-12T16:59:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/swgp-go.rb",
+    "commit_sha": "4fdc8ebc461cf2cd5087430448b3753028ea4d5b"
+  },
+  {
+    "type": "cask",
+    "name": "flow5",
+    "version": "7.56",
+    "desc": "Potential flow solver for preliminary aerodynamic and hydrofoil design",
+    "homepage": "https://flow5.tech/flow5.html",
+    "date": "2026-06-12T21:37:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/flow5.rb",
+    "commit_sha": "6ea6f8c29c1aa600a54b528be27b6fe08fd116ff"
   }
 ]
