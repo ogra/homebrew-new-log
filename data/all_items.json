@@ -131611,5 +131611,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/f/flow5.rb",
     "commit_sha": "6ea6f8c29c1aa600a54b528be27b6fe08fd116ff"
+  },
+  {
+    "type": "formula",
+    "name": "ttl",
+    "version": "0.20.0",
+    "desc": "Modern traceroute/mtr-style TUI with hop stats and ASN/geo enrichment",
+    "homepage": "https://github.com/lance0/ttl",
+    "date": "2026-06-13T03:28:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/ttl.rb",
+    "commit_sha": "82e986b134cfd08cb9a9b95786895cc507b05c93"
+  },
+  {
+    "type": "formula",
+    "name": "dbx-cli",
+    "version": "0.4.8",
+    "desc": "Command-line interface for DBX database connections, schema, and safe queries",
+    "homepage": "https://github.com/t8y2/dbx",
+    "date": "2026-06-13T14:22:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dbx-cli.rb",
+    "commit_sha": "33a5e20d75a0d8f157ea662e629dd7969a0c9e21"
+  },
+  {
+    "type": "cask",
+    "name": "r-rig-app",
+    "version": "0.8.0",
+    "desc": "R Installation Manager",
+    "homepage": "https://github.com/r-lib/rig",
+    "date": "2026-06-13T03:00:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/r-rig-app.rb",
+    "commit_sha": "111e21d4023a68d21daa1ae3f9faf2755f115821"
+  },
+  {
+    "type": "cask",
+    "name": "comfy",
+    "version": "1.0.20,260613unzttou2s",
+    "desc": "Node-based image, video and audio generator",
+    "homepage": "https://comfy.org/",
+    "date": "2026-06-13T13:39:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/comfy.rb",
+    "commit_sha": "8f5addc501a467bd772019298738cb5b086c8bf8"
+  },
+  {
+    "type": "cask",
+    "name": "font-paperlogy",
+    "version": "1.001",
+    "desc": "",
+    "homepage": "https://freesentation.blog/paperlogyfont",
+    "date": "2026-06-13T14:18:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-p/font-paperlogy.rb",
+    "commit_sha": "546af3dc662b4b68453dcb22a8c25d703309b2a6"
   }
 ]
