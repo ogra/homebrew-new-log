@@ -131666,5 +131666,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-p/font-paperlogy.rb",
     "commit_sha": "546af3dc662b4b68453dcb22a8c25d703309b2a6"
+  },
+  {
+    "type": "formula",
+    "name": "redli",
+    "version": "0.18.0",
+    "desc": "Humane alternative to redis-cli with TLS support",
+    "homepage": "https://github.com/IBM-Cloud/redli",
+    "date": "2026-06-14T02:02:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/redli.rb",
+    "commit_sha": "51a0f8a456c17443fa5d81f555a1d6a59ba7d0a9"
+  },
+  {
+    "type": "formula",
+    "name": "isponsorblocktv",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-14T10:52:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/isponsorblocktv.rb",
+    "commit_sha": "201b6c6027b85efec651ebe1cdf692e9ac92a378"
+  },
+  {
+    "type": "formula",
+    "name": "poppler-qt6",
+    "version": "26.06.0",
+    "desc": "PDF rendering library (based on the xpdf-3.0 code base)",
+    "homepage": "https://poppler.freedesktop.org/",
+    "date": "2026-06-14T11:00:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/poppler-qt6.rb",
+    "commit_sha": "638617fc311ba5b5aeb4d39c87918d9d6bceb89d"
+  },
+  {
+    "type": "formula",
+    "name": "cyclonedx-cli",
+    "version": "0.32.0",
+    "desc": "Tool for analysis and manipulation of CycloneDX SBOMs",
+    "homepage": "https://cyclonedx.org/",
+    "date": "2026-06-14T18:57:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cyclonedx-cli.rb",
+    "commit_sha": "ffbe6de33c6c63a22ad5a34304e03fb7e33d9386"
+  },
+  {
+    "type": "formula",
+    "name": "container2wasm",
+    "version": "0.8.4",
+    "desc": "Container to WASM converter",
+    "homepage": "https://ktock.github.io/container2wasm-demo/",
+    "date": "2026-06-14T23:01:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/container2wasm.rb",
+    "commit_sha": "1137349a5733d3eff7281a2168b59f6938695f56"
+  },
+  {
+    "type": "formula",
+    "name": "pv-migrate",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-14T23:17:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pv-migrate.rb",
+    "commit_sha": "a91c68415f74b4d40f3f94ff98df3d9f8f6ed2ba"
+  },
+  {
+    "type": "formula",
+    "name": "gnhf",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-14T23:35:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gnhf.rb",
+    "commit_sha": "73d78d01fba808dfae348d530ada0defb2a8a54e"
+  },
+  {
+    "type": "cask",
+    "name": "font-yuyu-short",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/JuliaGarciaLopez/Yuyu-Font",
+    "date": "2026-06-14T00:45:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-y/font-yuyu-short.rb",
+    "commit_sha": "d44e73def535929097721c2ea29be66169975fd9"
+  },
+  {
+    "type": "cask",
+    "name": "font-yuyu",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/JuliaGarciaLopez/Yuyu-Font",
+    "date": "2026-06-14T00:45:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-y/font-yuyu.rb",
+    "commit_sha": "8009103a364495d3f635bb930b89c03e5c44e64a"
+  },
+  {
+    "type": "cask",
+    "name": "ctivo",
+    "version": "3.6.5",
+    "desc": "Download and convert Tivo shows",
+    "homepage": "https://github.com/mackworth/cTiVo",
+    "date": "2026-06-14T06:20:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/ctivo.rb",
+    "commit_sha": "a27d6bf06008a9732134ab51dbcd184b26dc93cc"
   }
 ]
