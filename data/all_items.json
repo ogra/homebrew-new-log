@@ -131842,5 +131842,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/silkypix-developer-studio-se.rb",
     "commit_sha": "8a278dd9a9fc6469e2591ce07886a263e44b79b1"
+  },
+  {
+    "type": "formula",
+    "name": "buffa",
+    "version": "0.7.1",
+    "desc": "Pure-Rust Protocol Buffers implementation with editions support",
+    "homepage": "https://github.com/anthropics/buffa",
+    "date": "2026-06-16T11:42:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/buffa.rb",
+    "commit_sha": "a43c395dde465cfdf32d3dd049094e0f9b55a665"
+  },
+  {
+    "type": "formula",
+    "name": "beets",
+    "version": "2.11.0",
+    "desc": "Music library manager and tagger",
+    "homepage": "https://beets.io/",
+    "date": "2026-06-16T12:56:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/beets.rb",
+    "commit_sha": "f0ff65800bbb56175c7b863058aa20a5aa5348d9"
+  },
+  {
+    "type": "formula",
+    "name": "draw-things-cli",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-17T00:20:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/draw-things-cli.rb",
+    "commit_sha": "060bd3685ce60d5a80cb6cb5fb666a762e14eefe"
+  },
+  {
+    "type": "cask",
+    "name": "seekfast",
+    "version": "7.4",
+    "desc": "Search text in documents and files",
+    "homepage": "https://seekfast.org/",
+    "date": "2026-06-16T03:19:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/seekfast.rb",
+    "commit_sha": "c1182a8e625a96cd0c0ec00d95f0398e6e4e955c"
+  },
+  {
+    "type": "cask",
+    "name": "open-design",
+    "version": "0.10.1",
+    "desc": "Local-first, agent-native design tool",
+    "homepage": "https://open-design.ai/",
+    "date": "2026-06-16T09:49:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/open-design.rb",
+    "commit_sha": "8b4fb3fcc548172098c08f08e78ee96be7bd1b27"
+  },
+  {
+    "type": "cask",
+    "name": "go2tv",
+    "version": "2.3.0",
+    "desc": "Cast media files to Smart TVs and Chromecast devices",
+    "homepage": "https://github.com/alexballas/go2tv",
+    "date": "2026-06-16T22:58:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/go2tv.rb",
+    "commit_sha": "9f15068fee2f8d6a67a1779172238d8015e15996"
   }
 ]
