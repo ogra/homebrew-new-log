@@ -131908,5 +131908,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/go2tv.rb",
     "commit_sha": "9f15068fee2f8d6a67a1779172238d8015e15996"
+  },
+  {
+    "type": "formula",
+    "name": "proton-pass-cli",
+    "version": "2.1.4",
+    "desc": "Command-line interface for Proton Pass",
+    "homepage": "https://protonpass.github.io/pass-cli/",
+    "date": "2026-06-17T16:30:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/proton-pass-cli.rb",
+    "commit_sha": "f602d17c4b6bbc7c8e68b993e59d33dd37d5e20f"
+  },
+  {
+    "type": "formula",
+    "name": "tuxedo",
+    "version": "2026.6.3",
+    "desc": "Fast, keyboard-driven terminal UI for todo.txt",
+    "homepage": "https://github.com/webstonehq/tuxedo",
+    "date": "2026-06-17T19:17:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tuxedo.rb",
+    "commit_sha": "f7853acfa26feabe125dcf1350e4218be7a8f5ad"
+  },
+  {
+    "type": "cask",
+    "name": "greensignal",
+    "version": "1.0.2",
+    "desc": "Pre-call check for camera, microphone, speaker, and network quality",
+    "homepage": "https://mutedeck.com/tools/greensignal",
+    "date": "2026-06-17T14:54:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/greensignal.rb",
+    "commit_sha": "fad354b60602fe6d6a890167ef1d17116ad1ff07"
   }
 ]
