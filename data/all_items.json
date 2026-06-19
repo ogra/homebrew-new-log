@@ -131941,5 +131941,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/greensignal.rb",
     "commit_sha": "fad354b60602fe6d6a890167ef1d17116ad1ff07"
+  },
+  {
+    "type": "formula",
+    "name": "gcc@15",
+    "version": "15.3.0",
+    "desc": "GNU compiler collection",
+    "homepage": "https://gcc.gnu.org/",
+    "date": "2026-06-18T07:54:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gcc@15.rb",
+    "commit_sha": "8ebe6de6e48334a04d3d632ca729bb9f6c88fc24"
+  },
+  {
+    "type": "formula",
+    "name": "nvi2",
+    "version": "2.2.2",
+    "desc": "Multibyte fork of the nvi editor for BSD",
+    "homepage": "https://github.com/lichray/nvi2",
+    "date": "2026-06-18T10:33:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nvi2.rb",
+    "commit_sha": "244dee4bcfb34690ad3116a41bba702afd677918"
+  },
+  {
+    "type": "formula",
+    "name": "liquidsoap",
+    "version": "2.4.5",
+    "desc": "Audio and video streaming language",
+    "homepage": "https://www.liquidsoap.info",
+    "date": "2026-06-18T11:10:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/liquidsoap.rb",
+    "commit_sha": "3bb82e856e385c7a959f4e58981e152a49a7d25a"
+  },
+  {
+    "type": "formula",
+    "name": "dbxcli",
+    "version": "3.3.3",
+    "desc": "Command-line tool for Dropbox users and team admins",
+    "homepage": "https://github.com/dropbox/dbxcli",
+    "date": "2026-06-18T11:28:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dbxcli.rb",
+    "commit_sha": "3a62f87b8c171eb238be4619f352df103243721f"
+  },
+  {
+    "type": "formula",
+    "name": "ip2location",
+    "version": "8.7.0",
+    "desc": "C library and CLI to geolocate IP addresses",
+    "homepage": "https://github.com/ip2location/IP2Location-C-Library",
+    "date": "2026-06-18T14:03:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/ip2location.rb",
+    "commit_sha": "4f0b1c5dc33996e3582b02cfb8376eb18477039a"
+  },
+  {
+    "type": "formula",
+    "name": "tirith",
+    "version": "0.3.2",
+    "desc": "Detect terminal injection, homograph, and pipe-to-shell attacks",
+    "homepage": "https://tirith.sh/",
+    "date": "2026-06-18T14:15:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tirith.rb",
+    "commit_sha": "1c07ad8c0a073a5f669d82b26a53350faeccbaae"
+  },
+  {
+    "type": "formula",
+    "name": "socktainer",
+    "version": "1.0.0",
+    "desc": "Docker-compatible REST API on top of Apple container",
+    "homepage": "https://socktainer.github.io",
+    "date": "2026-06-18T18:46:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/socktainer.rb",
+    "commit_sha": "fbb9ad0982e878c2a63f675f42feb12dba54a396"
+  },
+  {
+    "type": "cask",
+    "name": "llama-app",
+    "version": "0.32.0",
+    "desc": "Menu bar app for running local LLMs",
+    "homepage": "https://github.com/ggml-org/Llama-macOS",
+    "date": "2026-06-18T05:28:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/llama-app.rb",
+    "commit_sha": "3ef7eea86c3072e348aecea98d500740d0107c7b"
+  },
+  {
+    "type": "cask",
+    "name": "radix",
+    "version": "1.2.0",
+    "desc": "Disk space analyzer",
+    "homepage": "https://radix.colinkim.dev/",
+    "date": "2026-06-18T06:44:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/radix.rb",
+    "commit_sha": "1a0fc20e4616bf4d3594d3448de69a4b8dce5565"
+  },
+  {
+    "type": "cask",
+    "name": "kde-connect",
+    "version": "26.04.2",
+    "desc": "Communicate with your handheld devices",
+    "homepage": "https://kdeconnect.kde.org/",
+    "date": "2026-06-18T12:03:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/kde-connect.rb",
+    "commit_sha": "63e11b2b69e4e1ebe3e6d388e07f8a1df5c3b5da"
   }
 ]
