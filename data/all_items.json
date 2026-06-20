@@ -132051,5 +132051,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/k/kde-connect.rb",
     "commit_sha": "63e11b2b69e4e1ebe3e6d388e07f8a1df5c3b5da"
+  },
+  {
+    "type": "formula",
+    "name": "unuran",
+    "version": "1.11.0",
+    "desc": "UNU.RAN - Universal Non-Uniform RANdom number generator",
+    "homepage": "https://statmath.wu.ac.at/unuran/",
+    "date": "2026-06-19T14:52:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/unuran.rb",
+    "commit_sha": "eb57cce528e078011cfc6756604165a1350de3b8"
+  },
+  {
+    "type": "formula",
+    "name": "minibwa",
+    "version": "0.2",
+    "desc": "Successor of BWA-MEM for short-read alignment",
+    "homepage": "https://github.com/lh3/minibwa",
+    "date": "2026-06-19T16:54:06Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/minibwa.rb",
+    "commit_sha": "2b952c6958f64ff911156baecaa6ef15721ce3db"
+  },
+  {
+    "type": "formula",
+    "name": "tubeup",
+    "version": "2026.5.8",
+    "desc": "Use yt-dlp to download video/metadata and upload to the Internet Archive",
+    "homepage": "https://github.com/bibanon/tubeup",
+    "date": "2026-06-19T17:34:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tubeup.rb",
+    "commit_sha": "6a360eca3da8874cc071df6c40abec7946c3db5d"
+  },
+  {
+    "type": "cask",
+    "name": "altersend",
+    "version": "1.3.0",
+    "desc": "Secure, peer-to-peer file transfer app",
+    "homepage": "https://altersend.com/",
+    "date": "2026-06-19T12:58:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/altersend.rb",
+    "commit_sha": "d28a1872cd432adeb6a7f6f23d80cb7ae1dacac8"
+  },
+  {
+    "type": "cask",
+    "name": "navigator",
+    "version": "1.0.5",
+    "desc": "Companion app for ZSA's Navigator trackpad",
+    "homepage": "https://www.zsa.io/voyager/navigator",
+    "date": "2026-06-19T13:16:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/navigator.rb",
+    "commit_sha": "1b68548058c47f68a87d383d4b4c00873d08b0d7"
+  },
+  {
+    "type": "cask",
+    "name": "supaterm",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-19T20:28:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/supaterm.rb",
+    "commit_sha": "d26e0741a4dac97d4d82b930ad6aba7cfaa50c60"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-20T00:06:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin.rb",
+    "commit_sha": "27d22851d285dab1122e9da4cf8277d2a127575f"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin@beta",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-20T00:06:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin@beta.rb",
+    "commit_sha": "27d22851d285dab1122e9da4cf8277d2a127575f"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin@nightly",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-20T00:06:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin@nightly.rb",
+    "commit_sha": "27d22851d285dab1122e9da4cf8277d2a127575f"
+  },
+  {
+    "type": "cask",
+    "name": "baseline",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-20T00:16:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/baseline.rb",
+    "commit_sha": "4e44a71b1bd7ab28ac5d671615d80015315e014b"
+  },
+  {
+    "type": "cask",
+    "name": "tunarr",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-06-20T00:25:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tunarr.rb",
+    "commit_sha": "ef4e440cc358443e98d1ff6fdcb4a065a7fe551c"
   }
 ]
