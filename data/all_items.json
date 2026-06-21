@@ -132172,5 +132172,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/tunarr.rb",
     "commit_sha": "ef4e440cc358443e98d1ff6fdcb4a065a7fe551c"
+  },
+  {
+    "type": "formula",
+    "name": "just-lsp",
+    "version": "0.4.7",
+    "desc": "Language server for just",
+    "homepage": "https://github.com/terror/just-lsp",
+    "date": "2026-06-20T13:13:53Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/j/just-lsp.rb",
+    "commit_sha": "0c9c543c02da774cee54fb8756054211800ff91a"
+  },
+  {
+    "type": "formula",
+    "name": "taproom",
+    "version": "0.6.1",
+    "desc": "Interactive TUI for Homebrew",
+    "homepage": "https://github.com/hzqtc/taproom",
+    "date": "2026-06-20T15:37:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/taproom.rb",
+    "commit_sha": "bcb6503c7cfbc8b5149c3ab1ba07027bb5959f08"
+  },
+  {
+    "type": "formula",
+    "name": "msgvault",
+    "version": "0.16.0",
+    "desc": "Archive a lifetime of email and chat with offline search and analytics",
+    "homepage": "https://github.com/kenn-io/msgvault",
+    "date": "2026-06-20T15:50:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/msgvault.rb",
+    "commit_sha": "3a23597ffba8607d0323f787a53cd160b855c2b0"
+  },
+  {
+    "type": "cask",
+    "name": "cotypist",
+    "version": "2026.2",
+    "desc": "System-wide AI autocomplete",
+    "homepage": "https://cotypist.app/",
+    "date": "2026-06-20T03:03:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cotypist.rb",
+    "commit_sha": "72aafe7fec1dd664ec19245516f734a535841258"
+  },
+  {
+    "type": "cask",
+    "name": "typewhisper",
+    "version": "1.4.0",
+    "desc": "Speech-to-text and AI text processing",
+    "homepage": "https://www.typewhisper.com/",
+    "date": "2026-06-20T11:08:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/typewhisper.rb",
+    "commit_sha": "8b661d186f675c7be2e7e8b1db911fd74ce200ed"
+  },
+  {
+    "type": "cask",
+    "name": "sxitch",
+    "version": "1.0.7-alpha",
+    "desc": "Tree based app switcher",
+    "homepage": "https://sxitch.app/",
+    "date": "2026-06-20T11:54:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sxitch.rb",
+    "commit_sha": "c9438b4a1f2205334572ed2b6a115416f1d39a1a"
   }
 ]
