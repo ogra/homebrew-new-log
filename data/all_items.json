@@ -132238,5 +132238,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sxitch.rb",
     "commit_sha": "c9438b4a1f2205334572ed2b6a115416f1d39a1a"
+  },
+  {
+    "type": "formula",
+    "name": "actions-languageserver",
+    "version": "0.3.58",
+    "desc": "Language server for GitHub Actions YAML files",
+    "homepage": "https://github.com/actions/languageservices/tree/main/languageserver",
+    "date": "2026-06-21T09:36:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/actions-languageserver.rb",
+    "commit_sha": "6c62c29a0349dc0e85feee24566fbd658c1f0a7c"
+  },
+  {
+    "type": "cask",
+    "name": "palmier-pro",
+    "version": "0.3.5",
+    "desc": "Video Editor built for AI",
+    "homepage": "https://www.palmier.io/",
+    "date": "2026-06-21T06:24:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/palmier-pro.rb",
+    "commit_sha": "023e810f5a046ebccb4c6ad2061572d94ca57212"
+  },
+  {
+    "type": "cask",
+    "name": "8bitdo-firmware-updater",
+    "version": "2.5.2",
+    "desc": "Firmware updater for 8BitDo controllers",
+    "homepage": "https://support.8bitdo.com/firmware-updater.html",
+    "date": "2026-06-21T11:17:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/8/8bitdo-firmware-updater.rb",
+    "commit_sha": "b05750b9af78dd5bcc61f2015922006d098cdcb0"
   }
 ]
