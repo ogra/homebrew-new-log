@@ -132271,5 +132271,159 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/8/8bitdo-firmware-updater.rb",
     "commit_sha": "b05750b9af78dd5bcc61f2015922006d098cdcb0"
+  },
+  {
+    "type": "formula",
+    "name": "coacd",
+    "version": "1.0.11",
+    "desc": "Approximate convex decomposition for 3D meshes with collision-aware concavity",
+    "homepage": "https://github.com/SarahWeiii/CoACD",
+    "date": "2026-06-22T10:38:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/coacd.rb",
+    "commit_sha": "9d1f87323a8bedced7459311180822242cc4a11f"
+  },
+  {
+    "type": "cask",
+    "name": "bettercmdtab",
+    "version": "26.5.1,20260613051735",
+    "desc": "Replacement for the built-in Cmd+Tab app switcher",
+    "homepage": "https://bettercmdtab.app/",
+    "date": "2026-06-22T03:25:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bettercmdtab.rb",
+    "commit_sha": "dbe8e4d07641399853f2c036e973ef716a4048ee"
+  },
+  {
+    "type": "cask",
+    "name": "8bitdo-firmware-updater",
+    "version": "2.5.2",
+    "desc": "Firmware updater for 8BitDo controllers",
+    "homepage": "https://support.8bitdo.com/firmware-updater.html",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/8/8bitdo-firmware-updater.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "altersend",
+    "version": "1.3.0",
+    "desc": "Secure, peer-to-peer file transfer app",
+    "homepage": "https://altersend.com/",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/altersend.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "ariax",
+    "version": "1.0.7",
+    "desc": "Aria2 download manager",
+    "homepage": "https://github.com/saltpi/Aria.X",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/ariax.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "baseline",
+    "version": "3.0",
+    "desc": "Automate onboardings by installing apps and running scripts",
+    "homepage": "https://github.com/SecondSonConsulting/Baseline",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/baseline.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin",
+    "version": "1.91.175.0",
+    "desc": "Privacy-focused web browser",
+    "homepage": "https://brave.com/origin",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin@beta",
+    "version": "1.92.125.0",
+    "desc": "Privacy-focused web browser",
+    "homepage": "https://brave.com/origin/#beta",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin@beta.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "brave-origin@nightly",
+    "version": "1.93.91.0",
+    "desc": "Privacy-focused web browser",
+    "homepage": "https://brave.com/origin/#nightly",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/brave-origin@nightly.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "comfy",
+    "version": "1.0.24,260622yl6nvnc4h",
+    "desc": "Node-based image, video and audio generator",
+    "homepage": "https://comfy.org/",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/comfy.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "cotypist",
+    "version": "2026.2",
+    "desc": "System-wide AI autocomplete",
+    "homepage": "https://cotypist.app/",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cotypist.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "ctivo",
+    "version": "3.6.5",
+    "desc": "Download and convert Tivo shows",
+    "homepage": "https://github.com/mackworth/cTiVo",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/ctivo.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "flow5",
+    "version": "7.57",
+    "desc": "Potential flow solver for preliminary aerodynamic and hydrofoil design",
+    "homepage": "https://flow5.tech/flow5.html",
+    "date": "2026-06-22T09:18:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/flow5.rb",
+    "commit_sha": "01eb38ecc04a39c15f03c8ebcf9ccb811bdc57a0"
+  },
+  {
+    "type": "cask",
+    "name": "infocert-sign",
+    "version": "3.1.0.200",
+    "desc": "Digital signature and time stamp app, International Edition",
+    "homepage": "https://infocert.digital/consumer/infocert-sign-suite/",
+    "date": "2026-06-22T11:32:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/infocert-sign.rb",
+    "commit_sha": "7bdf9849d9fa8751078a5052cbe00e48305ce396"
   }
 ]
