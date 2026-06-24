@@ -132425,5 +132425,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/infocert-sign.rb",
     "commit_sha": "7bdf9849d9fa8751078a5052cbe00e48305ce396"
+  },
+  {
+    "type": "formula",
+    "name": "pypy3.11",
+    "version": "7.3.23",
+    "desc": "Implementation of Python 3 in Python",
+    "homepage": "https://pypy.org/",
+    "date": "2026-06-23T00:34:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pypy3.11.rb",
+    "commit_sha": "0b5997b48ed06564323f15ea9ef68f6830d530fd"
+  },
+  {
+    "type": "formula",
+    "name": "vdt",
+    "version": "0.4.6",
+    "desc": "Math library of fast, approximate and vectorisable trascendental functions",
+    "homepage": "https://github.com/dpiparo/vdt",
+    "date": "2026-06-23T08:30:32Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vdt.rb",
+    "commit_sha": "237766cbec2f418928d92cdb2ad8d5978171bf51"
+  },
+  {
+    "type": "formula",
+    "name": "openturns",
+    "version": "1.27.1",
+    "desc": "Probabilistic modelling and uncertainty quantification library",
+    "homepage": "https://github.com/openturns/openturns",
+    "date": "2026-06-23T10:26:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/openturns.rb",
+    "commit_sha": "9dfaa5b71fd3a8e41f36771b851180d80bf24da6"
+  },
+  {
+    "type": "cask",
+    "name": "meta-quest-remote-desktop",
+    "version": "94.0.0.1.110,27307607982234713",
+    "desc": "Remote desktop companion app for Meta Quest headsets",
+    "homepage": "https://www.meta.com/quest/",
+    "date": "2026-06-23T04:33:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/meta-quest-remote-desktop.rb",
+    "commit_sha": "4d3e2e2a6b07018d212793ad4d83c02ef7e0bbec"
+  },
+  {
+    "type": "cask",
+    "name": "pycharm-oss",
+    "version": "2026.1.3",
+    "desc": "Open-source edition of PyCharm",
+    "homepage": "https://github.com/JetBrains/intellij-community",
+    "date": "2026-06-23T23:21:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pycharm-oss.rb",
+    "commit_sha": "cf31f09ba9181a58b84394f27a1c76dad70811eb"
   }
 ]
