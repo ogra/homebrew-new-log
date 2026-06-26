@@ -132535,5 +132535,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/clarify.rb",
     "commit_sha": "5366e020d781f3b2172cbb6a0a2bed13f0d3b143"
+  },
+  {
+    "type": "cask",
+    "name": "platinum-notes",
+    "version": "10.5.0.1256,57",
+    "desc": "Improve audio quality of music files",
+    "homepage": "https://mixedinkey.com/platinum-notes/",
+    "date": "2026-06-25T13:27:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/platinum-notes.rb",
+    "commit_sha": "6221562fa80913d904157a83be334f6b8f368d99"
+  },
+  {
+    "type": "cask",
+    "name": "tikz-editor",
+    "version": "0.5.0",
+    "desc": "WYSIWYG editor for TikZ diagrams in LaTeX",
+    "homepage": "https://tikz.dev/editor/",
+    "date": "2026-06-25T13:43:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tikz-editor.rb",
+    "commit_sha": "49b3d248ec29bc00074c01b71ec411744956214e"
   }
 ]
