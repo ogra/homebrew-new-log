@@ -132557,5 +132557,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/tikz-editor.rb",
     "commit_sha": "49b3d248ec29bc00074c01b71ec411744956214e"
+  },
+  {
+    "type": "formula",
+    "name": "slint-cpp",
+    "version": "1.17.0",
+    "desc": "C++ library and headers for the Slint UI toolkit",
+    "homepage": "https://slint.dev/",
+    "date": "2026-06-26T00:52:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/slint-cpp.rb",
+    "commit_sha": "ad5ff1d83362a00ad5661959fe2476f0503fffb7"
+  },
+  {
+    "type": "formula",
+    "name": "tpack",
+    "version": "1.1.0",
+    "desc": "Drop-in replacement for tmux-plugin-manager (tpm) with a TUI",
+    "homepage": "https://github.com/tmuxpack/tpack",
+    "date": "2026-06-26T11:08:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tpack.rb",
+    "commit_sha": "7dee7b888aa1d251ca0745a054d6eeb28cfa60ed"
+  },
+  {
+    "type": "cask",
+    "name": "snippety",
+    "version": "10.0.131",
+    "desc": "Snippet manager & text expander",
+    "homepage": "https://snippety.app/",
+    "date": "2026-06-26T13:42:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/snippety.rb",
+    "commit_sha": "e61f6f8520888a0fe90c7880bcbe5c8e1a728c45"
+  },
+  {
+    "type": "cask",
+    "name": "atoll",
+    "version": "2.2.0",
+    "desc": "Dynamic Island for the MacBook notch",
+    "homepage": "https://getatoll.app/",
+    "date": "2026-06-26T13:44:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/atoll.rb",
+    "commit_sha": "0c5098ba582b9c826edc741d1da0a53d85ef37fa"
   }
 ]
