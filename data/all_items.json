@@ -132601,5 +132601,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/atoll.rb",
     "commit_sha": "0c5098ba582b9c826edc741d1da0a53d85ef37fa"
+  },
+  {
+    "type": "formula",
+    "name": "auth0",
+    "version": "1.32.0",
+    "desc": "Build, manage and test your Auth0 integrations from the command-line",
+    "homepage": "https://auth0.github.io/auth0-cli",
+    "date": "2026-06-27T09:49:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/auth0.rb",
+    "commit_sha": "4826baf2f1998ff3aa0081194f45b29230036807"
+  },
+  {
+    "type": "cask",
+    "name": "geolibre",
+    "version": "1.8.0",
+    "desc": "GIS platform",
+    "homepage": "https://geolibre.app/",
+    "date": "2026-06-27T16:43:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/geolibre.rb",
+    "commit_sha": "8b338b1ff90ca71b570a7a49dabee053d25f95f3"
   }
 ]
