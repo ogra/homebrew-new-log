@@ -132623,5 +132623,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/geolibre.rb",
     "commit_sha": "8b338b1ff90ca71b570a7a49dabee053d25f95f3"
+  },
+  {
+    "type": "cask",
+    "name": "font-geomini",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/fontbob/geomini",
+    "date": "2026-06-28T00:40:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-g/font-geomini.rb",
+    "commit_sha": "fc466ab3fb3a8771c3c36538952f68b609f9ab40"
+  },
+  {
+    "type": "cask",
+    "name": "font-hibur-mono",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/typehabesha/HiburMono",
+    "date": "2026-06-28T00:40:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-h/font-hibur-mono.rb",
+    "commit_sha": "4806a5bfb4bfb356626aa1e96956d7951eb4c463"
+  },
+  {
+    "type": "cask",
+    "name": "dockspace",
+    "version": "0.6",
+    "desc": "Widgets for your dock",
+    "homepage": "https://getdockspace.app/",
+    "date": "2026-06-28T05:02:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dockspace.rb",
+    "commit_sha": "bf3e8a502a3856d11555bc0bafe28e8595218e38"
+  },
+  {
+    "type": "cask",
+    "name": "openhuman",
+    "version": "0.58.0",
+    "desc": "Personal AI assistant with local memory and integrations",
+    "homepage": "https://tinyhumans.ai/openhuman",
+    "date": "2026-06-28T05:03:15Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openhuman.rb",
+    "commit_sha": "d7f195cadf755ae439942dec60218ea602a537c5"
   }
 ]
