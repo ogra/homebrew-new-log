@@ -132667,5 +132667,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openhuman.rb",
     "commit_sha": "d7f195cadf755ae439942dec60218ea602a537c5"
+  },
+  {
+    "type": "formula",
+    "name": "vultr-cli",
+    "version": "3.10.0",
+    "desc": "Command-line tool for Vultr services",
+    "homepage": "https://github.com/vultr/vultr-cli",
+    "date": "2026-06-29T01:36:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vultr-cli.rb",
+    "commit_sha": "1f2de59c8debada4831e431a5ece31677303ff11"
+  },
+  {
+    "type": "cask",
+    "name": "libifd-cyberjack",
+    "version": "3.99.5final.SP16",
+    "desc": "Driver for REINER SCT cyberJack smart card readers",
+    "homepage": "https://www.reiner-sct.com/",
+    "date": "2026-06-29T01:29:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/libifd-cyberjack.rb",
+    "commit_sha": "1e59cd04503c2e3ef93538c6fe6d9a43dc1aa0e7"
+  },
+  {
+    "type": "cask",
+    "name": "caldigit-usb-hub-support-driver",
+    "version": "4.2,1",
+    "desc": "Apple SuperDrive, Apple Keyboard, and Improved iPhone/iPad Charging",
+    "homepage": "https://www.caldigit.com/",
+    "date": "2026-06-29T02:19:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/caldigit-usb-hub-support-driver.rb",
+    "commit_sha": "75338f18d5b3b14f39e1cd3e99a0099ee3f9f31b"
+  },
+  {
+    "type": "cask",
+    "name": "quickapp-studio",
+    "version": "7.1.0",
+    "desc": "Quickapp Development Tool",
+    "homepage": "https://www.quickapp.cn/",
+    "date": "2026-06-29T17:03:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/q/quickapp-studio.rb",
+    "commit_sha": "2776924263b1c383d22b463708b55cb61a762a3f"
   }
 ]
