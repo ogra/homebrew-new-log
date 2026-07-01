@@ -132711,5 +132711,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/q/quickapp-studio.rb",
     "commit_sha": "2776924263b1c383d22b463708b55cb61a762a3f"
+  },
+  {
+    "type": "formula",
+    "name": "asar",
+    "version": "1.91",
+    "desc": "SNES assembler for applying patches to ROM images or building ROMs",
+    "homepage": "https://github.com/RPGHacker/asar",
+    "date": "2026-06-30T05:33:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/asar.rb",
+    "commit_sha": "907454ea24f451d2a462f6c364099277a553b866"
+  },
+  {
+    "type": "formula",
+    "name": "hunk",
+    "version": "0.16.0",
+    "desc": "Review-first terminal diff viewer for agent-authored changesets",
+    "homepage": "https://hunk.dev/",
+    "date": "2026-06-30T08:04:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hunk.rb",
+    "commit_sha": "e82c0ad7bdf315cd2d433c314425d194c117baf8"
+  },
+  {
+    "type": "cask",
+    "name": "onexrayse",
+    "version": "26.6.3",
+    "desc": "Cross-platform Xray-core client",
+    "homepage": "https://onexray.com/",
+    "date": "2026-06-30T01:06:00Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/onexrayse.rb",
+    "commit_sha": "5f72bb6e991808ee0f03da835e8171698825cfeb"
+  },
+  {
+    "type": "cask",
+    "name": "valkey-admin",
+    "version": "1.0.1",
+    "desc": "Administration tool for Valkey clusters and standalone instances",
+    "homepage": "https://valkey-admin.valkey.io/",
+    "date": "2026-06-30T01:10:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/valkey-admin.rb",
+    "commit_sha": "6668189e55f76941a3906c6bd101a41be402595a"
+  },
+  {
+    "type": "cask",
+    "name": "snapzy",
+    "version": "1.27.0",
+    "desc": "Native screenshots, recording, annotation, and editing from the menu bar",
+    "homepage": "https://snapzy.app/",
+    "date": "2026-06-30T03:02:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/snapzy.rb",
+    "commit_sha": "3f568b0e3372dfa3dd826de57b283018b34aba0d"
+  },
+  {
+    "type": "cask",
+    "name": "aside",
+    "version": "1.0.630.1",
+    "desc": "Web browser with built-in AI assistant",
+    "homepage": "https://aside.com/",
+    "date": "2026-06-30T03:03:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/aside.rb",
+    "commit_sha": "e5eb555dd00ecdc097d589a20efeaf2d97e48383"
+  },
+  {
+    "type": "cask",
+    "name": "slashy",
+    "version": "1.3.45",
+    "desc": "Email client for Gmail",
+    "homepage": "https://www.slashy.com/",
+    "date": "2026-06-30T03:26:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/slashy.rb",
+    "commit_sha": "d2d74a825e6f7171a6f16aee53c1ae4c8423ed20"
+  },
+  {
+    "type": "cask",
+    "name": "uniclipboard",
+    "version": "0.16.0",
+    "desc": "Cross-device clipboard syncing tool",
+    "homepage": "https://www.uniclipboard.app/",
+    "date": "2026-06-30T04:25:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/uniclipboard.rb",
+    "commit_sha": "94bf467564ff145b8b2723ba69441c18d86ae0f4"
+  },
+  {
+    "type": "cask",
+    "name": "gitcomet",
+    "version": "0.1.16",
+    "desc": "Git GUI",
+    "homepage": "https://gitcomet.dev/",
+    "date": "2026-06-30T09:20:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gitcomet.rb",
+    "commit_sha": "243758689f3339ee2e75af05cf07ae2bee2579f8"
+  },
+  {
+    "type": "cask",
+    "name": "subtitle-studio",
+    "version": "1.9.8",
+    "desc": "Offline AI subtitle generator",
+    "homepage": "https://subtitlestudio.ai/",
+    "date": "2026-06-30T11:36:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/subtitle-studio.rb",
+    "commit_sha": "023333fbb551fa88d81233f5e1d29497357f9bfc"
   }
 ]
