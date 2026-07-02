@@ -132821,5 +132821,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/subtitle-studio.rb",
     "commit_sha": "023333fbb551fa88d81233f5e1d29497357f9bfc"
+  },
+  {
+    "type": "formula",
+    "name": "vsview",
+    "version": "0.8.0",
+    "desc": "Next-generation VapourSynth previewer",
+    "homepage": "https://jaded-encoding-thaumaturgy.github.io/vs-view/",
+    "date": "2026-07-01T02:06:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vsview.rb",
+    "commit_sha": "02a9c93b7b658211e493c7976d38f00ea6d60fa0"
+  },
+  {
+    "type": "formula",
+    "name": "adrs",
+    "version": "0.8.0",
+    "desc": "Architectural Decision Record tool in Rust",
+    "homepage": "https://joshrotenberg.com/adrs/",
+    "date": "2026-07-01T02:27:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/adrs.rb",
+    "commit_sha": "2e74a307ad1a5aaac69b32b0a2292a9a08893d2a"
+  },
+  {
+    "type": "formula",
+    "name": "rancher-machine",
+    "version": "0.15.0-rancher144",
+    "desc": "Machine management for a container-centric world",
+    "homepage": "https://github.com/rancher/machine",
+    "date": "2026-07-01T05:55:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rancher-machine.rb",
+    "commit_sha": "1f425111945c0fdef268ffdb0eb1351ceb4cafea"
+  },
+  {
+    "type": "formula",
+    "name": "diskwatch",
+    "version": "0.1.1",
+    "desc": "Cross-platform disk diagnostics TUI",
+    "homepage": "https://www.netwatchlabs.com/labs/diskwatch",
+    "date": "2026-07-01T06:05:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/diskwatch.rb",
+    "commit_sha": "1a38c4ed321ec189d3eca231ebedc3c42e9a638a"
+  },
+  {
+    "type": "formula",
+    "name": "epics-base",
+    "version": "7.0.10",
+    "desc": "Experimental Physics and Industrial Control System",
+    "homepage": "https://epics-controls.org/",
+    "date": "2026-07-01T08:58:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/epics-base.rb",
+    "commit_sha": "31f1e0ab8d205eeee2811aaccd3a9f8d5ae78a39"
+  },
+  {
+    "type": "formula",
+    "name": "cve-bin-tool",
+    "version": "3.4",
+    "desc": "Scans binaries and SBOMs for known vulnerabilities and prepares reports",
+    "homepage": "https://github.com/ossf/cve-bin-tool",
+    "date": "2026-07-01T13:04:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cve-bin-tool.rb",
+    "commit_sha": "46540b45a0c5502b80a880a61a3cbc10b59660e8"
+  },
+  {
+    "type": "formula",
+    "name": "sbom-utility",
+    "version": "0.19.2",
+    "desc": "Tool to validate, analyze, query and edit Software Bills of Materials (SBOMs)",
+    "homepage": "https://github.com/CycloneDX/sbom-utility",
+    "date": "2026-07-01T16:43:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sbom-utility.rb",
+    "commit_sha": "2c199088041f3808467fa23b3ebb679e5e548c7f"
+  },
+  {
+    "type": "formula",
+    "name": "msdfgen",
+    "version": "1.13",
+    "desc": "Multi-channel signed distance field generator",
+    "homepage": "https://github.com/Chlumsky/msdfgen",
+    "date": "2026-07-01T21:47:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/msdfgen.rb",
+    "commit_sha": "b388c738854588618fe4aa9a7cddf7e3445dc7cf"
+  },
+  {
+    "type": "cask",
+    "name": "gnome",
+    "version": "1.15,2",
+    "desc": "Menu bar GIF search and creation tool",
+    "homepage": "https://lexfriedman.com/gnome/",
+    "date": "2026-07-01T00:23:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gnome.rb",
+    "commit_sha": "868cadb362333135fd12acab87d634088d4b355f"
+  },
+  {
+    "type": "cask",
+    "name": "pocket-bard",
+    "version": "3.1.15,232",
+    "desc": "TTRPG ambient audio and sound effects",
+    "homepage": "https://www.pocketbard.app/",
+    "date": "2026-07-01T01:22:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pocket-bard.rb",
+    "commit_sha": "10e36d61a32a2ad72eebdd05bff18d1c9dd98077"
+  },
+  {
+    "type": "cask",
+    "name": "pique",
+    "version": "0.1.0b5",
+    "desc": "Quick Look extension for syntax-highlighted file previews",
+    "homepage": "https://github.com/macadmins/pique",
+    "date": "2026-07-01T02:36:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pique.rb",
+    "commit_sha": "836d2506f8286148dbb25a4cb7149d23fe421444"
   }
 ]
