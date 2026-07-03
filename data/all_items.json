@@ -132942,5 +132942,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/pique.rb",
     "commit_sha": "836d2506f8286148dbb25a4cb7149d23fe421444"
+  },
+  {
+    "type": "formula",
+    "name": "kubectl-klock",
+    "version": "0.9.1",
+    "desc": "Kubectl plugin to render watch output in a more readable fashion",
+    "homepage": "https://github.com/applejag/kubectl-klock",
+    "date": "2026-07-02T07:52:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kubectl-klock.rb",
+    "commit_sha": "f3856c6488d5eeb26c665cbc2ca40e2589a5975c"
+  },
+  {
+    "type": "formula",
+    "name": "ai-cli",
+    "version": "0.4.2",
+    "desc": "Generate images, video, audio, and text from the terminal",
+    "homepage": "https://ai-cli.dev",
+    "date": "2026-07-02T16:11:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/ai-cli.rb",
+    "commit_sha": "2c35a6456ff7a6b39906f17fb4c8bc79533c0331"
+  },
+  {
+    "type": "cask",
+    "name": "harper-desktop",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-07-03T00:10:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/harper-desktop.rb",
+    "commit_sha": "aed4d60899663e524507460c08c0966a0ad00b15"
   }
 ]
