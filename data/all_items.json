@@ -132975,5 +132975,16 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/h/harper-desktop.rb",
     "commit_sha": "aed4d60899663e524507460c08c0966a0ad00b15"
+  },
+  {
+    "type": "formula",
+    "name": "prrte",
+    "version": "4.1.0",
+    "desc": "PMIx Reference RunTime Environment",
+    "homepage": "https://pmix.org/",
+    "date": "2026-07-03T04:11:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/prrte.rb",
+    "commit_sha": "710318df714c1e8e85a25b7d05914d06e32f634a"
   }
 ]
