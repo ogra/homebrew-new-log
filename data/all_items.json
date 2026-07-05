@@ -132986,5 +132986,16 @@
     "source_repo": "homebrew-core",
     "path": "Formula/p/prrte.rb",
     "commit_sha": "710318df714c1e8e85a25b7d05914d06e32f634a"
+  },
+  {
+    "type": "cask",
+    "name": "sonarqube-cli",
+    "version": "1.2.0.3278",
+    "desc": "Code quality and security for terminal workflows, scripts, and AI agents",
+    "homepage": "https://www.sonarsource.com/sonarqube/cli/",
+    "date": "2026-07-04T02:34:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sonarqube-cli.rb",
+    "commit_sha": "4415d309f698fec699db4a391be36963ea4f08bb"
   }
 ]
