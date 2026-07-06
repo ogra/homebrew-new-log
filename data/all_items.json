@@ -132997,5 +132997,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sonarqube-cli.rb",
     "commit_sha": "4415d309f698fec699db4a391be36963ea4f08bb"
+  },
+  {
+    "type": "formula",
+    "name": "bomctl",
+    "version": "0.4.3",
+    "desc": "Format-agnostic SBOM tooling for the stages between SBOM generation and analysis",
+    "homepage": "https://github.com/bomctl/bomctl",
+    "date": "2026-07-05T08:29:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bomctl.rb",
+    "commit_sha": "8c9ba9d4fdb03c52bf155c502e791c0f48aa51ca"
+  },
+  {
+    "type": "formula",
+    "name": "bbrew",
+    "version": "2.3.0",
+    "desc": "TUI for managing Homebrew, Flatpak, and Mac App Store packages",
+    "homepage": "https://bold-brew.com",
+    "date": "2026-07-05T08:59:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bbrew.rb",
+    "commit_sha": "9e0054a271a04b712b40cb850f55ffe85a568ea2"
+  },
+  {
+    "type": "formula",
+    "name": "zero",
+    "version": "0.1.0",
+    "desc": "Terminal coding agent you own",
+    "homepage": "https://zero.gitlawb.com/",
+    "date": "2026-07-05T09:15:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zero.rb",
+    "commit_sha": "14b5573ee743721bdaa0d500196f41b08b2ee192"
+  },
+  {
+    "type": "formula",
+    "name": "kotofetch",
+    "version": "0.2.22",
+    "desc": "Small, configurable CLI that displays Japanese quotes in the terminal",
+    "homepage": "https://github.com/hxpe-dev/kotofetch",
+    "date": "2026-07-05T12:55:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kotofetch.rb",
+    "commit_sha": "097e5af1cc5721c2389cfc3dac18da399fe77174"
+  },
+  {
+    "type": "formula",
+    "name": "sdl3_sound",
+    "version": "3.2.0",
+    "desc": "Abstract soundfile decoder",
+    "homepage": "https://icculus.org/SDL_sound/",
+    "date": "2026-07-05T22:24:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sdl3_sound.rb",
+    "commit_sha": "79306f3bfaef18884bbeafd3d74ae8a5a41a0415"
+  },
+  {
+    "type": "cask",
+    "name": "font-caacupe-one",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/googlefonts/caacupe",
+    "date": "2026-07-05T00:34:58Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-c/font-caacupe-one.rb",
+    "commit_sha": "b8e13cd38a55b8e697fa40e54b8814751ac06643"
+  },
+  {
+    "type": "cask",
+    "name": "font-scoutie-sans",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/sursly/scoutie",
+    "date": "2026-07-05T00:34:58Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-scoutie-sans.rb",
+    "commit_sha": "1ab513d6bfccc6a67427d2ca6fa8e1f2129fc7a2"
+  },
+  {
+    "type": "cask",
+    "name": "zush",
+    "version": "3.6.2",
+    "desc": "AI-powered file renamer and organiser",
+    "homepage": "https://zushapp.com/",
+    "date": "2026-07-05T07:06:58Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/z/zush.rb",
+    "commit_sha": "5a3ea2cefce7fb8f01a48046b7c4338cad46bf19"
+  },
+  {
+    "type": "cask",
+    "name": "muesli",
+    "version": "0.7.1",
+    "desc": "Local-first dictation and meeting transcription",
+    "homepage": "https://muesli.works/",
+    "date": "2026-07-05T08:31:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/muesli.rb",
+    "commit_sha": "0dfcd2d9c83891559ea98dd6eac9ffe6096bc6e7"
   }
 ]
