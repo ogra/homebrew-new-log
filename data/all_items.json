@@ -133096,5 +133096,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/muesli.rb",
     "commit_sha": "0dfcd2d9c83891559ea98dd6eac9ffe6096bc6e7"
+  },
+  {
+    "type": "cask",
+    "name": "lumide",
+    "version": "0.14.0",
+    "desc": "Agent-native code editor",
+    "homepage": "https://lumide.dev/",
+    "date": "2026-07-06T00:54:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/lumide.rb",
+    "commit_sha": "9b60ec6917a54c70899f7e3819cab461ae1792b9"
+  },
+  {
+    "type": "cask",
+    "name": "adrafinil",
+    "version": "1.4.0",
+    "desc": "Keep your computer awake while AI coding agents are working",
+    "homepage": "https://kagerou.glass/adrafinil/",
+    "date": "2026-07-06T01:07:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/adrafinil.rb",
+    "commit_sha": "55314be5dc2358426ab9c08674f74dc92a380392"
+  },
+  {
+    "type": "cask",
+    "name": "itsypad",
+    "version": "1.16.0",
+    "desc": "Tiny, fast scratchpad and clipboard manager",
+    "homepage": "https://github.com/nickustinov/itsypad-macos",
+    "date": "2026-07-06T21:54:48Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/itsypad.rb",
+    "commit_sha": "ae3f4a4a37e8ef16c0af17914410a63da673658b"
+  },
+  {
+    "type": "cask",
+    "name": "keeperdb",
+    "version": "2.2.0",
+    "desc": "Database management tool for Postgres, MySQL, SQLite, MSSQL, Oracle, Redshift",
+    "homepage": "https://www.keepersecurity.com/keeperdb/",
+    "date": "2026-07-06T22:07:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/keeperdb.rb",
+    "commit_sha": "2fe5595112806e2400d8133236415aa8e50e56d2"
+  },
+  {
+    "type": "cask",
+    "name": "mac-sai",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-07-06T23:58:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mac-sai.rb",
+    "commit_sha": "6127a9694cab0eb0e6c7e48b86d4a055c23d8856"
   }
 ]
