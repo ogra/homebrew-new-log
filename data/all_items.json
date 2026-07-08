@@ -133151,5 +133151,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/mac-sai.rb",
     "commit_sha": "6127a9694cab0eb0e6c7e48b86d4a055c23d8856"
+  },
+  {
+    "type": "formula",
+    "name": "esbonio",
+    "version": "2.1.0",
+    "desc": "Language server for working with Sphinx projects",
+    "homepage": "https://github.com/swyddfa/esbonio",
+    "date": "2026-07-07T09:36:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/esbonio.rb",
+    "commit_sha": "5f4d05b19bd920aff023a33a5fb13dcd2e41ebbd"
+  },
+  {
+    "type": "formula",
+    "name": "webfont",
+    "version": "12.4.1",
+    "desc": "Generator of fonts from SVG icons, with TTF encoding and WOFF/WOFF2 decoding",
+    "homepage": "https://webfont.js.org/",
+    "date": "2026-07-07T12:40:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/webfont.rb",
+    "commit_sha": "7ffe82b04b711178018025721ae3cb8d91fe782e"
+  },
+  {
+    "type": "formula",
+    "name": "msdf-atlas-gen",
+    "version": "1.4",
+    "desc": "Generator of multi-channel signed distance field atlases from fonts",
+    "homepage": "https://github.com/Chlumsky/msdf-atlas-gen",
+    "date": "2026-07-07T13:13:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/msdf-atlas-gen.rb",
+    "commit_sha": "4a3d88be8cb506e1a4e1597cc1093584f5ede77d"
+  },
+  {
+    "type": "cask",
+    "name": "raycast-glaze",
+    "version": "0.8.0,7639b72eb7",
+    "desc": "Create desktop apps by chatting with AI",
+    "homepage": "https://www.glaze.app/",
+    "date": "2026-07-07T12:06:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/raycast-glaze.rb",
+    "commit_sha": "d8e5f06f334233583461cc703cbd3e53a63cd615"
+  },
+  {
+    "type": "cask",
+    "name": "otty",
+    "version": "1.2.3",
+    "desc": "Terminal emulator built for code agents",
+    "homepage": "https://otty.sh/",
+    "date": "2026-07-07T13:52:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/otty.rb",
+    "commit_sha": "f72687bbfac9c8beadbf6523580870c0ce731a85"
+  },
+  {
+    "type": "cask",
+    "name": "itermcompanion",
+    "version": "1.0",
+    "desc": "Pairs iTerm2 with the iTerm2 Companion iPhone app",
+    "homepage": "https://iterm2.com/companion-plugin.html",
+    "date": "2026-07-07T15:42:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/itermcompanion.rb",
+    "commit_sha": "b7c277f1dc1b4e878ede17365ec8c9214722415b"
   }
 ]
