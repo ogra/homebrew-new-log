@@ -133217,5 +133217,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/itermcompanion.rb",
     "commit_sha": "b7c277f1dc1b4e878ede17365ec8c9214722415b"
+  },
+  {
+    "type": "formula",
+    "name": "librefang",
+    "version": "2026.6.29",
+    "desc": "Self-hostable operating system for autonomous AI agents",
+    "homepage": "https://librefang.ai",
+    "date": "2026-07-08T01:41:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/librefang.rb",
+    "commit_sha": "56ad29c37fec81f359d022fb312fde5d913c5220"
+  },
+  {
+    "type": "formula",
+    "name": "smithery-cli",
+    "version": "4.11.1",
+    "desc": "Install and list Model Context Protocol servers from Smithery",
+    "homepage": "https://smithery.ai/",
+    "date": "2026-07-08T02:51:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/smithery-cli.rb",
+    "commit_sha": "4faf5098b8dee14c84fa0a1c6ea28cbda073cd56"
+  },
+  {
+    "type": "formula",
+    "name": "salmon",
+    "version": "2.3.1",
+    "desc": "Transcript-level quantification from RNA-seq reads",
+    "homepage": "https://github.com/COMBINE-lab/salmon",
+    "date": "2026-07-08T05:42:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/salmon.rb",
+    "commit_sha": "347f204b6d215f8b3eb1a5e7a450deda14ea359f"
+  },
+  {
+    "type": "formula",
+    "name": "filtlong",
+    "version": "0.3.1",
+    "desc": "Quality filtering of long noisy DNA sequencing reads",
+    "homepage": "https://github.com/rrwick/Filtlong",
+    "date": "2026-07-08T08:39:31Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/filtlong.rb",
+    "commit_sha": "c83d1cb6f50cf4bca19c82e01b28152eddd93aca"
+  },
+  {
+    "type": "cask",
+    "name": "toolhive-studio",
+    "version": "0.37.0",
+    "desc": "Desktop application to install, manage, and run MCP servers",
+    "homepage": "https://github.com/stacklok/toolhive-studio",
+    "date": "2026-07-08T01:09:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/toolhive-studio.rb",
+    "commit_sha": "47516eddc5fbe32cdcd40c4f84e9bf58a8b037fe"
+  },
+  {
+    "type": "cask",
+    "name": "vicinae",
+    "version": "0.23.0",
+    "desc": "Application launcher and command palette",
+    "homepage": "https://vicinae.com/",
+    "date": "2026-07-08T20:44:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vicinae.rb",
+    "commit_sha": "647bd4e76e837877b6feb2b6f3212435eaf45983"
   }
 ]
