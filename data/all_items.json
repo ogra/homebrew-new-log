@@ -133283,5 +133283,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/v/vicinae.rb",
     "commit_sha": "647bd4e76e837877b6feb2b6f3212435eaf45983"
+  },
+  {
+    "type": "formula",
+    "name": "rawtoaces",
+    "version": "2.1.1",
+    "desc": "Utility for converting camera RAW image files to ACES",
+    "homepage": "https://github.com/AcademySoftwareFoundation/rawtoaces",
+    "date": "2026-07-09T05:22:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rawtoaces.rb",
+    "commit_sha": "0483319d13c23f616abae3efaf5779d53c697f3f"
+  },
+  {
+    "type": "cask",
+    "name": "proxybridge",
+    "version": "4.0.0",
+    "desc": "Proxy client with per-application traffic routing rules",
+    "homepage": "https://interceptsuite.com/",
+    "date": "2026-07-09T11:26:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/proxybridge.rb",
+    "commit_sha": "84762a152c0f3aad4fda36ede93d90874bfbd867"
   }
 ]
