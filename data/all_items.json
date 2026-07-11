@@ -133305,5 +133305,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/proxybridge.rb",
     "commit_sha": "84762a152c0f3aad4fda36ede93d90874bfbd867"
+  },
+  {
+    "type": "formula",
+    "name": "opencv@4",
+    "version": "4.13.0",
+    "desc": "Open source computer vision library",
+    "homepage": "https://opencv.org/",
+    "date": "2026-07-10T02:52:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/opencv@4.rb",
+    "commit_sha": "a9da7371647cf8224ef66819fd4f72714dbeb03a"
+  },
+  {
+    "type": "formula",
+    "name": "reliable",
+    "version": "1.3.3",
+    "desc": "Simple packet acknowledgement system for UDP-based protocols",
+    "homepage": "https://github.com/mas-bandwidth/reliable",
+    "date": "2026-07-10T05:17:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/reliable.rb",
+    "commit_sha": "7eb2237adbfd5a7a4eb3179229ae6013041f39f6"
+  },
+  {
+    "type": "formula",
+    "name": "netcode",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-07-10T05:38:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/netcode.rb",
+    "commit_sha": "5cbe6a6ab05559cdf122348e4fc5900c80eefb23"
+  },
+  {
+    "type": "formula",
+    "name": "soar",
+    "version": "0.12.6",
+    "desc": "Fast, modern package manager for Static Binaries, Portable Formats and more",
+    "homepage": "https://soar.qaidvoid.dev",
+    "date": "2026-07-10T06:51:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/soar.rb",
+    "commit_sha": "01753da032f19d3f72dbb20486793a6fafa32bf6"
+  },
+  {
+    "type": "formula",
+    "name": "trim-galore",
+    "version": "2.3.0",
+    "desc": "Quality and adapter trimming for FastQ sequencing reads",
+    "homepage": "https://github.com/FelixKrueger/TrimGalore",
+    "date": "2026-07-10T14:54:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/trim-galore.rb",
+    "commit_sha": "4e84427567d940cd218f7dec869448aede4fdc41"
   }
 ]
