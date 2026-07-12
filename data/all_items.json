@@ -133360,5 +133360,60 @@
     "source_repo": "homebrew-core",
     "path": "Formula/t/trim-galore.rb",
     "commit_sha": "4e84427567d940cd218f7dec869448aede4fdc41"
+  },
+  {
+    "type": "formula",
+    "name": "faker",
+    "version": "40.28.1",
+    "desc": "Python-based fake data generator",
+    "homepage": "https://faker.readthedocs.io",
+    "date": "2026-07-11T09:20:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/faker.rb",
+    "commit_sha": "9d0902412cd044e19ff5a09fcedb11e86dcef5b6"
+  },
+  {
+    "type": "formula",
+    "name": "perlnavigator",
+    "version": "0.8.20",
+    "desc": "Perl language server",
+    "homepage": "https://github.com/bscan/PerlNavigator",
+    "date": "2026-07-11T09:34:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/perlnavigator.rb",
+    "commit_sha": "63ec84a94f1c8df8aec671be9d66b4cbc46337d9"
+  },
+  {
+    "type": "formula",
+    "name": "goimapnotify",
+    "version": "2.5.6",
+    "desc": "Execute scripts on IMAP mailbox changes using IDLE",
+    "homepage": "https://gitlab.com/shackra/goimapnotify",
+    "date": "2026-07-11T12:57:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/goimapnotify.rb",
+    "commit_sha": "8d68a448b59a41f570d4df128429d80a99b448aa"
+  },
+  {
+    "type": "formula",
+    "name": "esbmc",
+    "version": "8.4",
+    "desc": "Efficient SMT-based context-bounded model checker for C, C++, and Python",
+    "homepage": "https://esbmc.github.io/",
+    "date": "2026-07-11T14:24:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/esbmc.rb",
+    "commit_sha": "8d5f471c81c880b7caf1c80aef3cfc981588a5d3"
+  },
+  {
+    "type": "formula",
+    "name": "serialize",
+    "version": "1.4.3",
+    "desc": "Single-header bitpacking serializer for C++ aimed at game networking",
+    "homepage": "https://github.com/mas-bandwidth/serialize",
+    "date": "2026-07-11T16:19:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/serialize.rb",
+    "commit_sha": "1ade178029d950d60ae41c468a8831f064c1c1d4"
   }
 ]
