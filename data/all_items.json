@@ -133415,5 +133415,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/s/serialize.rb",
     "commit_sha": "1ade178029d950d60ae41c468a8831f064c1c1d4"
+  },
+  {
+    "type": "formula",
+    "name": "libyojimbo",
+    "version": "1.6.3",
+    "desc": "Secure client/server network protocol library for multiplayer games",
+    "homepage": "https://github.com/mas-bandwidth/yojimbo",
+    "date": "2026-07-12T13:24:31Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libyojimbo.rb",
+    "commit_sha": "0c6cc256c95fecc10604ca51e24dca3b7d1bfd64"
+  },
+  {
+    "type": "formula",
+    "name": "mktxp",
+    "version": "1.2.19",
+    "desc": "Prometheus Exporter for Mikrotik RouterOS devices",
+    "homepage": "https://github.com/akpw/mktxp",
+    "date": "2026-07-12T13:46:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mktxp.rb",
+    "commit_sha": "1230870a14a86f8c0d2df54d6c06df63d6708424"
+  },
+  {
+    "type": "cask",
+    "name": "chatgpt-classic",
+    "version": "1.2026.183,1783607847",
+    "desc": "OpenAI's previous ChatGPT desktop app",
+    "homepage": "https://chatgpt.com/",
+    "date": "2026-07-12T05:22:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/chatgpt-classic.rb",
+    "commit_sha": "c835e4de5f27d8cbf78a33eb48d2f1112ee62747"
+  },
+  {
+    "type": "cask",
+    "name": "codex-app",
+    "version": "26.623.141536",
+    "desc": "OpenAI's Codex desktop app for managing coding agents",
+    "homepage": "https://openai.com/codex",
+    "date": "2026-07-12T20:12:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/codex-app.rb",
+    "commit_sha": "d242d36552b9461890435ffff398816c1101418e"
   }
 ]
