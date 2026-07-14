@@ -133459,5 +133459,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/codex-app.rb",
     "commit_sha": "d242d36552b9461890435ffff398816c1101418e"
+  },
+  {
+    "type": "formula",
+    "name": "bracken",
+    "version": "3.1",
+    "desc": "Bayesian estimation of species abundance from Kraken output",
+    "homepage": "https://ccb.jhu.edu/software/bracken/",
+    "date": "2026-07-13T03:30:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bracken.rb",
+    "commit_sha": "4ece1be6b84964ee0f9e0fcdc62efb610a749cb0"
+  },
+  {
+    "type": "formula",
+    "name": "mosdepth",
+    "version": "0.3.14",
+    "desc": "Fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing",
+    "homepage": "https://github.com/brentp/mosdepth",
+    "date": "2026-07-13T03:38:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mosdepth.rb",
+    "commit_sha": "d88a82a7d4c054cf2cd191bea3e1b085783efbc6"
+  },
+  {
+    "type": "formula",
+    "name": "cyclonedx-npm",
+    "version": "6.0.0",
+    "desc": "Creates CycloneDX Software Bill of Materials (SBOM) from npm projects",
+    "homepage": "https://github.com/CycloneDX/cyclonedx-node-npm",
+    "date": "2026-07-13T03:43:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cyclonedx-npm.rb",
+    "commit_sha": "6bb325c7d5073b4568b842fda02d62456b3c5ab4"
+  },
+  {
+    "type": "formula",
+    "name": "bismark",
+    "version": "3.1.0",
+    "desc": "Bisulfite read mapper and methylation caller",
+    "homepage": "https://github.com/FelixKrueger/Bismark",
+    "date": "2026-07-13T05:18:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bismark.rb",
+    "commit_sha": "91d6516145b5770196c08fe4402a0654e307597e"
+  },
+  {
+    "type": "formula",
+    "name": "rocq-micromega-plugin",
+    "version": "1.1.0",
+    "desc": "Micromega decision procedures plugin for the Rocq prover",
+    "homepage": "https://github.com/rocq-community/micromega-plugin",
+    "date": "2026-07-13T05:56:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rocq-micromega-plugin.rb",
+    "commit_sha": "f01f2cba182c37ff1ccdc26f8dd95585a2991fbb"
   }
 ]
