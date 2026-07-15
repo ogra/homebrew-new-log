@@ -133514,5 +133514,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/r/rocq-micromega-plugin.rb",
     "commit_sha": "f01f2cba182c37ff1ccdc26f8dd95585a2991fbb"
+  },
+  {
+    "type": "formula",
+    "name": "nanoq",
+    "version": "0.10.0",
+    "desc": "Minimal but speedy quality control and summaries of nanopore reads",
+    "homepage": "https://github.com/esteinig/nanoq",
+    "date": "2026-07-14T07:10:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nanoq.rb",
+    "commit_sha": "4b897f8b2186de93c89e12794df9d2410c10c0f6"
+  },
+  {
+    "type": "formula",
+    "name": "scrutineer",
+    "version": "2026.07.14.1",
+    "desc": "Security through scrutiny",
+    "homepage": "https://github.com/alpha-omega-security/scrutineer",
+    "date": "2026-07-14T20:57:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/scrutineer.rb",
+    "commit_sha": "cea3073516f865b2d440d957eea7f2661c10505a"
+  },
+  {
+    "type": "cask",
+    "name": "willow-voice",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-07-14T18:54:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/willow-voice.rb",
+    "commit_sha": "654657e7db881dc474b88a358a3b102900039c88"
+  },
+  {
+    "type": "cask",
+    "name": "vorssaint",
+    "version": "3.1.12",
+    "desc": "Menu bar toolkit with keep-awake, system monitor and volume mixer",
+    "homepage": "https://github.com/vorssaint/vorssaint-utils",
+    "date": "2026-07-14T23:39:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vorssaint.rb",
+    "commit_sha": "31409d7b862325fa78e07b2f47603dcec5549444"
   }
 ]
