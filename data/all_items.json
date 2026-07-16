@@ -133558,5 +133558,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/v/vorssaint.rb",
     "commit_sha": "31409d7b862325fa78e07b2f47603dcec5549444"
+  },
+  {
+    "type": "formula",
+    "name": "gof5",
+    "version": "0.1.5",
+    "desc": "F5 BIG-IP VPN client",
+    "homepage": "https://github.com/kayrus/gof5",
+    "date": "2026-07-15T05:51:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gof5.rb",
+    "commit_sha": "c1b42e667f5d1497a2068e0850f8416c2b1a91f5"
+  },
+  {
+    "type": "formula",
+    "name": "chopper",
+    "version": "0.13.0",
+    "desc": "Filter and trim long-read sequencing data by quality and length",
+    "homepage": "https://github.com/wdecoster/chopper",
+    "date": "2026-07-15T10:17:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/chopper.rb",
+    "commit_sha": "ca5adcd1eecbbd81deafe987b2aa5cc1f01ac230"
+  },
+  {
+    "type": "formula",
+    "name": "zsh-patina",
+    "version": "1.8.0",
+    "desc": "Blazingly fast Zsh syntax highlighter",
+    "homepage": "https://github.com/michel-kraemer/zsh-patina",
+    "date": "2026-07-15T10:52:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zsh-patina.rb",
+    "commit_sha": "6f0069637072995162bf56f2d20c519224dc30c1"
+  },
+  {
+    "type": "formula",
+    "name": "flyline",
+    "version": "1.3.0",
+    "desc": "Supercharged Bash plugin replacement for readline",
+    "homepage": "https://github.com/HalFrgrd/flyline",
+    "date": "2026-07-15T12:43:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/flyline.rb",
+    "commit_sha": "c109d9a6f9f2e8083047eff40b326a89c2f1a171"
+  },
+  {
+    "type": "cask",
+    "name": "siliconscope",
+    "version": "3.2.0",
+    "desc": "System monitor for Apple Silicon with ANE, Media Engine and bandwidth tracking",
+    "homepage": "https://siliconscope.calidalab.ai/",
+    "date": "2026-07-15T00:18:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/siliconscope.rb",
+    "commit_sha": "ed683424cec29495910a927a56b04e91a538716a"
+  },
+  {
+    "type": "cask",
+    "name": "markdown-preview",
+    "version": "0.0.36",
+    "desc": "Markdown previewer with bundled Quick Look extension",
+    "homepage": "https://markdownpreview.app/",
+    "date": "2026-07-15T00:58:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/markdown-preview.rb",
+    "commit_sha": "75d3143c1821baf270114b542488c186f5e445d8"
+  },
+  {
+    "type": "cask",
+    "name": "smallstepagent",
+    "version": "0.68.0",
+    "desc": "Device identity and certificate management daemon",
+    "homepage": "https://smallstep.com/",
+    "date": "2026-07-15T14:22:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/smallstepagent.rb",
+    "commit_sha": "e64bebd76cfaaefc76b6c1acb363b628d393d7aa"
   }
 ]
