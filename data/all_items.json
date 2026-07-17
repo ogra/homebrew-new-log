@@ -133635,5 +133635,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/smallstepagent.rb",
     "commit_sha": "e64bebd76cfaaefc76b6c1acb363b628d393d7aa"
+  },
+  {
+    "type": "formula",
+    "name": "bittensor",
+    "version": "10.5.0",
+    "desc": "SDK and command-line tool for the Bittensor network",
+    "homepage": "https://subtensor.vercel.app/",
+    "date": "2026-07-16T08:40:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bittensor.rb",
+    "commit_sha": "98df88610cb3f55ef942c51751bafcff8424d823"
+  },
+  {
+    "type": "formula",
+    "name": "tmux-fingers",
+    "version": "2.7.1",
+    "desc": "Copy pasting in terminal with vimium/vimperator like hints",
+    "homepage": "https://github.com/Morantron/tmux-fingers",
+    "date": "2026-07-16T08:45:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tmux-fingers.rb",
+    "commit_sha": "bd289ccb6dd56d3bdae87e080172e30ab1271e9c"
+  },
+  {
+    "type": "cask",
+    "name": "juicy",
+    "version": "1.5.2,2606251712",
+    "desc": "Menu bar battery monitor with custom charge alerts and health tracking",
+    "homepage": "https://getjuicy.app/",
+    "date": "2026-07-16T04:30:15Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/j/juicy.rb",
+    "commit_sha": "c0f860c8cbd5a237a4ac207da257aa43af139d5a"
   }
 ]
