@@ -133668,5 +133668,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/j/juicy.rb",
     "commit_sha": "c0f860c8cbd5a237a4ac207da257aa43af139d5a"
+  },
+  {
+    "type": "formula",
+    "name": "libjaylink",
+    "version": "0.4.0",
+    "desc": "Provide interoperability with JLINK hardware",
+    "homepage": "https://gitlab.zapb.de/libjaylink/libjaylink",
+    "date": "2026-07-17T02:48:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libjaylink.rb",
+    "commit_sha": "8162db9789df460d7f5b03f87628b158ac7b21f3"
+  },
+  {
+    "type": "formula",
+    "name": "woxi",
+    "version": "0.2.0",
+    "desc": "Interpreter for a subset of the Wolfram Language",
+    "homepage": "https://github.com/ad-si/Woxi",
+    "date": "2026-07-17T08:42:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/woxi.rb",
+    "commit_sha": "798e625841f86ed61faea11da5a1ef36e813def2"
+  },
+  {
+    "type": "formula",
+    "name": "rust-wasm",
+    "version": "1.97.1",
+    "desc": "Rust standard library and sysroot for WebAssembly targets",
+    "homepage": "https://www.rust-lang.org/",
+    "date": "2026-07-17T09:35:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rust-wasm.rb",
+    "commit_sha": "ec495e13595bff8c2fb531171dfb3e827b314b79"
+  },
+  {
+    "type": "formula",
+    "name": "gss-ntlmssp",
+    "version": "1.3.1",
+    "desc": "NTLM authentication plugin for GSSAPI",
+    "homepage": "https://github.com/gssapi/gss-ntlmssp",
+    "date": "2026-07-17T09:53:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gss-ntlmssp.rb",
+    "commit_sha": "7e80a50c46c26d9180fe3abfb6c5ccea2e881760"
+  },
+  {
+    "type": "formula",
+    "name": "qobine-web",
+    "version": "2026-07-15",
+    "desc": "Server and web based player for Qobuz",
+    "homepage": "https://github.com/SofusA/qobine",
+    "date": "2026-07-17T10:05:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/qobine-web.rb",
+    "commit_sha": "15895f7f5fb01e4819ea62f5b77219a2f439f67a"
+  },
+  {
+    "type": "formula",
+    "name": "qobine-tui",
+    "version": "2026-07-15",
+    "desc": "Tui player for Qobuz",
+    "homepage": "https://github.com/SofusA/qobine",
+    "date": "2026-07-17T10:05:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/q/qobine-tui.rb",
+    "commit_sha": "784e0f20ec31e7ad13140a82866a18adde9048c4"
+  },
+  {
+    "type": "formula",
+    "name": "gcx",
+    "version": "0.4.4",
+    "desc": "CLI for managing Grafana Cloud resources",
+    "homepage": "https://github.com/grafana/gcx",
+    "date": "2026-07-17T10:05:57Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gcx.rb",
+    "commit_sha": "8fac608f1a708e263782d96d26f59ead86e6d184"
+  },
+  {
+    "type": "formula",
+    "name": "octl",
+    "version": "0.0.30",
+    "desc": "Modern CLI for Outscale",
+    "homepage": "https://github.com/outscale/octl",
+    "date": "2026-07-17T10:48:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/octl.rb",
+    "commit_sha": "f33869f50a412429587922e873c02dad8c9a7dff"
+  },
+  {
+    "type": "cask",
+    "name": "logseq-og",
+    "version": "1.0.0",
+    "desc": "Privacy-first, open-source platform for knowledge sharing and management",
+    "homepage": "https://github.com/logseq/og",
+    "date": "2026-07-17T02:11:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/logseq-og.rb",
+    "commit_sha": "6f79baae75df583169c75344d866282ea76b4046"
+  },
+  {
+    "type": "cask",
+    "name": "aphera",
+    "version": "1.0.1",
+    "desc": "Raw photo editing software",
+    "homepage": "https://aphera.co/",
+    "date": "2026-07-17T07:53:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/aphera.rb",
+    "commit_sha": "4496bfbefd0eb6e5dedcc196e0c37f79b07ef0a7"
   }
 ]
