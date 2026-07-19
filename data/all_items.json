@@ -133778,5 +133778,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/aphera.rb",
     "commit_sha": "4496bfbefd0eb6e5dedcc196e0c37f79b07ef0a7"
+  },
+  {
+    "type": "formula",
+    "name": "ovh-ttyrec",
+    "version": "1.2.0.0",
+    "desc": "Enhanced (but compatible) version of the classic ttyrec",
+    "homepage": "https://github.com/ovh/ovh-ttyrec",
+    "date": "2026-07-18T04:29:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/ovh-ttyrec.rb",
+    "commit_sha": "b0baaecb6fc8d03372cc2b5f13fcf9be11caed69"
+  },
+  {
+    "type": "formula",
+    "name": "utiluti",
+    "version": "1.5",
+    "desc": "macOS command-line tool to work with default apps",
+    "homepage": "https://github.com/scriptingosx/utiluti",
+    "date": "2026-07-18T15:22:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/utiluti.rb",
+    "commit_sha": "62e2edac5c28f7a9ddd2cfae60bbd37a9bbcc235"
+  },
+  {
+    "type": "cask",
+    "name": "perplexity",
+    "version": "26.28.0",
+    "desc": "AI-powered answer engine with Personal Computer agent",
+    "homepage": "https://www.perplexity.ai/personal-computer",
+    "date": "2026-07-18T10:07:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/perplexity.rb",
+    "commit_sha": "37049003fcc326fff943ea017d97f290c442b28d"
+  },
+  {
+    "type": "cask",
+    "name": "arcbox",
+    "version": "1.27.0",
+    "desc": "Runtime for containers, Linux virtual machines, and AI agent sandboxes",
+    "homepage": "https://arcbox.dev/",
+    "date": "2026-07-18T14:44:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/arcbox.rb",
+    "commit_sha": "e46026a4a7fb083a9c416c619d28e0d3615eb38b"
   }
 ]
