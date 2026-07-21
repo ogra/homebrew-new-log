@@ -133822,5 +133822,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/arcbox.rb",
     "commit_sha": "e46026a4a7fb083a9c416c619d28e0d3615eb38b"
+  },
+  {
+    "type": "formula",
+    "name": "advai-cli",
+    "version": "1.0.9",
+    "desc": "CLI for managing skills and external CLIs",
+    "homepage": "https://github.com/Advai-X/advai-cli",
+    "date": "2026-07-20T06:36:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/advai-cli.rb",
+    "commit_sha": "db5f562346ffe90070e7357a3eb7f1e1303f1e92"
+  },
+  {
+    "type": "cask",
+    "name": "libation",
+    "version": "13.5.1",
+    "desc": "Audible audiobook manager and liberator",
+    "homepage": "https://getlibation.com/",
+    "date": "2026-07-20T15:07:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/libation.rb",
+    "commit_sha": "523309a55013a6cca25338c2fa6d031ca415b513"
+  },
+  {
+    "type": "cask",
+    "name": "prisma-access-browser",
+    "version": "150.49.5.129,6a8a165d",
+    "desc": "Secure enterprise browser with built-in threat and data protection",
+    "homepage": "https://get.pabrowser.com/welcome",
+    "date": "2026-07-20T19:01:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/prisma-access-browser.rb",
+    "commit_sha": "28dd46e641e3a97a6aad416186f2c782679d9d6c"
   }
 ]
