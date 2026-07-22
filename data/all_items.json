@@ -133855,5 +133855,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/prisma-access-browser.rb",
     "commit_sha": "28dd46e641e3a97a6aad416186f2c782679d9d6c"
+  },
+  {
+    "type": "formula",
+    "name": "near",
+    "version": "0.29.0",
+    "desc": "Human-friendly console utility for interacting with NEAR Protocol",
+    "homepage": "https://near.cli.rs",
+    "date": "2026-07-20T23:55:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/near.rb",
+    "commit_sha": "262f2bf608b52e366df6b456db0595d7336b8f4d"
+  },
+  {
+    "type": "formula",
+    "name": "checksec",
+    "version": "3.2.0",
+    "desc": "Security feature auditing for ELF binaries and Linux kernels",
+    "homepage": "https://slimm609.github.io/checksec",
+    "date": "2026-07-21T01:23:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/checksec.rb",
+    "commit_sha": "7c9f4ca1c7925bf3dc224bf805d9b4af73d17a7b"
+  },
+  {
+    "type": "formula",
+    "name": "vercel",
+    "version": "56.4.0",
+    "desc": "Command-line interface for Vercel",
+    "homepage": "https://vercel.com/home",
+    "date": "2026-07-21T03:55:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vercel.rb",
+    "commit_sha": "0e9df1bf8b75327ab8a8254595479cb102849534"
+  },
+  {
+    "type": "formula",
+    "name": "rapid-mlx",
+    "version": "0.10.12",
+    "desc": "Fast local AI engine for Apple Silicon with an OpenAI-compatible API",
+    "homepage": "https://github.com/raullenchai/Rapid-MLX",
+    "date": "2026-07-21T04:26:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rapid-mlx.rb",
+    "commit_sha": "23063c83b8ee409103f6bc00580f3e69308fa513"
+  },
+  {
+    "type": "formula",
+    "name": "lunarr",
+    "version": "0.8.0",
+    "desc": "Self-hosted media streaming server and Plex alternative for movies and TV",
+    "homepage": "https://github.com/lunarr-app/lunarr-go",
+    "date": "2026-07-21T05:53:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lunarr.rb",
+    "commit_sha": "1794a3983316f9f11d1a976ad0c47b51d5e67f3d"
+  },
+  {
+    "type": "formula",
+    "name": "pixtuoid",
+    "version": "0.15.0",
+    "desc": "Terminal pixel-art office for AI coding agents",
+    "homepage": "https://github.com/IvanWng97/pixtuoid",
+    "date": "2026-07-21T13:04:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pixtuoid.rb",
+    "commit_sha": "09c646c9a2bdb336ea7fd97db2a7e34458139c15"
+  },
+  {
+    "type": "formula",
+    "name": "droast",
+    "version": "1.4.7",
+    "desc": "Opinionated Dockerfile linter",
+    "homepage": "https://ewry.net/droast-dockerfile-linter/",
+    "date": "2026-07-21T19:07:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/droast.rb",
+    "commit_sha": "c6b1c7cf2def328c8d6603a6d0ac1c6c95ee6e8d"
+  },
+  {
+    "type": "cask",
+    "name": "cleanmymac-cli",
+    "version": "1.0.0",
+    "desc": "Command-line interface for CleanMyMac",
+    "homepage": "https://github.com/MacPaw/cleanmymac-cli",
+    "date": "2026-07-21T03:34:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cleanmymac-cli.rb",
+    "commit_sha": "ae9251389fce2c1f611ee8fc76a95715c2b4c963"
+  },
+  {
+    "type": "cask",
+    "name": "neon-vision-editor",
+    "version": "0.9.3",
+    "desc": "Native code and text editor",
+    "homepage": "https://github.com/h3pdesign/Neon-Vision-Editor",
+    "date": "2026-07-21T03:44:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/neon-vision-editor.rb",
+    "commit_sha": "ffaa3bb8098766843fde2d1bba93e01b0720a414"
+  },
+  {
+    "type": "cask",
+    "name": "linguax",
+    "version": "2025.12,4866",
+    "desc": "Menu-bar utility for third-party mice with smooth scrolling and mapping",
+    "homepage": "https://linguax.app/",
+    "date": "2026-07-21T05:18:54Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/linguax.rb",
+    "commit_sha": "efc243025c1d908d50cb3decae020ae284c85d13"
+  },
+  {
+    "type": "cask",
+    "name": "opendisplay",
+    "version": "1.13.0",
+    "desc": "Second-display utility for iPhone and iPad over USB and Wi-Fi",
+    "homepage": "https://opendisplay.app/",
+    "date": "2026-07-21T13:41:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/opendisplay.rb",
+    "commit_sha": "100896f1aa7b69b8e6498f8f69c6162c8d512053"
   }
 ]
