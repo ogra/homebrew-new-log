@@ -133976,5 +133976,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/opendisplay.rb",
     "commit_sha": "100896f1aa7b69b8e6498f8f69c6162c8d512053"
+  },
+  {
+    "type": "formula",
+    "name": "dskditto",
+    "version": "0.5.9",
+    "desc": "Ultra-fast duplicate file finder TUI/GUI",
+    "homepage": "https://github.com/jdefrancesco/dskDitto",
+    "date": "2026-07-22T05:05:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dskditto.rb",
+    "commit_sha": "32417f6f379a3260edf7bd9e7350af7745b45f91"
+  },
+  {
+    "type": "formula",
+    "name": "wild",
+    "version": "0.9.0",
+    "desc": "Very fast linker for Linux",
+    "homepage": "https://github.com/wild-linker/wild",
+    "date": "2026-07-22T05:39:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wild.rb",
+    "commit_sha": "8592a69b53074acc1dbd19de0cbda5a9f7cd2970"
+  },
+  {
+    "type": "formula",
+    "name": "virtiofsd",
+    "version": "1.14.0",
+    "desc": "Vhost-user virtio-fs device backend written in Rust",
+    "homepage": "https://gitlab.com/virtio-fs/virtiofsd",
+    "date": "2026-07-22T14:16:06Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/virtiofsd.rb",
+    "commit_sha": "f4ef57618a4df9387d5515977cc0e2b34b9d42c1"
+  },
+  {
+    "type": "cask",
+    "name": "cate",
+    "version": "1.5.3",
+    "desc": "Infinite zoomable canvas with editor, terminal, and browser panels",
+    "homepage": "https://cate.cero-ai.com/",
+    "date": "2026-07-22T08:39:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cate.rb",
+    "commit_sha": "ed0ab3d3a25a64307f8e496a66ffd916b14ce4ba"
+  },
+  {
+    "type": "cask",
+    "name": "claude-status-bar",
+    "version": "0.4.0",
+    "desc": "Menu bar status indicator for Claude Code",
+    "homepage": "https://github.com/m1ckc3s/claude-status-bar",
+    "date": "2026-07-22T08:44:48Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/claude-status-bar.rb",
+    "commit_sha": "0737c9c19377b5e6762319a0b28db69519b7bd12"
+  },
+  {
+    "type": "cask",
+    "name": "roslynpad",
+    "version": "22",
+    "desc": "C# editor and runner based on Roslyn",
+    "homepage": "https://roslynpad.net/",
+    "date": "2026-07-22T08:48:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/roslynpad.rb",
+    "commit_sha": "88c8a22ad40d2cf5e1c5c1440a98a7eea5f0077f"
+  },
+  {
+    "type": "cask",
+    "name": "sessionwatcher",
+    "version": "6.5.27",
+    "desc": "Menu bar monitor for AI coding assistant usage and limits",
+    "homepage": "https://www.sessionwatcher.com/",
+    "date": "2026-07-22T08:52:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sessionwatcher.rb",
+    "commit_sha": "aac463754bfe866bf6130ff9f0e820ca2bdb5bbb"
   }
 ]
