@@ -134053,5 +134053,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sessionwatcher.rb",
     "commit_sha": "aac463754bfe866bf6130ff9f0e820ca2bdb5bbb"
+  },
+  {
+    "type": "formula",
+    "name": "apm",
+    "version": "0.26.0",
+    "desc": "Dependency manager for AI agent configuration",
+    "homepage": "https://microsoft.github.io/apm/",
+    "date": "2026-07-23T02:50:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/apm.rb",
+    "commit_sha": "aa428eae800f626d40079335e8358af270bcf4fb"
+  },
+  {
+    "type": "cask",
+    "name": "onit-sidekick",
+    "version": "3.0",
+    "desc": "AI chat panel",
+    "homepage": "https://www.cloudless.so/ai-sidebar",
+    "date": "2026-07-23T08:27:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/onit-sidekick.rb",
+    "commit_sha": "193d52b4115bab62a8d9279576911310a642f6bf"
+  },
+  {
+    "type": "cask",
+    "name": "openwhispr",
+    "version": "1.7.6",
+    "desc": "Privacy-first voice-to-text dictation with AI agents",
+    "homepage": "https://github.com/OpenWhispr/openwhispr",
+    "date": "2026-07-23T09:27:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openwhispr.rb",
+    "commit_sha": "a5c0a408da5ae5ea8a2c698a9548abd03ffa1411"
   }
 ]
