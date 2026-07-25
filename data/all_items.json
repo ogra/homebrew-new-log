@@ -134086,5 +134086,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/openwhispr.rb",
     "commit_sha": "a5c0a408da5ae5ea8a2c698a9548abd03ffa1411"
+  },
+  {
+    "type": "formula",
+    "name": "wgsl-analyzer",
+    "version": "2026-04-26",
+    "desc": "Language server implementation for WGSL and WESL",
+    "homepage": "https://wgsl-analyzer.github.io",
+    "date": "2026-07-24T13:33:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/wgsl-analyzer.rb",
+    "commit_sha": "29fa7ca16de3c95e961aa41c56be41f03ff33035"
+  },
+  {
+    "type": "formula",
+    "name": "deepline",
+    "version": "0.1.267",
+    "desc": "CLI for Deepline data enrichment and durable plays",
+    "homepage": "https://code.deepline.com",
+    "date": "2026-07-24T14:12:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/deepline.rb",
+    "commit_sha": "95833ea780813d2bfd1288712580480df8c940d5"
+  },
+  {
+    "type": "cask",
+    "name": "sogouinput",
+    "version": "624d",
+    "desc": "Input method supporting full and double spelling",
+    "homepage": "https://pinyin.sogou.com/mac/",
+    "date": "2026-07-24T13:38:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sogouinput.rb",
+    "commit_sha": "d62d9b837df32c6203b284b2b591c6dc46c3eda9"
+  },
+  {
+    "type": "cask",
+    "name": "clarc",
+    "version": "1.4.0",
+    "desc": "Desktop client for Claude Code",
+    "homepage": "https://github.com/ttnear/Clarc",
+    "date": "2026-07-24T16:34:14Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/clarc.rb",
+    "commit_sha": "3a47d79850f7203a5640dbb310a67ce2ea1c1be8"
   }
 ]
