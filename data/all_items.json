@@ -134130,5 +134130,181 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/clarc.rb",
     "commit_sha": "3a47d79850f7203a5640dbb310a67ce2ea1c1be8"
+  },
+  {
+    "type": "formula",
+    "name": "gita",
+    "version": "0.16.8.2",
+    "desc": "Manage multiple git repos with sanity",
+    "homepage": "https://github.com/nosarthur/gita",
+    "date": "2026-07-25T00:58:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gita.rb",
+    "commit_sha": "01f6bedca6d9c6328dc260c39ade77818c9525e9"
+  },
+  {
+    "type": "formula",
+    "name": "fastani",
+    "version": "1.34",
+    "desc": "Fast whole-genome similarity (ANI) estimation",
+    "homepage": "https://github.com/ParBLiSS/FastANI",
+    "date": "2026-07-25T01:14:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fastani.rb",
+    "commit_sha": "f287ccd266b166911e7d10af3404e76e38665c57"
+  },
+  {
+    "type": "formula",
+    "name": "humanbound",
+    "version": "2.7.0",
+    "desc": "Adversarial security testing engine, SDK, and CLI for AI agents",
+    "homepage": "https://docs.humanbound.ai/",
+    "date": "2026-07-25T03:45:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/humanbound.rb",
+    "commit_sha": "4e64554046a0db9c53092e761713700dd54cf347"
+  },
+  {
+    "type": "formula",
+    "name": "rumbledb",
+    "version": "2.1.0",
+    "desc": "JSONiq and XQuery query engine on Apache Spark",
+    "homepage": "https://rumbledb.org/",
+    "date": "2026-07-25T03:56:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rumbledb.rb",
+    "commit_sha": "c82ccf03632eac62cb6797efb469db9b6e0aca8d"
+  },
+  {
+    "type": "formula",
+    "name": "nullhub",
+    "version": "2026.5.29",
+    "desc": "Management console for the Null ecosystem",
+    "homepage": "https://nullhub.io",
+    "date": "2026-07-25T04:25:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nullhub.rb",
+    "commit_sha": "95205c68723f92617cc18f96d643ff285256012e"
+  },
+  {
+    "type": "cask",
+    "name": "codexia",
+    "version": "0.41.1",
+    "desc": "GUI and toolkit for Codex CLI and Claude Code",
+    "homepage": "https://github.com/milisp/codexia",
+    "date": "2026-07-25T00:29:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/codexia.rb",
+    "commit_sha": "9bcedee8fccfbae012c0bbf03070f9f9b241167e"
+  },
+  {
+    "type": "cask",
+    "name": "gamehub",
+    "version": "0.8.435",
+    "desc": "Compatibility layer for running Windows and Steam games",
+    "homepage": "https://www.gamemac.com/en",
+    "date": "2026-07-25T00:43:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gamehub.rb",
+    "commit_sha": "7aa6b6ef47e5a603007eaa639bd7127abfb26502"
+  },
+  {
+    "type": "cask",
+    "name": "changes",
+    "version": "2.3",
+    "desc": "Git GUI",
+    "homepage": "https://github.com/maoyama/Changes",
+    "date": "2026-07-25T00:48:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/changes.rb",
+    "commit_sha": "9ebb9c312f0cd7a453e2cf4873bb0ab3cec59e47"
+  },
+  {
+    "type": "cask",
+    "name": "block-buzz",
+    "version": "0.4.26",
+    "desc": "Workspace for humans and AI agents",
+    "homepage": "https://github.com/block/buzz",
+    "date": "2026-07-25T01:55:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/block-buzz.rb",
+    "commit_sha": "0429e1a858b571f65454d0aff108fa7414e90a6a"
+  },
+  {
+    "type": "cask",
+    "name": "hermes-desktop",
+    "version": "0.19.0,413ed6b9df18",
+    "desc": "Open-source desktop AI agent",
+    "homepage": "https://hermes-agent.nousresearch.com/desktop",
+    "date": "2026-07-25T02:07:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hermes-desktop.rb",
+    "commit_sha": "33fff3e6ea59e6b1695cf4f96c9a1d88e10cfef2"
+  },
+  {
+    "type": "cask",
+    "name": "pastebot@2",
+    "version": "2.4.8,24800",
+    "desc": "Workflow application to improve productivity",
+    "homepage": "https://tapbots.com/pastebot/",
+    "date": "2026-07-25T06:03:42Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pastebot@2.rb",
+    "commit_sha": "68595e17a09dd086dcd4d6252e8c6124a3d2fdba"
+  },
+  {
+    "type": "cask",
+    "name": "dnclient-server",
+    "version": "0.9.5,764f2278",
+    "desc": "Peer-to-peer VPN client daemon for managed nebula networks",
+    "homepage": "https://www.defined.net/",
+    "date": "2026-07-25T06:07:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dnclient-server.rb",
+    "commit_sha": "220429a031e423131794589da533c9000e343b46"
+  },
+  {
+    "type": "cask",
+    "name": "billy",
+    "version": "1.1.1,39",
+    "desc": "Invoice manager",
+    "homepage": "https://usebilly.app/",
+    "date": "2026-07-25T09:30:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/billy.rb",
+    "commit_sha": "38f41bf5b1f8ec06efe034514d6b3b0f5ccad80c"
+  },
+  {
+    "type": "cask",
+    "name": "koe",
+    "version": "1.0.23",
+    "desc": "Zero-GUI voice input tool",
+    "homepage": "https://github.com/missuo/koe",
+    "date": "2026-07-25T10:47:03Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/koe.rb",
+    "commit_sha": "d907efe049c44d729ca883daecb9f05560bcf013"
+  },
+  {
+    "type": "cask",
+    "name": "moonfin",
+    "version": "2.3.0",
+    "desc": "Media streaming client for Jellyfin and Emby",
+    "homepage": "https://moonfin.io/",
+    "date": "2026-07-25T10:48:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/moonfin.rb",
+    "commit_sha": "9b6aafbccb0a3c267fb12aa76e58b4aece2b55e7"
+  },
+  {
+    "type": "cask",
+    "name": "neodisk",
+    "version": "2.70.2",
+    "desc": "Read-only disk space visualiser",
+    "homepage": "https://neodisk.app/",
+    "date": "2026-07-25T13:43:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/neodisk.rb",
+    "commit_sha": "e704ac6d77f645081a8ed5aa406b1adc2441b61a"
   }
 ]
