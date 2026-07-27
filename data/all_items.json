@@ -134306,5 +134306,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/n/neodisk.rb",
     "commit_sha": "e704ac6d77f645081a8ed5aa406b1adc2441b61a"
+  },
+  {
+    "type": "formula",
+    "name": "godns",
+    "version": "3.4.3",
+    "desc": "Dynamic DNS client with multiple providers support",
+    "homepage": "https://github.com/TimothyYe/godns",
+    "date": "2026-07-26T00:50:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/godns.rb",
+    "commit_sha": "1912f8de5dd580d02991032bc8ee728f58b45a6d"
+  },
+  {
+    "type": "formula",
+    "name": "baml",
+    "version": "0.2.2",
+    "desc": "Programming language for agents",
+    "homepage": "https://boundaryml.com/",
+    "date": "2026-07-26T02:00:33Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/baml.rb",
+    "commit_sha": "dce1c9393dbe79555f4761711347601eac8651bf"
+  },
+  {
+    "type": "formula",
+    "name": "kiesel",
+    "version": "0.3.0",
+    "desc": "JavaScript engine written in Zig",
+    "homepage": "https://kiesel.dev/",
+    "date": "2026-07-26T08:24:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kiesel.rb",
+    "commit_sha": "ac12d9e7a1374c9cbb49ae9f40bbd008843ad190"
   }
 ]
