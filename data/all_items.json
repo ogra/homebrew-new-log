@@ -134339,5 +134339,60 @@
     "source_repo": "homebrew-core",
     "path": "Formula/k/kiesel.rb",
     "commit_sha": "ac12d9e7a1374c9cbb49ae9f40bbd008843ad190"
+  },
+  {
+    "type": "formula",
+    "name": "lief-patchelf",
+    "version": "1.0.0",
+    "desc": "Robust, modern reimplementation of patchelf based on the LIEF",
+    "homepage": "https://lief.re/doc/latest/tools/lief-patchelf/index.html",
+    "date": "2026-07-27T02:42:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lief-patchelf.rb",
+    "commit_sha": "95bbc80ae2b6d368860f4b6e9002eba346b62e73"
+  },
+  {
+    "type": "formula",
+    "name": "fanficfare",
+    "version": "4.59.0",
+    "desc": "Download fanfiction and original stories as e-books",
+    "homepage": "https://github.com/JimmXinu/FanFicFare",
+    "date": "2026-07-27T10:02:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fanficfare.rb",
+    "commit_sha": "fda2f066cc1161a609594a0eb579ab143623f921"
+  },
+  {
+    "type": "formula",
+    "name": "leaf-markdown-viewer",
+    "version": "1.26.2",
+    "desc": "Terminal Markdown previewer with a GUI-like experience",
+    "homepage": "https://leaf.rivolink.mg/",
+    "date": "2026-07-27T12:18:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/leaf-markdown-viewer.rb",
+    "commit_sha": "4d4c8d8e3538cac0661471a8362d57232e4360ec"
+  },
+  {
+    "type": "formula",
+    "name": "mcpsnoop",
+    "version": "0.16.0",
+    "desc": "Transparent proxy and TUI for debugging MCP traffic",
+    "homepage": "https://github.com/kerlenton/mcpsnoop",
+    "date": "2026-07-27T13:38:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mcpsnoop.rb",
+    "commit_sha": "215ad4f1250e92cb9568536d1652abdf3c9761ef"
+  },
+  {
+    "type": "cask",
+    "name": "airsync",
+    "version": "4.0.0",
+    "desc": "Continuity tools for use with Android devices",
+    "homepage": "https://github.com/sameerasw/airsync-mac",
+    "date": "2026-07-27T04:26:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/airsync.rb",
+    "commit_sha": "44055326cbd57443c45c128cbae410c758856baf"
   }
 ]
