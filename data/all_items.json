@@ -134394,5 +134394,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/airsync.rb",
     "commit_sha": "44055326cbd57443c45c128cbae410c758856baf"
+  },
+  {
+    "type": "formula",
+    "name": "treehouse",
+    "version": "2.1.0",
+    "desc": "Manage worktrees without managing worktrees",
+    "homepage": "https://github.com/kunchenguid/treehouse",
+    "date": "2026-07-28T09:05:21Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/treehouse.rb",
+    "commit_sha": "ef7c20a637f688238a35150434ee616925193162"
+  },
+  {
+    "type": "formula",
+    "name": "solod",
+    "version": "0.3.0",
+    "desc": "Strict subset of Go with transpiler that translates to regular C",
+    "homepage": "https://solod.dev/",
+    "date": "2026-07-28T13:10:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/solod.rb",
+    "commit_sha": "a0da8d38fa26caaa802b610698ce96581c2e6fa2"
   }
 ]
