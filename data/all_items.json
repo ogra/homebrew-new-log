@@ -134416,5 +134416,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/s/solod.rb",
     "commit_sha": "a0da8d38fa26caaa802b610698ce96581c2e6fa2"
+  },
+  {
+    "type": "formula",
+    "name": "tuicr",
+    "version": "0.19.1",
+    "desc": "Code review TUI with vim keybindings",
+    "homepage": "https://tuicr.dev/",
+    "date": "2026-07-29T12:02:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tuicr.rb",
+    "commit_sha": "0bebfbfb3a7cb02ba1845e39d16b667a8016f974"
+  },
+  {
+    "type": "formula",
+    "name": "openlore",
+    "version": "2.1.7",
+    "desc": "Persistent architectural memory and structural cognition for AI coding agents",
+    "homepage": "https://github.com/clay-good/OpenLore",
+    "date": "2026-07-29T14:23:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/openlore.rb",
+    "commit_sha": "4187db7c786ba3053b05e80a4320394cfee5342f"
+  },
+  {
+    "type": "cask",
+    "name": "luna-display",
+    "version": "5.3.8,4999",
+    "desc": "Use your iPad as a wireless second display",
+    "homepage": "https://astropad.com/product/lunadisplay/",
+    "date": "2026-07-29T15:40:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/luna-display.rb",
+    "commit_sha": "b7c04b0b400fe1ddc46c1070baca21d000604c2c"
+  },
+  {
+    "type": "cask",
+    "name": "luna-secondary",
+    "version": "5.3.8,4999",
+    "desc": "Turn a computer or tablet into a second display",
+    "homepage": "https://astropad.com/product/lunadisplay/",
+    "date": "2026-07-29T15:56:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/luna-secondary.rb",
+    "commit_sha": "94e6e67c5b82d0184f19ff4f2077d35b3e0cf330"
   }
 ]
