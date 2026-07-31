@@ -134460,5 +134460,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/l/luna-secondary.rb",
     "commit_sha": "94e6e67c5b82d0184f19ff4f2077d35b3e0cf330"
+  },
+  {
+    "type": "formula",
+    "name": "git-pkgs-forge",
+    "version": "0.7.0",
+    "desc": "Go library and CLI for working with git forges",
+    "homepage": "https://github.com/git-pkgs/forge",
+    "date": "2026-07-30T19:31:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/git-pkgs-forge.rb",
+    "commit_sha": "5afa5458f5e6ffb410232ee888d89cfb06aaf8b1"
+  },
+  {
+    "type": "formula",
+    "name": "git-pkgs-brief",
+    "version": "0.9.4",
+    "desc": "Tool that detects and reports a project's toolchain, configuration, and more",
+    "homepage": "https://github.com/git-pkgs/brief",
+    "date": "2026-07-30T19:58:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/git-pkgs-brief.rb",
+    "commit_sha": "a242072e3f3a7c1b2d58d8b62f33910eead98112"
+  },
+  {
+    "type": "formula",
+    "name": "git-pkgs-proxy",
+    "version": "0.6.0",
+    "desc": "Lightweight caching proxy for package registries",
+    "homepage": "https://github.com/git-pkgs/proxy",
+    "date": "2026-07-30T20:05:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/git-pkgs-proxy.rb",
+    "commit_sha": "8467814250095c572bda49d2ca1b032b0b4d6a3b"
+  },
+  {
+    "type": "cask",
+    "name": "cmtrace-open",
+    "version": "1.5.0",
+    "desc": "Log viewer for ConfigMgr, Intune, and Windows diagnostic logs",
+    "homepage": "https://cmtraceopen.com/",
+    "date": "2026-07-30T02:55:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cmtrace-open.rb",
+    "commit_sha": "a7aa7ec080152901a96a53bdba3c56227d8b8cf2"
+  },
+  {
+    "type": "cask",
+    "name": "redot",
+    "version": "26.2",
+    "desc": "Multi-platform 2D and 3D game engine",
+    "homepage": "https://redotengine.org/",
+    "date": "2026-07-30T07:48:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/redot.rb",
+    "commit_sha": "ebc7da2964a493ca0f31ebe3cbc80ea22e2ee222"
+  },
+  {
+    "type": "cask",
+    "name": "spacejump",
+    "version": "1.6.6",
+    "desc": "Menu bar utility to name and switch desktop Spaces",
+    "homepage": "https://getspacejump.com/",
+    "date": "2026-07-30T22:26:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/spacejump.rb",
+    "commit_sha": "cbef0f7fd8c5e1dcf0ad100a7f8d6b6820e9ce68"
+  },
+  {
+    "type": "cask",
+    "name": "tight-studio",
+    "version": "3.0.5",
+    "desc": "Screen recorder and video editor",
+    "homepage": "https://tight.studio/",
+    "date": "2026-07-30T23:00:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tight-studio.rb",
+    "commit_sha": "86ea5e831b0445fd9c6f4d1af94f57ddb45db420"
   }
 ]
