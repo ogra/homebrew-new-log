@@ -134537,5 +134537,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/tight-studio.rb",
     "commit_sha": "86ea5e831b0445fd9c6f4d1af94f57ddb45db420"
+  },
+  {
+    "type": "formula",
+    "name": "flite",
+    "version": "2.2",
+    "desc": "Small fast and portable speech synthesis system",
+    "homepage": "http://www.festvox.org/flite",
+    "date": "2026-07-31T11:29:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/flite.rb",
+    "commit_sha": "67aa86ae1b1f58b69a42f56ba4fcf64b5d1a767f"
+  },
+  {
+    "type": "formula",
+    "name": "seqwish",
+    "version": "0.7.12",
+    "desc": "Alignment to variation graph inducer",
+    "homepage": "https://github.com/pangenome/seqwish",
+    "date": "2026-07-31T20:11:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/seqwish.rb",
+    "commit_sha": "e8e6feaa76e6c4ae93fcc30ffc8be1624433f8a1"
+  },
+  {
+    "type": "cask",
+    "name": "phosphene",
+    "version": "1.2.2",
+    "desc": "Custom video wallpapers for the desktop and lock screen",
+    "homepage": "https://kagerou.glass/phosphene/",
+    "date": "2026-07-31T14:03:08Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/phosphene.rb",
+    "commit_sha": "efbf4a2b7214eb97b52163d94206a1d78a5dc7d2"
+  },
+  {
+    "type": "cask",
+    "name": "unity-hub@beta",
+    "version": "3.20.0",
+    "desc": "Management tool for Unity",
+    "homepage": "https://docs.unity.com/en-us/hub",
+    "date": "2026-07-31T14:18:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/unity-hub@beta.rb",
+    "commit_sha": "2ef2c5d89aac5f4c05d38e73df2a53fda1a4f56c"
+  },
+  {
+    "type": "cask",
+    "name": "font-luciole",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://luciole-vision.com/en/",
+    "date": "2026-07-31T14:27:15Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-luciole.rb",
+    "commit_sha": "b95cbae43f5cbb7496c9a92504bce52887318bcc"
   }
 ]
