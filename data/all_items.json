@@ -134592,5 +134592,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-l/font-luciole.rb",
     "commit_sha": "b95cbae43f5cbb7496c9a92504bce52887318bcc"
+  },
+  {
+    "type": "formula",
+    "name": "worm-scraper",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-01T05:48:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/w/worm-scraper.rb",
+    "commit_sha": "5096bfda54c2022e475609ac04ab802905c865c9"
+  },
+  {
+    "type": "formula",
+    "name": "oh-my-reddit",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-01T14:06:14Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/oh-my-reddit.rb",
+    "commit_sha": "61b034eee819f8696c2c7d6334c77146d14574fa"
+  },
+  {
+    "type": "cask",
+    "name": "mend",
+    "version": "26.7.1",
+    "desc": "Application security scanning CLI",
+    "homepage": "https://www.mend.io/",
+    "date": "2026-08-01T03:04:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mend.rb",
+    "commit_sha": "4c60c0470ab59230faec32fa53a7c48deadc1967"
+  },
+  {
+    "type": "cask",
+    "name": "orbit",
+    "version": "1.1.4",
+    "desc": "Multiple Google accounts in isolated sessions in one window",
+    "homepage": "https://orbitformac.com/",
+    "date": "2026-08-01T03:20:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/orbit.rb",
+    "commit_sha": "e8a3e39a028d3c39b930b6a62325a5e2d0c88a49"
+  },
+  {
+    "type": "cask",
+    "name": "degr",
+    "version": "1.3",
+    "desc": "Temperature and clock screensaver",
+    "homepage": "https://degr.app/",
+    "date": "2026-08-01T03:25:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/degr.rb",
+    "commit_sha": "0bdc767986256f7f6951748250b8727b6e270c3e"
+  },
+  {
+    "type": "cask",
+    "name": "bettercmdtab@beta",
+    "version": "26.7-beta.3,20260723195248",
+    "desc": "Replacement for the built-in Cmd+Tab app switcher",
+    "homepage": "https://bettercmdtab.app/",
+    "date": "2026-08-01T03:27:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bettercmdtab@beta.rb",
+    "commit_sha": "f5383f318a69954429e2292c3ae0d5f9d3393565"
+  },
+  {
+    "type": "cask",
+    "name": "lm-studio-bionic",
+    "version": "1.0.4,9",
+    "desc": "AI agent for working with open models",
+    "homepage": "https://lmstudio.ai/",
+    "date": "2026-08-01T03:35:08Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/lm-studio-bionic.rb",
+    "commit_sha": "c09c4c267aa3879147b2de3b663949a2de16576d"
   }
 ]
