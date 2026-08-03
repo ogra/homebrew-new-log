@@ -134669,5 +134669,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/l/lm-studio-bionic.rb",
     "commit_sha": "c09c4c267aa3879147b2de3b663949a2de16576d"
+  },
+  {
+    "type": "formula",
+    "name": "podcast-dl",
+    "version": "11.7.5",
+    "desc": "CLI for downloading and archiving podcasts",
+    "homepage": "https://github.com/lightpohl/podcast-dl",
+    "date": "2026-08-02T13:46:22Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/podcast-dl.rb",
+    "commit_sha": "3f8a5f1588c95fe36c707467744d2775aa8f13d6"
+  },
+  {
+    "type": "formula",
+    "name": "tytanic",
+    "version": "0.4.1",
+    "desc": "Test runner for Typst projects",
+    "homepage": "https://typst-community.github.io/tytanic/",
+    "date": "2026-08-02T20:34:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tytanic.rb",
+    "commit_sha": "85d5ab91651fcff4cade0892aaf05c6bb8ed9705"
   }
 ]
