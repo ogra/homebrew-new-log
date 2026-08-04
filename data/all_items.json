@@ -134691,5 +134691,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/t/tytanic.rb",
     "commit_sha": "85d5ab91651fcff4cade0892aaf05c6bb8ed9705"
+  },
+  {
+    "type": "cask",
+    "name": "font-annotationmono-nerd-font",
+    "version": "3.5.0",
+    "desc": "",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "date": "2026-08-03T00:18:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-a/font-annotationmono-nerd-font.rb",
+    "commit_sha": "9522ee3574fe191f685ef677dec33d2e04970054"
+  },
+  {
+    "type": "cask",
+    "name": "font-googlesanscode-nerd-font",
+    "version": "3.5.0",
+    "desc": "",
+    "homepage": "https://github.com/ryanoasis/nerd-fonts",
+    "date": "2026-08-03T00:18:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-g/font-googlesanscode-nerd-font.rb",
+    "commit_sha": "9522ee3574fe191f685ef677dec33d2e04970054"
+  },
+  {
+    "type": "cask",
+    "name": "lemonade-server",
+    "version": "11.5.1",
+    "desc": "Local LLM server with GPU and NPU acceleration",
+    "homepage": "https://lemonade-server.ai/",
+    "date": "2026-08-03T01:22:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/lemonade-server.rb",
+    "commit_sha": "90d5c6383ba53c2aec962b141da5287d22e2e0c3"
+  },
+  {
+    "type": "cask",
+    "name": "unity-cli",
+    "version": "1.0.0-beta.3",
+    "desc": "Command-line interface for Unity",
+    "homepage": "https://docs.unity.com/en-us/unity-cli",
+    "date": "2026-08-03T03:57:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/unity-cli.rb",
+    "commit_sha": "293b1531b07d0acc8ec97d1ec5576958305e5491"
   }
 ]
