@@ -134735,5 +134735,181 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/u/unity-cli.rb",
     "commit_sha": "293b1531b07d0acc8ec97d1ec5576958305e5491"
+  },
+  {
+    "type": "formula",
+    "name": "modal",
+    "version": "1.5.3",
+    "desc": "Client library and CLI for Modal",
+    "homepage": "https://modal.com/",
+    "date": "2026-08-04T05:10:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/modal.rb",
+    "commit_sha": "facbc4f900ecbf74ca7fc095436686105c06b167"
+  },
+  {
+    "type": "formula",
+    "name": "dnsglobe",
+    "version": "0.4.0",
+    "desc": "Global DNS propagation checker TUI",
+    "homepage": "https://github.com/514-labs/dnsglobe",
+    "date": "2026-08-04T05:38:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dnsglobe.rb",
+    "commit_sha": "e56bc5cdb2f124ed3553ddd9d3a3c8195256f7ed"
+  },
+  {
+    "type": "formula",
+    "name": "lazyrsync",
+    "version": "0.2.0",
+    "desc": "Terminal UI for rsync, written in Rust",
+    "homepage": "https://lazyrsync.westpoint.io/",
+    "date": "2026-08-04T05:44:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lazyrsync.rb",
+    "commit_sha": "2418a92497a35d5edfe1db26440d54f7e7bdc181"
+  },
+  {
+    "type": "formula",
+    "name": "httpx2",
+    "version": "2.9.1",
+    "desc": "HTTP client library for Python",
+    "homepage": "https://httpx2.pydantic.dev",
+    "date": "2026-08-04T06:02:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/httpx2.rb",
+    "commit_sha": "f382e9dd2d843e565b1cba31142eee8296ee8b81"
+  },
+  {
+    "type": "formula",
+    "name": "lfk",
+    "version": "0.15.16",
+    "desc": "Terminal user interface for navigating and managing Kubernetes clusters",
+    "homepage": "https://github.com/janosmiko/lfk",
+    "date": "2026-08-04T11:18:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lfk.rb",
+    "commit_sha": "a83555574549ec151805af60fb7a1652fe9538c6"
+  },
+  {
+    "type": "formula",
+    "name": "opencrabs",
+    "version": "0.3.78",
+    "desc": "Autonomous, self-improving AI agent in a single Rust binary",
+    "homepage": "https://opencrabs.com",
+    "date": "2026-08-04T19:08:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/opencrabs.rb",
+    "commit_sha": "8f1aad7f9d85420575775ed0a4a4add1b4528109"
+  },
+  {
+    "type": "cask",
+    "name": "tickernotch",
+    "version": "1.7.3",
+    "desc": "Tickers, news, weather and social counters beside the notch or in the menu bar",
+    "homepage": "https://bitvibelabs.com/tickernotch/",
+    "date": "2026-08-04T02:22:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tickernotch.rb",
+    "commit_sha": "38d5e3300961ae2913adcfcd4e043af85ec2e78f"
+  },
+  {
+    "type": "cask",
+    "name": "work-louder-input",
+    "version": "0.18.0",
+    "desc": "Keyboard configurator for Work Louder devices",
+    "homepage": "https://worklouder.cc/input",
+    "date": "2026-08-04T03:18:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/work-louder-input.rb",
+    "commit_sha": "398a07d9f1899b7b0dd17e93a2627e983fed7007"
+  },
+  {
+    "type": "cask",
+    "name": "koreader",
+    "version": "2026.07.1",
+    "desc": "Document viewer for e-ink devices",
+    "homepage": "https://koreader.rocks/",
+    "date": "2026-08-04T03:22:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/koreader.rb",
+    "commit_sha": "4353bc5de774982256a4be1999dda7cfdf086de9"
+  },
+  {
+    "type": "cask",
+    "name": "switchy",
+    "version": "1.1.4,70",
+    "desc": "Switch Magic Keyboard, Trackpad and Mouse between Macs",
+    "homepage": "https://mangobuns.com/switchy/",
+    "date": "2026-08-04T03:24:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/switchy.rb",
+    "commit_sha": "685e7c46c39bb6307d1b6ce3e701f60dad67a9ee"
+  },
+  {
+    "type": "cask",
+    "name": "android-cli",
+    "version": "1.0.15985488",
+    "desc": "Command-line interface for Android app development with AI agents",
+    "homepage": "https://developer.android.com/tools/agents/android-cli",
+    "date": "2026-08-04T04:18:04Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/android-cli.rb",
+    "commit_sha": "42764152943e60a6f97cb108f58775d661371537"
+  },
+  {
+    "type": "cask",
+    "name": "zcode",
+    "version": "3.6.5",
+    "desc": "AI-assisted development environment",
+    "homepage": "https://zcode.z.ai/en/",
+    "date": "2026-08-04T06:51:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/z/zcode.rb",
+    "commit_sha": "39bc67df03ff213fd8ccb8e21a7496331235c4c5"
+  },
+  {
+    "type": "cask",
+    "name": "diversion",
+    "version": "1.0.943",
+    "desc": "Cloud-native version control CLI and agent",
+    "homepage": "https://www.diversion.dev/",
+    "date": "2026-08-04T10:19:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/diversion.rb",
+    "commit_sha": "dfc23a225d7cf95cffb7b16a9e2ced5bf20bd20d"
+  },
+  {
+    "type": "cask",
+    "name": "meetingrecorder",
+    "version": "1.6.2",
+    "desc": "Recorder for meetings capturing mic and system audio",
+    "homepage": "https://meetingsrecorder.com/",
+    "date": "2026-08-04T22:46:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/meetingrecorder.rb",
+    "commit_sha": "65288c9ab69a4d08a568f93df835d5ac2cbd66b8"
+  },
+  {
+    "type": "cask",
+    "name": "tauritavern",
+    "version": "2.2.0",
+    "desc": "SillyTavern-compatible native client",
+    "homepage": "https://tauritavern.github.io/",
+    "date": "2026-08-04T22:48:08Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tauritavern.rb",
+    "commit_sha": "3eebf7c8b8953efa2e7425c7519f0aab060cfda3"
+  },
+  {
+    "type": "cask",
+    "name": "esphome-device-builder",
+    "version": "1.0.2",
+    "desc": "Desktop app to create, edit and install your ESPHome device configurations",
+    "homepage": "https://desktop.esphome.io/",
+    "date": "2026-08-04T23:23:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/esphome-device-builder.rb",
+    "commit_sha": "1ee90cb36bebc1e2f332bff84748e846b9e7e8aa"
   }
 ]
