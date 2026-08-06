@@ -134911,5 +134911,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/e/esphome-device-builder.rb",
     "commit_sha": "1ee90cb36bebc1e2f332bff84748e846b9e7e8aa"
+  },
+  {
+    "type": "formula",
+    "name": "open-code-review",
+    "version": "1.8.8",
+    "desc": "AI-powered code review tool with deterministic pipelines and an LLM agent",
+    "homepage": "https://github.com/alibaba/open-code-review",
+    "date": "2026-08-05T06:10:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/open-code-review.rb",
+    "commit_sha": "031ca4df4a33ac2c5db2235cbfc7f4191fd70007"
+  },
+  {
+    "type": "formula",
+    "name": "pear",
+    "version": "3.0.0",
+    "desc": "Peer-to-peer application runtime",
+    "homepage": "https://docs.pears.com",
+    "date": "2026-08-05T07:58:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pear.rb",
+    "commit_sha": "59c638be0adce52ca8f734549f718d3c30367311"
+  },
+  {
+    "type": "formula",
+    "name": "delly",
+    "version": "2.5.1",
+    "desc": "Structural variant discovery by paired-end and split-read analysis",
+    "homepage": "https://github.com/dellytools/delly",
+    "date": "2026-08-05T09:13:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/delly.rb",
+    "commit_sha": "faeca87d60a1a488b3f6ff51176a594bbe3c42e3"
+  },
+  {
+    "type": "cask",
+    "name": "diversion-app",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-05T10:02:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/diversion-app.rb",
+    "commit_sha": "bdef7ab236ff808bdacbae55b7bcfc46c9763170"
+  },
+  {
+    "type": "cask",
+    "name": "kirocrew",
+    "version": "0.1.3",
+    "desc": "Persistent AI development workspace with multi-agent support",
+    "homepage": "https://kiro.dev/docs/crew/",
+    "date": "2026-08-05T13:07:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/kirocrew.rb",
+    "commit_sha": "6b0f905833e5f3c62fbf667b837ec4026b93c123"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-lv1-gothic",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-05T16:49:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-lv1-gothic.rb",
+    "commit_sha": "4bfe48347b5b3b676b7ba65ff90280d73edb8d26"
   }
 ]
