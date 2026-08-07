@@ -134977,5 +134977,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-n/font-nexon-lv1-gothic.rb",
     "commit_sha": "4bfe48347b5b3b676b7ba65ff90280d73edb8d26"
+  },
+  {
+    "type": "formula",
+    "name": "honker",
+    "version": "0.4.0",
+    "desc": "SQLite message queue extension",
+    "homepage": "https://honker.dev",
+    "date": "2026-08-06T08:30:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/honker.rb",
+    "commit_sha": "d65fef888f971548d156f0ee99645555abd7a1b1"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-lv2-gothic",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://brand.nexon.com/ci-brand-guidelines/typeface",
+    "date": "2026-08-06T08:25:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-lv2-gothic.rb",
+    "commit_sha": "d9598d66aabf1cec6b765d23991ab9f257285d61"
   }
 ]
