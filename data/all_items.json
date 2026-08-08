@@ -134999,5 +134999,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-n/font-nexon-lv2-gothic.rb",
     "commit_sha": "d9598d66aabf1cec6b765d23991ab9f257285d61"
+  },
+  {
+    "type": "formula",
+    "name": "usbtree",
+    "version": "0.1.1",
+    "desc": "Live USB device tree in your terminal",
+    "homepage": "https://gnomeria.github.io/usbtree/",
+    "date": "2026-08-07T01:45:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/usbtree.rb",
+    "commit_sha": "46fbc34f3c55dae9103d727b43d6fc014d65593d"
+  },
+  {
+    "type": "formula",
+    "name": "libyang",
+    "version": "5.8.6",
+    "desc": "YANG data modeling language library",
+    "homepage": "https://github.com/CESNET/libyang",
+    "date": "2026-08-07T09:04:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libyang.rb",
+    "commit_sha": "d2eb17a6d8d82b1463840e02eee8c0cb4f9ca8fe"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-maplestory",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://brand.nexon.com/ci-brand-guidelines/typeface",
+    "date": "2026-08-07T09:38:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-maplestory.rb",
+    "commit_sha": "aa45e6dcc972cce894dcd31b009f7f930f106676"
   }
 ]
