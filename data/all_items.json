@@ -135032,5 +135032,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-n/font-nexon-maplestory.rb",
     "commit_sha": "aa45e6dcc972cce894dcd31b009f7f930f106676"
+  },
+  {
+    "type": "formula",
+    "name": "livebook-cli",
+    "version": "0.19.9",
+    "desc": "Code notebooks for Elixir developers",
+    "homepage": "https://livebook.dev",
+    "date": "2026-08-08T00:40:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/livebook-cli.rb",
+    "commit_sha": "2f4b977bf382f4419689fdcd9b63276054d175cf"
+  },
+  {
+    "type": "formula",
+    "name": "network-doctor",
+    "version": "1.10.7",
+    "desc": "Network troubleshooting TUI",
+    "homepage": "https://github.com/heymaikol/network-doctor/",
+    "date": "2026-08-08T13:39:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/network-doctor.rb",
+    "commit_sha": "b17132247a3da24d3f4a4aada53b800a7fde003e"
+  },
+  {
+    "type": "cask",
+    "name": "unraid-usb-creator",
+    "version": "2.0.11,1",
+    "desc": "Home of the Next-Gen Unraid USB Creator, a fork of the Raspberry Pi Imager",
+    "homepage": "https://unraid.net/download/",
+    "date": "2026-08-08T10:19:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/unraid-usb-creator.rb",
+    "commit_sha": "a07969349201510dd48c5c71697885385c9ba8a3"
   }
 ]
