@@ -135065,5 +135065,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/u/unraid-usb-creator.rb",
     "commit_sha": "a07969349201510dd48c5c71697885385c9ba8a3"
+  },
+  {
+    "type": "formula",
+    "name": "oxvg",
+    "version": "0.0.7",
+    "desc": "Fastest SVG toolchain for optimisation, minification, linting, and actions",
+    "homepage": "https://github.com/noahbald/oxvg",
+    "date": "2026-08-09T12:07:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/oxvg.rb",
+    "commit_sha": "c9eb7bfe7679744a31c0245946e148a47a7bc2e6"
+  },
+  {
+    "type": "formula",
+    "name": "openkermit",
+    "version": "11.0.507",
+    "desc": "Scriptable network and serial communication for UNIX and VMS",
+    "homepage": "https://www.openkermit.org/",
+    "date": "2026-08-09T17:41:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/openkermit.rb",
+    "commit_sha": "cb9b70551bdf5d23f302eebb8070a0994cd7bce0"
+  },
+  {
+    "type": "cask",
+    "name": "caskhub",
+    "version": "0.6.9",
+    "desc": "Native GUI for Homebrew casks",
+    "homepage": "https://caskhub.app/",
+    "date": "2026-08-09T04:36:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/caskhub.rb",
+    "commit_sha": "221697dadde1f4250626cb5f9be04718d6a9aa92"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-bazzi",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://brand.nexon.com/ci-brand-guidelines/typeface",
+    "date": "2026-08-09T04:36:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-bazzi.rb",
+    "commit_sha": "244149bcdcab9dafa7e521555d55befded1f6b23"
+  },
+  {
+    "type": "cask",
+    "name": "canario",
+    "version": "2026.08.07.15",
+    "desc": "Terminal emulator",
+    "homepage": "https://rioterm.com/canario",
+    "date": "2026-08-09T12:25:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/canario.rb",
+    "commit_sha": "d99f9d883a5bcdac56b91c84000ac9bdbf821891"
   }
 ]
