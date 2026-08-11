@@ -135120,5 +135120,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/canario.rb",
     "commit_sha": "d99f9d883a5bcdac56b91c84000ac9bdbf821891"
+  },
+  {
+    "type": "formula",
+    "name": "lazy-tmux",
+    "version": "0.2.0",
+    "desc": "Save all your tmux sessions and lazy restore them",
+    "homepage": "https://lazy-tmux.xyz",
+    "date": "2026-08-10T19:53:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lazy-tmux.rb",
+    "commit_sha": "489f7fb966edbae996a39832729d5ef9829b5b95"
+  },
+  {
+    "type": "cask",
+    "name": "space-rabbit",
+    "version": "2.2.3",
+    "desc": "Removes animations when switching between Spaces",
+    "homepage": "https://space-rabbit.app/",
+    "date": "2026-08-10T07:27:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/space-rabbit.rb",
+    "commit_sha": "82ccc58a73fa0c092abaafeda11531a729315f23"
+  },
+  {
+    "type": "cask",
+    "name": "headroom",
+    "version": "0.7.7",
+    "desc": "Reduce token usage for Claude Code and Codex",
+    "homepage": "https://extraheadroom.com/",
+    "date": "2026-08-10T07:42:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/headroom.rb",
+    "commit_sha": "e26059f6eae67ae420d97a80416872fb9d55121f"
+  },
+  {
+    "type": "cask",
+    "name": "textream",
+    "version": "1.6.5",
+    "desc": "Teleprompter that highlights scripts in real time as you speak",
+    "homepage": "https://github.com/f/textream",
+    "date": "2026-08-10T08:57:44Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/textream.rb",
+    "commit_sha": "81bedb31299e69ac01085e335e185311a1abdaa7"
   }
 ]
