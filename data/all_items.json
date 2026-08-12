@@ -135164,5 +135164,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/textream.rb",
     "commit_sha": "81bedb31299e69ac01085e335e185311a1abdaa7"
+  },
+  {
+    "type": "formula",
+    "name": "evnx",
+    "version": "0.3.8",
+    "desc": "Comprehensive CLI tool for managing .env files",
+    "homepage": "https://evnx.dev",
+    "date": "2026-08-11T03:34:28Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/evnx.rb",
+    "commit_sha": "13863a7b1f236191042c426f6dafb14f0f8648f1"
+  },
+  {
+    "type": "formula",
+    "name": "kata",
+    "version": "0.14.3",
+    "desc": "Local-first, federated issue tracker for humans and coding agents",
+    "homepage": "https://katatracker.com",
+    "date": "2026-08-11T08:11:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kata.rb",
+    "commit_sha": "475851b34901c18d6b3e8c36e3122521f981a28d"
+  },
+  {
+    "type": "formula",
+    "name": "nats",
+    "version": "0.4.0",
+    "desc": "Utility for NATS Server and JetStream administration",
+    "homepage": "https://github.com/nats-io/natscli",
+    "date": "2026-08-11T08:49:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nats.rb",
+    "commit_sha": "17b7faee04bafcf9c8e54101d4b1de7197aaeba9"
   }
 ]
