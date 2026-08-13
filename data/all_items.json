@@ -135197,5 +135197,82 @@
     "source_repo": "homebrew-core",
     "path": "Formula/n/nats.rb",
     "commit_sha": "17b7faee04bafcf9c8e54101d4b1de7197aaeba9"
+  },
+  {
+    "type": "formula",
+    "name": "vi-sql",
+    "version": "0.2.1",
+    "desc": "Terminal UI for SQL databases",
+    "homepage": "https://vi-sql.com",
+    "date": "2026-08-12T03:46:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vi-sql.rb",
+    "commit_sha": "30861fffe35fe893372fe72bd43b192dd559c9a4"
+  },
+  {
+    "type": "formula",
+    "name": "systemd-lsp",
+    "version": "2026.08.03",
+    "desc": "Language server for systemd unit files",
+    "homepage": "https://github.com/JFryy/systemd-lsp",
+    "date": "2026-08-12T09:39:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/systemd-lsp.rb",
+    "commit_sha": "5491b71ac41dac31002c221a372091aee7eabc7f"
+  },
+  {
+    "type": "formula",
+    "name": "fluxcd",
+    "version": "2.9.4",
+    "desc": "Open and extensible continuous delivery solution for Kubernetes",
+    "homepage": "https://fluxcd.io",
+    "date": "2026-08-12T11:39:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fluxcd.rb",
+    "commit_sha": "5239a606d754e30c78de6fc290f244ccbcdafebf"
+  },
+  {
+    "type": "cask",
+    "name": "warp-agent-cli",
+    "version": "0.2026.08.05.09.03.stable_01",
+    "desc": "Agentic development environment for command-line workflows",
+    "homepage": "https://www.warp.dev/",
+    "date": "2026-08-12T08:24:37Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/warp-agent-cli.rb",
+    "commit_sha": "d2ea03af957e3490f4125739cd20776ca42a874d"
+  },
+  {
+    "type": "cask",
+    "name": "font-jetendard",
+    "version": "0.1.0",
+    "desc": "",
+    "homepage": "https://github.com/kuskhan/jetendard",
+    "date": "2026-08-12T10:42:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-j/font-jetendard.rb",
+    "commit_sha": "25b6d2f01c3478b0b01ee69ab4be768d078611d9"
+  },
+  {
+    "type": "cask",
+    "name": "sentry-cli",
+    "version": "3.6.2",
+    "desc": "Command-line utility to interact with Sentry",
+    "homepage": "https://docs.sentry.io/cli/",
+    "date": "2026-08-12T12:13:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sentry-cli.rb",
+    "commit_sha": "c7d99a17e3cfcea9343f2b588d31d0f9b7b93710"
+  },
+  {
+    "type": "cask",
+    "name": "muse-code",
+    "version": "0.1.0-R708.1",
+    "desc": "Interactive terminal coding agent",
+    "homepage": "https://dev.meta.ai/",
+    "date": "2026-08-12T13:38:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/muse-code.rb",
+    "commit_sha": "1752337f713f1b7a4d5b2bc2859752173b8fd502"
   }
 ]
