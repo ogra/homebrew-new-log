@@ -135274,5 +135274,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/muse-code.rb",
     "commit_sha": "1752337f713f1b7a4d5b2bc2859752173b8fd502"
+  },
+  {
+    "type": "formula",
+    "name": "bluetuith",
+    "version": "0.2.7",
+    "desc": "Cross-platform TUI bluetooth manager",
+    "homepage": "https://github.com/bluetuith-org/bluetuith",
+    "date": "2026-08-13T02:33:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bluetuith.rb",
+    "commit_sha": "c4d81053cdf731b9dd48a3c811a02b54fb24188a"
+  },
+  {
+    "type": "formula",
+    "name": "fusesoc",
+    "version": "2.4.6",
+    "desc": "Package manager and build abstraction tool for HDL code",
+    "homepage": "https://fusesoc.net",
+    "date": "2026-08-13T05:58:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fusesoc.rb",
+    "commit_sha": "ef5213dcfce6be4f6b60163ee1731fe304d7202e"
+  },
+  {
+    "type": "formula",
+    "name": "b4n",
+    "version": "0.5.5",
+    "desc": "Terminal user interface (TUI) for Kubernetes API written in Rust",
+    "homepage": "https://github.com/fioletoven/b4n",
+    "date": "2026-08-13T07:52:10Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/b4n.rb",
+    "commit_sha": "4c7e7a93f2ea2b0bbfc3c1d2fb6e6b76bebb9c1b"
+  },
+  {
+    "type": "formula",
+    "name": "cliphist",
+    "version": "0.7.0",
+    "desc": "Wayland clipboard manager with support for multimedia",
+    "homepage": "https://github.com/sentriz/cliphist",
+    "date": "2026-08-13T07:54:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cliphist.rb",
+    "commit_sha": "1e57e01b2d000a5a99f8282cf0d5a914435a1610"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-football-gothic",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://brand.nexon.com/ci-brand-guidelines/typeface",
+    "date": "2026-08-13T01:32:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-football-gothic.rb",
+    "commit_sha": "88c01b5101f646391b9d52112b402bc2058f1cf5"
+  },
+  {
+    "type": "cask",
+    "name": "subtitle-edit",
+    "version": "5.1.0",
+    "desc": "Subtitle editor",
+    "homepage": "https://www.nikse.dk/subtitleedit",
+    "date": "2026-08-13T12:37:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/subtitle-edit.rb",
+    "commit_sha": "35ec0502d455ffdbac58bc693831573b7cf4b777"
+  },
+  {
+    "type": "cask",
+    "name": "grok-bot",
+    "version": "0.18.0",
+    "desc": "AI teammates that work across your apps and tools",
+    "homepage": "https://x.ai/bot",
+    "date": "2026-08-13T12:39:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/grok-bot.rb",
+    "commit_sha": "24e597da2736a14f802c088165f43d4827621d7d"
+  },
+  {
+    "type": "cask",
+    "name": "glean",
+    "version": "1.2026.21114",
+    "desc": "Workplace search and AI assistant",
+    "homepage": "https://www.glean.com/glean-for-desktop",
+    "date": "2026-08-13T16:38:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/glean.rb",
+    "commit_sha": "56e4c5fd2d0144e16aecfd2bcade290856add3d0"
   }
 ]
