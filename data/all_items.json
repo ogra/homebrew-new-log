@@ -135362,5 +135362,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/glean.rb",
     "commit_sha": "56e4c5fd2d0144e16aecfd2bcade290856add3d0"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-subtext",
+    "version": "6",
+    "desc": "VapourSynth filters - Subtitling filter",
+    "homepage": "https://www.vapoursynth.com",
+    "date": "2026-08-14T16:50:58Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-subtext.rb",
+    "commit_sha": "bc495ba0ecb94d8609132d3282913cb4578bcf48"
+  },
+  {
+    "type": "formula",
+    "name": "vapoursynth-vszip",
+    "version": "22.1.0",
+    "desc": "VapourSynth Zig Image Process",
+    "homepage": "https://github.com/dnjulek/vapoursynth-zip",
+    "date": "2026-08-14T19:05:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/vapoursynth-vszip.rb",
+    "commit_sha": "0d898d3a10691e18c013df1a64e1dfaaa1182f9f"
+  },
+  {
+    "type": "cask",
+    "name": "sina-finance",
+    "version": "1.2.3",
+    "desc": "Stock market data and financial news platform",
+    "homepage": "https://finance.sina.com.cn/desktopapp/download/",
+    "date": "2026-08-14T10:37:42Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sina-finance.rb",
+    "commit_sha": "c45e88a0b2fbe53a434c93749772a3b23adf2839"
   }
 ]
