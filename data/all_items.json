@@ -135395,5 +135395,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sina-finance.rb",
     "commit_sha": "c45e88a0b2fbe53a434c93749772a3b23adf2839"
+  },
+  {
+    "type": "formula",
+    "name": "cuttlefish",
+    "version": "3.0.0",
+    "desc": "Build compacted de Bruijn graphs from references or reads",
+    "homepage": "https://combine-lab.github.io/cuttlefish/",
+    "date": "2026-08-15T11:22:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cuttlefish.rb",
+    "commit_sha": "64e32dc3a271e0ad121a2e4ebc05388b013fa9a3"
+  },
+  {
+    "type": "cask",
+    "name": "ds4-control",
+    "version": "1.5.0",
+    "desc": "Menu bar pane for DeepSeek V4 via DwarfStar",
+    "homepage": "https://github.com/notatestuser/ds4-control",
+    "date": "2026-08-15T03:10:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/ds4-control.rb",
+    "commit_sha": "43922768e1f791d84cbf2003a4b0469966503ae0"
+  },
+  {
+    "type": "cask",
+    "name": "font-nexon-kart-gothic",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://brand.nexon.com/ci-brand-guidelines/typeface",
+    "date": "2026-08-15T19:34:41Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nexon-kart-gothic.rb",
+    "commit_sha": "76e5c2f9ab330791be353c5d7698d4350396628c"
+  },
+  {
+    "type": "cask",
+    "name": "eve-online",
+    "version": "1.16.0",
+    "desc": "Launcher for the space MMO game EVE Online",
+    "homepage": "https://www.eveonline.com/",
+    "date": "2026-08-15T21:42:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/eve-online.rb",
+    "commit_sha": "862ae289648e7b02f09438bf670a40c00eeae48e"
   }
 ]
