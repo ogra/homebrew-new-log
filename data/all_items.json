@@ -135439,5 +135439,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/e/eve-online.rb",
     "commit_sha": "862ae289648e7b02f09438bf670a40c00eeae48e"
+  },
+  {
+    "type": "formula",
+    "name": "svlang",
+    "version": "11.0",
+    "desc": "SystemVerilog compiler and language services",
+    "homepage": "https://sv-lang.com/",
+    "date": "2026-08-16T09:23:44Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/svlang.rb",
+    "commit_sha": "d7185f5308e3cd492031c57a256a0db3c5bf2824"
+  },
+  {
+    "type": "formula",
+    "name": "llvm@22",
+    "version": "22.1.8",
+    "desc": "Next-gen compiler infrastructure",
+    "homepage": "https://llvm.org/",
+    "date": "2026-08-16T17:54:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/llvm@22.rb",
+    "commit_sha": "ab40325f37d03f2e8d2443451ce13fcc3214f1ef"
+  },
+  {
+    "type": "formula",
+    "name": "lld@22",
+    "version": "22.1.8",
+    "desc": "LLVM Project Linker",
+    "homepage": "https://lld.llvm.org/",
+    "date": "2026-08-16T17:55:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lld@22.rb",
+    "commit_sha": "ee3f774e4fb104a47ed2c89a65ddeecc49c3f95f"
+  },
+  {
+    "type": "cask",
+    "name": "petdex",
+    "version": "0.8.0",
+    "desc": "Desktop pet that reflects coding agent activity",
+    "homepage": "https://petdex.dev/",
+    "date": "2026-08-16T07:09:08Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/petdex.rb",
+    "commit_sha": "795ce22f0dc430704ab342ce0f74019d8278179f"
+  },
+  {
+    "type": "cask",
+    "name": "owlocr",
+    "version": "7.16.2",
+    "desc": "On-device OCR for screenshots, images, and PDFs",
+    "homepage": "https://owlocr.com/",
+    "date": "2026-08-16T07:13:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/owlocr.rb",
+    "commit_sha": "6987a6b43a6e3a4be5aa1e28abcff5d3ba90c0ac"
   }
 ]
