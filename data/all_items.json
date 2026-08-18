@@ -135494,5 +135494,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/owlocr.rb",
     "commit_sha": "6987a6b43a6e3a4be5aa1e28abcff5d3ba90c0ac"
+  },
+  {
+    "type": "formula",
+    "name": "inshellisense",
+    "version": "0.0.3",
+    "desc": "IDE style command-line auto complete",
+    "homepage": "https://github.com/microsoft/inshellisense",
+    "date": "2026-08-17T05:14:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/inshellisense.rb",
+    "commit_sha": "51f2fc9a8475b385805e165e63c786ac7fa06852"
+  },
+  {
+    "type": "formula",
+    "name": "xmedcon",
+    "version": "0.26.2",
+    "desc": "Medical image conversion toolkit",
+    "homepage": "https://xmedcon.sourceforge.net/",
+    "date": "2026-08-17T05:15:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/x/xmedcon.rb",
+    "commit_sha": "1bd889c228912701203da69fd7ee211fb1758113"
+  },
+  {
+    "type": "formula",
+    "name": "rammap",
+    "version": "1.1.2",
+    "desc": "Extensible and performant aligner and read mapper",
+    "homepage": "https://github.com/jwanglab/rammap",
+    "date": "2026-08-17T05:17:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rammap.rb",
+    "commit_sha": "e32eadcbdcf7b89ababdc6613bf687140e254658"
+  },
+  {
+    "type": "formula",
+    "name": "awww",
+    "version": "0.12.1",
+    "desc": "Answer to your Wayland Wallpaper Woes",
+    "homepage": "https://codeberg.org/LGFae/awww",
+    "date": "2026-08-17T08:58:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/awww.rb",
+    "commit_sha": "b1cb9949adcfaf2a70b1259502a6d7d8ec52737f"
+  },
+  {
+    "type": "cask",
+    "name": "mongrel",
+    "version": "5.72.5,4aaabfee-6f81-44be-942f-cf50000e1ba0",
+    "desc": "Database workbench with terminals, containers, Kubernetes, and API client",
+    "homepage": "https://www.visorcraft.com/",
+    "date": "2026-08-17T01:34:55Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mongrel.rb",
+    "commit_sha": "184b53112e199c95a7be7819488b82b78a380b50"
   }
 ]
