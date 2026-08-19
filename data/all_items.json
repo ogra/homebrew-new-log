@@ -135549,5 +135549,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/mongrel.rb",
     "commit_sha": "184b53112e199c95a7be7819488b82b78a380b50"
+  },
+  {
+    "type": "formula",
+    "name": "tracy-genomics",
+    "version": "0.9.1",
+    "desc": "Basecalling, alignment, assembly and deconvolution of Sanger chromatograms",
+    "homepage": "https://www.gear-genomics.com/docs/tracy/",
+    "date": "2026-08-18T15:41:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tracy-genomics.rb",
+    "commit_sha": "13984e90007a575e0a1c2f0661a0bd84acc7b35f"
+  },
+  {
+    "type": "cask",
+    "name": "bb",
+    "version": "0.38.0",
+    "desc": "IDE for running and orchestrating coding agents",
+    "homepage": "https://getbb.app/",
+    "date": "2026-08-18T13:47:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bb.rb",
+    "commit_sha": "3e277b198a86f4167a49f9f6b9b43156a05dd43e"
   }
 ]
