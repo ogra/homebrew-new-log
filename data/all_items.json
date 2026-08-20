@@ -135571,5 +135571,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/b/bb.rb",
     "commit_sha": "3e277b198a86f4167a49f9f6b9b43156a05dd43e"
+  },
+  {
+    "type": "formula",
+    "name": "lldb",
+    "version": "22.1.8",
+    "desc": "Next generation, high-performance debugger",
+    "homepage": "https://lldb.llvm.org/",
+    "date": "2026-08-19T04:26:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lldb.rb",
+    "commit_sha": "e479cfceafc6d8b848a281b33daa337017d599db"
+  },
+  {
+    "type": "cask",
+    "name": "gamemaker@lts",
+    "version": "2026.0.0.16",
+    "desc": "Complete development tool for making 2D games",
+    "homepage": "https://gamemaker.io/",
+    "date": "2026-08-19T00:56:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gamemaker@lts.rb",
+    "commit_sha": "f789c512f2046651fcb22cf2a84b6f8f94628d7d"
+  },
+  {
+    "type": "cask",
+    "name": "easydmg",
+    "version": "2.4.0",
+    "desc": "One click DMG installs",
+    "homepage": "https://easydmg.app/",
+    "date": "2026-08-19T00:56:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/easydmg.rb",
+    "commit_sha": "09792225eea72ddc4a3e8214b22b9449132e1932"
+  },
+  {
+    "type": "cask",
+    "name": "font-suite",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-19T20:20:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-s/font-suite.rb",
+    "commit_sha": "26f307bdd8886fc5572001369db9e1750b31af26"
   }
 ]
