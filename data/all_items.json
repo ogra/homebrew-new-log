@@ -135615,5 +135615,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-s/font-suite.rb",
     "commit_sha": "26f307bdd8886fc5572001369db9e1750b31af26"
+  },
+  {
+    "type": "cask",
+    "name": "monet",
+    "version": "2.1.16",
+    "desc": "Multi-engine mission control for coding agents",
+    "homepage": "https://github.com/zenolab124/monet",
+    "date": "2026-08-20T02:15:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/monet.rb",
+    "commit_sha": "d5377071c8bb98ac8a99990e59f923bf605043dc"
+  },
+  {
+    "type": "cask",
+    "name": "ghost-downloader",
+    "version": "4.3.4",
+    "desc": "Cross-platform multithreaded download manager",
+    "homepage": "https://gd.xychr.com/",
+    "date": "2026-08-20T02:32:09Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/ghost-downloader.rb",
+    "commit_sha": "c16a43a7fb8aa149d060a908525c4fd0c80f0fa0"
   }
 ]
