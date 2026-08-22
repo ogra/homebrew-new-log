@@ -135637,5 +135637,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/g/ghost-downloader.rb",
     "commit_sha": "c16a43a7fb8aa149d060a908525c4fd0c80f0fa0"
+  },
+  {
+    "type": "formula",
+    "name": "go@1.26",
+    "version": "1.26.7",
+    "desc": "Open source programming language to build simple/reliable/efficient software",
+    "homepage": "https://go.dev/",
+    "date": "2026-08-21T05:08:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/go@1.26.rb",
+    "commit_sha": "d720de1353f63ddd7d6d723c9571967f7963e177"
+  },
+  {
+    "type": "formula",
+    "name": "rtp2httpd",
+    "version": "3.16.0",
+    "desc": "Multicast RTP/RTSP-to-HTTP converter with web player and status dashboard",
+    "homepage": "https://rtp2httpd.com",
+    "date": "2026-08-21T09:26:03Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rtp2httpd.rb",
+    "commit_sha": "3934f7901a01200bb054e7b7363bea8b6ca6822b"
+  },
+  {
+    "type": "formula",
+    "name": "gpk",
+    "version": "0.6.7",
+    "desc": "TUI and CLI that unifies every package manager on the system",
+    "homepage": "https://github.com/neur0map/glazepkg",
+    "date": "2026-08-21T12:31:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gpk.rb",
+    "commit_sha": "7be0d221421f5f5167df41e6c9f64697a918cfbd"
+  },
+  {
+    "type": "formula",
+    "name": "nub",
+    "version": "0.7.5",
+    "desc": "Fast TypeScript runtime and package manager that augments Node",
+    "homepage": "https://nubjs.com",
+    "date": "2026-08-21T12:31:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nub.rb",
+    "commit_sha": "3cd3f01fe67cc9a05a0878b03a619300b3bec56b"
+  },
+  {
+    "type": "formula",
+    "name": "jarl",
+    "version": "0.5.0",
+    "desc": "Just another R linter",
+    "homepage": "https://jarl.etiennebacher.com",
+    "date": "2026-08-21T21:18:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/j/jarl.rb",
+    "commit_sha": "6fa4f23a9c9b52623d9f3a6cfd4db9cc2bbd24e3"
   }
 ]
