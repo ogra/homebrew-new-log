@@ -135692,5 +135692,49 @@
     "source_repo": "homebrew-core",
     "path": "Formula/j/jarl.rb",
     "commit_sha": "6fa4f23a9c9b52623d9f3a6cfd4db9cc2bbd24e3"
+  },
+  {
+    "type": "formula",
+    "name": "uavs3d",
+    "version": "1.2",
+    "desc": "AVS3 decoder which supports AVS3-P2 baseline profile",
+    "homepage": "https://github.com/uavs3/uavs3d",
+    "date": "2026-08-22T03:08:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/uavs3d.rb",
+    "commit_sha": "004f6dbcfe914fc61360acf8941ba25dc73aefbc"
+  },
+  {
+    "type": "formula",
+    "name": "bashly",
+    "version": "1.4.0",
+    "desc": "Bash command-line framework and CLI generator",
+    "homepage": "https://bashly.dev",
+    "date": "2026-08-22T07:01:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/bashly.rb",
+    "commit_sha": "5da50a77073d3716f089e22b47b3c57456dfbfc1"
+  },
+  {
+    "type": "formula",
+    "name": "atomgit-cli",
+    "version": "0.7.2",
+    "desc": "Command-line interface for AtomGit",
+    "homepage": "https://atomgit.com/hust-open-atom-club/atomgit-cli",
+    "date": "2026-08-22T07:40:41Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/atomgit-cli.rb",
+    "commit_sha": "0fe53992bbfa37d4c830daf7ead18a984e09a894"
+  },
+  {
+    "type": "cask",
+    "name": "keyty",
+    "version": "1.4.0",
+    "desc": "Keyboard and mouse input visualizer",
+    "homepage": "https://keyty.app/",
+    "date": "2026-08-22T14:22:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/keyty.rb",
+    "commit_sha": "be6ce3d5cda13941423bf6956ec8e24c3b669e1f"
   }
 ]
