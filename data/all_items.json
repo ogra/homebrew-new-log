@@ -135736,5 +135736,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/k/keyty.rb",
     "commit_sha": "be6ce3d5cda13941423bf6956ec8e24c3b669e1f"
+  },
+  {
+    "type": "formula",
+    "name": "fx-agent",
+    "version": "0.0.5",
+    "desc": "Tiny, open, embeddable, native coding agent",
+    "homepage": "https://fx.sh",
+    "date": "2026-08-23T00:00:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/fx-agent.rb",
+    "commit_sha": "da85529b1cf75135fdd2b4e3ca0ff92631f766db"
+  },
+  {
+    "type": "formula",
+    "name": "deja-vu",
+    "version": "0.18.0",
+    "desc": "Local searchable memory over the session histories of coding agents",
+    "homepage": "https://github.com/vshulcz/deja-vu",
+    "date": "2026-08-23T01:18:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/deja-vu.rb",
+    "commit_sha": "cd63cecdcd977dc5cdf21a146435abcd26dbd4c8"
+  },
+  {
+    "type": "formula",
+    "name": "obscura",
+    "version": "0.2.1",
+    "desc": "Headless browser for AI agents and web scraping",
+    "homepage": "https://obscura.sh",
+    "date": "2026-08-23T09:51:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/obscura.rb",
+    "commit_sha": "d8f48bced13794181f56db2c9d54c256f4bb7c80"
+  },
+  {
+    "type": "formula",
+    "name": "mysql@9.7",
+    "version": "9.7.2",
+    "desc": "Open source relational database management system",
+    "homepage": "https://github.com/mysql/mysql-server",
+    "date": "2026-08-23T17:11:48Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mysql@9.7.rb",
+    "commit_sha": "2e75cb29ec7fe5a6ac76eae903b7278e013087bc"
+  },
+  {
+    "type": "formula",
+    "name": "mysql-client@9.7",
+    "version": "9.7.2",
+    "desc": "Open source relational database management system",
+    "homepage": "https://github.com/mysql/mysql-server",
+    "date": "2026-08-23T17:11:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mysql-client@9.7.rb",
+    "commit_sha": "9a991704b0029d847e36b05d14168363edcc7835"
+  },
+  {
+    "type": "cask",
+    "name": "bramble",
+    "version": "0.4.0",
+    "desc": "Password manager",
+    "homepage": "https://bramble.sh/",
+    "date": "2026-08-23T14:10:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bramble.rb",
+    "commit_sha": "8a4db2630eef6bdfcf04234e52b657f131474061"
   }
 ]
