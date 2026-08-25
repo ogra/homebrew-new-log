@@ -135802,5 +135802,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/b/bramble.rb",
     "commit_sha": "8a4db2630eef6bdfcf04234e52b657f131474061"
+  },
+  {
+    "type": "formula",
+    "name": "leaves",
+    "version": "0.2.0",
+    "desc": "Text-mode disk usage visualization utility",
+    "homepage": "https://github.com/patonw/leaves",
+    "date": "2026-08-24T05:52:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/leaves.rb",
+    "commit_sha": "66e66b826957825ad19576b268f4163af1e84761"
+  },
+  {
+    "type": "formula",
+    "name": "gffcompare",
+    "version": "0.12.10",
+    "desc": "Compare, merge and annotate GFF/GTF transcript files",
+    "homepage": "https://ccb.jhu.edu/software/stringtie/gffcompare.shtml",
+    "date": "2026-08-24T11:33:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gffcompare.rb",
+    "commit_sha": "b599f665b826ee91e1efae469898cebebe1179a3"
+  },
+  {
+    "type": "formula",
+    "name": "robotcode",
+    "version": "2.7.0",
+    "desc": "Ultimate Robot Framework Toolset",
+    "homepage": "https://robotcode.io",
+    "date": "2026-08-24T12:59:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/robotcode.rb",
+    "commit_sha": "e00a6038bccbaa6a93df971dd956e39c837e80d0"
+  },
+  {
+    "type": "cask",
+    "name": "anarlog",
+    "version": "1.4.13",
+    "desc": "AI notepad for meetings",
+    "homepage": "https://anarlog.so/",
+    "date": "2026-08-24T02:34:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/anarlog.rb",
+    "commit_sha": "ff49633167f3fba5ee8989f3689781d8b642f12f"
+  },
+  {
+    "type": "cask",
+    "name": "amethyst-nostr",
+    "version": "1.14.0",
+    "desc": "Nostr client",
+    "homepage": "https://github.com/vitorpamplona/amethyst",
+    "date": "2026-08-24T02:58:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/amethyst-nostr.rb",
+    "commit_sha": "53b3b14d1ba9c3ed81fc0beda1d859d8865e20ca"
+  },
+  {
+    "type": "cask",
+    "name": "riverscript",
+    "version": "1.2.0",
+    "desc": "AI platform for recording and transcribing system audio from any app",
+    "homepage": "https://riverscript.com/",
+    "date": "2026-08-24T02:59:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/riverscript.rb",
+    "commit_sha": "b2b345a15d749ab1bb1d5248a7b2a08ccadd79c4"
+  },
+  {
+    "type": "cask",
+    "name": "android-performance-analyzer",
+    "version": "0.9.0",
+    "desc": "Toolchain for profiling apps and games",
+    "homepage": "https://developer.android.com/android-performance-analyzer",
+    "date": "2026-08-24T03:00:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/android-performance-analyzer.rb",
+    "commit_sha": "9aba6ee4b5948eff94ed7befec4712cf9aee97c1"
+  },
+  {
+    "type": "cask",
+    "name": "skills-manager",
+    "version": "1.34.2",
+    "desc": "Manage, sync, and organise AI agent skills across coding tools",
+    "homepage": "https://github.com/xingkongliang/skills-manager",
+    "date": "2026-08-24T03:00:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/skills-manager.rb",
+    "commit_sha": "012c48f6314dfc2dab5cc66aeec1481474ffd012"
+  },
+  {
+    "type": "cask",
+    "name": "triggerflo",
+    "version": "2.0.23",
+    "desc": "Focus timer and Kanban board for tracking tasks",
+    "homepage": "https://triggerflo.app/",
+    "date": "2026-08-24T15:04:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/triggerflo.rb",
+    "commit_sha": "6b1f1e8c43ddb14abcd3813b55a77ff64d77c354"
+  },
+  {
+    "type": "cask",
+    "name": "atlas-app",
+    "version": "0.2.6",
+    "desc": "Source control for coding agents",
+    "homepage": "https://github.com/pacifio/atlas",
+    "date": "2026-08-24T17:38:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/atlas-app.rb",
+    "commit_sha": "22b920c3b99f7abb92eb1d6794acfb67f6ce36a4"
+  },
+  {
+    "type": "cask",
+    "name": "thoughtdag",
+    "version": "0.3.30",
+    "desc": "Visual workspace for editable LLM context graphs",
+    "homepage": "https://chenxiachan.github.io/thoughtdag/",
+    "date": "2026-08-24T17:39:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/thoughtdag.rb",
+    "commit_sha": "668b6c2da724e4681f8eea034db34607cfc4f25e"
   }
 ]
