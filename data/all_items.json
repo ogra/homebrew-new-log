@@ -135923,5 +135923,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/thoughtdag.rb",
     "commit_sha": "668b6c2da724e4681f8eea034db34607cfc4f25e"
+  },
+  {
+    "type": "formula",
+    "name": "xeve",
+    "version": "0.7.0",
+    "desc": "Very fast Essential Video Encoder, MPEG-5 EVC (Essential Video Coding)",
+    "homepage": "https://github.com/mpeg5/xeve",
+    "date": "2026-08-25T10:16:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/x/xeve.rb",
+    "commit_sha": "fda431d8147bc485f45de27eec429e080fade14f"
+  },
+  {
+    "type": "formula",
+    "name": "pythia",
+    "version": "8.317",
+    "desc": "Monte Carlo event generator",
+    "homepage": "https://pythia.org",
+    "date": "2026-08-25T14:42:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pythia.rb",
+    "commit_sha": "46bb0eb9e92ce79ea36d249660cdee630cccd704"
+  },
+  {
+    "type": "cask",
+    "name": "channel-works",
+    "version": "12.0.6",
+    "desc": "AI Business OS for customer support, analytics, collaboration, and marketing",
+    "homepage": "https://channel.io/",
+    "date": "2026-08-25T04:47:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/channel-works.rb",
+    "commit_sha": "6109c93cc60e250655cb8acdc7b8b0de289a7b30"
+  },
+  {
+    "type": "cask",
+    "name": "font-paper-mono",
+    "version": "0.300",
+    "desc": "",
+    "homepage": "https://github.com/paper-design/paper-mono",
+    "date": "2026-08-25T08:47:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-p/font-paper-mono.rb",
+    "commit_sha": "aed35cc51827cce6192b9a16d184b0735ded2662"
+  },
+  {
+    "type": "cask",
+    "name": "motrix@beta",
+    "version": "2.0.0-beta.26",
+    "desc": "Open-source download manager",
+    "homepage": "https://motrix.app/",
+    "date": "2026-08-25T12:02:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/motrix@beta.rb",
+    "commit_sha": "8721792cba67db4ef31096924f4a35390cccf337"
+  },
+  {
+    "type": "cask",
+    "name": "nativ",
+    "version": "0.3.4",
+    "desc": "Run AI models locally",
+    "homepage": "https://blaizzy.github.io/nativ/",
+    "date": "2026-08-25T18:17:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/nativ.rb",
+    "commit_sha": "36bc02fa3bb46daf3c66fbcbe3dec2e8d8258d31"
+  },
+  {
+    "type": "cask",
+    "name": "keychron-assistant",
+    "version": "1.1.5",
+    "desc": "Companion app for Keychron Launcher's Quick Start feature",
+    "homepage": "https://www.keychron.com/blogs/news/how-to-download-and-install-keychron-assist",
+    "date": "2026-08-25T23:01:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/keychron-assistant.rb",
+    "commit_sha": "481aabf9bb4c584efd64ab01f770b5e8f36b6e7c"
+  },
+  {
+    "type": "cask",
+    "name": "leigod",
+    "version": "1.1.4",
+    "desc": "Game network accelerator",
+    "homepage": "https://www.leigod.com/",
+    "date": "2026-08-25T23:02:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/leigod.rb",
+    "commit_sha": "5c06b3532e37df1317c53fe54697a69d6dad7d4d"
+  },
+  {
+    "type": "cask",
+    "name": "bifrost",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-25T23:43:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bifrost.rb",
+    "commit_sha": "9dec916e2cac697acba82e48bdd8b75564a50207"
   }
 ]
