@@ -136022,5 +136022,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/b/bifrost.rb",
     "commit_sha": "9dec916e2cac697acba82e48bdd8b75564a50207"
+  },
+  {
+    "type": "cask",
+    "name": "pixcake",
+    "version": "9.3.1-23",
+    "desc": "AI photo editing software for commercial photography",
+    "homepage": "https://www.pixcakeai.com/",
+    "date": "2026-08-26T15:56:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pixcake.rb",
+    "commit_sha": "9cdd4e2f10e4aa5c519716012ccd925e0f434007"
+  },
+  {
+    "type": "cask",
+    "name": "unsloth",
+    "version": "0.1.803-beta",
+    "desc": "Desktop application for Unsloth Studio",
+    "homepage": "https://unsloth.ai/",
+    "date": "2026-08-26T18:44:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/unsloth.rb",
+    "commit_sha": "176c21f5c935edf6e859823d25ee556258325c6b"
   }
 ]
