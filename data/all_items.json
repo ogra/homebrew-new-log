@@ -136044,5 +136044,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/u/unsloth.rb",
     "commit_sha": "176c21f5c935edf6e859823d25ee556258325c6b"
+  },
+  {
+    "type": "formula",
+    "name": "amy",
+    "version": "1.14.0",
+    "desc": "Nostr client from the Amethyst project",
+    "homepage": "https://github.com/vitorpamplona/amethyst",
+    "date": "2026-08-27T04:01:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/amy.rb",
+    "commit_sha": "70ad39e8749504f597e4a1f3fb1704586961f77f"
+  },
+  {
+    "type": "formula",
+    "name": "tele",
+    "version": "1.11.2",
+    "desc": "Keyboard-first Telegram client for the terminal, written in Go",
+    "homepage": "https://github.com/sorokin-vladimir/tele",
+    "date": "2026-08-27T08:24:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tele.rb",
+    "commit_sha": "ed1adf6754710439ee6321e843ba0ae295545934"
+  },
+  {
+    "type": "formula",
+    "name": "betterglobekey",
+    "version": "4.0.1",
+    "desc": "Reworked Globe key for faster input source switching",
+    "homepage": "https://github.com/Serpentiel/betterglobekey",
+    "date": "2026-08-27T09:04:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/betterglobekey.rb",
+    "commit_sha": "02f7982a3ca6d5ac87c5f374987bff206af8f141"
+  },
+  {
+    "type": "cask",
+    "name": "davit",
+    "version": "0.1.25",
+    "desc": "GUI for Apple's container CLI",
+    "homepage": "https://davit.app/",
+    "date": "2026-08-27T03:12:53Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/davit.rb",
+    "commit_sha": "1893bac985b93d95f442de16266e7ab237aac144"
+  },
+  {
+    "type": "cask",
+    "name": "crisp",
+    "version": "1.5.0",
+    "desc": "Menu bar display manager: DDC brightness, HiDPI, presets, virtual displays",
+    "homepage": "https://crispmac.app/",
+    "date": "2026-08-27T08:24:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/crisp.rb",
+    "commit_sha": "6c442218d5bf7cf35456c1f9ef84e8656ac9078d"
   }
 ]
