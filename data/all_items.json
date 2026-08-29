@@ -136099,5 +136099,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/crisp.rb",
     "commit_sha": "6c442218d5bf7cf35456c1f9ef84e8656ac9078d"
+  },
+  {
+    "type": "formula",
+    "name": "readwise-cli",
+    "version": "0.5.9",
+    "desc": "Command-line interface for Readwise and Reader",
+    "homepage": "https://readwise.io/cli",
+    "date": "2026-08-28T09:20:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/readwise-cli.rb",
+    "commit_sha": "51f452604508354faed0c9297bd37e7f7a7a7b2e"
+  },
+  {
+    "type": "formula",
+    "name": "pixivbiu",
+    "version": "3.0.1",
+    "desc": "Pixiv client. Easy to search, browse, and download artworks",
+    "homepage": "https://github.com/txperl/PixivBiu",
+    "date": "2026-08-28T10:05:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pixivbiu.rb",
+    "commit_sha": "e266bd3ebd650c00225c9252934f3193d39f0767"
+  },
+  {
+    "type": "cask",
+    "name": "arm-performix",
+    "version": "2026.3.2",
+    "desc": "Performance analysis toolkit for Arm server and cloud environments",
+    "homepage": "https://developer.arm.com/servers-and-cloud-computing/arm-performix",
+    "date": "2026-08-28T08:09:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/arm-performix.rb",
+    "commit_sha": "caaaa8c098c04bd08754a318a31f1420a8d2cf8d"
+  },
+  {
+    "type": "cask",
+    "name": "afterglow",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-08-28T11:28:31Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/afterglow.rb",
+    "commit_sha": "aeb3037bb23f24355dec019522755693aedf3387"
   }
 ]
