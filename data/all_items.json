@@ -136143,5 +136143,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/afterglow.rb",
     "commit_sha": "aeb3037bb23f24355dec019522755693aedf3387"
+  },
+  {
+    "type": "cask",
+    "name": "droppy",
+    "version": "14.2.0",
+    "desc": "Drag and drop file shelf",
+    "homepage": "https://getdroppy.app/",
+    "date": "2026-08-29T02:03:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/droppy.rb",
+    "commit_sha": "48d3270222d758a0f6c57acdc9717c96187ee2f6"
+  },
+  {
+    "type": "cask",
+    "name": "tcp-viewer",
+    "version": "1.12.0,36",
+    "desc": "Packet capture and inspection tool",
+    "homepage": "https://tcpviewer.proxyman.com/",
+    "date": "2026-08-29T07:24:32Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tcp-viewer.rb",
+    "commit_sha": "ef747b9f2ded0c9b8a397a6221b28f421b0f4862"
   }
 ]
