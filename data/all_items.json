@@ -136165,5 +136165,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/tcp-viewer.rb",
     "commit_sha": "ef747b9f2ded0c9b8a397a6221b28f421b0f4862"
+  },
+  {
+    "type": "formula",
+    "name": "plink-ng",
+    "version": "2.0.0-a.7.4",
+    "desc": "Whole-genome association analysis toolset (PLINK 2.0)",
+    "homepage": "https://www.cog-genomics.org/plink/2.0/",
+    "date": "2026-08-30T10:27:29Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/plink-ng.rb",
+    "commit_sha": "670124a7423df8b1a4f52e2e1f705fd3aaabad06"
+  },
+  {
+    "type": "formula",
+    "name": "linecast",
+    "version": "2.1.0",
+    "desc": "Weather, tides, the sun, the moon, and maps, drawn for the terminal",
+    "homepage": "https://github.com/ashuttl/linecast",
+    "date": "2026-08-30T16:52:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/linecast.rb",
+    "commit_sha": "c1253842506a367c495f752aaf9d10bf66b0bbd3"
+  },
+  {
+    "type": "cask",
+    "name": "sjmcl",
+    "version": "1.2.0",
+    "desc": "Minecraft launcher built with the community",
+    "homepage": "https://mc.sjtu.cn/sjmcl/",
+    "date": "2026-08-30T15:08:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sjmcl.rb",
+    "commit_sha": "3df380cded0d7ee1e4eced150592f479521c1745"
   }
 ]
