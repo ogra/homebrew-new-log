@@ -136198,5 +136198,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sjmcl.rb",
     "commit_sha": "3df380cded0d7ee1e4eced150592f479521c1745"
+  },
+  {
+    "type": "formula",
+    "name": "jcode",
+    "version": "0.81.4",
+    "desc": "AI coding agent harness for the terminal",
+    "homepage": "https://jcode.sh",
+    "date": "2026-08-31T08:14:52Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/j/jcode.rb",
+    "commit_sha": "bb46efdc483646c4608c72af2577ed08dde7b3d8"
+  },
+  {
+    "type": "formula",
+    "name": "speedtest-go",
+    "version": "1.8.2",
+    "desc": "CLI and Go API to Test Internet Speed using speedtest.net",
+    "homepage": "https://github.com/showwin/speedtest-go",
+    "date": "2026-08-31T14:24:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/speedtest-go.rb",
+    "commit_sha": "54b70d43db5faf1ae828bef9296acf41f16dbe3a"
+  },
+  {
+    "type": "formula",
+    "name": "tailcat",
+    "version": "0.4.0",
+    "desc": "Netcat-like tool over Tailscale's data plane, without its control plane",
+    "homepage": "https://github.com/tailscale/tailcat",
+    "date": "2026-08-31T15:03:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tailcat.rb",
+    "commit_sha": "4b602e35f10ac06763fb1b15c62fa5969b1f5c0c"
+  },
+  {
+    "type": "cask",
+    "name": "quarkclouddrive",
+    "version": "7.0.6.771,3120899",
+    "desc": "Cloud storage and file management platform",
+    "homepage": "https://pan.quark.cn/",
+    "date": "2026-08-31T03:40:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/q/quarkclouddrive.rb",
+    "commit_sha": "8816dfad003c2575512ce2d7868c0d10b56c1c40"
+  },
+  {
+    "type": "cask",
+    "name": "markviewer",
+    "version": "1.8.4",
+    "desc": "Minimal markdown editor",
+    "homepage": "https://markviewer.com/",
+    "date": "2026-08-31T04:01:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/markviewer.rb",
+    "commit_sha": "a9f86d93d7be549fef09cb3f27000c2e22b7f250"
+  },
+  {
+    "type": "cask",
+    "name": "tabularis",
+    "version": "0.21.0",
+    "desc": "Lightweight database management tool",
+    "homepage": "https://tabularis.dev/",
+    "date": "2026-08-31T07:19:00Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tabularis.rb",
+    "commit_sha": "94ff5df2e7d275a7e362b1594982af3d4a6781ce"
+  },
+  {
+    "type": "cask",
+    "name": "todotxt",
+    "version": "2.4.0",
+    "desc": "Minimalist, keyboard-driven to-do manager",
+    "homepage": "https://mjdescy.github.io/TodoTxtMac/",
+    "date": "2026-08-31T08:05:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/todotxt.rb",
+    "commit_sha": "8eb6ef4e6313c4c142a0b78b2d2f5dd3e7e7c19f"
+  },
+  {
+    "type": "cask",
+    "name": "token-monitor",
+    "version": "0.51.0",
+    "desc": "Monitor token usage, costs, and limits across AI coding tools",
+    "homepage": "https://javis-ai.com/token-monitor/",
+    "date": "2026-08-31T11:42:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/token-monitor.rb",
+    "commit_sha": "8b2847d40dda4f9fe64962ef1f22621abc3fa248"
+  },
+  {
+    "type": "cask",
+    "name": "font-asap-sharp",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Asap+Sharp",
+    "date": "2026-08-31T13:20:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-a/font-asap-sharp.rb",
+    "commit_sha": "08a7f5b47eaa51efc5301cba1822b832dec264d8"
+  },
+  {
+    "type": "cask",
+    "name": "font-nevermind",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/lamzhonghang/nevermind",
+    "date": "2026-08-31T13:20:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-n/font-nevermind.rb",
+    "commit_sha": "c741ec0540cdd169a2f276c0a2b64aa895f01118"
+  },
+  {
+    "type": "cask",
+    "name": "font-valley-sans",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://fonts.google.com/specimen/Valley+Sans",
+    "date": "2026-08-31T13:20:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-v/font-valley-sans.rb",
+    "commit_sha": "9aa9af7cfbb4e0bc739d071f474c0deaaff4ee8d"
   }
 ]
