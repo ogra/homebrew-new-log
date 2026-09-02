@@ -136319,5 +136319,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-v/font-valley-sans.rb",
     "commit_sha": "9aa9af7cfbb4e0bc739d071f474c0deaaff4ee8d"
+  },
+  {
+    "type": "formula",
+    "name": "shpool",
+    "version": "0.11.4",
+    "desc": "Persistent shell session manager",
+    "homepage": "https://github.com/shell-pool/shpool",
+    "date": "2026-09-01T01:10:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/shpool.rb",
+    "commit_sha": "4a70d28c0d324a35d22ccfc792b4c368d9c291cb"
+  },
+  {
+    "type": "formula",
+    "name": "skillspector",
+    "version": "2.11.0",
+    "desc": "Security scanner for AI agent skills",
+    "homepage": "https://github.com/NVIDIA/SkillSpector",
+    "date": "2026-09-01T01:31:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/skillspector.rb",
+    "commit_sha": "f599549b4390dcc2367dd25723f7e8fa94eaa20a"
+  },
+  {
+    "type": "formula",
+    "name": "glci",
+    "version": "0.7.0",
+    "desc": "Run GitLab CI/CD pipelines locally",
+    "homepage": "https://gitlab.com/gitlab-org/ci-cd/runner-tools/glci",
+    "date": "2026-09-01T11:30:36Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/glci.rb",
+    "commit_sha": "df08cc0a604ed50246c928abef6e5643e0735727"
+  },
+  {
+    "type": "formula",
+    "name": "sabiql",
+    "version": "3.0.0",
+    "desc": "Fast, safe-by-design, driverless, Vim-first DB TUI with ER diagrams",
+    "homepage": "https://github.com/riii111/sabiql",
+    "date": "2026-09-01T14:27:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sabiql.rb",
+    "commit_sha": "012114a0a62b5a67c253cf052741d6dbea5daa1d"
+  },
+  {
+    "type": "formula",
+    "name": "ffmpeg@8",
+    "version": "8.1.2",
+    "desc": "Play, record, convert, and stream select audio and video codecs",
+    "homepage": "https://ffmpeg.org/",
+    "date": "2026-09-01T19:12:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/ffmpeg@8.rb",
+    "commit_sha": "3f1ba0b4cfd0beb00239bfc82d10ef2afa48f308"
+  },
+  {
+    "type": "cask",
+    "name": "waku",
+    "version": "0.1.16",
+    "desc": "Native desktop app for coding agents",
+    "homepage": "https://waku.sh/",
+    "date": "2026-09-01T08:29:49Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/waku.rb",
+    "commit_sha": "b9b3cb50841c1e705cab3c94ada0fad71a992708"
   }
 ]
