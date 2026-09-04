@@ -136385,5 +136385,148 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/waku.rb",
     "commit_sha": "b9b3cb50841c1e705cab3c94ada0fad71a992708"
+  },
+  {
+    "type": "formula",
+    "name": "virglrenderer",
+    "version": "1.3.0",
+    "desc": "VirGL virtual OpenGL renderer",
+    "homepage": "https://gitlab.freedesktop.org/virgl/virglrenderer/",
+    "date": "2026-09-02T07:40:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/v/virglrenderer.rb",
+    "commit_sha": "3c32d78ef7ac21142f8222569ae3fa9b53e4e4b6"
+  },
+  {
+    "type": "formula",
+    "name": "budget-tracker",
+    "version": "1.5.2",
+    "desc": "Feature rich TUI budget tracker app",
+    "homepage": "https://github.com/Feromond/budget-tracker-tui",
+    "date": "2026-09-03T22:16:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/budget-tracker.rb",
+    "commit_sha": "ce62286bb476d0e100f15a5f323d01746f19a1bc"
+  },
+  {
+    "type": "cask",
+    "name": "db-pro",
+    "version": "2.8.1",
+    "desc": "Query, explore, and manage your databases with built-in AI",
+    "homepage": "https://www.dbpro.app/",
+    "date": "2026-09-02T01:36:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/db-pro.rb",
+    "commit_sha": "4bd47641b56dace64907d87e0cf238bbbbb130de"
+  },
+  {
+    "type": "cask",
+    "name": "dockdoor-pro",
+    "version": "1.3.1",
+    "desc": "Dock replacement with widgets, profiles and window previews",
+    "homepage": "https://pro.dockdoor.net/",
+    "date": "2026-09-02T10:51:26Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dockdoor-pro.rb",
+    "commit_sha": "b275bce36af78e8ff228cc9c1deb1ea1093f60cf"
+  },
+  {
+    "type": "cask",
+    "name": "p2p-kiwi",
+    "version": "1.0.0",
+    "desc": "Cross-platform screen sharing tool",
+    "homepage": "https://p2p.kiwi/",
+    "date": "2026-09-02T14:42:06Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/p2p-kiwi.rb",
+    "commit_sha": "3ca4f1f651f1ec1b924d470ee98eb1b4126a8411"
+  },
+  {
+    "type": "cask",
+    "name": "clawd-on-desk",
+    "version": "0.16.0",
+    "desc": "Desktop pet that reacts to AI coding agents",
+    "homepage": "https://github.com/rullerzhou-afk/clawd-on-desk",
+    "date": "2026-09-02T18:28:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/clawd-on-desk.rb",
+    "commit_sha": "214e2d11692449f8a9537fe571115016bf0ffab1"
+  },
+  {
+    "type": "cask",
+    "name": "airstats",
+    "version": "1.4",
+    "desc": "Menu bar system monitor",
+    "homepage": "https://airstats.app/",
+    "date": "2026-09-02T23:36:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/airstats.rb",
+    "commit_sha": "cefa095566330bbb3051b3dd87ab4b3c76bec99b"
+  },
+  {
+    "type": "cask",
+    "name": "tone3000",
+    "version": "0.0.4",
+    "desc": "Amp modeling plug-in for Neural Amp Modeler captures and impulse responses",
+    "homepage": "https://www.tone3000.com/",
+    "date": "2026-09-03T00:29:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tone3000.rb",
+    "commit_sha": "83e9e96c7f72f9f40ad088730e42fab9d499cdb2"
+  },
+  {
+    "type": "cask",
+    "name": "vernier-graphical-analysis",
+    "version": "6.3.0-4399",
+    "desc": "Instrument data analysis tool",
+    "homepage": "https://www.vernier.com/product/graphical-analysis/",
+    "date": "2026-09-03T00:32:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vernier-graphical-analysis.rb",
+    "commit_sha": "73e2efec7dc3aca7c8f7bd5902a077485b15e17b"
+  },
+  {
+    "type": "cask",
+    "name": "diskboard",
+    "version": "1.0.8",
+    "desc": "Disk benchmark and S.M.A.R.T. health monitor",
+    "homepage": "https://www.diskboard.com/",
+    "date": "2026-09-03T01:40:27Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/diskboard.rb",
+    "commit_sha": "fc379bc812a385ca27fc788f95f137b0ad1de192"
+  },
+  {
+    "type": "cask",
+    "name": "macshot-offline",
+    "version": "4.2.1",
+    "desc": "Screenshot and screen recording tool without upload integrations",
+    "homepage": "https://github.com/sw33tLie/macshot",
+    "date": "2026-09-03T03:09:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/macshot-offline.rb",
+    "commit_sha": "4c032efb52b65c5f50175426743fee9da22ed4e1"
+  },
+  {
+    "type": "cask",
+    "name": "mac-performance-monitor",
+    "version": "1.7.1.206",
+    "desc": "Menu bar performance monitor with recorded history and analytics",
+    "homepage": "https://macperformancemonitor.com/",
+    "date": "2026-09-03T03:32:59Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/mac-performance-monitor.rb",
+    "commit_sha": "d913aef2e1c3cbfe1d96e8c155f0bebdc675de27"
+  },
+  {
+    "type": "cask",
+    "name": "terminal-browser",
+    "version": "0.7.6",
+    "desc": "Terminal-based web browser",
+    "homepage": "https://terminal-browser.com/",
+    "date": "2026-09-03T23:02:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/terminal-browser.rb",
+    "commit_sha": "9df474244e68f1233f9172b7adee293d8b59afc1"
   }
 ]
