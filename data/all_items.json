@@ -136528,5 +136528,27 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/terminal-browser.rb",
     "commit_sha": "9df474244e68f1233f9172b7adee293d8b59afc1"
+  },
+  {
+    "type": "formula",
+    "name": "tgrep",
+    "version": "1.0.3",
+    "desc": "Trigram-indexed grep for fast regex search in large codebases",
+    "homepage": "https://github.com/microsoft/tgrep",
+    "date": "2026-09-04T08:01:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tgrep.rb",
+    "commit_sha": "c88969ee64e7281c4008a1e0ff24ae2299fcfcc4"
+  },
+  {
+    "type": "cask",
+    "name": "sxitch",
+    "version": "1.4.2",
+    "desc": "Tree-based app switcher",
+    "homepage": "https://sxitch.app/",
+    "date": "2026-09-04T13:47:15Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sxitch.rb",
+    "commit_sha": "066d02bfd819303085a66fc8021a832f99f20abf"
   }
 ]
