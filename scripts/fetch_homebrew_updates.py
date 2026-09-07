@@ -2,6 +2,7 @@
 
 import json
 import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,6 +12,9 @@ BREW_API_FORMULAE = "https://formulae.brew.sh/api/formula.json"
 BREW_API_CASKS = "https://formulae.brew.sh/api/cask.json"
 GITHUB_API_BASE = "https://api.github.com"
 REQUEST_TIMEOUT = 30
+REQUEST_RETRIES = 3
+RETRY_BACKOFF_SECONDS = 2
+RETRY_STATUS_CODES = {500, 502, 503, 504}
 
 DATA_FILE = Path("data/all_items.json")
 STATE_FILE = Path("data/state.json")
@@ -45,9 +49,21 @@ def fetch_json(url, *, params=None):
         github_token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         if github_token:
             headers["Authorization"] = f"Bearer {github_token}"
-    response = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
-    response.raise_for_status()
-    return response.json()
+    for attempt in range(REQUEST_RETRIES + 1):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
+            if response.status_code in RETRY_STATUS_CODES and attempt < REQUEST_RETRIES:
+                time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+                continue
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as exc:
+            status_code = getattr(exc.response, "status_code", None)
+            if attempt >= REQUEST_RETRIES or (
+                status_code is not None and status_code not in RETRY_STATUS_CODES
+            ):
+                raise
+            time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
 
 
 # ---------------------------------------------------------------------------

@@ -51,6 +51,24 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
     def set_responses(self, responses):
         self.responses = {(url, tuple(sorted((params or {}).items()))): payload for url, params, payload in responses}
 
+    def test_fetch_json_retries_transient_http_status(self):
+        responses = [FakeResponse({}, status_code=504), FakeResponse({"ok": True})]
+        calls = []
+
+        def fake_get(url, params=None, headers=None, timeout=None):
+            calls.append((url, params, headers, timeout))
+            return responses.pop(0)
+
+        with (
+            patch.object(self.module.requests, "get", side_effect=fake_get),
+            patch.object(self.module.time, "sleep") as sleep,
+        ):
+            payload = self.module.fetch_json("https://api.github.com/example")
+
+        self.assertEqual(payload, {"ok": True})
+        self.assertEqual(len(calls), 2)
+        sleep.assert_called_once_with(self.module.RETRY_BACKOFF_SECONDS)
+
     def test_first_run_initializes_state_without_log(self):
         self.set_responses(
             [
