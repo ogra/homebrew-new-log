@@ -136605,5 +136605,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/agentide.rb",
     "commit_sha": "08ac04e664899903e2ae60bff89aa4cbb2e5aeb9"
+  },
+  {
+    "type": "formula",
+    "name": "rubocop",
+    "version": "1.89.0",
+    "desc": "Ruby static code analyzer and formatter, based on the community Ruby style guide",
+    "homepage": "https://docs.rubocop.org",
+    "date": "2026-09-07T01:14:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rubocop.rb",
+    "commit_sha": "83efa324840687a1d6268ec7045baa53631d3230"
+  },
+  {
+    "type": "cask",
+    "name": "font-clarity-city",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/googlefonts/clarity-city",
+    "date": "2026-09-06T00:22:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-c/font-clarity-city.rb",
+    "commit_sha": "748d2dbf19457abd5235895767a3cdfe3ec32ef3"
+  },
+  {
+    "type": "cask",
+    "name": "font-isometra",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/field2/isometra",
+    "date": "2026-09-06T00:22:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-i/font-isometra.rb",
+    "commit_sha": "30ed9a00e94cdc132cdde40c01d49465eac91fc6"
+  },
+  {
+    "type": "cask",
+    "name": "font-kripa",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/kedar9/kripa",
+    "date": "2026-09-06T00:22:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-k/font-kripa.rb",
+    "commit_sha": "82b20bfbf0647a7ab96eb5112cc1ec7a2b411160"
+  },
+  {
+    "type": "cask",
+    "name": "font-libre-caslon-condensed",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/ertekinno/libre-caslon-condensed",
+    "date": "2026-09-06T00:22:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-libre-caslon-condensed.rb",
+    "commit_sha": "31ae82262103798afd5df703fbbc6dd0f2570658"
+  },
+  {
+    "type": "cask",
+    "name": "omniwm",
+    "version": "0.6.8",
+    "desc": "Tiling window manager",
+    "homepage": "https://omniwm.app/",
+    "date": "2026-09-06T11:50:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/omniwm.rb",
+    "commit_sha": "d926e7c49797d8e06252c1db3b8f596cc0dcaf94"
+  },
+  {
+    "type": "cask",
+    "name": "gamemaker@beta",
+    "version": "2026.100.0.1142",
+    "desc": "Complete development tool for making 2D games",
+    "homepage": "https://gamemaker.io/",
+    "date": "2026-09-06T11:52:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gamemaker@beta.rb",
+    "commit_sha": "f96c75eedebaa66f32a1185f04058e3efd1caa21"
+  },
+  {
+    "type": "cask",
+    "name": "minmaxcal",
+    "version": "0.9.1",
+    "desc": "Minimal menu bar calendar, maximal full-screen notifications",
+    "homepage": "https://github.com/MikeMcQuaid/MinMaxCal",
+    "date": "2026-09-06T16:44:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/minmaxcal.rb",
+    "commit_sha": "6a7da5bdaaa3101b15b87af72572889816be729d"
   }
 ]
