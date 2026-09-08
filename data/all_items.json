@@ -136693,5 +136693,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/m/minmaxcal.rb",
     "commit_sha": "6a7da5bdaaa3101b15b87af72572889816be729d"
+  },
+  {
+    "type": "formula",
+    "name": "snx-rs",
+    "version": "6.2.4",
+    "desc": "Open-source client for Check Point VPN tunnels",
+    "homepage": "https://github.com/ancwrd1/snx-rs",
+    "date": "2026-09-07T07:01:49Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/snx-rs.rb",
+    "commit_sha": "274aed48c1da1cb27925e1e3a0f6f2417fddb659"
+  },
+  {
+    "type": "formula",
+    "name": "pnpm@11",
+    "version": "11.26.0",
+    "desc": "Fast, disk space efficient package manager",
+    "homepage": "https://pnpm.io/",
+    "date": "2026-09-07T14:55:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/pnpm@11.rb",
+    "commit_sha": "21de62b08b7f0a2d14cb52a44f00780d77bea7e3"
+  },
+  {
+    "type": "formula",
+    "name": "trealla-prolog",
+    "version": "3.9.45",
+    "desc": "Compact and efficient ISO Prolog interpreter written in plain old C",
+    "homepage": "https://github.com/trealla-prolog/trealla-prolog",
+    "date": "2026-09-07T16:37:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/trealla-prolog.rb",
+    "commit_sha": "744f06be52ba72af0422c075cb80c5de2a4f7064"
+  },
+  {
+    "type": "cask",
+    "name": "stockbit",
+    "version": "2.2.0",
+    "desc": "Indonesian stock trading and analysis platform",
+    "homepage": "https://stockbit.com/desktop",
+    "date": "2026-09-07T06:38:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/stockbit.rb",
+    "commit_sha": "7c296f4e103c6ec223459dddf0b7bad59adf1d7d"
+  },
+  {
+    "type": "cask",
+    "name": "open-science",
+    "version": "0.26.0",
+    "desc": "AI research workbench with scientific agents and notebooks",
+    "homepage": "https://aipoch.com/open-science",
+    "date": "2026-09-07T06:54:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/open-science.rb",
+    "commit_sha": "ad04920caf7ed6f28f798c7605bff0ac0da765f4"
   }
 ]
