@@ -136748,5 +136748,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/o/open-science.rb",
     "commit_sha": "ad04920caf7ed6f28f798c7605bff0ac0da765f4"
+  },
+  {
+    "type": "formula",
+    "name": "elasticmq",
+    "version": "1.7.1",
+    "desc": "In-memory message queue with an Amazon SQS-compatible interface",
+    "homepage": "https://softwaremill.com/open-source/",
+    "date": "2026-09-08T02:45:54Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/elasticmq.rb",
+    "commit_sha": "31937822612ba14e3d51edd7a01dfb0f977797a6"
+  },
+  {
+    "type": "formula",
+    "name": "ntfs2btrfs",
+    "version": "20260810",
+    "desc": "In-place conversion of NTFS filesystem to Btrfs",
+    "homepage": "https://github.com/maharmstone/ntfs2btrfs",
+    "date": "2026-09-08T05:52:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/ntfs2btrfs.rb",
+    "commit_sha": "c71e2bd1f0beb001bfd3db6c4f31edbee7e61d4a"
+  },
+  {
+    "type": "formula",
+    "name": "forgejo-runner",
+    "version": "13.1.0",
+    "desc": "Official Actions runner for Forgejo instances",
+    "homepage": "https://code.forgejo.org/forgejo/runner",
+    "date": "2026-09-08T07:32:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/f/forgejo-runner.rb",
+    "commit_sha": "f65fb81ea607563dd78c7ef5983c49c75a85560f"
+  },
+  {
+    "type": "cask",
+    "name": "privacynotes",
+    "version": "0.507.5",
+    "desc": "End-to-end encrypted notes, tasks, files, journal, passwords and bookmark sync",
+    "homepage": "https://privacynotes.app/",
+    "date": "2026-09-08T07:55:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/privacynotes.rb",
+    "commit_sha": "a7ca1284be56d17b640359b08d7239a29496c61b"
+  },
+  {
+    "type": "cask",
+    "name": "font-pyeojin-gothic",
+    "version": "1.3",
+    "desc": "",
+    "homepage": "https://notforall.tistory.com/7",
+    "date": "2026-09-08T08:29:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-p/font-pyeojin-gothic.rb",
+    "commit_sha": "62c60cbaa43653cb4d39640d1a6e38b815950bf7"
+  },
+  {
+    "type": "cask",
+    "name": "audacity@3",
+    "version": "3.7.9",
+    "desc": "Multi-track audio editor and recorder",
+    "homepage": "https://www.audacityteam.org/",
+    "date": "2026-09-08T11:08:45Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/audacity@3.rb",
+    "commit_sha": "df93db4d4fd97ca4b10edc11a5307a8b0b3c3813"
+  },
+  {
+    "type": "cask",
+    "name": "zentty",
+    "version": "0.3.0",
+    "desc": "Terminal for agent-driven development",
+    "homepage": "https://zentty.org/",
+    "date": "2026-09-08T23:21:35Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/z/zentty.rb",
+    "commit_sha": "db9d1d6e5e7297eb757009390a46ade42867bfb5"
   }
 ]
