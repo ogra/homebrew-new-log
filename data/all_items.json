@@ -136825,5 +136825,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/z/zentty.rb",
     "commit_sha": "db9d1d6e5e7297eb757009390a46ade42867bfb5"
+  },
+  {
+    "type": "formula",
+    "name": "osctrl-mcp",
+    "version": "0.5.9",
+    "desc": "Fast and efficient osquery management",
+    "homepage": "https://docs.osctrl.net/components/osctrl-mcp/",
+    "date": "2026-09-09T06:27:56Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/osctrl-mcp.rb",
+    "commit_sha": "7970e8f3e9128d617529e9ae6e4023b2bd921b4a"
+  },
+  {
+    "type": "cask",
+    "name": "flick",
+    "version": "1.0.1",
+    "desc": "Radial command wheel triggered by holding a key and flicking the mouse",
+    "homepage": "https://getflick.dev/",
+    "date": "2026-09-09T03:43:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/flick.rb",
+    "commit_sha": "ee0a3c52570693c9ba87d7b9dfcaefb41a55d016"
+  },
+  {
+    "type": "cask",
+    "name": "easymac-cleaner",
+    "version": "1.3",
+    "desc": "Cleaning, privacy, and system optimisation utility",
+    "homepage": "https://martiancat.space/products/cleaner.html",
+    "date": "2026-09-09T11:15:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/e/easymac-cleaner.rb",
+    "commit_sha": "5bf7ac67be7e165114ef497af67e5d3a3f840556"
+  },
+  {
+    "type": "cask",
+    "name": "tabularis@nightly",
+    "version": "0.22.1-3,20260904-d470693",
+    "desc": "Lightweight database management tool",
+    "homepage": "https://tabularis.dev/",
+    "date": "2026-09-09T11:48:33Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tabularis@nightly.rb",
+    "commit_sha": "65acc0060936f97f5a913475d9676b2e6816f7ff"
+  },
+  {
+    "type": "cask",
+    "name": "homebrew-app",
+    "version": "0.3.0",
+    "desc": "Homebrew's official GUI",
+    "homepage": "https://github.com/Homebrew/BrewUI",
+    "date": "2026-09-09T14:57:57Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/homebrew-app.rb",
+    "commit_sha": "53a8829b8c725933a1faa1e2dbc262ab40a9ba1d"
+  },
+  {
+    "type": "cask",
+    "name": "wsl-manager",
+    "version": "2.0.2",
+    "desc": "Manage native Linux VMs and remote WSL distros",
+    "homepage": "https://wslmanager.com/",
+    "date": "2026-09-09T22:41:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/wsl-manager.rb",
+    "commit_sha": "26427c8585192d8fd1490ef61c5ea0d59f3179a0"
   }
 ]
