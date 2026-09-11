@@ -136891,5 +136891,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/w/wsl-manager.rb",
     "commit_sha": "26427c8585192d8fd1490ef61c5ea0d59f3179a0"
+  },
+  {
+    "type": "formula",
+    "name": "hister",
+    "version": "0.19.0",
+    "desc": "Self-hosted search engine for your browsing history",
+    "homepage": "https://hister.org/",
+    "date": "2026-09-10T00:11:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hister.rb",
+    "commit_sha": "23e5b08282ff144ae6bf1ef88d6b20611b786ee8"
+  },
+  {
+    "type": "cask",
+    "name": "realvnc-connect-viewer",
+    "version": "8.5.0",
+    "desc": "Remote desktop application focusing on security",
+    "homepage": "https://www.realvnc.com/",
+    "date": "2026-09-10T05:19:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/realvnc-connect-viewer.rb",
+    "commit_sha": "0fe6d2058673924355f8b0dc3c53c231ecd9381d"
+  },
+  {
+    "type": "cask",
+    "name": "psysonic",
+    "version": "1.52.0",
+    "desc": "Desktop client for Navidrome and other Subsonic-compatible servers",
+    "homepage": "https://www.psysonic.de/",
+    "date": "2026-09-10T12:12:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/psysonic.rb",
+    "commit_sha": "0bd49544f38511046259787a3958e08ef47923c8"
   }
 ]
