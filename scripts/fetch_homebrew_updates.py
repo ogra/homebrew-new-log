@@ -2,8 +2,10 @@
 
 import json
 import os
+import subprocess
+import tempfile
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -15,6 +17,7 @@ REQUEST_TIMEOUT = 30
 REQUEST_RETRIES = 3
 RETRY_BACKOFF_SECONDS = 2
 RETRY_STATUS_CODES = {500, 502, 503, 504}
+COMMIT_MARKER = "@@commit "
 
 DATA_FILE = Path("data/all_items.json")
 STATE_FILE = Path("data/state.json")
@@ -152,88 +155,141 @@ def fetch_latest_sha(repo_config):
 
 
 
-def list_commits_since(repo_config, previous_sha, default_branch):
-    commits = []
-    page = 1
+def git_remote_url(repo_config):
+    return f"https://github.com/{repo_config['owner']}/{repo_config['repo']}.git"
 
-    while True:
-        batch = fetch_json(
-            github_url(repo_config, "commits"),
-            params={"sha": default_branch, "per_page": 100, "page": page},
+
+def run_git(git_dir, *args, retries=0):
+    """Run a git command against a bare repository, retrying network failures."""
+    command = ["git", "--git-dir", str(git_dir), *args]
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+    for attempt in range(retries + 1):
+        try:
+            return subprocess.run(
+                command, check=True, capture_output=True, text=True, env=env
+            ).stdout
+        except subprocess.CalledProcessError as exc:
+            if attempt >= retries:
+                raise RuntimeError(
+                    f"git {args[0]} failed: {exc.stderr.strip()}"
+                ) from exc
+            time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+
+
+def fetch_commit_date(repo_config, commit_sha):
+    commit_data = fetch_json(github_url(repo_config, f"commits/{commit_sha}"))
+    date = ((commit_data.get("commit") or {}).get("committer") or {}).get("date")
+    if not date:
+        raise RuntimeError(
+            f"GitHub API returned no commit date for {commit_sha} in "
+            f"{repo_config['owner']}/{repo_config['repo']}"
         )
-        if not batch:
-            break
+    return datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
 
-        for commit in batch:
-            if commit.get("sha") == previous_sha:
-                commits.reverse()
-                return commits
-            commits.append(commit)
 
-        page += 1
+def parse_added_files(log_output, repo_config):
+    """Parse `git log --name-status` output into (sha, date, path) tuples."""
+    added = []
+    commit_sha = commit_date = None
+    for line in log_output.splitlines():
+        if line.startswith(COMMIT_MARKER):
+            commit_sha, timestamp = line[len(COMMIT_MARKER):].split()
+            commit_date = datetime.fromtimestamp(int(timestamp), timezone.utc).strftime(
+                "%Y-%m-%dT%H:%M:%SZ"
+            )
+        elif line and commit_sha:
+            status, _, path = line.partition("\t")
+            if status == "A" and is_relevant_added_file(repo_config, path):
+                added.append((commit_sha, commit_date, path))
+    return added
 
-    raise RuntimeError(
-        "Could not find previous SHA "
-        f"{previous_sha} in {repo_config['owner']}/{repo_config['repo']} history; "
-        "the upstream history may have been rewritten and the baseline may need "
-        "to be reinitialized."
+
+def list_files_at(git_dir, repo_config, commit_sha):
+    output = run_git(
+        git_dir, "ls-tree", "-r", "--name-only", commit_sha, "--", repo_config["directory"]
     )
+    return {Path(line).stem for line in output.splitlines() if line.endswith(".rb")}
 
 
+def list_added_files(repo_config, previous_sha, latest_sha):
+    """List .rb files newly added after previous_sha, oldest commit first.
 
-def fetch_commit_details(repo_config, commit_sha):
-    return fetch_json(github_url(repo_config, f"commits/{commit_sha}"))
+    History is read from a blobless, shallow clone so that no per-commit
+    GitHub API requests (and no API rate limit) are involved. Names that
+    already existed at previous_sha are skipped: upstream directory
+    reorganizations show up as mass "added" files that are not new items.
+    """
+    since = fetch_commit_date(repo_config, previous_sha) - timedelta(days=1)
+    with tempfile.TemporaryDirectory() as git_dir:
+        run_git(git_dir, "init", "--bare", "--quiet")
+        run_git(git_dir, "remote", "add", "origin", git_remote_url(repo_config))
+        run_git(
+            git_dir,
+            "fetch",
+            "--quiet",
+            "--no-tags",
+            "--filter=blob:none",
+            f"--shallow-since={since.strftime('%Y-%m-%dT%H:%M:%SZ')}",
+            "origin",
+            latest_sha,
+            retries=REQUEST_RETRIES,
+        )
+        try:
+            log_output = run_git(
+                git_dir,
+                "-c",
+                "diff.renames=true",
+                "log",
+                "--reverse",
+                "--diff-filter=A",
+                "--name-status",
+                f"--format={COMMIT_MARKER}%H %ct",
+                f"{previous_sha}..{latest_sha}",
+                "--",
+                repo_config["directory"],
+            )
+        except RuntimeError as exc:
+            raise RuntimeError(
+                "Could not find previous SHA "
+                f"{previous_sha} in {repo_config['owner']}/{repo_config['repo']} history; "
+                "the upstream history may have been rewritten and the baseline may need "
+                "to be reinitialized."
+            ) from exc
+        existing_names = list_files_at(git_dir, repo_config, previous_sha)
+    return [
+        added
+        for added in parse_added_files(log_output, repo_config)
+        if Path(added[2]).stem not in existing_names
+    ]
 
 
-
-def is_relevant_added_file(repo_config, file_info):
-    filename = file_info.get("filename", "")
-    return (
-        file_info.get("status") == "added"
-        and filename.startswith(repo_config["directory"])
-        and filename.endswith(".rb")
-    )
+def is_relevant_added_file(repo_config, filename):
+    return filename.startswith(repo_config["directory"]) and filename.endswith(".rb")
 
 
-
-def build_items_from_commits(repo_name, repo_config, commits):
+def build_items_from_added_files(repo_name, repo_config, added_files):
     new_items = []
     seen_keys = set()
 
-    for commit in commits:
-        commit_sha = commit.get("sha", "")
-        if not commit_sha:
+    for commit_sha, commit_date, path in added_files:
+        event_key = (repo_config["type"], path, commit_sha)
+        if event_key in seen_keys:
             continue
+        seen_keys.add(event_key)
 
-        commit_details = fetch_commit_details(repo_config, commit_sha)
-        commit_date = (
-            ((commit_details.get("commit") or {}).get("committer") or {}).get("date")
-            or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        new_items.append(
+            {
+                "type": repo_config["type"],
+                "name": Path(path).stem,
+                "version": "",
+                "desc": "",
+                "homepage": "",
+                "date": commit_date,
+                "source_repo": repo_name,
+                "path": path,
+                "commit_sha": commit_sha,
+            }
         )
-
-        for file_info in commit_details.get("files") or []:
-            if not is_relevant_added_file(repo_config, file_info):
-                continue
-
-            path = file_info["filename"]
-            event_key = (repo_config["type"], path, commit_sha)
-            if event_key in seen_keys:
-                continue
-            seen_keys.add(event_key)
-
-            new_items.append(
-                {
-                    "type": repo_config["type"],
-                    "name": Path(path).stem,
-                    "version": "",
-                    "desc": "",
-                    "homepage": "",
-                    "date": commit_date,
-                    "source_repo": repo_name,
-                    "path": path,
-                    "commit_sha": commit_sha,
-                }
-            )
 
     return new_items
 
@@ -388,8 +444,8 @@ def main():
             print(f"No upstream changes for {repo_name}")
             continue
 
-        commits = list_commits_since(repo_config, previous_sha, default_branch)
-        repo_items = build_items_from_commits(repo_name, repo_config, commits)
+        added_files = list_added_files(repo_config, previous_sha, latest_sha)
+        repo_items = build_items_from_added_files(repo_name, repo_config, added_files)
 
         new_repo_items = []
         for item in repo_items:

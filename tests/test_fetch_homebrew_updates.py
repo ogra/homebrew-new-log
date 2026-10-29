@@ -1,5 +1,7 @@
 import importlib.util
 import json
+import os
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -36,6 +38,7 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
         self.module.STATE_FILE = root / "data" / "state.json"
         self.module.LOG_DIR = root / "logs"
         self.module.LOG_DIR.mkdir(parents=True, exist_ok=True)
+        self.added_files = {}
 
     def tearDown(self):
         self.tempdir.cleanup()
@@ -47,6 +50,9 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
         except KeyError as exc:
             raise AssertionError(f"Unexpected request: {url} params={params}") from exc
         return FakeResponse(payload)
+
+    def fake_added_files(self, repo_config, previous_sha, latest_sha):
+        return self.added_files.get(repo_config["repo"], [])
 
     def set_responses(self, responses):
         self.responses = {(url, tuple(sorted((params or {}).items()))): payload for url, params, payload in responses}
@@ -81,7 +87,10 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
             ]
         )
 
-        with patch.object(self.module.requests, "get", side_effect=self.fake_get):
+        with (
+            patch.object(self.module.requests, "get", side_effect=self.fake_get),
+            patch.object(self.module, "list_added_files", side_effect=self.fake_added_files),
+        ):
             self.module.main()
 
         state = json.loads(self.module.STATE_FILE.read_text())
@@ -123,45 +132,20 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
                 (self.module.BREW_API_CASKS, None, []),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "branches/master"), None, {"commit": {"sha": "new-core"}}),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits"),
-                    {"sha": "master", "per_page": 100, "page": 1},
-                    [{"sha": "commit-core-1"}, {"sha": "old-core"}],
-                ),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-1"),
-                    None,
-                    {
-                        "commit": {"committer": {"date": "2026-03-07T00:00:00Z"}},
-                        "files": [
-                            {"filename": "Formula/fresh.rb", "status": "added"},
-                            {"filename": "Formula/ignored.rb", "status": "modified"},
-                            {"filename": "README.md", "status": "added"},
-                        ],
-                    },
-                ),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "branches/master"), None, {"commit": {"sha": "new-cask"}}),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "commits"),
-                    {"sha": "master", "per_page": 100, "page": 1},
-                    [{"sha": "commit-cask-1"}, {"sha": "old-cask"}],
-                ),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "commits/commit-cask-1"),
-                    None,
-                    {
-                        "commit": {"committer": {"date": "2026-03-07T01:00:00Z"}},
-                        "files": [
-                            {"filename": "Casks/fancy.rb", "status": "added"},
-                            {"filename": "Casks/skip.rb", "status": "renamed"},
-                        ],
-                    },
-                ),
             ]
         )
 
-        with patch.object(self.module.requests, "get", side_effect=self.fake_get):
+        self.added_files = {
+            "homebrew-core": [("commit-core-1", "2026-03-07T00:00:00Z", "Formula/fresh.rb")],
+            "homebrew-cask": [("commit-cask-1", "2026-03-07T01:00:00Z", "Casks/fancy.rb")],
+        }
+
+        with (
+            patch.object(self.module.requests, "get", side_effect=self.fake_get),
+            patch.object(self.module, "list_added_files", side_effect=self.fake_added_files),
+        ):
             self.module.main()
 
         items = json.loads(self.module.DATA_FILE.read_text())
@@ -224,25 +208,19 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
                 (self.module.BREW_API_CASKS, None, []),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "branches/master"), None, {"commit": {"sha": "new-core"}}),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits"),
-                    {"sha": "master", "per_page": 100, "page": 1},
-                    [{"sha": "commit-core-1"}, {"sha": "old-core"}],
-                ),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-1"),
-                    None,
-                    {
-                        "commit": {"committer": {"date": "2026-03-07T00:00:00Z"}},
-                        "files": [{"filename": "Formula/duplicate.rb", "status": "added"}],
-                    },
-                ),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "branches/master"), None, {"commit": {"sha": "old-cask"}}),
             ]
         )
 
-        with patch.object(self.module.requests, "get", side_effect=self.fake_get):
+        self.added_files = {
+            "homebrew-core": [("commit-core-1", "2026-03-07T00:00:00Z", "Formula/duplicate.rb")],
+        }
+
+        with (
+            patch.object(self.module.requests, "get", side_effect=self.fake_get),
+            patch.object(self.module, "list_added_files", side_effect=self.fake_added_files),
+        ):
             self.module.main()
 
         items = json.loads(self.module.DATA_FILE.read_text())
@@ -280,33 +258,22 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
                 (self.module.BREW_API_CASKS, None, []),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "branches/master"), None, {"commit": {"sha": "new-core"}}),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits"),
-                    {"sha": "master", "per_page": 100, "page": 1},
-                    [{"sha": "commit-core-2"}, {"sha": "commit-core-1"}, {"sha": "old-core"}],
-                ),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-1"),
-                    None,
-                    {
-                        "commit": {"committer": {"date": "2026-03-08T00:00:00Z"}},
-                        "files": [{"filename": "Formula/myformula.rb", "status": "added"}],
-                    },
-                ),
-                (
-                    self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-core"], "commits/commit-core-2"),
-                    None,
-                    {
-                        "commit": {"committer": {"date": "2026-03-08T01:00:00Z"}},
-                        "files": [{"filename": "Formula/myformula.rb", "status": "added"}],
-                    },
-                ),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], ""), None, {"default_branch": "master"}),
                 (self.module.github_url(self.module.UPSTREAM_REPOS["homebrew-cask"], "branches/master"), None, {"commit": {"sha": "old-cask"}}),
             ]
         )
 
-        with patch.object(self.module.requests, "get", side_effect=self.fake_get):
+        self.added_files = {
+            "homebrew-core": [
+                ("commit-core-1", "2026-03-08T00:00:00Z", "Formula/myformula.rb"),
+                ("commit-core-2", "2026-03-08T01:00:00Z", "Formula/myformula.rb"),
+            ],
+        }
+
+        with (
+            patch.object(self.module.requests, "get", side_effect=self.fake_get),
+            patch.object(self.module, "list_added_files", side_effect=self.fake_added_files),
+        ):
             self.module.main()
 
         items = json.loads(self.module.DATA_FILE.read_text())
@@ -317,6 +284,80 @@ class FetchHomebrewUpdatesTests(unittest.TestCase):
         self.assertEqual(len(log_files), 1)
         log_text = log_files[0].read_text()
         self.assertEqual(log_text.count("### myformula"), 1, "Formula must appear only once in log")
+
+    def test_parse_added_files_keeps_only_added_rb_files_in_directory(self):
+        repo_config = self.module.UPSTREAM_REPOS["homebrew-core"]
+        log_output = "\n".join(
+            [
+                "@@commit abc 1772841600",
+                "",
+                "A\tFormula/fresh.rb",
+                "A\tREADME.md",
+                "A\tFormula/notes.txt",
+                "@@commit def 1772845200",
+                "",
+                "A\tFormula/f/foo.rb",
+            ]
+        )
+
+        added = self.module.parse_added_files(log_output, repo_config)
+
+        self.assertEqual(
+            added,
+            [
+                ("abc", "2026-03-07T00:00:00Z", "Formula/fresh.rb"),
+                ("def", "2026-03-07T01:00:00Z", "Formula/f/foo.rb"),
+            ],
+        )
+
+    def test_list_added_files_reads_real_git_history(self):
+        upstream = Path(self.tempdir.name) / "upstream"
+        upstream.mkdir()
+        identity = ["-c", "user.name=t", "-c", "user.email=t@example.com"]
+
+        def git(*args, env=None):
+            return subprocess.run(
+                ["git", "-C", str(upstream), *identity, *args],
+                check=True,
+                capture_output=True,
+                text=True,
+                env=env,
+            ).stdout.strip()
+
+        def commit(message, date):
+            git("add", "-A")
+            stamp = f"{date}T00:00:00Z"
+            git("commit", "-q", "-m", message, env={**os.environ, "GIT_COMMITTER_DATE": stamp})
+            return git("rev-parse", "HEAD")
+
+        git("init", "-q")
+        git("config", "uploadpack.allowFilter", "true")
+        git("config", "uploadpack.allowAnySHA1InWant", "true")
+        (upstream / "Formula").mkdir()
+        (upstream / "Formula" / "old.rb").write_text("old\n")
+        base = commit("base", "2026-03-01")
+        (upstream / "Formula" / "fresh.rb").write_text("fresh\n")
+        (upstream / "README.md").write_text("readme\n")
+        first = commit("add fresh", "2026-03-02")
+        (upstream / "Formula" / "old.rb").write_text("changed\n")
+        (upstream / "Formula" / "other.rb").write_text("other\n")
+        second = commit("modify and add", "2026-03-03")
+
+        repo_config = self.module.UPSTREAM_REPOS["homebrew-core"]
+        base_date = self.module.datetime(2026, 3, 1, tzinfo=self.module.timezone.utc)
+        with (
+            patch.object(self.module, "git_remote_url", return_value=str(upstream)),
+            patch.object(self.module, "fetch_commit_date", return_value=base_date),
+        ):
+            added = self.module.list_added_files(repo_config, base, second)
+
+        self.assertEqual(
+            added,
+            [
+                (first, "2026-03-02T00:00:00Z", "Formula/fresh.rb"),
+                (second, "2026-03-03T00:00:00Z", "Formula/other.rb"),
+            ],
+        )
 
 
 if __name__ == "__main__":
