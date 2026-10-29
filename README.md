@@ -21,7 +21,7 @@ A GitHub Actions workflow runs once per day. It:
   - `Homebrew/homebrew-core` (Formulae)
   - `Homebrew/homebrew-cask` (Casks)
 - Fetches the latest upstream SHA for each repository
-- Walks git history since the previous SHA
+- Walks git history since the previous SHA using a blobless, shallow `git fetch` (no per-commit GitHub API calls, so the API rate limit is not hit), skipping names that already existed at the previous SHA so upstream directory reorganizations are not reported as new items
 - Detects newly added `.rb` files only
 - Retrieves metadata (version, description, homepage) from the official Homebrew API when available
 - Updates the cumulative JSON archive
@@ -122,7 +122,7 @@ This repository preserves that data permanently, making it easy to:
 The workflow:
 
 - Runs daily via cron
-- Uses Python plus the GitHub and Homebrew APIs to fetch and process data
+- Uses Python, git, and the GitHub and Homebrew APIs to fetch and process data
 - Commits changes automatically
 - Requires no secrets or manual maintenance
 
