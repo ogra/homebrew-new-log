@@ -142798,5 +142798,16 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/spencer.rb",
     "commit_sha": "46301758731a904c8bf07010ee30888ea83f9cb1"
+  },
+  {
+    "type": "formula",
+    "name": "entire-cli",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-29T14:39:30Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/entire-cli.rb",
+    "commit_sha": "8ead6fb9aa53c8ad63f301b3429508d6b19dd465"
   }
 ]
