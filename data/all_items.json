@@ -143051,5 +143051,115 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/font/font-g/font-geist-serif.rb",
     "commit_sha": "8e1a929ec97884e8298837f2f485df53b1a0f4f4"
+  },
+  {
+    "type": "formula",
+    "name": "sbomqs",
+    "version": "2.1.3",
+    "desc": "SBOM quality scorer and compliance checker",
+    "homepage": "https://github.com/interlynk-io/sbomqs",
+    "date": "2026-10-30T04:07:35Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sbomqs.rb",
+    "commit_sha": "5c31b2dae0f1bd1276faf86afc84b4186be61b08"
+  },
+  {
+    "type": "formula",
+    "name": "zmij",
+    "version": "1.2",
+    "desc": "Fast floating-point-to-string conversion library for C and C++",
+    "homepage": "https://github.com/vitaut/zmij",
+    "date": "2026-10-31T13:24:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/zmij.rb",
+    "commit_sha": "72db77cf5a9f8eadea20b191b7693dc442a08700"
+  },
+  {
+    "type": "formula",
+    "name": "hasura-cli",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T16:45:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hasura-cli.rb",
+    "commit_sha": "3381c2fb08c023a8acb1c9d93ee45e5ff9bad54a"
+  },
+  {
+    "type": "formula",
+    "name": "node@18",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T16:45:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/node@18.rb",
+    "commit_sha": "3381c2fb08c023a8acb1c9d93ee45e5ff9bad54a"
+  },
+  {
+    "type": "cask",
+    "name": "gtkwave",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/g/gtkwave.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "cask",
+    "name": "lingon-x",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/lingon-x.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "cask",
+    "name": "notational-velocity",
+    "version": "2.5.2",
+    "desc": "Store and retrieve notes",
+    "homepage": "https://notational.net/",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/notational-velocity.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "cask",
+    "name": "oracle-jdk@17",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/oracle-jdk@17.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "cask",
+    "name": "speedcrunch",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/speedcrunch.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "cask",
+    "name": "vocevista-video-pro",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-10-31T11:27:40Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/vocevista-video-pro.rb",
+    "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
   }
 ]
