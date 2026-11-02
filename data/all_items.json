@@ -143161,5 +143161,104 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/v/vocevista-video-pro.rb",
     "commit_sha": "0d78a108f1e883f2241a123df84c76e25cefb128"
+  },
+  {
+    "type": "formula",
+    "name": "arm-optimized-routines",
+    "version": "26.07",
+    "desc": "Optimized implementations of various library functions for Arm processors",
+    "homepage": "https://github.com/ARM-software/optimized-routines",
+    "date": "2026-10-31T03:37:53Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/arm-optimized-routines.rb",
+    "commit_sha": "8333e0056388ec2225f2ff9c601a83d40921f2aa"
+  },
+  {
+    "type": "formula",
+    "name": "toit",
+    "version": "2.0.0",
+    "desc": "High-level programming language and SDK",
+    "homepage": "https://toitlang.org/",
+    "date": "2026-10-31T17:07:01Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/toit.rb",
+    "commit_sha": "8624015ddda708f6670126f9568dd3da5f04127e"
+  },
+  {
+    "type": "formula",
+    "name": "cx",
+    "version": "0.1.28",
+    "desc": "CLI for querying and managing Coralogix observability data",
+    "homepage": "https://github.com/coralogix/cx-cli",
+    "date": "2026-11-01T09:20:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/cx.rb",
+    "commit_sha": "8823dae00cd59e88afff51f6f29652e6dbcbdfc3"
+  },
+  {
+    "type": "formula",
+    "name": "svt-jpegxs",
+    "version": "0.10.0",
+    "desc": "JPEG XS codec",
+    "homepage": "https://github.com/OpenVisualCloud/SVT-JPEG-XS",
+    "date": "2026-11-01T10:18:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/svt-jpegxs.rb",
+    "commit_sha": "fb847d1059d569416be68c12980c8d38501aac27"
+  },
+  {
+    "type": "formula",
+    "name": "hoppr",
+    "version": "1.14.6",
+    "desc": "Collects, processes and bundles components listed in CycloneDX SBOMs",
+    "homepage": "https://hoppr.dev",
+    "date": "2026-11-01T14:50:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hoppr.rb",
+    "commit_sha": "31de7cec62d6bd0bb6f9b958faaf8360719aeed4"
+  },
+  {
+    "type": "cask",
+    "name": "font-madhuban",
+    "version": "latest",
+    "desc": "",
+    "homepage": "https://github.com/magictype/Madhuban",
+    "date": "2026-11-01T00:15:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-m/font-madhuban.rb",
+    "commit_sha": "dd55f20729dca354e4f433acbf9d2d3ef4058a42"
+  },
+  {
+    "type": "cask",
+    "name": "anydrag",
+    "version": "26.10.121",
+    "desc": "Move any window by holding a modifier key and dragging anywhere on it",
+    "homepage": "https://github.com/XueshiQiao/AnyDrag",
+    "date": "2026-11-01T05:34:05Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/anydrag.rb",
+    "commit_sha": "664988e0cd6c45db42db55d1fd96d2c250e66b16"
+  },
+  {
+    "type": "cask",
+    "name": "irbis-zen",
+    "version": "0.28.0",
+    "desc": "System-wide ad-blocker and privacy guard",
+    "homepage": "https://irbis.sh/zen/",
+    "date": "2026-11-01T11:07:18Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/irbis-zen.rb",
+    "commit_sha": "7a37eb5ea2df40f95f4e0345c4b2dff2daeb1d78"
+  },
+  {
+    "type": "cask",
+    "name": "codeburn-app",
+    "version": "0.9.27",
+    "desc": "Track AI coding token usage and cost",
+    "homepage": "https://codeburn.app/",
+    "date": "2026-11-01T14:14:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/codeburn-app.rb",
+    "commit_sha": "5a9c0407d49f4575fec28aaad0635e2a72d83561"
   }
 ]
