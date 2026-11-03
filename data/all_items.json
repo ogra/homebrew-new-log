@@ -143260,5 +143260,82 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/codeburn-app.rb",
     "commit_sha": "5a9c0407d49f4575fec28aaad0635e2a72d83561"
+  },
+  {
+    "type": "formula",
+    "name": "beszel-agent",
+    "version": "0.21.1",
+    "desc": "Agent for the Beszel lightweight server monitoring platform",
+    "homepage": "https://beszel.dev",
+    "date": "2026-11-02T01:52:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/beszel-agent.rb",
+    "commit_sha": "0ec34db5102c8b30ab3a5fa9d9328032bf2f2679"
+  },
+  {
+    "type": "formula",
+    "name": "gridcraft-cli",
+    "version": "0.15.0",
+    "desc": "Headless GridCraft CLI and MCP server to inspect, convert and script workbooks",
+    "homepage": "https://getartcraft.com/apps/gridcraft",
+    "date": "2026-11-02T03:20:24Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gridcraft-cli.rb",
+    "commit_sha": "b83bc787ae70761ec625ecca1ad5e95b79791e3d"
+  },
+  {
+    "type": "formula",
+    "name": "condure",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-02T05:46:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/condure.rb",
+    "commit_sha": "873c54dad1981f78801d38059ccf6817bd47a862"
+  },
+  {
+    "type": "formula",
+    "name": "hasura-cli",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-02T05:46:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hasura-cli.rb",
+    "commit_sha": "873c54dad1981f78801d38059ccf6817bd47a862"
+  },
+  {
+    "type": "formula",
+    "name": "kubernetes-cli@1.31",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-02T05:46:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/kubernetes-cli@1.31.rb",
+    "commit_sha": "873c54dad1981f78801d38059ccf6817bd47a862"
+  },
+  {
+    "type": "formula",
+    "name": "node@18",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-02T05:46:42Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/node@18.rb",
+    "commit_sha": "873c54dad1981f78801d38059ccf6817bd47a862"
+  },
+  {
+    "type": "cask",
+    "name": "bambu-studio@beta",
+    "version": "02.08.04.61,20260929132640,02.08.04.57",
+    "desc": "3D model slicing software for 3D printers, maintained by Bambu Lab",
+    "homepage": "https://bambulab.com/en/download/studio",
+    "date": "2026-11-02T03:19:01Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bambu-studio@beta.rb",
+    "commit_sha": "b9b28e12ef017597216bf97e2b17c2c1e47a3439"
   }
 ]
