@@ -143667,5 +143667,126 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/spotify-soloist.rb",
     "commit_sha": "54e6ecf64ea63394cedea0f27c47391aee5cb8d3"
+  },
+  {
+    "type": "formula",
+    "name": "nelm@1",
+    "version": "1.29.0",
+    "desc": "Kubernetes deployment tool that manages and deploys Helm Charts",
+    "homepage": "https://github.com/werf/nelm",
+    "date": "2026-11-04T05:16:20Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/nelm@1.rb",
+    "commit_sha": "a9cf316a491d0fdf89c18e8af1ad90c2b275e7e1"
+  },
+  {
+    "type": "formula",
+    "name": "netbird",
+    "version": "0.82.0",
+    "desc": "Securely connects across any network with one identity-based platform",
+    "homepage": "https://netbird.io",
+    "date": "2026-11-04T09:11:40Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/n/netbird.rb",
+    "commit_sha": "1adfe3254bc91d717c87e6be8df59fe04d435598"
+  },
+  {
+    "type": "formula",
+    "name": "condure",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-04T12:32:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/condure.rb",
+    "commit_sha": "eb773e3d39a45bbf8403e9bd86f55e12964b81da"
+  },
+  {
+    "type": "formula",
+    "name": "godu",
+    "version": "1.5.2",
+    "desc": "Simple golang utility helping to discover large files/folders",
+    "homepage": "https://github.com/viktomas/godu",
+    "date": "2026-11-04T12:32:46Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/godu.rb",
+    "commit_sha": "38380f87bcce9820a0a2c9fb65510315b1c985ee"
+  },
+  {
+    "type": "cask",
+    "name": "screendrop",
+    "version": "0.37.1",
+    "desc": "Screenshot and screen recording tool",
+    "homepage": "https://github.com/fayazara/Screendrop",
+    "date": "2026-11-04T02:22:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/screendrop.rb",
+    "commit_sha": "bdf62034c91820b492870454ff23c552f77e41c4"
+  },
+  {
+    "type": "cask",
+    "name": "meta-vr-developer-hub",
+    "version": "6.6.0,16711ddde7b0cf840af1e69ed05ebac5",
+    "desc": "VR development tool",
+    "homepage": "https://developer.oculus.com/meta-quest-developer-hub/",
+    "date": "2026-11-04T02:45:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/meta-vr-developer-hub.rb",
+    "commit_sha": "e2c7cb3f02ba05ab6ca6f72cfd934a94301fd536"
+  },
+  {
+    "type": "cask",
+    "name": "openscreen",
+    "version": "2.2.1",
+    "desc": "Screen recorder and demo video editor",
+    "homepage": "https://getopenscreen.com/",
+    "date": "2026-11-04T02:45:39Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/openscreen.rb",
+    "commit_sha": "e2c7cb3f02ba05ab6ca6f72cfd934a94301fd536"
+  },
+  {
+    "type": "cask",
+    "name": "sanductor",
+    "version": "1.0.0",
+    "desc": "Native workspace for sandboxed coding agents",
+    "homepage": "https://mikemcquaid.com/sanductor/",
+    "date": "2026-11-04T09:55:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sanductor.rb",
+    "commit_sha": "a58a7062d0d1647f05df8f1f424aa8b38dc85ec3"
+  },
+  {
+    "type": "cask",
+    "name": "fore-studio-vitals",
+    "version": "1.8.3",
+    "desc": "System monitor with per-app metrics and history",
+    "homepage": "https://vitalsmac.com/",
+    "date": "2026-11-04T22:46:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/fore-studio-vitals.rb",
+    "commit_sha": "0fe8296d2ba21bcde4fb4705e9e436f8b3bc3dfc"
+  },
+  {
+    "type": "cask",
+    "name": "obelisk",
+    "version": "0.6.1",
+    "desc": "Game launcher for Steam, Epic Games and GOG libraries",
+    "homepage": "https://getobelisk.app/",
+    "date": "2026-11-04T22:46:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/obelisk.rb",
+    "commit_sha": "0fe8296d2ba21bcde4fb4705e9e436f8b3bc3dfc"
+  },
+  {
+    "type": "cask",
+    "name": "oleafly",
+    "version": "0.4.10",
+    "desc": "LaTeX, Typst and Markdown editor for research writing",
+    "homepage": "https://oleafly.com/",
+    "date": "2026-11-04T22:46:46Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/oleafly.rb",
+    "commit_sha": "0fe8296d2ba21bcde4fb4705e9e436f8b3bc3dfc"
   }
 ]
