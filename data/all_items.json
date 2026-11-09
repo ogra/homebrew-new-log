@@ -149134,5 +149134,148 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/z/zeronet.rb",
     "commit_sha": "bd2fc5a1d5ea04883fef9abd3a514cf94716bcad"
+  },
+  {
+    "type": "formula",
+    "name": "csound-plugins",
+    "version": "7.0.0",
+    "desc": "Additional opcodes for Csound",
+    "homepage": "https://github.com/csound/plugins",
+    "date": "2026-11-08T06:49:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/csound-plugins.rb",
+    "commit_sha": "ffe0715cece920dbca25ccb6d138cffcef52af14"
+  },
+  {
+    "type": "formula",
+    "name": "gam",
+    "version": "7.50.00",
+    "desc": "Command-line management for Google Workspace",
+    "homepage": "https://github.com/GAM-team/GAM",
+    "date": "2026-11-08T17:34:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gam.rb",
+    "commit_sha": "48d1e2d4beb1014ec72ac246d961afe68c2df705"
+  },
+  {
+    "type": "formula",
+    "name": "libprelude",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-08T17:34:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libprelude.rb",
+    "commit_sha": "48d1e2d4beb1014ec72ac246d961afe68c2df705"
+  },
+  {
+    "type": "formula",
+    "name": "llamastash",
+    "version": "0.11.0",
+    "desc": "Terminal-native local LLM orchestrator and proxy",
+    "homepage": "https://github.com/llamastash/llamastash",
+    "date": "2026-11-08T17:43:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/llamastash.rb",
+    "commit_sha": "b98d7182f25cbf0ade816630acf4cb74c1542414"
+  },
+  {
+    "type": "formula",
+    "name": "sping",
+    "version": "1.8.0",
+    "desc": "Real-time connectivity monitor with network diagnostics",
+    "homepage": "https://github.com/LambdaBytes/sping",
+    "date": "2026-11-08T17:45:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sping.rb",
+    "commit_sha": "3f757d02b93d80a4c3a743274f3395a71802bdad"
+  },
+  {
+    "type": "formula",
+    "name": "sqlmux",
+    "version": "0.9.0",
+    "desc": "Terminal database client with tmux-style panes and Vim keybindings",
+    "homepage": "https://github.com/kackerx/sqlmux",
+    "date": "2026-11-08T17:56:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/sqlmux.rb",
+    "commit_sha": "6b3b57af6e26b99e3ff8901808bd7ec1d57c8891"
+  },
+  {
+    "type": "formula",
+    "name": "otel-tui",
+    "version": "0.7.5",
+    "desc": "Terminal OpenTelemetry viewer",
+    "homepage": "https://github.com/ymtdzzz/otel-tui",
+    "date": "2026-11-08T18:13:47Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/o/otel-tui.rb",
+    "commit_sha": "e47784222022ed8a18e81bebbf2d5d77a3f177e6"
+  },
+  {
+    "type": "formula",
+    "name": "tennis",
+    "version": "0.8.0",
+    "desc": "Print stylish CSV tables in your terminal",
+    "homepage": "https://github.com/gurgeous/tennis",
+    "date": "2026-11-08T18:37:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tennis.rb",
+    "commit_sha": "5787fc1802586c5bbd783a41fd63bcc64a8e04e6"
+  },
+  {
+    "type": "formula",
+    "name": "knife",
+    "version": "1.8.3",
+    "desc": "Reverse engineering toolkit for PE, ELF, and Mach-O binaries",
+    "homepage": "https://github.com/bl4ckr0ss3/knife",
+    "date": "2026-11-08T19:54:25Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/k/knife.rb",
+    "commit_sha": "04d937a95b1f640517931021dea1a8718e1a253b"
+  },
+  {
+    "type": "formula",
+    "name": "upmd",
+    "version": "0.2.7",
+    "desc": "Run tasks and dependency-aware workflows from Markdown",
+    "homepage": "https://github.com/rezigned/upmd",
+    "date": "2026-11-08T19:58:07Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/upmd.rb",
+    "commit_sha": "86bd9aff08e91fdff8ec778ac7b0471eeca418e4"
+  },
+  {
+    "type": "formula",
+    "name": "emeraldian",
+    "version": "0.10.2",
+    "desc": "Terminal UI for Obsidian vaults, with a graph and an assistant",
+    "homepage": "https://github.com/iamrohithrnair/emeraldian",
+    "date": "2026-11-08T20:02:26Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/emeraldian.rb",
+    "commit_sha": "32993e20003354be268294b4ab327858c5e2b586"
+  },
+  {
+    "type": "cask",
+    "name": "agent-orchestrator",
+    "version": "0.14.10",
+    "desc": "Supervisor for coding agents running in parallel Git worktrees",
+    "homepage": "https://orchestrator.inc/",
+    "date": "2026-11-07T07:05:50Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/agent-orchestrator.rb",
+    "commit_sha": "063fc783c75450151e1ae206532a9750e4f40e94"
+  },
+  {
+    "type": "cask",
+    "name": "anomaly-hex",
+    "version": "3.3.0",
+    "desc": "On-device voice dictation",
+    "homepage": "https://anoma.ly/hex/",
+    "date": "2026-11-08T16:41:16Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/anomaly-hex.rb",
+    "commit_sha": "a4259902ca3ac3610631db701cec93d4c9ee8c82"
   }
 ]
