@@ -149277,5 +149277,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/anomaly-hex.rb",
     "commit_sha": "a4259902ca3ac3610631db701cec93d4c9ee8c82"
+  },
+  {
+    "type": "formula",
+    "name": "drydock",
+    "version": "1.3.1",
+    "desc": "Dashboard for a fleet of Git repositories",
+    "homepage": "https://github.com/yetidevworks/drydock",
+    "date": "2026-11-08T22:00:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/drydock.rb",
+    "commit_sha": "9e63f24c6637cbf03b1f4c500810d910d62273dd"
+  },
+  {
+    "type": "formula",
+    "name": "lsoff",
+    "version": "0.1.5",
+    "desc": "List listening TCP and UDP ports",
+    "homepage": "https://github.com/yutat23/lsoff",
+    "date": "2026-11-08T22:04:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/l/lsoff.rb",
+    "commit_sha": "a8e29189ef0b8f69b6faafdbb0b8155ed49a3a46"
+  },
+  {
+    "type": "formula",
+    "name": "abtop",
+    "version": "0.5.5",
+    "desc": "Terminal monitor for AI coding agent sessions",
+    "homepage": "https://github.com/graykode/abtop",
+    "date": "2026-11-09T05:13:15Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/abtop.rb",
+    "commit_sha": "660584d916788bbf1c448b50030e6d15653a9833"
+  },
+  {
+    "type": "cask",
+    "name": "xcasca",
+    "version": "1.1.2",
+    "desc": "SSH terminal and SFTP file transfer client",
+    "homepage": "https://www.xcasca.com/",
+    "date": "2026-11-09T02:08:23Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/x/xcasca.rb",
+    "commit_sha": "29c538f04e387ffd48a13883adcb3619086f69ea"
+  },
+  {
+    "type": "cask",
+    "name": "bytemail",
+    "version": "1.9.29",
+    "desc": "Email client with an AI assistant",
+    "homepage": "https://bytemailapp.com/",
+    "date": "2026-11-09T02:18:27Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/bytemail.rb",
+    "commit_sha": "ccac7b5bbd5af72b61b38f7a8e8eb46549b229e2"
+  },
+  {
+    "type": "cask",
+    "name": "ftop",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-09T23:13:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/ftop.rb",
+    "commit_sha": "c5758e89931401e452fe574b722ea74dad8c01c4"
+  },
+  {
+    "type": "cask",
+    "name": "kugelblitz",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-09T23:13:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/kugelblitz.rb",
+    "commit_sha": "c5758e89931401e452fe574b722ea74dad8c01c4"
+  },
+  {
+    "type": "cask",
+    "name": "time-messenger",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-09T23:13:29Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/time-messenger.rb",
+    "commit_sha": "c5758e89931401e452fe574b722ea74dad8c01c4"
   }
 ]
