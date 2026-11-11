@@ -149365,5 +149365,38 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/t/time-messenger.rb",
     "commit_sha": "c5758e89931401e452fe574b722ea74dad8c01c4"
+  },
+  {
+    "type": "formula",
+    "name": "uutils-sed",
+    "version": "0.3.0",
+    "desc": "Cross-platform Rust rewrite of GNU sed",
+    "homepage": "https://uutils.org/sed/",
+    "date": "2026-11-09T23:34:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/uutils-sed.rb",
+    "commit_sha": "911c7d6c4c933697555b16b37de486db8eb3adcf"
+  },
+  {
+    "type": "formula",
+    "name": "strobealign",
+    "version": "0.20.0",
+    "desc": "Fast short-read aligner using dynamic seed size with strobemers",
+    "homepage": "https://github.com/ksahlin/strobealign",
+    "date": "2026-11-10T09:48:45Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/strobealign.rb",
+    "commit_sha": "65970094f42ca6b14b703360cd42a398a2d176af"
+  },
+  {
+    "type": "formula",
+    "name": "uutils-grep",
+    "version": "0.2.0",
+    "desc": "Cross-platform Rust rewrite of GNU grep",
+    "homepage": "https://uutils.org/grep/",
+    "date": "2026-11-10T17:51:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/u/uutils-grep.rb",
+    "commit_sha": "9205967dfa49ac23d11385f072ed4a0af318337a"
   }
 ]
