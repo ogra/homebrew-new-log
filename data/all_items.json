@@ -149398,5 +149398,137 @@
     "source_repo": "homebrew-core",
     "path": "Formula/u/uutils-grep.rb",
     "commit_sha": "9205967dfa49ac23d11385f072ed4a0af318337a"
+  },
+  {
+    "type": "formula",
+    "name": "dotnet@10",
+    "version": "10.0.404",
+    "desc": ".NET Core",
+    "homepage": "https://dotnet.microsoft.com/",
+    "date": "2026-11-10T21:08:51Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dotnet@10.rb",
+    "commit_sha": "0e49cc6a9e3c5ab9c07642ba9d7ff9123e4f9635"
+  },
+  {
+    "type": "formula",
+    "name": "tidemail",
+    "version": "1.9.1",
+    "desc": "TUI email client, supports IMAP, Gmail & Outlook OAuth",
+    "homepage": "https://github.com/allisonhere/tidemail",
+    "date": "2026-11-11T02:03:05Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/t/tidemail.rb",
+    "commit_sha": "b7eb0a3c236ec2631a4005a754ee161387babb4d"
+  },
+  {
+    "type": "formula",
+    "name": "engram",
+    "version": "3.7.1",
+    "desc": "Persistent memory system for AI coding agents",
+    "homepage": "https://engram.gentlemanprogramming.com/",
+    "date": "2026-11-11T02:09:00Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/e/engram.rb",
+    "commit_sha": "739ebea897594b5c8f3e59bef5216fd687f7ce63"
+  },
+  {
+    "type": "formula",
+    "name": "muvm",
+    "version": "0.7.0",
+    "desc": "Run programs from your system in a microVM",
+    "homepage": "https://github.com/AsahiLinux/muvm",
+    "date": "2026-11-11T20:03:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/muvm.rb",
+    "commit_sha": "fce8f78ef0aa9b27507100cb3f9a8ff98fb40327"
+  },
+  {
+    "type": "cask",
+    "name": "rustgis",
+    "version": "0.6.0",
+    "desc": "GIS platform",
+    "homepage": "https://rustgis.app/",
+    "date": "2026-11-10T02:46:51Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/rustgis.rb",
+    "commit_sha": "03bb530ccf61b58d1ce746924baf5e1ecda5f4bd"
+  },
+  {
+    "type": "cask",
+    "name": "cheatsheet",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-10T12:04:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/cheatsheet.rb",
+    "commit_sha": "76219fa75f743d918642938bfd1951eccc282099"
+  },
+  {
+    "type": "cask",
+    "name": "kiwidesk",
+    "version": "4.2.1",
+    "desc": "Tiling window manager",
+    "homepage": "https://kiwidesk.kiwicanopy.com/",
+    "date": "2026-11-10T12:04:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/k/kiwidesk.rb",
+    "commit_sha": "76219fa75f743d918642938bfd1951eccc282099"
+  },
+  {
+    "type": "cask",
+    "name": "waterfox-classic",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-10T12:04:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/waterfox-classic.rb",
+    "commit_sha": "76219fa75f743d918642938bfd1951eccc282099"
+  },
+  {
+    "type": "cask",
+    "name": "blick",
+    "version": "0.5.2",
+    "desc": "Video editor",
+    "homepage": "https://blickeditor.com/",
+    "date": "2026-11-10T14:48:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/blick.rb",
+    "commit_sha": "8f019356f63c3aa04b11000ae199ab0621a7ff8b"
+  },
+  {
+    "type": "cask",
+    "name": "wiso-steuer-2027",
+    "version": "34.00.1600",
+    "desc": "Tax declaration for the fiscal year 2026",
+    "homepage": "https://www.buhl.de/download/wiso-steuer-2027/",
+    "date": "2026-11-10T22:06:43Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/w/wiso-steuer-2027.rb",
+    "commit_sha": "94993f0d68569aedb8ee4e935e51f98306e8acd7"
+  },
+  {
+    "type": "cask",
+    "name": "teamwork-graph-cli",
+    "version": "1.4.4",
+    "desc": "Command-line interface for Atlassian Teamwork Graph",
+    "homepage": "https://developer.atlassian.com/cloud/twg-cli",
+    "date": "2026-11-11T12:39:02Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/teamwork-graph-cli.rb",
+    "commit_sha": "47e1eadaebde51b85c0f8acd18219f4020f4534e"
+  },
+  {
+    "type": "cask",
+    "name": "nod",
+    "version": "0.6.2",
+    "desc": "Personal AI agent",
+    "homepage": "https://nod.n8n.io/",
+    "date": "2026-11-11T13:27:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/n/nod.rb",
+    "commit_sha": "fd50c6c39d409c2b99a21580a6ecefcdcef838ed"
   }
 ]
