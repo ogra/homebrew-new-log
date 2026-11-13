@@ -149530,5 +149530,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/n/nod.rb",
     "commit_sha": "fd50c6c39d409c2b99a21580a6ecefcdcef838ed"
+  },
+  {
+    "type": "formula",
+    "name": "mdspan",
+    "version": "5.3.0",
+    "desc": "Reference implementation of mdspan targeting C++23",
+    "homepage": "https://github.com/kokkos/mdspan",
+    "date": "2026-11-11T16:56:09Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/mdspan.rb",
+    "commit_sha": "f37ff594fd53ac5b4720313fa1ba0a0eb011f46f"
+  },
+  {
+    "type": "formula",
+    "name": "rea",
+    "version": "6.8.0",
+    "desc": "Reverse engineering CLI and MCP server for agents",
+    "homepage": "https://github.com/morluto/rea",
+    "date": "2026-11-11T17:37:39Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rea.rb",
+    "commit_sha": "1b971f046401efb73a857f53c25e5bd9e809b6e3"
+  },
+  {
+    "type": "formula",
+    "name": "ziggy",
+    "version": "0.3.0",
+    "desc": "Data serialization language for expressing clear API messages, config files, etc",
+    "homepage": "https://ziggy-lang.io",
+    "date": "2026-11-11T18:07:50Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/z/ziggy.rb",
+    "commit_sha": "a3c80d317bb43c08a02d9f8b4ea45122d36194db"
+  },
+  {
+    "type": "cask",
+    "name": "plezy",
+    "version": "2.26.0",
+    "desc": "Client for Plex, Jellyfin and Emby media servers",
+    "homepage": "https://plezy.app/",
+    "date": "2026-11-11T16:07:53Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/plezy.rb",
+    "commit_sha": "174c91f4bc0f496de391c9fe508991f5a01946b6"
+  },
+  {
+    "type": "cask",
+    "name": "devtools",
+    "version": "2.11.0",
+    "desc": "Collection of developer utilities",
+    "homepage": "https://github.com/me-shaon/devtools",
+    "date": "2026-11-11T18:24:36Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/devtools.rb",
+    "commit_sha": "2709829a4d875ff32961ff58660c658347b22cd3"
+  },
+  {
+    "type": "cask",
+    "name": "parallels@26",
+    "version": "26.5.0-57613",
+    "desc": "Desktop virtualization software",
+    "homepage": "https://www.parallels.com/products/desktop/",
+    "date": "2026-11-12T03:45:22Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/parallels@26.rb",
+    "commit_sha": "70c0b68ab920b42208bb7da86ddd21c0db7d43cd"
   }
 ]
