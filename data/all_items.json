@@ -149596,5 +149596,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/p/parallels@26.rb",
     "commit_sha": "70c0b68ab920b42208bb7da86ddd21c0db7d43cd"
+  },
+  {
+    "type": "cask",
+    "name": "sable",
+    "version": "2.3.9",
+    "desc": "Client for the Matrix chat network",
+    "homepage": "https://sable.moe/",
+    "date": "2026-11-12T03:55:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sable.rb",
+    "commit_sha": "c94c8b4e9ccc08b45bde1499c51d6081f572a283"
+  },
+  {
+    "type": "cask",
+    "name": "lattice",
+    "version": "0.16.16",
+    "desc": "LaTeX editor",
+    "homepage": "https://leo1oel.github.io/lattice/",
+    "date": "2026-11-13T12:50:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/l/lattice.rb",
+    "commit_sha": "1d89cb1082d7a57055ee40ccc2ac4152d27c9106"
+  },
+  {
+    "type": "cask",
+    "name": "yandex-document",
+    "version": "1.1.0",
+    "desc": "Document and spreadsheet editor",
+    "homepage": "https://360.yandex.ru/documents/desktop/",
+    "date": "2026-11-13T12:50:52Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/y/yandex-document.rb",
+    "commit_sha": "1d89cb1082d7a57055ee40ccc2ac4152d27c9106"
+  },
+  {
+    "type": "cask",
+    "name": "sidebarfavorites-manager",
+    "version": "1.3.0",
+    "desc": "Finder sidebar icon customiser",
+    "homepage": "https://github.com/ivg-design/SidebarFavorites",
+    "date": "2026-11-13T13:27:25Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/sidebarfavorites-manager.rb",
+    "commit_sha": "b149614ebbe189dd759dea392320af7706971084"
   }
 ]
