@@ -149640,5 +149640,93 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/sidebarfavorites-manager.rb",
     "commit_sha": "b149614ebbe189dd759dea392320af7706971084"
+  },
+  {
+    "type": "formula",
+    "name": "curl-impersonate",
+    "version": "2.3.2",
+    "desc": "Curl build that makes HTTP requests look like they came from a real browser",
+    "homepage": "https://curl-impersonate.readthedocs.io/",
+    "date": "2026-11-14T02:48:13Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/c/curl-impersonate.rb",
+    "commit_sha": "8cb0b1b63eb9efb6cbf27f36ece448255f4b9515"
+  },
+  {
+    "type": "formula",
+    "name": "dotnet@6",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-14T05:24:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dotnet@6.rb",
+    "commit_sha": "382cd8e72c2c4e3b0058a15e43df0a0ebf41a8c5"
+  },
+  {
+    "type": "formula",
+    "name": "rethinkdb",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-14T05:24:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rethinkdb.rb",
+    "commit_sha": "382cd8e72c2c4e3b0058a15e43df0a0ebf41a8c5"
+  },
+  {
+    "type": "formula",
+    "name": "goose-lang",
+    "version": "2026.4",
+    "desc": "Systems programming language with flat, pointer-free data structures",
+    "homepage": "https://aardappel.github.io/goose/",
+    "date": "2026-11-14T07:37:12Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/goose-lang.rb",
+    "commit_sha": "3a81767c15030b14b6fff0b85d14f92d87aa754c"
+  },
+  {
+    "type": "formula",
+    "name": "globus-cli",
+    "version": "3.44.0",
+    "desc": "Command-line interface to Globus",
+    "homepage": "https://docs.globus.org/cli/",
+    "date": "2026-11-14T15:15:23Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/globus-cli.rb",
+    "commit_sha": "148c2843909ba0b8492c110bbf52f645c314d57e"
+  },
+  {
+    "type": "cask",
+    "name": "dotnet-sdk@10",
+    "version": "10.0.404",
+    "desc": "Developer platform",
+    "homepage": "https://www.microsoft.com/net/core#macos",
+    "date": "2026-11-13T23:39:24Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dotnet-sdk@10.rb",
+    "commit_sha": "10f799c45236609bb7c4ecf5a417fe2ff60032c7"
+  },
+  {
+    "type": "cask",
+    "name": "fleet-desktop",
+    "version": "1.6.0",
+    "desc": "Self-service portal for devices managed by Fleet",
+    "homepage": "https://fleetdm.com/guides/fleet-desktop",
+    "date": "2026-11-14T02:21:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/f/fleet-desktop.rb",
+    "commit_sha": "38a0b8abfffcc950f8159b54a9c806b8e5af753e"
+  },
+  {
+    "type": "cask",
+    "name": "ardia",
+    "version": "0.2.46",
+    "desc": "Chromium-based web browser with a vertical tab sidebar",
+    "homepage": "https://ardia.dev/",
+    "date": "2026-11-14T11:28:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/ardia.rb",
+    "commit_sha": "82cd4f09d5ba3c07163b125506bce61adc00835b"
   }
 ]
