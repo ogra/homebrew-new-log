@@ -149728,5 +149728,148 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/ardia.rb",
     "commit_sha": "82cd4f09d5ba3c07163b125506bce61adc00835b"
+  },
+  {
+    "type": "formula",
+    "name": "ssh-tpm-agent",
+    "version": "0.9.0",
+    "desc": "SSH agent for Trusted Platform Module (TPM) key storage",
+    "homepage": "https://github.com/Foxboron/ssh-tpm-agent",
+    "date": "2026-11-16T07:42:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/ssh-tpm-agent.rb",
+    "commit_sha": "10464018ad8242ef6ec311ba3d05f8bf57a490cd"
+  },
+  {
+    "type": "formula",
+    "name": "dotnet@6",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-16T21:23:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/dotnet@6.rb",
+    "commit_sha": "4d07af4aece042b62e93c72335a896e3c625a728"
+  },
+  {
+    "type": "formula",
+    "name": "libpkl",
+    "version": "0.33.0",
+    "desc": "C library calling into Pkl's message passing API",
+    "homepage": "https://pkl-lang.org/main/current/libpkl/index.html",
+    "date": "2026-11-16T21:23:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libpkl.rb",
+    "commit_sha": "4d07af4aece042b62e93c72335a896e3c625a728"
+  },
+  {
+    "type": "formula",
+    "name": "postgresql@12",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-16T21:23:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/postgresql@12.rb",
+    "commit_sha": "4d07af4aece042b62e93c72335a896e3c625a728"
+  },
+  {
+    "type": "formula",
+    "name": "rethinkdb",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-16T21:23:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/r/rethinkdb.rb",
+    "commit_sha": "4d07af4aece042b62e93c72335a896e3c625a728"
+  },
+  {
+    "type": "cask",
+    "name": "pake-app",
+    "version": "1.8.0",
+    "desc": "Turn websites into desktop apps without a toolchain",
+    "homepage": "https://pake.run/",
+    "date": "2026-11-15T04:20:54Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/pake-app.rb",
+    "commit_sha": "e48bed8fb92332ac222ab2fed4649beb26b9c7ef"
+  },
+  {
+    "type": "cask",
+    "name": "tab-finder",
+    "version": "2.1.20",
+    "desc": "Searchable list of open browser tabs",
+    "homepage": "https://noteifyapp.com/tab-finder/",
+    "date": "2026-11-15T07:25:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/t/tab-finder.rb",
+    "commit_sha": "80b12c77d2605e4d526c1b11e27a1ba0b89f19c8"
+  },
+  {
+    "type": "cask",
+    "name": "hyperframes",
+    "version": "1054,2a9539df4",
+    "desc": "Video editor for HTML-based compositions",
+    "homepage": "https://hyperframes.heygen.com/",
+    "date": "2026-11-16T01:23:30Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hyperframes.rb",
+    "commit_sha": "c5db5bfafa318d530cc3fa26f10a4f40f9d7841d"
+  },
+  {
+    "type": "cask",
+    "name": "hora-calendar",
+    "version": "3.0.3,658",
+    "desc": "Google Calendar client",
+    "homepage": "https://horacal.app/",
+    "date": "2026-11-16T04:05:28Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hora-calendar.rb",
+    "commit_sha": "6f7fddcaad59b1ddf0386fc40cfc8db1c82a5198"
+  },
+  {
+    "type": "cask",
+    "name": "realtek-rtl815x-ethernet",
+    "version": "1.1.0",
+    "desc": "DriverKit driver for Realtek USB Ethernet adapters",
+    "homepage": "https://www.realtek.com/Download/List?cate_id=585",
+    "date": "2026-11-16T05:56:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/r/realtek-rtl815x-ethernet.rb",
+    "commit_sha": "3c751f930432607922b52ebfaa83d106a459b36d"
+  },
+  {
+    "type": "cask",
+    "name": "open-screen-sharing",
+    "version": "1.0.6",
+    "desc": "Remote desktop client for VNC and RDP",
+    "homepage": "https://github.com/nekohasekai/open-screen-sharing",
+    "date": "2026-11-16T06:10:12Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/open-screen-sharing.rb",
+    "commit_sha": "27609321d0275223faf23bb669309a39676e1929"
+  },
+  {
+    "type": "cask",
+    "name": "byos",
+    "version": "2.3.6",
+    "desc": "Companion app for Byos Secure Edge devices",
+    "homepage": "https://www.byos.io/",
+    "date": "2026-11-16T18:43:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/b/byos.rb",
+    "commit_sha": "7694c60390ce24e3a998ffddf2cdd3c6b2d14694"
+  },
+  {
+    "type": "cask",
+    "name": "clipboard-remote",
+    "version": "2.0.3",
+    "desc": "Share clipboard contents between devices over a local network",
+    "homepage": "https://www.ntwind.com/remote/clipboard.html",
+    "date": "2026-11-16T22:31:07Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/clipboard-remote.rb",
+    "commit_sha": "8f86b3645af42e0af96f2b6a6ff8c0f626125f3d"
   }
 ]
