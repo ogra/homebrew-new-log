@@ -149871,5 +149871,137 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/c/clipboard-remote.rb",
     "commit_sha": "8f86b3645af42e0af96f2b6a6ff8c0f626125f3d"
+  },
+  {
+    "type": "cask",
+    "name": "multidock",
+    "version": "2.16",
+    "desc": "Extra panels for apps, files and folders",
+    "homepage": "https://noteifyapp.com/multidock/",
+    "date": "2026-11-16T09:48:38Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/m/multidock.rb",
+    "commit_sha": "e765240f2dba743b6a7e5c559e0ea3a17c26ede7"
+  },
+  {
+    "type": "cask",
+    "name": "upload-remote",
+    "version": "2.0.3",
+    "desc": "Transfer files between devices over a local network",
+    "homepage": "https://www.ntwind.com/remote/upload.html",
+    "date": "2026-11-16T23:03:34Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/u/upload-remote.rb",
+    "commit_sha": "3349584de236886939880b4c4cecafc4c3ba6587"
+  },
+  {
+    "type": "cask",
+    "name": "screenshot-remote",
+    "version": "2.0.3",
+    "desc": "Capture screenshots on remote computers over a local network",
+    "homepage": "https://www.ntwind.com/remote/screenshot.html",
+    "date": "2026-11-17T07:42:21Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/screenshot-remote.rb",
+    "commit_sha": "249790632ba9256f3b02e14a526bd6eba822b78d"
+  },
+  {
+    "type": "cask",
+    "name": "aexol-remote-mouse",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/aexol-remote-mouse.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "interact-scratchpad",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/interact-scratchpad.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "osirix-quicklook",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/o/osirix-quicklook.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "postman@canary",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/p/postman@canary.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "quicklook-pat",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/q/quicklook-pat.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "scout",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/scout.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "scriptql",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/scriptql.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "stringsfile",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/stringsfile.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
+  },
+  {
+    "type": "cask",
+    "name": "virtualbox@6",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-17T17:41:17Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/v/virtualbox@6.rb",
+    "commit_sha": "6a3b47c13919459efaa498acff39e9cedf2f44a3"
   }
 ]
