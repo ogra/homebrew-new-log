@@ -150685,5 +150685,49 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/l/lap.rb",
     "commit_sha": "49f47d28fea226a5db8f94b2c388ddb79418f610"
+  },
+  {
+    "type": "formula",
+    "name": "hister",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-19T03:24:31Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hister.rb",
+    "commit_sha": "88be17e2f2b4cfb1d62736e1c7a8e02ec72f2cad"
+  },
+  {
+    "type": "formula",
+    "name": "php@8.5",
+    "version": "8.5.13",
+    "desc": "General-purpose scripting language",
+    "homepage": "https://www.php.net/",
+    "date": "2026-11-19T20:42:34Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/php@8.5.rb",
+    "commit_sha": "11572bad15185d29c7a6401f4b631d29bf206fac"
+  },
+  {
+    "type": "cask",
+    "name": "hyprmac",
+    "version": "0.25.1",
+    "desc": "Tiling window manager",
+    "homepage": "https://hyprmac.app/",
+    "date": "2026-11-20T01:59:14Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/h/hyprmac.rb",
+    "commit_sha": "9c2552544c806803ecf60590b617f9ed5a4f8dea"
+  },
+  {
+    "type": "cask",
+    "name": "supertab",
+    "version": "1.2.2",
+    "desc": "Switcher panel for apps, windows, clipboard history and files",
+    "homepage": "https://noteifyapp.com/supertab/",
+    "date": "2026-11-20T14:43:47Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/supertab.rb",
+    "commit_sha": "ed1002f58015872e7d80aed508d4883dd96e616f"
   }
 ]
