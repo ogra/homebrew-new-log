@@ -150729,5 +150729,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/s/supertab.rb",
     "commit_sha": "ed1002f58015872e7d80aed508d4883dd96e616f"
+  },
+  {
+    "type": "formula",
+    "name": "apicula",
+    "version": "0.35",
+    "desc": "Open source tools for Gowin FPGAs",
+    "homepage": "https://github.com/YosysHQ/apicula",
+    "date": "2026-11-21T22:21:37Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/apicula.rb",
+    "commit_sha": "c660e6dd4d8ff9ff57405fc737fc64e80c54fcc8"
+  },
+  {
+    "type": "formula",
+    "name": "hister",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-21T23:38:16Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/h/hister.rb",
+    "commit_sha": "f27b0753eeb68c2862d07686b9e0c7b97f0c84b2"
+  },
+  {
+    "type": "cask",
+    "name": "jellybox",
+    "version": "2.12.0",
+    "desc": "Music player for Jellyfin, Navidrome and Emby servers",
+    "homepage": "https://jellybox.app/",
+    "date": "2026-11-20T21:38:19Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/j/jellybox.rb",
+    "commit_sha": "6a760d5abcbdc75e94cf4de3c2d8a85c47f27cad"
+  },
+  {
+    "type": "cask",
+    "name": "shellrs",
+    "version": "0.1.19",
+    "desc": "SSH and SFTP client",
+    "homepage": "https://shellrs.com/",
+    "date": "2026-11-21T05:21:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/shellrs.rb",
+    "commit_sha": "ba46bf0adb4f7d290d1c8d26325855dba7c1aefc"
+  },
+  {
+    "type": "cask",
+    "name": "smartgit@preview",
+    "version": "26.2.024,rc",
+    "desc": "Git client",
+    "homepage": "https://www.smartgit.dev/",
+    "date": "2026-11-21T10:17:10Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/smartgit@preview.rb",
+    "commit_sha": "7009956966a050b612f709f0f9b546d7575b10f8"
+  },
+  {
+    "type": "cask",
+    "name": "font-lucide",
+    "version": "1.77.0",
+    "desc": "Lucide icons as a TrueType font",
+    "homepage": "https://lucide.dev/",
+    "date": "2026-11-21T13:13:14Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-lucide.rb",
+    "commit_sha": "a9dda5aa24bc96d449011c2593ec5b70f7878061"
   }
 ]
