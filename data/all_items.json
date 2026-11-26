@@ -151675,5 +151675,60 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/l/layout-department.rb",
     "commit_sha": "aa2c0099c9b9ecfc48c6bf225ca5f578aa62d707"
+  },
+  {
+    "type": "formula",
+    "name": "botan@2",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-24T01:55:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/botan@2.rb",
+    "commit_sha": "4e50c07b2a9ace8172f97793f658a6f45d53b97c"
+  },
+  {
+    "type": "formula",
+    "name": "parrot",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-24T01:55:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/parrot.rb",
+    "commit_sha": "4e50c07b2a9ace8172f97793f658a6f45d53b97c"
+  },
+  {
+    "type": "formula",
+    "name": "swfmill",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-24T01:55:11Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/swfmill.rb",
+    "commit_sha": "4e50c07b2a9ace8172f97793f658a6f45d53b97c"
+  },
+  {
+    "type": "formula",
+    "name": "archgw",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-25T07:03:17Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/archgw.rb",
+    "commit_sha": "702bdc19222f2502e033784c4d282deb2789dd76"
+  },
+  {
+    "type": "cask",
+    "name": "anomaly-spaceman",
+    "version": "0.3.5,0184acc428b25c7826639800a5c8a4f5fa20117062c48ca309b6b35fae08046a",
+    "desc": "Tiling window manager",
+    "homepage": "https://anoma.ly/spaceman/",
+    "date": "2026-11-24T17:01:56Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/a/anomaly-spaceman.rb",
+    "commit_sha": "18bf969c3cbc55615d162f89a383fe720f69cf07"
   }
 ]
