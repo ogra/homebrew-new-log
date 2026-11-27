@@ -151730,5 +151730,159 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/a/anomaly-spaceman.rb",
     "commit_sha": "18bf969c3cbc55615d162f89a383fe720f69cf07"
+  },
+  {
+    "type": "formula",
+    "name": "libxml++@2",
+    "version": "2.42.4",
+    "desc": "C++ wrapper for libxml",
+    "homepage": "https://libxmlplusplus.github.io/libxmlplusplus/",
+    "date": "2026-11-25T22:03:08Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/lib/libxml++@2.rb",
+    "commit_sha": "f9793fd252472c2638e661b28dcb34adbab617f8"
+  },
+  {
+    "type": "formula",
+    "name": "botan@2",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-26T11:36:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/b/botan@2.rb",
+    "commit_sha": "1cfd1a8f130c8fc1aa8bf58b1453682f429f701e"
+  },
+  {
+    "type": "formula",
+    "name": "parrot",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-26T11:36:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/p/parrot.rb",
+    "commit_sha": "1cfd1a8f130c8fc1aa8bf58b1453682f429f701e"
+  },
+  {
+    "type": "formula",
+    "name": "swfmill",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-26T11:36:55Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/s/swfmill.rb",
+    "commit_sha": "1cfd1a8f130c8fc1aa8bf58b1453682f429f701e"
+  },
+  {
+    "type": "formula",
+    "name": "archgw",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-26T11:40:19Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/archgw.rb",
+    "commit_sha": "09f357666e0cceef9c64d93b596b021eafb3d49c"
+  },
+  {
+    "type": "formula",
+    "name": "meow",
+    "version": "0.30.0",
+    "desc": "High-performance, rule-based tunneling proxy kernel",
+    "homepage": "https://meow-rs.github.io/meow-rs/",
+    "date": "2026-11-26T13:02:04Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/m/meow.rb",
+    "commit_sha": "be8f2b855a080395bf6a97a5b2085524d74ebe2c"
+  },
+  {
+    "type": "formula",
+    "name": "agent-deck",
+    "version": "1.16.40",
+    "desc": "Terminal command center for AI coding agents",
+    "homepage": "https://github.com/asheshgoplani/agent-deck",
+    "date": "2026-11-26T16:09:38Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/a/agent-deck.rb",
+    "commit_sha": "a3a80df861d3e7762cd8717c2e90ca946dbd25bc"
+  },
+  {
+    "type": "formula",
+    "name": "gemini-api-cli",
+    "version": "0.5.0",
+    "desc": "CLI for Gemini models, media generation, and managed agents",
+    "homepage": "https://github.com/google-gemini/gemini-api-cli",
+    "date": "2026-11-26T17:18:18Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/g/gemini-api-cli.rb",
+    "commit_sha": "b0e7a25251255f06d06b17cac0f802bfefe3d064"
+  },
+  {
+    "type": "formula",
+    "name": "discordchatexporter",
+    "version": "2.48",
+    "desc": "Saves Discord chat logs to a file",
+    "homepage": "https://github.com/Tyrrrz/DiscordChatExporter",
+    "date": "2026-11-26T18:19:02Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/d/discordchatexporter.rb",
+    "commit_sha": "5bda68219782f6519be0a168efcc689310e33235"
+  },
+  {
+    "type": "cask",
+    "name": "chapar",
+    "version": "0.14.1",
+    "desc": "Native API client",
+    "homepage": "https://chapar.rest/",
+    "date": "2026-11-25T07:57:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/c/chapar.rb",
+    "commit_sha": "8c62544bf328b13247d50d6938efd388a84742ff"
+  },
+  {
+    "type": "cask",
+    "name": "dfcf",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-25T07:57:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dfcf.rb",
+    "commit_sha": "8c62544bf328b13247d50d6938efd388a84742ff"
+  },
+  {
+    "type": "cask",
+    "name": "font-lxgw-fasmartgothic",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-25T07:57:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-lxgw-fasmartgothic.rb",
+    "commit_sha": "8c62544bf328b13247d50d6938efd388a84742ff"
+  },
+  {
+    "type": "cask",
+    "name": "font-lxgw-heartserif",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-25T07:57:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-lxgw-heartserif.rb",
+    "commit_sha": "8c62544bf328b13247d50d6938efd388a84742ff"
+  },
+  {
+    "type": "cask",
+    "name": "insta360-wave-controller",
+    "version": "1.1.0,build7,_20261008_101106_signed_1791425478377,85661444411946edb17399282f5b0683",
+    "desc": "Controller for Insta360 Wave devices",
+    "homepage": "https://www.insta360.com/download/insta360-wave",
+    "date": "2026-11-25T14:11:13Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/i/insta360-wave-controller.rb",
+    "commit_sha": "9088eb62e866c49e8cf12bc896380a630f12346a"
   }
 ]
