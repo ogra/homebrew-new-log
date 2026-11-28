@@ -151884,5 +151884,71 @@
     "source_repo": "homebrew-cask",
     "path": "Casks/i/insta360-wave-controller.rb",
     "commit_sha": "9088eb62e866c49e8cf12bc896380a630f12346a"
+  },
+  {
+    "type": "formula",
+    "name": "ikea-availability-checker",
+    "version": "2.2.1",
+    "desc": "Check availability of IKEA products in stores and countries",
+    "homepage": "https://github.com/Ephigenia/ikea-availability-checker",
+    "date": "2026-11-27T11:14:43Z",
+    "source_repo": "homebrew-core",
+    "path": "Formula/i/ikea-availability-checker.rb",
+    "commit_sha": "51abae8fb94647694aaf6e803c842ab26878d674"
+  },
+  {
+    "type": "cask",
+    "name": "stablebar",
+    "version": "0.19.0",
+    "desc": "Configurable menu bar",
+    "homepage": "https://stablebar.app/",
+    "date": "2026-11-26T16:30:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/stablebar.rb",
+    "commit_sha": "f7311c04b16c02b7008753f1a928cd0da6eb3384"
+  },
+  {
+    "type": "cask",
+    "name": "superset",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-26T16:30:11Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/s/superset.rb",
+    "commit_sha": "f7311c04b16c02b7008753f1a928cd0da6eb3384"
+  },
+  {
+    "type": "cask",
+    "name": "dfcf",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-27T09:51:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/d/dfcf.rb",
+    "commit_sha": "f922a3a1ecd454ca39e7af8a397f190e308e8354"
+  },
+  {
+    "type": "cask",
+    "name": "font-lxgw-fasmartgothic",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-27T09:51:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-lxgw-fasmartgothic.rb",
+    "commit_sha": "f922a3a1ecd454ca39e7af8a397f190e308e8354"
+  },
+  {
+    "type": "cask",
+    "name": "font-lxgw-heartserif",
+    "version": "",
+    "desc": "",
+    "homepage": "",
+    "date": "2026-11-27T09:51:20Z",
+    "source_repo": "homebrew-cask",
+    "path": "Casks/font/font-l/font-lxgw-heartserif.rb",
+    "commit_sha": "f922a3a1ecd454ca39e7af8a397f190e308e8354"
   }
 ]
